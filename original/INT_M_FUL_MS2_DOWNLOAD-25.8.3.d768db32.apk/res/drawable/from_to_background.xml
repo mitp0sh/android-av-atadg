@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <size android:height="50.0dip" android:width="50.0dip" />
+            <solid android:color="@color/buttonStrokeDisabled" /> />
+</shape>
+    </item>
+    <item>
+        <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="25.0%" android:pivotY="-10.000002%">
+            <shape android:shape="rectangle">
+                <size android:height="25.0dip" android:width="25.0dip" />
+                <stroke android:width="0.0dip" android:color="@color/menuTransparent" />
+                <solid android:color="@color/buttonApplockKisiDisabled" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

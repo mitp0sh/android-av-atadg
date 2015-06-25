@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="解約">
+        <PreferenceScreen android:title="アプリの解約手続きを行います" android:key="Cancel" />
+    </PreferenceCategory>
+</PreferenceScreen>

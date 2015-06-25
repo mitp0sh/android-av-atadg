@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_profiles">
+        <item>@string/send_sms</item>
+        <item>@string/send_email</item>
+        <item>@string/send_location</item>
+    </string-array>
+    <string-array name="app_icon_background_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="app_icon_backgrounds">
+        <item>@string/kidsguard_background_none</item>
+        <item>@string/kidsguard_background_bubble</item>
+        <item>@string/kidsguard_background_sphere</item>
+        <item>@string/kidsguard_background_heart</item>
+        <item>@string/kidsguard_background_balloon</item>
+    </string-array>
+    <string-array name="app_label_color_values">
+        <item>\#00000000</item>
+        <item>\#FFFFFFFF</item>
+        <item>\#FF000000</item>
+    </string-array>
+    <string-array name="app_label_colors">
+        <item>@string/kidsguard_label_none</item>
+        <item>@string/kidsguard_label_color_white</item>
+        <item>@string/kidsguard_label_color_black</item>
+    </string-array>
+    <string-array name="applock_question_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>99</item>
+    </string-array>
+    <string-array name="applock_questions">
+        <item>@string/unlock_question_1</item>
+        <item>@string/unlock_question_2</item>
+        <item>@string/unlock_question_3</item>
+        <item>@string/unlock_question_4</item>
+        <item>@string/unlock_question_custom</item>
+    </string-array>
+    <string-array name="browser_modes">
+        <item>FragFinn e.V.</item>
+        <item>Whitelist</item>
+        <item>Blacklist</item>
+    </string-array>
+    <string-array name="browser_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="country">
+        <item>Deutschland</item>
+        <item>Afghanistan</item>
+        <item>Åland Inseln</item>
+        <item>Albanien</item>
+        <item>Algerien</item>
+        <item>American Samoa</item>
+        <item>Andorra</item>
+        <item>Angola</item>
+        <item>Anguilla</item>
+        <item>Antarktis</item>
+        <item>Antigua und Barbuda</item>
+        <item>Argentinien</item>
+        <item>Armenien</item>
+        <item>Aruba</item>
+        <item>Australien</item>
+        <item>Österreich</item>
+        <item>Aserbaidschan</item>
+        <item>Bahamas</item>
+        <item>Bahrain</item>
+        <item>Bangladesch</item>
+        <item>Barbados</item>
+        <item>Weißrussland</item>
+        <item>Belgien</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bermuda</item>
+        <item>Bhutan</item>
+        <item>Bolivien</item>
+        <item>Bosnien und Herzegowina</item>
+        <item>Republik Botswana</item>
+        <item>Bouvetinseln</item>
+        <item>Brasilien</item>
+        <item>Britische Territorium im Indischen Ozean</item>
+        <item>Brunei Darussalam</item>
+        <item>Bulgarien</item>
+        <item>Burkina Faso</item>
+        <item>Burundi</item>
+        <item>Kambodscha</item>
+        <item>Kamerun</item>
+        <item>Kanada</item>
+        <item>Kap Verde</item>
+        <item>Kaimaninseln</item>
+        <item>Zentralafrikanische Republik</item>
+        <item>Tschad</item>
+        <item>Chile</item>
+        <item>China</item>
+        <item>Weihnachtsinsel</item>
+        <item>Kokosinseln</item>
+        <item>Kolumbien</item>
+        <item>Komoren</item>
+        <item>Kongo</item>
+        <item>Kongo, Demokratische Rep.</item>
+        <item>Cookinseln</item>
+        <item>Costa Rica</item>
+        <item>Elfenbeinküste</item>
+        <item>Kroatien</item>
+        <item>Kuba</item>
+        <item>Zypern</item>
+        <item>Tschechien</item>
+        <item>Dänemark</item>
+        <item>Dschibuti</item>
+        <item>Dominica</item>
+        <item>Dominikanische Republik</item>
+        <item>Ecuador</item>
+        <item>Ägypten</item>
+        <item>El Salvador</item>
+        <item>Äquatorialguinea</item>
+        <item>Eritrea</item>
+        <item>España</item>
+        <item>Estland</item>
+        <item>Äthiopien</item>
+        <item>Falklandinseln</item>
+        <item>Färöer</item>
+        <item>Fidschi</item>
+        <item>Finnland</item>
+        <item>Frankreich</item>
+        <item>Französisch-Guayana</item>
+        <item>Französisch-Polynesien</item>
+        <item>Französische Südgebiete (Antarktis)</item>
+        <item>Gabun</item>
+        <item>Gambia</item>
+        <item>Georgien</item>
+        <item>Ghana</item>
+        <item>Gibraltar</item>
+        <item>Griechenland</item>
+        <item>Grönland</item>
+        <item>Grenada</item>
+        <item>Guadeloupe</item>
+        <item>Guam</item>
+        <item>Guatemala</item>
+        <item>Guernsey</item>
+        <item>Guinea</item>
+        <item>Guinea-Bissau</item>
+        <item>Guyana</item>
+        <item>Haiti</item>
+        <item>Heard und die McDonaldinseln</item>
+        <item>Honduras</item>
+        <item>Hong Kong</item>
+        <item>Ungarn</item>
+        <item>Island</item>
+        <item>Indien</item>
+        <item>Indonesien</item>
+        <item>Iran</item>
+        <item>Irak</item>
+        <item>Irland</item>
+        <item>Isle of Man</item>
+        <item>Israel</item>
+        <item>Italien</item>
+        <item>Jamaika</item>
+        <item>Japan</item>
+        <item>Jersey</item>
+        <item>Jordanien</item>
+        <item>Kasachstan</item>
+        <item>Kenia</item>
+        <item>Kiribati</item>
+        <item>Korea, Demokratische Volksrepublik</item>
+        <item>Korea, Republik</item>
+        <item>Kuwait</item>
+        <item>Kirgisistan</item>
+        <item>Laos, Demokratische Volksrepublik</item>
+        <item>Lettland</item>
+        <item>Libanon</item>
+        <item>Lesotho</item>
+        <item>Liberien</item>
+        <item>Libyen</item>
+        <item>Liechtenstein</item>
+        <item>Litauen</item>
+        <item>Luxemburg</item>
+        <item>Macao</item>
+        <item>Mazedonien</item>
+        <item>Madagaskar</item>
+        <item>Malawi</item>
+        <item>Malaysien</item>
+        <item>Malediven</item>
+        <item>Mali</item>
+        <item>Malta</item>
+        <item>Marshallinseln</item>
+        <item>Martinique</item>
+        <item>Mauretanien</item>
+        <item>Mauritius</item>
+        <item>Mayotte</item>
+        <item>Mexiko</item>
+        <item>Mikronesien, Föderierte Staaten von</item>
+        <item>Moldawien</item>
+        <item>Monaco</item>
+        <item>Mongolei</item>
+        <item>Montenegro</item>
+        <item>Montserrat</item>
+        <item>Marokko</item>
+        <item>Mosambik</item>
+        <item>Myanmar</item>
+        <item>Namibia</item>
+        <item>Nauru</item>
+        <item>Nepal</item>
+        <item>Niederlande</item>
+        <item>Niederländische Antillen</item>
+        <item>Neukaledonien</item>
+        <item>Neuseeland</item>
+        <item>Nicaragua</item>
+        <item>Niger</item>
+        <item>Nigeria</item>
+        <item>Niue</item>
+        <item>Norfolkinsel</item>
+        <item>Nördlichen Marianen</item>
+        <item>Norwegen</item>
+        <item>Oman</item>
+        <item>Pakistan</item>
+        <item>Palau</item>
+        <item>Palästina</item>
+        <item>Panama</item>
+        <item>Papua-Neuguinea</item>
+        <item>Paraguay</item>
+        <item>Peru</item>
+        <item>Philippinen</item>
+        <item>Pitcairn</item>
+        <item>Polen</item>
+        <item>Portugal</item>
+        <item>Puerto Rico</item>
+        <item>Katar</item>
+        <item>Réunion</item>
+        <item>Rumänien</item>
+        <item>Russland</item>
+        <item>Ruanda</item>
+        <item>St. Bartholomäus</item>
+        <item>St. Helena, Ascension und Tristan da Cunha</item>
+        <item>St. Kitts und Nevis</item>
+        <item>St. Lucia</item>
+        <item>St. Martin (franz.)</item>
+        <item>St. Pierre und Miquelon</item>
+        <item>St. Vincent und die Grenadinen</item>
+        <item>Samoa</item>
+        <item>San Marino</item>
+        <item>São Tomé und Príncipe</item>
+        <item>Saudi Arabien</item>
+        <item>Senegal</item>
+        <item>Serbien</item>
+        <item>Seychellen</item>
+        <item>Sierra Leone</item>
+        <item>Singapur</item>
+        <item>Slowakei</item>
+        <item>Slowenien</item>
+        <item>Salomonen</item>
+        <item>Somalia</item>
+        <item>Süd Afrika</item>
+        <item>Südgeorgien und die Südlichen Sandwichinseln</item>
+        <item>Sri Lanka</item>
+        <item>Sudan</item>
+        <item>Surinam</item>
+        <item>Spitzbergen</item>
+        <item>Swasiland</item>
+        <item>Schweden</item>
+        <item>Schweiz</item>
+        <item>Syrien</item>
+        <item>Taiwan</item>
+        <item>Tadschikistan</item>
+        <item>Tansania</item>
+        <item>Thailand</item>
+        <item>Timor-Leste</item>
+        <item>Togo</item>
+        <item>Tokelau</item>
+        <item>Tonga</item>
+        <item>Trinidad und Tobago</item>
+        <item>Tunesien</item>
+        <item>Türkei</item>
+        <item>Turkmenistan</item>
+        <item>Turks- und Caicosinseln</item>
+        <item>Tuvalu</item>
+        <item>Uganda</item>
+        <item>Ukraine</item>
+        <item>Vereinigten Arabische Emirate</item>
+        <item>United Kingdom</item>
+        <item>USA</item>
+        <item>Uruguay</item>
+        <item>Usbekistan</item>
+        <item>Vanuatu</item>
+        <item>Venezuela</item>
+        <item>Viet Nam</item>
+        <item>Jungferninseln (britisch)</item>
+        <item>Jungferninseln (amerikan.)</item>
+        <item>Wallis und Futuna</item>
+        <item>Westsahara</item>
+        <item>Jemen</item>
+        <item>Sambia</item>
+        <item>Simbabwe</item>
+    </string-array>
+    <string-array name="isblacklist_array">
+        <item>@string/block_is_blacklist</item>
+        <item>@string/block_is_whitelist</item>
+    </string-array>
+    <string-array name="kidsguard_raster_long">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="kidsguard_raster_short">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="panic_button_colors">
+        <item>@string/red</item>
+        <item>@string/blue</item>
+        <item>@string/green</item>
+        <item>@string/orange</item>
+        <item>@string/lightblue</item>
+        <item>@string/gold</item>
+        <item>@string/bronze</item>
+        <item>@string/lightgrey</item>
+        <item>@string/grey</item>
+        <item>@string/black</item>
+    </string-array>
+    <string-array name="panic_button_content">
+        <item>@string/panic_text_message_content</item>
+        <item>@string/panic_email_content</item>
+        <item>@string/panic_location_content</item>
+        <item>@string/panic_call_content</item>
+    </string-array>
+    <string-array name="panic_button_profiles">
+        <item>@string/panic_text_message</item>
+        <item>@string/panic_email</item>
+        <item>@string/panic_location</item>
+        <item>@string/panic_call</item>
+    </string-array>
+    <string-array name="panic_button_types">
+        <item>@string/panic_text_message_type</item>
+        <item>@string/panic_email_type</item>
+        <item>@string/panic_location_type</item>
+        <item>@string/panic_call_type</item>
+    </string-array>
+    <string-array name="panic_type_descriptions">
+        <item>@string/panic_wizard_two_desc_message</item>
+        <item>@string/panic_wizard_two_desc_email</item>
+        <item>@string/panic_wizard_two_desc_location</item>
+        <item>@string/panic_wizard_two_desc_call</item>
+    </string-array>
+    <string-array name="privacy_list_options">
+        <item>@string/privacy_remove_contacts</item>
+        <item>@string/privacy_cancel</item>
+    </string-array>
+    <string-array name="scantypes">
+        <item>@string/scan_type_apps</item>
+        <item>@string/scan_type_system</item>
+    </string-array>
+    <string-array name="scantypevalues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="task_icon_type_entries">
+        <item>@string/task_icon_type_always</item>
+        <item>@string/task_icon_type_never</item>
+        <item>@string/task_icon_type_if_action</item>
+    </string-array>
+    <string-array name="task_icon_type_values">
+        <item>always</item>
+        <item>never</item>
+        <item>ifAction</item>
+    </string-array>
+    <string-array name="update_freq">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>14</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="update_region">
+        <item>@string/update_region_auto</item>
+        <item>@string/update_region_africa</item>
+        <item>@string/update_region_asia</item>
+        <item>@string/update_region_asia_china</item>
+        <item>@string/update_region_asia_india</item>
+        <item>@string/update_region_asia_japan</item>
+        <item>@string/update_region_australia</item>
+        <item>@string/update_region_europe</item>
+        <item>@string/update_region_north_america</item>
+        <item>@string/update_region_south_america</item>
+    </string-array>
+    <string-array name="update_region_values">
+        <item></item>
+        <item>afrik</item>
+        <item>asres</item>
+        <item>aschi</item>
+        <item>asind</item>
+        <item>asjap</item>
+        <item>austr</item>
+        <item>europ</item>
+        <item>norda</item>
+        <item>sueda</item>
+    </string-array>
+</resources>

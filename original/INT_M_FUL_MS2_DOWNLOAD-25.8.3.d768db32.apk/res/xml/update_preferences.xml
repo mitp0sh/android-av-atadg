@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_category_timedUpdate" android:key="UpdatePrefsKey" android:summary="@string/configWindow_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_timedUpdate">
+        <CheckBoxPreference android:title="@string/enableUpdate_title" android:key="ENABLE_PERIODIC_UPDATE" android:summary="@string/enableUpdate_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/update_freq" android:title="@string/choose_update_title" android:key="PERIODIC_UPDATE_FREQ" android:summary="@string/choose_update_summary" android:defaultValue="1" android:dialogTitle="@string/dialog_update_freq_title" android:entryValues="@array/update_freq" />
+        <CheckBoxPreference android:title="@string/updateWifiOnly_title" android:key="PERIODIC_UPDATE_WIFI_ONLY" android:summary="@string/updateWifiOnly_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/update_region" android:title="@string/choose_update_region_title" android:key="UPDATE_SERVER_REGION" android:summary="@string/choose_update_region_summary" android:defaultValue="" android:dialogTitle="@string/dialog_update_region_title" android:entryValues="@array/update_region_values" />
+        <PreferenceScreen android:title="@string/pref_category_account" android:key="ScanAccountKey" android:summary="@string/pref_category_account_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

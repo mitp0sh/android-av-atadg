@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="1.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="@color/menuBackgroundStart" android:endColor="@color/menuBackgroundEnd" android:angle="90.0" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="fill_horizontal|center|top" android:src="@drawable/ab_top_line" android:tileMode="disabled" />
+    </item>
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/kidsguard_usage_control_weekly_category">
+        <CheckBoxPreference android:title="Montag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_MONDAY" android:summary="14:00 - 16:00 Uhr" />
+        <CheckBoxPreference android:title="Dienstag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_TUESDAY" android:summary="Ganztätig" />
+        <CheckBoxPreference android:title="Mittwoch" android:key="KIDSGUARD_CHECKBOX_WEEKLY_WEDNESDAY" android:summary="08:00 - 16:00 Uhr" />
+        <CheckBoxPreference android:title="Donnerstag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_THURSDAY" android:summary="Deaktiviert" />
+        <CheckBoxPreference android:title="Freitag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_FRIDAY" android:summary="Ganztägig" />
+        <CheckBoxPreference android:title="Samstag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_SATURDAY" android:summary="18:00 - 23:00 Uhr" />
+        <CheckBoxPreference android:title="Sonntag" android:key="KIDSGUARD_CHECKBOX_WEEKLY_SUNDAY" android:summary="18:00 - 23:00 Uhr" />
+    </PreferenceCategory>
+</PreferenceScreen>

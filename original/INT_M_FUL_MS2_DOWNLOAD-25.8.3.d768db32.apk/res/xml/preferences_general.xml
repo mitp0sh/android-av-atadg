@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_default" android:key="default">
+        <ListPreference android:entries="@array/task_icon_type_entries" android:title="@string/showTrayIcon_title" android:key="TRAY_ICON_TYPE" android:summary="@string/showTrayIcons_summary" android:defaultValue="always" android:dialogTitle="@string/showTrayIcon_title" android:entryValues="@array/task_icon_type_values" />
+        <CheckBoxPreference android:title="@string/kidsbrowser_enabled_title" android:key="BROWSER_ENABLED" android:summary="@string/kidsbrowser_enabled_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_licenses">
+        <PreferenceScreen android:title="@string/pref_licenses" android:key="License" android:summary="@string/pref_licenses_summary" />
+        <PreferenceScreen android:title="@string/info_txt_cr" android:key="Version" android:summary="@string/info_txt_versioninfo_name" />
+    </PreferenceCategory>
+</PreferenceScreen>

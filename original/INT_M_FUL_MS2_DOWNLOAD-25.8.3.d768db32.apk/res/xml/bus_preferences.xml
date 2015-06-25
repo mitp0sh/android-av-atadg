@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_mms">
+        <CheckBoxPreference android:title="@string/enable_mms_server" android:key="MMS_ENABLED" android:summary="@string/enable_mms_server_summary" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/mms_server_address" android:key="MMS_SERVER" android:summary="@string/mms_server_address_summary" android:dependency="MMS_ENABLED" />
+        <EditTextPreference android:title="@string/mms_server_name" android:key="MMS_NAME" android:summary="@string/mms_server_name_summary" android:dependency="MMS_ENABLED" />
+        <EditTextPreference android:password="true" android:title="@string/mms_server_password" android:key="MMS_PASSWORD" android:summary="@string/mms_server_password_summary" android:dependency="MMS_ENABLED" />
+    </PreferenceCategory>
+</PreferenceScreen>

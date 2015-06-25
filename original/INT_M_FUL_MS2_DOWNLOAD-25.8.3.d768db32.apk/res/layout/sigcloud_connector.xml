@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GUID" />
+        <EditText android:id="@id/cloud_guid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10">
+            <requestFocus />
+        </EditText>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Request" android:layout_weight="1.0" />
+            <Button android:id="@id/load_request" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load from SD Card" />
+        </LinearLayout>
+        <EditText android:id="@id/cloud_request" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="4" android:ems="10" android:inputType="textMultiLine" />
+        <Button android:id="@id/cloud_send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send" />
+        <TextView android:id="@id/cloud_response" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="TextView" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

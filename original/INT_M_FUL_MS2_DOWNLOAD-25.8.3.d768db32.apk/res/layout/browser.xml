@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/placeholder" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+            <View android:id="@id/divider" android:background="#ffe5e5e5" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <WebView android:id="@id/webContentView" style="@style/Item.Bottom" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sticky" android:background="#ffe5e5e5" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+                <EditText android:layout_gravity="center" android:id="@id/stickyAddressBar" android:background="@android:drawable/editbox_background" android:paddingRight="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:hint="@string/browser_bar_hint_text" android:singleLine="true" android:inputType="textUri" android:imeOptions="actionGo" />
+                <ImageView android:id="@id/stickyRefreshImageView" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_aktualisieren" android:layout_alignTop="@id/stickyAddressBar" android:layout_alignRight="@id/stickyAddressBar" android:layout_alignBottom="@id/stickyAddressBar" />
+            </RelativeLayout>
+            <ImageButton android:layout_gravity="center" android:id="@id/stickyRefreshButton" android:background="@android:color/transparent" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/ic_action_overflow" android:singleLine="true" android:layout_weight="6.0" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

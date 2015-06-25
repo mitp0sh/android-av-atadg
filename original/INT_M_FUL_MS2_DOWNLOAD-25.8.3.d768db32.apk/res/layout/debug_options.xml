@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_root" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/debug_options_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/debug_options_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Git Hash:" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/gitRevision" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Git Branch:" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/gitBranch" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Unique UUID:" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/mmsId" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ActionCenter Api Address" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:id="@id/action_portal_server" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <Button android:id="@id/action_portal_save_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Save" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:id="@id/update_actionportal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Update Actionportal" />
+            <CheckBox android:textAppearance="?android:textAppearanceMedium" android:id="@id/acraChooser" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use intern Acralyzer url" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/acralyzerUrl" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/crash_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Crash" />
+            <Button android:id="@id/sms_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Create SMS Convo" />
+            <TextView android:text="Scan Settings" style="@style/Title" />
+            <CheckBox android:enabled="false" android:id="@id/bd_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bitdefender will scan " />
+            <CheckBox android:id="@id/scan_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Enable Scan Engine" />
+            <CheckBox android:id="@id/bd_kill_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Bit Defender disabled" />
+            <TextView android:text="Automatic Update Job" style="@style/Title" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/debug_options_update_job_last_executed_info" android:text="Last executed:" style="@style/DefaultText" />
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/debug_options_update_job_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start" />
+                <TextView android:text=" in " style="@style/DefaultText" />
+                <EditText android:id="@id/debug_options_update_job_minutes" android:layout_width="40.0pt" android:layout_height="wrap_content" android:text="1" android:singleLine="true" />
+                <TextView android:text="minutes" style="@style/DefaultText" />
+                <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:id="@id/debug_options_scan_job_start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start" />
+                    <TextView android:text=" in " style="@style/DefaultText" />
+                    <EditText android:id="@id/debug_options_scan_job_minutes" android:layout_width="40.0pt" android:layout_height="wrap_content" android:text="1" android:singleLine="true" android:layout_weight="1.0">
+                        <requestFocus />
+                    </EditText>
+                    <TextView android:text="minutes" style="@style/DefaultText" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/debug_options_connection_info" android:text="Connection:" style="@style/DefaultText" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/debug_options_sig_date_info" android:text="Sig date:" style="@style/DefaultText" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_simulate_outdated_sigs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Simulate outdated (insert notification)" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_copy_sigs_to_sdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy sig files to sdcard" />
+            <TextView android:paddingTop="30.0dip" android:text="Automatic Scan Job" style="@style/Title" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/debug_options_scan_job_last_executed_info" android:text="Last executed:" style="@style/DefaultText" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_scan_job_simulate_outdated" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Simulate outdated" />
+            <TextView android:paddingTop="30.0dip" android:text="News counter" style="@style/Title" />
+            <LinearLayout android:gravity="center_horizontal" android:id="@id/linearLayout3" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/debug_options_current_news_counter" android:text="Most recent id: " style="@style/DefaultText" />
+                <Button android:id="@id/debug_options_dec_news_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reset news id" />
+            </LinearLayout>
+            <TextView android:paddingTop="30.0dip" android:text="Updates" style="@style/Title" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_deactivate_apk_version_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Deactivate apk version check" />
+            <EditText android:id="@id/debug_options_edit_package_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0pt" android:layout_marginRight="8.0pt" android:text="0" android:hint="DebugPackageName" android:maxLines="1" android:singleLine="true" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_set_package_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set DebugPackageName" />
+            <TextView android:paddingTop="30.0dip" android:text="Samsung InApp" style="@style/Title" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout6" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/debug_options_item_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0pt" android:layout_marginRight="8.0pt" android:text="100000029016" android:hint="Item group: Test-100000029016 Production-100000012858" android:maxLines="1" android:singleLine="true" />
+                <EditText android:id="@id/debug_options_license_validity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0pt" android:layout_marginRight="8.0pt" android:text="0" android:hint="License validity in days" android:maxLines="1" android:singleLine="true" />
+                <EditText android:id="@id/debug_options_developer_flag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0pt" android:layout_marginRight="8.0pt" android:text="1" android:hint="Flag: Test-1 Production-0" android:maxLines="1" android:singleLine="true" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_set_plasma_options" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Set Samsung In-App Options" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/debug_option_send_mii_protocol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/option" android:text="Send MII reports" />
+            </LinearLayout>
+            <TextView android:paddingTop="30.0dip" android:text="Memory" style="@style/Title" />
+            <TextView android:layout_gravity="center_horizontal" android:id="@id/debug_options_memory_info" android:text="Mem:" style="@style/DefaultText" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/linearLayout8" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/debug_options_sql_file" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0pt" android:layout_marginRight="8.0pt" android:text="command.sql" android:maxLines="1" android:singleLine="true" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_load_sql_from_assets" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load SQL from assets" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_load_sql" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load SQL" />
+                <Button android:layout_gravity="center_horizontal" android:id="@id/debug_options_copy_db_to_sdcard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Copy databases to SD card" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <RadioGroup android:orientation="horizontal" android:id="@id/debug_radio_sigs" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <RadioButton android:id="@id/debug_load_appsigs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="App Signatures" />
+                            <RadioButton android:layout_gravity="center_vertical" android:id="@id/debug_load_filesigs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="File Signatures" android:layout_weight="2.0" />
+                            <TextView android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Count:" />
+                        </RadioGroup>
+                        <EditText android:id="@id/debug_sig_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1.0" android:inputType="number" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_gravity="center" android:id="@id/debug_signature_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <Button android:id="@id/debug_load_signatures" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load Signatures until Device dies" />
+                        <Button android:id="@id/debug_load_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Load specified count" />
+                    </LinearLayout>
+                    <Button android:layout_gravity="center" android:id="@id/connect_reg_Server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Connect to SigCloudss" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/debug_options_mms" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <Button android:id="@id/debug_options_reload_mms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Reload MMS Settings" />
+                <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/debug_option_mms_log_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/option" android:text="Log details" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/debug_options_mock" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <CheckBox android:textAppearance="?android:textAppearanceSmall" android:id="@id/debugOptions_mock_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/option" android:text="Allow mock location" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

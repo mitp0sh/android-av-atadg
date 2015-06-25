@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_root" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/debug_options_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/upgrade_offer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:paddingTop="15.0dip" android:text="@string/upgrade_offer_title" style="@style/Title" />
+            <TextView android:id="@id/upgrade_offer_message" android:paddingTop="15.0dip" style="@style/DefaultText" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/upgrade_offer_open_url" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

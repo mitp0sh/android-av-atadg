@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">Virüsten temizleme işlemi başarıyla tamamlandı.</string>
+    <string name="AppFix_subtitle">Sisteminizde virüs var. Kaldırmak için lütfen zararlı yazılımı seçin, ardından sonraki iletişim kutusunda kaldırma işlemini onaylayın.</string>
+    <string name="AppFix_subtitle_pup">Sisteminizde muhtemelen istenmeyen yazılım bulundu. Kaldırmak için lütfen girişi seçin, ardından sonraki iletişim kutusunda kaldırma işlemini onaylayın.</string>
+    <string name="AppFix_subtitle_sideLoaded">Kurmaya çalıştığınız dosya virüslü. Kaldırmak için, lütfen zararlı yazılımı seçin ve sonraki iletişim kutusunda kaldırılmasını onaylayın.</string>
+    <string name="AppFix_title">Virüsten temizle</string>
+    <string name="AppFix_title_pup">İstenmeyen yazılım</string>
+    <string name="AppScan_Malware_found_with_Name">Zararlı yazılım bulundu:</string>
+    <string name="AppScan_amount_was_scanned">Uygulamalar kontrol edildi.</string>
+    <string name="MainGuiGridAdapter_permissions">Yetkiler</string>
+    <string name="MainGuiGridAdapter_protocolls">Günlükler</string>
+    <string name="MainGuiGridAdapter_scan">Virüs kontrolü</string>
+    <string name="MainGuiGridAdapter_settings">Ayarlar</string>
+    <string name="MainGuiGridAdapter_update">Güncelleştirme işlemi</string>
+    <string name="PacketViewerGui_name_not_found">HATA</string>
+    <string name="PacketViewerGui_version">Sürüm</string>
+    <string name="PermissionUsage_subtitle">Hangi yetkilerin, hangi sıklıkta kullanıldığını gösterir.</string>
+    <string name="PermissionUsage_title">Yetkiler</string>
+    <string name="ProgressDialog_while_loading_Permissions">Yetkiler saptanıyor. Lütfen bekleyin…</string>
+    <string name="ProtocolViewerXml_empty_list">Günlük mevcut değil.</string>
+    <string name="ProtocolViewerXml_motd">Günlükler</string>
+    <string name="ScanGui_finished_dialog_abort_button">İptal</string>
+    <string name="ScanGui_finished_dialog_clean">"Kontrol başarıyla tamamlandı.
+Zararlı program bulunmadı."</string>
+    <string name="ScanGui_finished_dialog_fix_button">Virüsten temizle</string>
+    <string name="ScanGui_finished_dialog_infected">"Kontrol tamamlandı.
+
+DİKKAT, ZARARLI YAZILIM BULUNDU!"</string>
+    <string name="ScanGui_finished_dialog_ok_button">Tamam</string>
+    <string name="ScanGui_finished_dialog_warning">"Kontrol tamamlandı.
+Kontrol sırasında sorunlar ortaya çıktı."</string>
+    <string name="ScanGui_finished_title">Virüs kontrolü</string>
+    <string name="ScanGui_menu_applications">Uygulamalar</string>
+    <string name="ScanGui_progressdialog_abort_button">İptal</string>
+    <string name="ScanGui_progressdialog_title">Sistemi kontrol et</string>
+    <string name="ScanGui_report_fiels_infected">"Kontrol tamamlandı.
+
+DİKKAT, ZARARLI YAZILIM BULUNDU!"</string>
+    <string name="ScanGui_report_fiels_ok">"Kontrol başarıyla tamamlandı.
+Zararlı program bulunmadı."</string>
+    <string name="Scan_scan_button">Başlat</string>
+    <string name="Scan_spinner_msg">Virüs kontrolünün türünü seçin.</string>
+    <string name="Scan_subtitle">Kontrol için, virüs kontrolünün türünü seçin ve Başlat seçeneğiyle onaylayın.</string>
+    <string name="Scan_title">Sistemi kontrol et</string>
+    <string name="abc_action_bar_home_description">Ana ekrana git</string>
+    <string name="abc_action_bar_up_description">Yukarı git</string>
+    <string name="abc_action_menu_overflow_description">Diğer seçenekler</string>
+    <string name="abc_action_mode_done">Tamamlandı</string>
+    <string name="abc_activity_chooser_view_see_all">Tümünü göster</string>
+    <string name="abc_activitychooserview_choose_application">Bir uygulama seçin</string>
+    <string name="abc_searchview_description_clear">Sorguyu temizle</string>
+    <string name="abc_searchview_description_query">Arama sorgusu</string>
+    <string name="abc_searchview_description_search">Ara</string>
+    <string name="abc_searchview_description_submit">Sorguyu gönder</string>
+    <string name="abc_searchview_description_voice">Sesli arama</string>
+    <string name="abc_shareactionprovider_share_with">Şununla paylaş</string>
+    <string name="abc_shareactionprovider_share_with_application">%s ile paylaş</string>
+    <string name="ac_device_already_registered">Bu cihaz kayıtlıdır.</string>
+    <string name="ac_server_error">Bir hata oluştu, lütfen G DATA desteğine başvurun</string>
+    <string name="accesibility_service">G DATA Uygulama Denetleyicisi</string>
+    <string name="accman_bt_connectToServer">Bağlan</string>
+    <string name="accman_bt_forgottenData">Erişim bilgileriniz kayıp mı?</string>
+    <string name="accman_bt_registerAtServer">Sunucuya kaydol…</string>
+    <string name="accman_check">Güncelleştirmeleri ara…</string>
+    <string name="accman_check_license">Lisansı kontrol et…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">Ancak belki yeni ürünümüze göz atmak istersiniz:</string>
+    <string name="accman_fixed_content_3">G DATA ##app_name##</string>
+    <string name="accman_fixed_content_4">Burada, mobil cihazınızı daha güvenli kılan birçok başka işlevi entegre ettik.</string>
+    <string name="accman_fixed_content_5">"Daha fazla bilgi edinmek için, Google Play Store'daki sayfamıza gidin"</string>
+    <string name="accman_inapp_text">"Cihazınız artık güncel tehditlere karşı korumasız durumdadır.
+Lisansınızı şimdi uzatın! Cihazınız hemen yeniden koruma altına alınacaktır."</string>
+    <string name="accman_inapp_title">\##app_name## lisansınızın süresi dolmuştur!</string>
+    <string name="accman_inapp_txt_subs_month">Ay</string>
+    <string name="accman_inapp_txt_subs_year">Yıl</string>
+    <string name="accman_inapp_txt_subtitle">"
+Yükle…"</string>
+    <string name="accman_inapp_txt_subtitle_subs">Mevcut abonelikler</string>
+    <string name="accman_ipx_bottom_nav_about_text">Hakkımızda</string>
+    <string name="accman_ipx_bottom_nav_agb_text">GTŞ</string>
+    <string name="accman_ipx_bottom_nav_contact_text">İletişim</string>
+    <string name="accman_ipx_bottom_nav_faq_text">SSS</string>
+    <string name="accman_ipx_bottom_nav_sub_text">Abonelik yönetimi</string>
+    <string name="accman_ipx_confirm">ONAYLA</string>
+    <string name="accman_ipx_confirm_dialog_text">Satın alma işlemi arka planda tamamlandığı ve hesabınız aktive olduğu vakit ##app_name## sizi bilgilendiriyor…</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">Abonelik sayesinde düzenli güncelleştirmelere erişiminin yanı sıra, Internet güvenlik premium özelliklerine erişim elde etmiş olursunuz. Faturalandırma, cep telefonu faturası üzerinden yapılır.</string>
+    <string name="accman_ipx_infoscreen_title_text">Aylık abonelik 1,99€</string>
+    <string name="accman_ipx_progress_dialog_text">Siparişiniz düzenleniyor…</string>
+    <string name="accman_ipx_purchase">SATIN AL</string>
+    <string name="accman_perform_connect">Sunucu bağlantısı kur…</string>
+    <string name="accman_pre_bt_ok">Devam</string>
+    <string name="accman_pre_ipx_radio_gdata">G DATA web sitesi</string>
+    <string name="accman_pre_ipx_radio_gemalto">Cep telefonu faturası</string>
+    <string name="accman_pre_ipx_radio_register">Kayıt olma / etkinleştirme</string>
+    <string name="accman_pre_ipx_text_gdata">G DATA web sitesi üzerinden satın al</string>
+    <string name="accman_pre_ipx_text_gemalto">Cep telefonu faturası üzerinden faturalandırma</string>
+    <string name="accman_pre_ipx_text_register">Kayıt olma / etkinleştirme</string>
+    <string name="accman_pre_ipx_title">Satın al</string>
+    <string name="accman_pre_radio_activate">Kaydol</string>
+    <string name="accman_pre_radio_activate_long">Yeni müşteriyim ve G DATA güncelleştirme sunucusuna kayıt olmak istiyorum.</string>
+    <string name="accman_pre_radio_enter">Erişim bilgilerini girin</string>
+    <string name="accman_pre_radio_enter_long">G DATA kullanıcı adım ve parolamla oturum açmak istiyorum.</string>
+    <string name="accman_pre_tab_activate">Etkinleştir</string>
+    <string name="accman_pre_txt_choose">Güncelleştirme erişiminizi serbest bırakmak için, G DATA güncelleştirme sunucusuna erişim bilgilerinizi (kullanıcı adı ve parola) girin. Henüz erişim bilgilerine sahip değilseniz, lütfen kayıt numaranızla G DATA güncelleştirme sunucusuna kayıt olun.</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">Güncelleştirmeleri etkinleştir</string>
+    <string name="accman_red_bt_buy">Sipariş ver</string>
+    <string name="accman_red_txt_city">Şehir:*</string>
+    <string name="accman_red_txt_country">Ülke:*</string>
+    <string name="accman_red_txt_firstname">Ad:*</string>
+    <string name="accman_red_txt_fooder">G DATA, eksik veya hatalı girişlerde, çevrimiçi güncelleştirmelere erişimi haber vermeksizin engelleme hakkına sahiptir. * ile işaretlenen alanların doldurulması zorunludur.</string>
+    <string name="accman_red_txt_mail">E-posta:*</string>
+    <string name="accman_red_txt_phone">Telefon:</string>
+    <string name="accman_red_txt_plz">Posta kodu:*</string>
+    <string name="accman_red_txt_street">Cad/Sok, no:*</string>
+    <string name="accman_red_txt_surname">Soyadı:</string>
+    <string name="accman_red_txt_title">Hitap:*</string>
+    <string name="accman_register_bt_register">Kaydol</string>
+    <string name="accman_register_checkbox_agb">Verdiğim bilgilerin ve kullanımdan ortaya çıkacak verilerin, bana yönelik reklam amacıyla saklanabilmesini ve kullanılabilmesini onayladığımı beyan ederim.</string>
+    <string name="accman_register_checkbox_agb_oempartner">Verdiğim bilgilerin ve kullanımdan ortaya çıkacak verilerin, bana yönelik reklam amacıyla oem_partner_company şirketine iletilmesini, saklanmasını ve kullanılmasını onayladığımı beyan ederim.</string>
+    <string name="accman_register_progress">Kayıt bilgilerini aktar…</string>
+    <string name="accman_register_purchase_link_text">Kayıt numaranız yok mu?</string>
+    <string name="accman_register_purchase_proceed_link_text">Lisans satın alın…</string>
+    <string name="accman_register_txt_email">E-posta</string>
+    <string name="accman_register_txt_forename">Ad</string>
+    <string name="accman_register_txt_header">Sipariş</string>
+    <string name="accman_register_txt_merchant">Satıcı no. (isteğe bağlı)</string>
+    <string name="accman_register_txt_mobile">Cep telefonu numarası</string>
+    <string name="accman_register_txt_regnum">Kayıt no</string>
+    <string name="accman_register_txt_subtitle">Buraya lütfen kayıt numaranızı ve iletişim bilgilerinizi girin. İmza güncelleştirmeleriniz için erişim bilgileri otomatik olarak ##app_name## uygulamasına girilecek, ayrıca e-posta adresinize de gönderilecektir.</string>
+    <string name="accman_register_txt_surename">Soyadı</string>
+    <string name="accman_register_txt_title">Virüs güncelleştirmeleri için kayıt</string>
+    <string name="accman_txt_password">Parola</string>
+    <string name="accman_txt_subtitle">Düzenli güncellemelere erişim için lütfen erişim bilgilerinizi kullanıcı adı ve şifre bölümünde giriniz.</string>
+    <string name="accman_txt_title">Premium özellikleri etkinleştir</string>
+    <string name="accman_txt_username">Kullanıcı adı</string>
+    <string name="accman_unlock_auth">Güncelleştirmeleri etkinleştir…</string>
+    <string name="accman_updateinfos_bt_ok">Devam</string>
+    <string name="accman_updateinfos_radio_activate">Güncelleştirmeleri etkinleştir</string>
+    <string name="accman_updateinfos_radio_activate_long">Güncelleştirmeleri içeren ##app_name## sürümünü veya başka bir G DATA ürününü zaten satın aldım ve güncelleştirme erişimini etkinleştirmek istiyorum.</string>
+    <string name="accman_updateinfos_radio_inform">Güncelleştirme teklifine göz at</string>
+    <string name="accman_updateinfos_radio_inform_long">\##app_name## yazılımının (güncelleştirmeleri içermeyen) ücretsiz bir sürümünü kurdum ve güncelleştirmelerin yüklenmesi için lisans almak istiyorum.</string>
+    <string name="accman_updateinfos_txt_choose">Mobil zararlıların sayısı sürekli olarak artmaktadır. Düzenli güncelleştirmeler sayesinde, gelecekte ortaya çıkacak zararlı yazılımlara karşı sürekli olarak korunabilirsiniz.</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">Güncelleştirmeleri etkinleştir</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">En az 4 karakter</string>
+    <string name="action_center_summary">ActionCenter (http://ac.gdata.de) sayesinde cihazınızı kolayca yönetin</string>
+    <string name="action_portal_password">ActionCenter parolası</string>
+    <string name="action_portal_register_device">Cihazı kayıt ettir</string>
+    <string name="action_portal_user_name">ActionCenter kullanıcı adı</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="activate_location_services">Yere bağlı olarak kilitleme işlevinin kullanılabilmesi için, lütfen yer bilgisine erişim izni verin.</string>
+    <string name="activate_mms_connection">Uzaktan bakımı etkinleştir</string>
+    <string name="activate_updates">Güncelleştirmeleri etkinleştir</string>
+    <string name="activate_updates_info">Güncel mobil tehditlere karşı korunmak için, güncelleştirmeleri etkinleştirin.</string>
+    <string name="active">Etkin</string>
+    <string name="add_action">İşlem ekle</string>
+    <string name="add_title_to">Ekle (##to##)</string>
+    <string name="added_app_to_protection">Seçiminiz, uygulama korumasına eklendi</string>
+    <string name="admin_receiver_status_disable_warning">Yetkilendirmeyi devre dışı bırakırsanız, ##app_name## uygulaması, kaybolan cihazları kilitleyemez veya silemez.</string>
+    <string name="admin_receiver_status_disabled">Yetkiler geri alınmış olduğundan, kayıp cihazların kilitlenmesi veya silinmesi mümkün değildir.</string>
+    <string name="alarm_action_title">İşlem:</string>
+    <string name="alarm_email_number">E-posta adresleri</string>
+    <string name="alarm_sms_number">Numara</string>
+    <string name="alarm_text_include_location">Yer bilgisini de gönder</string>
+    <string name="anonym">Anonim</string>
+    <string name="antiphish_last_domain">Kontrol edilen son etki alanları:</string>
+    <string name="antiphishing_info">Web koruması</string>
+    <string name="antitheft_changed_data">Üzerinde değişiklik yapılan bilgiler</string>
+    <string name="antitheft_correct">Düzelt</string>
+    <string name="antitheft_discard">At</string>
+    <string name="antitheft_discard_or_correct">Değişiklikleri atmak mı yoksa düzeltmek mi istiyorsunuz?</string>
+    <string name="antitheft_edit_mode">Bilgileri değiştir</string>
+    <string name="antitheft_email">SMS komutlarına gene yanıtları ayrıca şu e-posta adresine de gönder:</string>
+    <string name="antitheft_email_long">"SMS komutlarının yanıtları (sözgelimi yer bilgileri), komutun gönderildiği cihaza SMS'le gönderilir. Yanıtı ayrıca e-postayla da alabilirsiniz. Bunun için burada e-posta adresinizi girin."</string>
+    <string name="antitheft_email_subject">\##app_name## bilgileri</string>
+    <string name="antitheft_email_test">E-postayı test et</string>
+    <string name="antitheft_error_email">Girilen e-posta adresinin biçimi geçerli değil!</string>
+    <string name="antitheft_error_enter_password">Lütfen önce bir parola girin!</string>
+    <string name="antitheft_error_password_too_simple">Lütfen başka bir parola seçin. Girilen parola güvenli değil!</string>
+    <string name="antitheft_error_repeat_password">Lütfen önce parolayı tekrarlayın!</string>
+    <string name="antitheft_error_repeat_phone">Lütfen önce telefon numarasını tekrar girin!</string>
+    <string name="antitheft_error_repeat_phone_wrongly">Girilen telefon numaraları birbiriyle aynı değil!</string>
+    <string name="antitheft_error_repeat_wrongly">Girilen parolalar birbiriyle aynı değil!</string>
+    <string name="antitheft_help">Yardım</string>
+    <string name="antitheft_help_intro">Bu özette, cihazınıza SMS ile gönderebileceğiniz komutlar yer almaktadır. Yanıtlar, SMS komutunun gönderildiği cihaza gönderilir. E-posta adresi verdiyseniz, yanıtlar ayrıca e-posta adresinize de gönderilir.</string>
+    <string name="antitheft_help_locate">&lt;i>Parola&lt;/i> &lt;b>locate&lt;/b> &lt;br/> &lt;br/>Cihazın yer bilgileri gönderilir.</string>
+    <string name="antitheft_help_lock">&lt;i>Parola&lt;/i> &lt;b>lock&lt;/b> &lt;br/> &lt;br/>Ekranı kilitler (bekleme modu).&lt;br/>Ekran kilidi için parola ayarlanmadıysa otomatik olarak, SMS komutlarının parolası kullanılır.</string>
+    <string name="antitheft_help_mute">&lt;i>Parola&lt;/i> &lt;b>mute&lt;/b> &lt;br/> &lt;br/>Telefonu sessize alır.</string>
+    <string name="antitheft_help_reset_remote_password">&lt;b>remote password reset:&lt;/b> &lt;i>Yeni parola&lt;/i> &lt;br/> &lt;br/>SMS komutlarının parolasını sıfırlar. Bu komut, önceden belirtilmiş olan telefon numarasından gönderilmelidir.</string>
+    <string name="antitheft_help_ring">&lt;i>Parola&lt;/i> &lt;b>ring&lt;/b> &lt;br/> &lt;br/>Bir sinyal sesi çaldırır. Uygulamanın başlatılmasından veya serbest bırakılmasından sonra bu sinyal kapanır.</string>
+    <string name="antitheft_help_set_device_password">&lt;i>Parola&lt;/i> &lt;b>set device password:&lt;/b> &lt;i>Cihaz parolası&lt;/i> &lt;br/> &lt;br/>Ekran kilidine parola koyar. Ardından kilidi etkinleştirmek için &lt;i>lock&lt;/i> komutunu gönderin.</string>
+    <string name="antitheft_help_title">Kayıp/hırsızlık yardımı</string>
+    <string name="antitheft_help_wipe">&lt;i>Parola&lt;/i> &lt;b>wipe&lt;/b> &lt;br/> &lt;br/>Cihazı fabrika ayarlarına sıfırlar. Bütün veriler silinir.</string>
+    <string name="antitheft_hint_change_password">Parolayı değiştir</string>
+    <string name="antitheft_hint_email">E-posta adresi</string>
+    <string name="antitheft_hint_new_password">Parola girin</string>
+    <string name="antitheft_hint_phone">Telefon numarasını girin</string>
+    <string name="antitheft_hint_repeat_password">Parolayı tekrarlayın</string>
+    <string name="antitheft_hint_repeat_phone">Telefon numarasını tekrar girin</string>
+    <string name="antitheft_intro">Cihazınız kayıp mı oldu veya çalındı mı?</string>
+    <string name="antitheft_intro_long">"Cihazınızı kaybettiğinizde veya çaldırdığınızda ne olur?
+O durumda, bir SMS göndererek cihazınızda bir işlem gerçekleştirilmesini sağlayabilirsiniz. Örneğin cihazın yerini bildiren bilgileri kendinize göndertebilir veya yanlış ellere geçmemesi için cihazdaki bütün kişisel bilgilerinizi silebilirsiniz."</string>
+    <string name="antitheft_intro_title">Kayıp/hırsızlık</string>
+    <string name="antitheft_mac_unknown">bilinmiyor</string>
+    <string name="antitheft_notify_sim_changed">Cihazınızdaki SIM kartı değiştirildi. Yeni SIM kartını kayıt ettirmek için lütfen buraya dokunun.</string>
+    <string name="antitheft_option_detect_sim_change">Telefonda SIM değişikliği olup olmadığını kontrol et.</string>
+    <string name="antitheft_option_headset_subtitle_text">Kulaklık soketi aracılığıyla koruma</string>
+    <string name="antitheft_option_headset_title_text">Kulaklık çıkartıldığı anda bir alarm sinyali çalınması için bu şıkkı seçin:</string>
+    <string name="antitheft_option_locate">Cihazın yerini belirle</string>
+    <string name="antitheft_option_locate_sim_change">SIM değişikliğinde telefonun yerini sapta</string>
+    <string name="antitheft_option_lock">Ekranı kilitle</string>
+    <string name="antitheft_option_lock_sim_change">SIM değişikliğinde telefonu kilitle</string>
+    <string name="antitheft_option_mute">Cihazı sessize al</string>
+    <string name="antitheft_option_ring">Sinyal sesi çaldır</string>
+    <string name="antitheft_option_set_device_password">Ekran kilidi için parola ayarla</string>
+    <string name="antitheft_option_signal_flare">Pil zayıfladığında cihazın yerini sapta ve konum bilgilerini belirtilen numaraya / e-posta adresine gönder.</string>
+    <string name="antitheft_option_signal_flare_text">Pil boşalıp cihaz kapandığında artık yeri saptanamaz. O yüzden, pil zayıfladığında cihazın yerinin otomatik olarak saptanmasını öneririz:</string>
+    <string name="antitheft_option_wipe">Kişisel bilgileri sil</string>
+    <string name="antitheft_password">Cihazınızın yerini belirlemek veya verilerinizi korumak için cihazınıza, şu parolayla bir SMS komutu gönderin (her iki rakam arasındaki farkın birden çok olduğu en az dört rakam girin):</string>
+    <string name="antitheft_password_long">Yabancı kişilerin cihazınızda herhangi bir işlem yapamaması için, SMS komutları bir parolayla korunur. Bu parola aynı zamanda uygulama korumasında da kullanılır ve yetkisiz kişilerin cihazınızdaki koruma altındaki uygulamaları başlatamamasını sağlayabilirsiniz.</string>
+    <string name="antitheft_phone">Parolanızı mı unuttunuz? Şu telefon numarasına SMS komutu göndererek parolanızı sıfırlayabilirsiniz: SIM değişikliğinde bu numaraya SMS mesajıyla bilgi gönderilir.</string>
+    <string name="antitheft_phone_long">Cihazınız kayboldu ve SMS komutlarının parolasını mı unuttunuz? Burada, güvendiğiniz birinin (sözgelimi eşinizin) telefon numarasını verebilirsiniz. O numaradan SMS göndererek parolayı yeniden belirleyebilirsiniz.</string>
+    <string name="antitheft_progress_sending_email">E-posta gönderiliyor. Lütfen bekleyin…</string>
+    <string name="antitheft_reset_command_text">Bu komut ancak bunun için telefon numarası belirtildiyse uygulanır.</string>
+    <string name="antitheft_router_mac">Yönlendirici MAC adresi</string>
+    <string name="antitheft_save">Kaydet</string>
+    <string name="antitheft_save_or_discard">Değişiklikleri kaydetmek mi yoksa atmak mı istiyorsunuz?</string>
+    <string name="antitheft_settings">Ayarlar</string>
+    <string name="antitheft_settings_intro_text">Cihazınızı kaybettiğinizde veya çaldırdığınızda, bir SMS göndererek belirli bir işlem gerçekleştirebilirsiniz. SMS komutuyla gerçekleştirilebilecek olan işlemleri seçin.</string>
+    <string name="antitheft_settings_sim_change_text">Cihazınız çalındı ve hırsız yeni bir SIM kartı mı taktı? Artık cihaza SMS komutu gönderemezsiniz. Burada, SIM kartı değiştirildiğinde ne yapılacağını seçin.</string>
+    <string name="antitheft_settings_title">Kayıp/hırsızlık</string>
+    <string name="antitheft_settings_warning">Lütfen önce bir parola girin.</string>
+    <string name="antitheft_sim_planedupdate_text">SIM kartını değiştirmeyi düşünüyorsanız, lütfen buraya dokunun.</string>
+    <string name="antitheft_sim_update_confirm_text">Şimdi cihazınızı kapatın ve yeni bir SIM kartı takın. Taktığınız SIM kartı, cihazınız yeniden başlatıldıktan sonra, hırsızlık koruması için kayıt ettirilecek.</string>
+    <string name="antitheft_sim_update_text">Cihazınızdaki SIM kartı değiştirildi. İşlemi tamamlamak için lütfen buraya dokunun.</string>
+    <string name="antitheft_sim_updated_text">İşlem başarıyla tamamlandı.</string>
+    <string name="antitheft_tab_sim_name">Hırsızlık algılama</string>
+    <string name="antitheft_tab_sms_name">İzin verilen SMS komutları</string>
+    <string name="antitheft_test_email_body">"Sayın Müşterimiz,
+
+E-posta adresinizi başarıyla yapılandırdınız.
+Teşekkürler!
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">E-posta gönderme girişimi başarısız. Lütfen Internet bağlantısını ve e-posta adresini kontrol edin.</string>
+    <string name="antitheft_test_email_success">Test e-postası başarılı bir şekilde gönderildi!</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">Kaldır</string>
+    <string name="antitheft_warn_receivers_text_plural">Kayıp/hırsızlık/kişisel bilgiler fonksiyonu, #app# uygulamaları tarafından etkilenebilir.</string>
+    <string name="antitheft_warn_receivers_text_singular">Kayıp/hırsızlık/kişisel bilgiler fonksiyonu, #app# uygulaması tarafından etkilenebilir.</string>
+    <string name="antitheft_warn_receivers_title">Uyumsuz uygulama</string>
+    <string name="antitheft_widget_label">G DATA - Kulaklık Soketi Pencere Öğesi</string>
+    <string name="app_name">Internet Security</string>
+    <string name="app_name_browser">Çocuk tarayıcısı</string>
+    <string name="app_permissions_applock">Uygulama korumasına ekle</string>
+    <string name="app_permissions_subtitle">Bu uygulama, cihazınızın şu fonksiyonlarına erişimde bulunabilir:</string>
+    <string name="app_permissions_uninstall">Kaldır</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">Erişilebilirlik hizmeti daha hızlı ve daha güvenilir tepki süreleri sağliyor ve Android Lollipop‘dan itibaren gerekli.</string>
+    <string name="applock_accessibility_label">Erişilebilirlik hizmetini aç</string>
+    <string name="applock_changed_data">Üzerinde değişiklik yapılan bilgiler</string>
+    <string name="applock_checkbox_label">Uygulama korumasını aç</string>
+    <string name="applock_choose_email_bt">E-posta</string>
+    <string name="applock_choose_question_bt">Soru</string>
+    <string name="applock_choose_text">Parola, belirttiğiniz e-posta adresine mi gönderilsin yoksa güvenlik sorusunu mu yanıtlamak istersiniz?</string>
+    <string name="applock_correct">Düzelt</string>
+    <string name="applock_deactivated">Uygulama koruması devre dışı bırakıldı.</string>
+    <string name="applock_denial_disable_title">Uygulamaları engelle</string>
+    <string name="applock_denial_enable_title">Uygulamaları serbest bırak</string>
+    <string name="applock_denial_help_intro">Engellenen veya serbest bırakılan uygulamalar hakkında notlar: ##app_name## uygulaması yönetim için bir MMS (Mobil Yönetim Sunucusu) üzerinden yapılandırıldıysa, tek tek uygulamalar MMS yöneticisi tarafından engellenebilir veya erişim standart olarak bütün uygulamalar için engellendiyse serbest bırakılabilir.</string>
+    <string name="applock_denial_help_request">Uygulamanın başlatılmasını engelleyen iletişim kutusunda yöneticiden, uygulama için erişimin serbest bırakılması istenebilir. Serbest bırakma kararını yönetici verir.</string>
+    <string name="applock_denial_info">"Daha fazla bilgi mi istiyorsunuz?
+Buraya dokunun!"</string>
+    <string name="applock_denial_no_entries">Şu anda engellenmiş olan herhangi bir uygulama yok. Gerekirse uygulamalarınızı parolayla koruyun.</string>
+    <string name="applock_denial_no_entries_add">Engellemek istediğiniz uygulamaları seçmek için, başlık satırındaki + işaretine dokunun.</string>
+    <string name="applock_denial_no_entries_deny_add_default">Serbest bıraktığınız uygulamaları seçmek için, başlık satırındaki + işaretine dokunun.</string>
+    <string name="applock_denial_no_entries_deny_default">Şu anda serbest bırakılmış durumda herhangi bir program yok.</string>
+    <string name="applock_denial_no_entries_mms">Şu anda engellenmiş olan herhangi bir uygulama yok. Gerekirse uygulamalarınızı parolayla koruyun.</string>
+    <string name="applock_denial_no_entries_mms_deny_default">Şu anda serbest bırakılmış durumda herhangi bir program yok. Gerekirse bir uygulamanın başlatılması sırasında yöneticiden serbest bırakmasını isteyebilirsiniz.</string>
+    <string name="applock_denial_request">Serbest bırakılmasını iste</string>
+    <string name="applock_denial_selection_title">Engellenen uygulamalar</string>
+    <string name="applock_denial_selection_title_invert">Serbest bırakılmış olan uygulamalar</string>
+    <string name="applock_denial_title">Engellenen uygulama</string>
+    <string name="applock_denial_txt">Bu uygulamaya erişim, yönetici tarafından engellendi.</string>
+    <string name="applock_discard">At</string>
+    <string name="applock_discard_or_correct">Değişiklikleri atmak mı yoksa düzeltmek mi istiyorsunuz?</string>
+    <string name="applock_edit_mode">Bilgileri değiştir</string>
+    <string name="applock_email">Parolanızı mı unuttunuz? Cihazınız parolayı şu e-posta adresine gönderebilir:</string>
+    <string name="applock_email_body">"Sayın Müşterimiz,
+
+Uygulama koruma parolanız: #code#.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="applock_email_error">E-posta gönderme girişimi başarısız. Lütfen Internet bağlantısını ve ayarlardaki E-posta adresinizi kontrol edin.</string>
+    <string name="applock_email_long">Parolanızı unutursanız, cihazınızdan şu adrese, parolayı içeren bir e-posta göndertebilirsiniz.</string>
+    <string name="applock_email_subject">\##app_name## bilgileri</string>
+    <string name="applock_email_success">E-posta gönderildi!</string>
+    <string name="applock_email_test">E-postayı test et</string>
+    <string name="applock_enter_password">Lütfen parolayı girin</string>
+    <string name="applock_error_email">Girilen e-posta adresinin biçimi geçerli değil!</string>
+    <string name="applock_error_enter_answer">Lütfen önce güvenlik sorusunun yanıtını girin!</string>
+    <string name="applock_error_enter_custom_question">Lütfen önce güvenlik sorunuzu girin!</string>
+    <string name="applock_error_enter_email_or_question">Lütfen bir e-posta adresi veya güvenlik sorusu girin!</string>
+    <string name="applock_error_enter_password">Lütfen önce bir parola girin!</string>
+    <string name="applock_error_no_data">Lütfen önce bilgileri girin ve kaydedin!</string>
+    <string name="applock_error_password_too_simple">Lütfen başka bir parola seçin. Girilen parola güvenli değil!</string>
+    <string name="applock_error_repeat_password">Lütfen önce parolayı tekrarlayın!</string>
+    <string name="applock_error_repeat_phone">Lütfen önce telefon numarasını tekrar girin!</string>
+    <string name="applock_error_repeat_phone_wrongly">Girilen telefon numaraları birbiriyle aynı değil!</string>
+    <string name="applock_error_repeat_wrongly">Girilen parolalar birbiriyle aynı değil!</string>
+    <string name="applock_error_test_email">Lütfen, önce e-posta adresinizle bir test yapın!</string>
+    <string name="applock_forgot_password"><small>"Parolanızı mı unuttunuz?
+Buraya dokunun!"</small></string>
+    <string name="applock_forgot_password_title">Parolanızı mı unuttunuz?</string>
+    <string name="applock_help">Yardım</string>
+    <string name="applock_help_delay">Bir uygulama bir kez başlatılıp kilidi açıldığında, sonlandırıldıktan sonra 60 saniye boyunca, parola girilmeksizin tekrar çalıştırılabilir durumda kalır. Ancak bu durum, ekran açık kaldığı sürece geçerlidir.</string>
+    <string name="applock_help_intro">"Uygulama koruması hakkında notlar: 
+
+Normalde Android uygulamaları, Google Play Store paketleri aracılığıyla kurulur. İstisnai bazı paketler birden çok uygulama içerir. Sözgelimi telefon ve telefon rehberi uygulaması bunlardan biridir. Bunlar ancak bir arada korunabilir."</string>
+    <string name="applock_help_perm">Bir uygulama, ##app_name## uygulamasının işlevlerini devre dışı bırakabilecek veya etkileyebilecek haklara ihtiyaç duyuyorsa, bu uygulamaların uygulama korumasına eklenmesi tavsiye edilir. Sözgelimi, başka uygulamaları kaldırabilen veya sonlandırabilen uygulamalar bunlar arasındadır.</string>
+    <string name="applock_help_title">Uygulama koruması yardımı</string>
+    <string name="applock_help_uninstall">Bazı durumlarda uygulama koruması, bir uygulamanın kaldırılması sırasında etkinleşebilir. Bu durum bazı cihazlarda ancak, teknik olarak ##app_name## uygulamasının fark ettirilmeden kaldırılmasını önlemenin güvenli başka bir yolu olmadığı takdirde gerçekleşir. Aynı nedenle, cihaz yöneticisinin etkinleştirilmesi tavsiye edilir.</string>
+    <string name="applock_hint_answer">Yanıt girin</string>
+    <string name="applock_hint_change_answer">Yanıtı değiştir</string>
+    <string name="applock_hint_change_password">Parolayı değiştir</string>
+    <string name="applock_hint_custom_question">Soru girin</string>
+    <string name="applock_hint_email">E-posta girin</string>
+    <string name="applock_hint_new_answer">Yanıt girin</string>
+    <string name="applock_hint_new_password">Parola girin</string>
+    <string name="applock_hint_repeat_password">Parolayı tekrarlayın</string>
+    <string name="applock_image_description">Uygulama simgesi</string>
+    <string name="applock_intro">Uygulamaları yetkisiz kullanımdan koruyun.</string>
+    <string name="applock_intro_long">"Uygulama korumasıyla, yetkisiz kişilerin cihazınızda korunmuş uygulamaları başlatmasını önleyebilirsiniz. Uygulamalar, ancak doğru parola girildikten sonra başlatılabilir.
+
+Dikkat: Parolayı iyice ezberleyin. Unuttuğunuz takdirde cihazınızı tam olarak kullanamazsınız."</string>
+    <string name="applock_off_due_to_accessibility_service">G DATA uygulama denetleyicisi aktif olmadığı için uygulama koruma özelliği kapatıldı.</string>
+    <string name="applock_password">Korunan uygulamaları yalnızca bu parola girildiğinde başlat (her iki rakam arasındaki farkın birden çok olduğu en az dört rakam girin):</string>
+    <string name="applock_password_long">Korunmuş uygulamaların başlatılmasında kullanılacak parolayı girin. Bu parola aynı zamanda SMS komutları (bkz. kayıp/hırsızlık) için de kullanılacaktır.</string>
+    <string name="applock_password_title">Parola</string>
+    <string name="applock_progress_sending_email">E-posta gönderiliyor. Lütfen bekleyin…</string>
+    <string name="applock_question">Güvenlik sorusu…</string>
+    <string name="applock_question_text">Alternatif olarak, güvenlik sorusunu da yanıtlayabilirsiniz:</string>
+    <string name="applock_question_text_long">Lütfen ayrıca bir de güvenlik sorusu belirleyin. Sonradan soruyu doğru yanıtlayarak uygulama korumasını kapatıp korunan uygulamaların parola sorulmadan başlatılmasını sağlayabilirsiniz.</string>
+    <string name="applock_resend_bt">Evet</string>
+    <string name="applock_resend_password_title">Parolayı gönder</string>
+    <string name="applock_resend_text">Parola, belirttiğiniz e-posta adresine gönderilsin mi?</string>
+    <string name="applock_save">Kaydet</string>
+    <string name="applock_save_or_discard">Değişiklikleri kaydetmek mi yoksa atmak mı istiyorsunuz?</string>
+    <string name="applock_security_question_title">Güvenlik sorusu</string>
+    <string name="applock_selection_add_action">Uygulamaları ekle</string>
+    <string name="applock_selection_no_entries">"Uygulama koruması, yetkisiz kişilerin cihazınızda korunmuş uygulamaları başlatmasını önler.
+
+"</string>
+    <string name="applock_selection_no_entries_add">Korumak istediğiniz uygulamaları seçmek için, başlık satırındaki + simgesine dokunun.</string>
+    <string name="applock_selection_no_entries_protect_add_default">Parola koruması olmaksızın kullanmak istediğiniz uygulamaları seçmek için, başlık satırındaki + simgesine dokunun.</string>
+    <string name="applock_selection_no_entries_protect_default">"Uygulama koruması, yetkisiz kişilerin cihazınızda korunmuş uygulamaları başlatmasını önler. Şu anki ayar nedeniyle, standart olarak bütün uygulamalar korunmuş durumdadır.
+
+"</string>
+    <string name="applock_selection_remove_action">Girişleri kaldır</string>
+    <string name="applock_selection_remove_title">Kaldırılacak girişler</string>
+    <string name="applock_selection_select_all">Tümünü işaretle</string>
+    <string name="applock_selection_settings_action">Ayarlar</string>
+    <string name="applock_selection_show_disabled">Engellenen uygulamalar</string>
+    <string name="applock_selection_show_enabled">Serbest bırakılmış olan uygulamalar</string>
+    <string name="applock_selection_title">Korunan uygulamalar</string>
+    <string name="applock_selection_title_invert">Korunmayan uygulamalar</string>
+    <string name="applock_selector_add_action">Girişleri ekle</string>
+    <string name="applock_selector_add_title">Eklenecek girişleri seçin</string>
+    <string name="applock_selector_block_title">Uygulamaları engelle</string>
+    <string name="applock_selector_block_title_invert">Uygulamaları serbest bırak</string>
+    <string name="applock_selector_discard">Seçimi iptal et</string>
+    <string name="applock_selector_no_entries">Hiç giriş yok.</string>
+    <string name="applock_selector_select_all">Tümünü işaretle</string>
+    <string name="applock_selector_tab_all">Tümü</string>
+    <string name="applock_selector_tab_downloaded">İndir</string>
+    <string name="applock_selector_tab_recommended">Tavsiye edilen</string>
+    <string name="applock_selector_tab_recommended_invert">Tavsiye edilmez</string>
+    <string name="applock_selector_title">Uygulamaları koru</string>
+    <string name="applock_selector_title_invert">Uygulama korumasını kaldır</string>
+    <string name="applock_settings_title">Uygulama koruması ayarları</string>
+    <string name="applock_test_email_body">"Sayın Müşterimiz,
+
+E-posta adresinizi başarıyla yapılandırdınız.
+Teşekkürler!
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">E-posta gönderme girişimi başarısız. Lütfen Internet bağlantısını ve E-posta adresini kontrol edin.</string>
+    <string name="applock_test_email_success">Test e-postası başarılı bir şekilde gönderildi!</string>
+    <string name="applock_txt_title">Korunan uygulama</string>
+    <string name="applock_txt_title_invert">Korunmayan uygulama</string>
+    <string name="applock_wait">Bir dakika lütfen</string>
+    <string name="applock_wrong_answer">Üzgünüz. Doğru cevap bu değildi.</string>
+    <string name="applock_wrong_password">Üzgünüz. Doğru parola bu değildi.</string>
+    <string name="arp_exception_bssid_text">Kalıcı istisna ekle</string>
+    <string name="arp_exception_cleared">İstisnalar silindi</string>
+    <string name="arp_exception_info">"Daha fazla bilgi mi istiyorsunuz?
+Buraya dokunun!"</string>
+    <string name="arp_exception_text">Bu gün için istisna ekle</string>
+    <string name="arp_network_dialog_text">Bu ağı güvenilir olarak tanımla</string>
+    <string name="arp_network_dialog_title">Yeni ağ</string>
+    <string name="arp_options_auto_disconnect">Ekran kapatıldığında güvensiz WLAN bağlantısını devre dışı bırak</string>
+    <string name="arp_options_bssid_analysis">Genişletilmiş analiz (BSSID kimliği)</string>
+    <string name="arp_options_continuous_mode">Gözetimi, oturumlar arasında devam ettir</string>
+    <string name="arp_warning_dialog_accept">Devam</string>
+    <string name="arp_warning_dialog_bssid_text">"Bu WLAN'a muhtemelen müdahale edilmiş. Bu, genişletilmiş analizin sonucudur."</string>
+    <string name="arp_warning_dialog_continue">WLAN bağlantısını kes</string>
+    <string name="arp_warning_dialog_text">"Bu WLAN'a muhtemelen müdahale edilmiş. Şu anda kamuya açık bir WiFi veya güvensiz başka bir ağa bağlıysanız bağlantıyı kesmenizi öneririz."</string>
+    <string name="arp_warning_dialog_title">WiFi koruması</string>
+    <string name="billing_cannot_connect_message">Google Play ile bağlantı kurulamıyor. Google Play sürümünüz eskimiş olabilir.</string>
+    <string name="billing_cannot_connect_title">Google Play ile bağlantı yok</string>
+    <string name="billing_not_supported_message">Google Play hizmeti mevcut olmadığından, lisans uzatma işlemi yapılamıyor.</string>
+    <string name="billing_not_supported_title">Lisans uzatma işlemi mümkün değil</string>
+    <string name="billing_purchase_title">Lisans uzatıldı</string>
+    <string name="billing_purchased_message">Lisansı uzattığınız için teşekkür ederiz. İmza ve yazılım güncelleştirmelerine erişiminiz etkinleştirildi.</string>
+    <string name="black">Siyah</string>
+    <string name="blacklist">Kara liste</string>
+    <string name="blacklist_prompt">Filtre türü seçin</string>
+    <string name="block_explain">USSD denetim kodları, mobil cihazınıza zarar verebilir. Bir USSD denetim kodunu çalıştırmadan önce, kodun amacını öğrenin.</string>
+    <string name="block_incoming_call">Gelen aramalar</string>
+    <string name="block_is_blacklist">Seçili rehber girişlerini engelle</string>
+    <string name="block_is_whitelist">Sadece seçili rehber girişlerine izin ver</string>
+    <string name="block_outgoing_call">Giden aramalar</string>
+    <string name="block_sms">SMS</string>
+    <string name="blue">Mavi</string>
+    <string name="bronze">Bronz</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.gdatasoftware.com</string>
+    <string name="browser_about_text">© 2015 G DATA Software AG</string>
+    <string name="browser_about_title">G DATA Çocuk Tarayıcısı &lt;br/> Sürüm %s</string>
+    <string name="browser_bar_hint_text">"URL'yi girin"</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">Güvenliğin için, bu Web sitesine erişim engellendi.</string>
+    <string name="browser_menu_about">Bilgi</string>
+    <string name="browser_menu_back">Geri</string>
+    <string name="browser_menu_forward">İleri</string>
+    <string name="browser_menu_quit">Sonlandır</string>
+    <string name="browser_menu_settings">Ayarlar</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">Boş sayfa</string>
+    <string name="browser_preferences_rb_default_text">Varsayılan sayfa (%s)</string>
+    <string name="browser_preferences_rb_specific_text">Belirlenen sayfa:</string>
+    <string name="browser_preferences_subtitle_text">Başlatma sırasında açılacak Web sitesini seçin.</string>
+    <string name="browser_preferences_title_text">Başlatma sırasında</string>
+    <string name="bye_team">G DATA SecurityLabs.</string>
+    <string name="bye_world">"Bochum'dan saygılarla,"</string>
+    <string name="call">Ara</string>
+    <string name="call_block_info">"Daha fazla bilgi mi istiyorsunuz?
+Buraya dokunun!"</string>
+    <string name="call_block_request">Serbest bırakılmasını iste</string>
+    <string name="call_block_title">Engellenen arama</string>
+    <string name="call_block_txt">Bu numara engellendi.</string>
+    <string name="callfilter_blockings_delete">Girişleri sil</string>
+    <string name="callfilter_blockings_delete_title">Seçilecek girişleri seçin</string>
+    <string name="callfilter_blockings_no_enries">Günlük mevcut değil.</string>
+    <string name="callfilter_blockings_select_all">Tümünü seç</string>
+    <string name="callfilter_blockings_title_in">"Engellenen gelen aramalar ve SMS'ler"</string>
+    <string name="callfilter_blockings_title_out">Engellenen giden aramalar</string>
+    <string name="callfilter_gsc_header">Rehber girişini engelle</string>
+    <string name="callfilter_hidden_number">Bilinmeyen numara</string>
+    <string name="callfilter_hidden_numbers">Bilinmeyen numaralar</string>
+    <string name="callfilter_image_description_checkbox">Onay kutusu</string>
+    <string name="callfilter_image_description_contact">Resim</string>
+    <string name="callfilter_missed_call">"Arama: "</string>
+    <string name="callfilter_options_allow_unknown">Filtreye rağmen, bilinmeyen numaralardan gelen çağrılara izin verilsin</string>
+    <string name="callfilter_options_blacklist">Kara listedeki bütün numaralar engellensin</string>
+    <string name="callfilter_options_edit">Beyaz veya kara listeyi göster</string>
+    <string name="callfilter_options_in_intro_text">"İstenmeyen telefonları engelleyin ve istenmeyen SMS'leri filtreleyin. Filtrenin nasıl çalışacağını seçin:
+"</string>
+    <string name="callfilter_options_log">Günlük</string>
+    <string name="callfilter_options_no_entries">Hiç giriş yok.</string>
+    <string name="callfilter_options_out_intro_text">"İstenmeyen aramaları engelleyin. Filtrenin ne şekilde çalışacağını seçin:
+"</string>
+    <string name="callfilter_options_phonebook">Telefon rehberinizdeki bütün numaralara izin verin</string>
+    <string name="callfilter_options_phonebook_black">Telefon rehberinizdeki, kara listede yer almayan bütün numaralara izin verin</string>
+    <string name="callfilter_options_show_book">Telefon rehberi girişlerini göster</string>
+    <string name="callfilter_options_title">Arama/SMS filtresi</string>
+    <string name="callfilter_options_whitelist">Beyaz listedeki bütün numaralara izin verin</string>
+    <string name="callfilter_selection">Listeyi göster</string>
+    <string name="callfilter_selection_add">Ekle</string>
+    <string name="callfilter_selection_blacklist_no_enries">Engellemek istediğiniz numaraları seçmek için, başlık satırındaki + işaretine dokunun.</string>
+    <string name="callfilter_selection_no_enries">Şu anda telefon rehberinden herhangi bir giriş seçilmiş durumda değil.</string>
+    <string name="callfilter_selection_phonebook_no_enries">Telefon rehberinde giriş yok.</string>
+    <string name="callfilter_selection_remove">Girişleri sil</string>
+    <string name="callfilter_selection_remove_title">Seçilen girişleri sil</string>
+    <string name="callfilter_selection_select_all">Bütün öğeleri seç</string>
+    <string name="callfilter_selection_title_blacklist">Kara liste</string>
+    <string name="callfilter_selection_title_in_blacklist">Gelen aramalar ve SMS kara listesi</string>
+    <string name="callfilter_selection_title_in_whitelist">Gelen aramalar ve SMS beyaz listesi</string>
+    <string name="callfilter_selection_title_out_blacklist">Kara liste giden aramalar</string>
+    <string name="callfilter_selection_title_out_whitelist">Beyaz liste giden aramalar</string>
+    <string name="callfilter_selection_title_phonebook">Telefon rehberi</string>
+    <string name="callfilter_selection_title_phonebook_new">Tüm rehber girişlerini seç</string>
+    <string name="callfilter_selection_title_whitelist">Beyaz liste</string>
+    <string name="callfilter_selection_whitelist_no_enries">İzin vermek istediğiniz numaraları seçmek için, başlık satırındaki + işaretine dokunun.</string>
+    <string name="callfilter_unknown_contact">Bilinmeyen rehber girişi</string>
+    <string name="calllog_unknown_contact">Bilinmeyen numara</string>
+    <string name="check_all">Tümünü seç</string>
+    <string name="choose_color">Seç</string>
+    <string name="choose_scan_freq_summary">Cihazın hangi sıklıkta kontrol edileceğini belirler (gün cinsinden).</string>
+    <string name="choose_scan_freq_title">Sıklık</string>
+    <string name="choose_update_region_summary">En yakınınızdaki güncelleştirme sunucusunu seçin.</string>
+    <string name="choose_update_region_title">Sunucu bölgesi</string>
+    <string name="choose_update_summary">Güncelleştirmelerin hangi sıklıkta aranacağını belirler (gün cinsinden).</string>
+    <string name="choose_update_title">Sıklık</string>
+    <string name="clear_arp_exceptions_summary">WiFi koruması ve genişletilmiş WiFi analizi için istisnaları sil</string>
+    <string name="clear_arp_exceptions_title">İstisnaları sil</string>
+    <string name="colorLabel">Renk</string>
+    <string name="color_picker_default_title">Renk seç:</string>
+    <string name="color_swatch_description">%1$d renk</string>
+    <string name="color_swatch_description_selected">%1$d renk seçildi</string>
+    <string name="common_android_wear_notification_needs_update_text">Bir uygulama, Android Wear uygulamasında güncelleme yapılmasını gerektiriyor.</string>
+    <string name="common_android_wear_update_text">Android Wear uygulaması güncelleninceye kadar bu uygulama çalışmayacak.</string>
+    <string name="common_android_wear_update_title">"Android Wear'ı Güncelle"</string>
+    <string name="common_google_play_services_enable_button">Google Play hizmetlerini etkinleştir</string>
+    <string name="common_google_play_services_enable_text">Bu uygulama, Google Play Hizmetleri etkinleştirilmeden çalışmaz</string>
+    <string name="common_google_play_services_enable_title">Google Play hizmetlerini etkinleştir</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">İstekte bulunan: %1$s</string>
+    <string name="common_google_play_services_install_button">Google Play hizmetlerini edin</string>
+    <string name="common_google_play_services_install_text_phone">Google Play Hizmetleri telefonunuzda yok ve bu uygulama Google Play Hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_text_tablet">Google Play Hizmetleri tabletinizde yok ve bu uygulama Google Play Hizmetleri olmadan çalışmaz.</string>
+    <string name="common_google_play_services_install_title">Google Play hizmetlerini edinin</string>
+    <string name="common_google_play_services_invalid_account_text">Belirtilen hesap bu cihazda mevcut değil. Lütfen farklı bir hesap seçin.</string>
+    <string name="common_google_play_services_invalid_account_title">Geçersiz Hesap</string>
+    <string name="common_google_play_services_needs_enabling_title">"Bir uygulama, Google Play Hizmetleri'nin etkin olmasını gerektiriyor."</string>
+    <string name="common_google_play_services_network_error_text">Google Play hizmetlerine bağlanmak için bir veri bağlantısı gerekiyor.</string>
+    <string name="common_google_play_services_network_error_title">Ağ Hatası</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Bir uygulama, Google Play hizmetlerinin yüklenmesini gerektiriyor.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Bir uygulama, Google Play Hizmetleri için bir güncelleme gerektiriyor.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Hizmetleri hatası</string>
+    <string name="common_google_play_services_unknown_issue">Google Play hizmetleriyle ilgili bilinmeyen sorun.</string>
+    <string name="common_google_play_services_unsupported_text">Cihazınız, uygulamalarınızdan bazıları için gerekli olan Google Play hizmetlerini desteklemiyor. Lütfen yardım için üreticiyle iletişim kurun.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play hizmetleri</string>
+    <string name="common_google_play_services_update_button">Güncelle</string>
+    <string name="common_google_play_services_update_text">Bu uygulama Google Play Hizmetleri güncellenmeden çalışmaz.</string>
+    <string name="common_google_play_services_update_title">Google Play hizmetlerini güncelle</string>
+    <string name="common_open_on_phone">Telefonda aç</string>
+    <string name="common_signin_button_text">Oturum aç</string>
+    <string name="common_signin_button_text_long">"Google'da oturum aç"</string>
+    <string name="compass_privacy_warning_message">連絡先を非表示/ON の状態で G DATA Internet Security を削除した場合、非表示の連絡先が削除されます。 必ず、 G DATA Internet Security の削除前に、連絡先を非表示/OFF の状態にして下さい。</string>
+    <string name="compass_privacy_warning_title">uyarı</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">Ayarlar</string>
+    <string name="configure_action_center">Kaydol</string>
+    <string name="contact_missing">Lütfen rehber girişi seçin.</string>
+    <string name="contact_selection_empty_text">Yeni telefon rehberi girişleri eklemek için başlık satırındaki + simgesine dokunun.</string>
+    <string name="contactpicker_add">Ekle</string>
+    <string name="contactpicker_calllog">Arama geçmişi</string>
+    <string name="contactpicker_contacts">Adres defteri</string>
+    <string name="copy">Kopyala</string>
+    <string name="corporate_profile">Şirket</string>
+    <string name="crash_report">"Bu G DATA ürünü beklenmedik şekilde sonlandırıldı. G DATA'ya hata raporu göndermek istiyor musunuz?"</string>
+    <string name="daily">Her gün</string>
+    <string name="debug_options">Debug options</string>
+    <string name="default_profile">Kişisel</string>
+    <string name="detailed_texts">Devam…</string>
+    <string name="dev_admin_applock_explanation">Yetkiler, ##app_name## uygulamasının istenmeden kaldırılmasını önleyerek korumanın sürdürülmesini sağlar.</string>
+    <string name="dev_admin_receiver_description">Kayıp/hırsızlık fonksiyonu için gereken yetkiler.</string>
+    <string name="dev_admin_receiver_explanation">Yetkiler, kaybolan cihazları kilitlemek, silmek veya cihaz şifresi koymak için gereklidir.</string>
+    <string name="device_already_registered">"Cihazınız zaten G DATA ActionCenter'a kayıtlı."</string>
+    <string name="dialog_accessibility_for_lollipop">Android Lollipop’dan itibaren G DATA uygulama denetleyicisi gerekli. Lütfen bu hizmeti sistem ayarlarında etkinleştiriniz.</string>
+    <string name="dialog_accessibility_for_lollipop_mms">Mobil Cihaz Yönetimi için Android Lollipop‘dan itibaren G DATA uygulama denetleyicisi gereklidir. Lütfen bu hizmeti sistem ayarlarında etkinleştiriniz.</string>
+    <string name="dialog_accessibility_info_activate">"Şimdi sistem ayarları ekranına yönlendirileceksiniz. Orada lütfen G DATA Uygulama Denetleyicisi'ni etkinleştirin."</string>
+    <string name="dialog_accessibility_info_deactivate">"Şimdi sistem ayarları ekranına yönlendirileceksiniz. Orada lütfen G DATA Uygulama Denetleyicisi'ni devre dışı bırakın."</string>
+    <string name="dialog_apkfile_updated">\##app_name## şimdi güncelleştirilecek!</string>
+    <string name="dialog_auth_succefull">Sunucuya kayıt işlemi başarıyla tamamlandı.</string>
+    <string name="dialog_cancel">İptal</string>
+    <string name="dialog_cancel_short">Kısaltma</string>
+    <string name="dialog_done">Tamamlandı</string>
+    <string name="dialog_err_computerid_change_failed">Yetkinin aktarılması başarısız.</string>
+    <string name="dialog_err_computerid_change_succeeded">Güncelleştirmenin yüklenmesi için gereken yetkilendirme başarılı bir şekilde aktarıldı.</string>
+    <string name="dialog_err_computerid_changed">Güncelleştirmelerin indirilmesi için başka bir cihaz yetkilendirilmiştir. Bu cihaz, güncelleştirilmelerin indirilmesi için yetkili değildir.</string>
+    <string name="dialog_err_computerid_changed_extern">Güncelleştirmelerin indirilmesi için başka bir cihaz yetkilendirilmiştir. Yetkiyi bu bilgisayara aktarmak için lütfen güncelleştirmeyi manuel olarak başlatın.</string>
+    <string name="dialog_err_data_corrupt">Güncelleştirme başarısız: Yüklenen veriler hatalı.</string>
+    <string name="dialog_err_database_operation">Şu anda güncelleştirme sunucusuna erişilemiyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="dialog_err_install_signature_update">Güncelleştirme başarısız: Yüklenen imzalar kurulamadı.</string>
+    <string name="dialog_err_invalid_customer_data">Müşteri bilgileri kabul edilmedi. Lütfen geçerli bir adres girin.</string>
+    <string name="dialog_err_invalid_login">Güncelleştirme başarısız: Erişim bilgileri geçersiz.</string>
+    <string name="dialog_err_invalid_reg_number">Kayıt numarası geçersiz.</string>
+    <string name="dialog_err_license_fault">Güncelleştirmelerin indirilmesi için başka bir cihaz yetkilendirilmiştir. Yetkinin cihaza aktarılması mümkün değildir. Lütfen destek bölümüne başvurun.</string>
+    <string name="dialog_err_login_deleted">Erişim yetkisi sınırlı bir süre için geçerliydi ve süre doldu.</string>
+    <string name="dialog_err_login_expired">\##app_name## lisansınız artık geçerli değil!</string>
+    <string name="dialog_err_login_expired_extern">\##app_name## lisansınız artık geçerli değil. Daha ayrıntılı bilgi edinmek için lütfen güncelleştirmeyi manuel olarak başlatın.</string>
+    <string name="dialog_err_mms_initial_connect_failed">Uzaktan yönetim sunucusuyla son bağlantı girişimi başarısız oldu. Lütfen yöneticinize başvurun.</string>
+    <string name="dialog_err_mms_missing_login_data">Güncelleştirme başarısız: Erişim bilgileri mevcut değil. Lütfen yöneticinize başvurun.</string>
+    <string name="dialog_err_no_update_available">Henüz hazır olan güncelleştirme yok. Sizde en son sürüm yüklü.</string>
+    <string name="dialog_err_not_allowed_in_this_country">Bu lisans, belirli bir bölgeyle sınırlıdır. Lisansı kaydettirmek istediğiniz cihaz, söz konusu bölgede değildir. Lütfen satıcınıza başvurun.</string>
+    <string name="dialog_err_open_database">Şu anda güncelleştirme sunucusuna erişilemiyor. Lütfen daha sonra tekrar deneyin.</string>
+    <string name="dialog_err_product_already_registered">Ürün zaten kayıtlı.</string>
+    <string name="dialog_err_request_extension">Ürününüz için şu anda herhangi bir teklif yok.</string>
+    <string name="dialog_err_single_update_already_used">Zaten tüm güncelleştirmeleri yaptınız. Yapılabilecek başka güncelleştirme yok.</string>
+    <string name="dialog_err_update_not_allowed">Güncelleştirmeleri indirmek için yetkiniz yok.</string>
+    <string name="dialog_error">Bilinmeyen bir hata ortaya çıktı (%s).</string>
+    <string name="dialog_fix">Düzelt</string>
+    <string name="dialog_mobile_network_error">SMS bağlantısı kurulamadı. Lütfen cihazınızın SMS mesajlarını gönderebilmesini sağlayınız.</string>
+    <string name="dialog_network_error">Sunucuya erişilemedi. Lütfen ağ bağlantısını kontrol edin.</string>
+    <string name="dialog_no">Hayır</string>
+    <string name="dialog_no_auth_data_entered">Henüz erişim bilgileri girilmiş değil.</string>
+    <string name="dialog_no_space_available">Güncelleştirme yapılamadı. Lütfen, yeterli sabit disk alanının mevcut olduğundan emin olun.</string>
+    <string name="dialog_not_all_data_entered">Gereken bütün bilgiler doğru olarak girilmedi.</string>
+    <string name="dialog_ok">Tamam</string>
+    <string name="dialog_periodic_scan_type_title">Virüs kontrolünün türü</string>
+    <string name="dialog_query_computerid_changed">Güncelleştirmelerin indirilmesi için başka bir cihaz yetkilendirilmiştir. Yetki bu cihaza aktarılsın mı?</string>
+    <string name="dialog_scan_freq_title">Tarama sıklığı (gün)</string>
+    <string name="dialog_sigfile_updated">İmzalar güncelleştirildi. Artık ##app_name## güncel durumda!</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">Güncelleştirme sıklığı (gün)</string>
+    <string name="dialog_update_not_needed">\##app_name## güncel durumda!</string>
+    <string name="dialog_update_region_title">Sunucu bölgesi</string>
+    <string name="dialog_yes">Evet</string>
+    <string name="disabled">Kapalı</string>
+    <string name="disinfect_all">Tümünü virüsten temizle</string>
+    <string name="disinfect_all_files_mess">Virüslü bütün dosyalar silinsin mi?</string>
+    <string name="disinfect_all_files_title">Dosyaları sil</string>
+    <string name="disinfect_system_cleaned_mess">Sistem virüslerden başarıyla temizlendi.</string>
+    <string name="drawer_close">Gezinme çubuğunu kapat</string>
+    <string name="drawer_open">Gezinme çubuğunu aç</string>
+    <string name="edit_action">İşlemi düzenle</string>
+    <string name="edit_filter_title">Filtreyi düzenle</string>
+    <string name="email_hint">E-posta adresi ekle…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">Cihazda düzenli aralıklarla virüs kontrolü yapılır.</string>
+    <string name="enableTimedScan_title">Düzenli aralıklarla</string>
+    <string name="enableUpdate_summary">İmza güncelleştirmeleri arka planda düzenli aralıklarla gerçekleştirilir.</string>
+    <string name="enableUpdate_title">Otomatik</string>
+    <string name="enable_mms_server">Uzaktan yönetime izin ver</string>
+    <string name="enable_mms_server_summary">Cihazın uzaktan yönetilmesine olanak verir</string>
+    <string name="enable_web_portal_summary">"G DATA Web Portalı'nı kullan"</string>
+    <string name="enable_web_portal_title">G DATA Web Portalı</string>
+    <string name="filescan_calculate_files">Kontrol edilecek miktarı hesapla…</string>
+    <string name="filescan_deep_scan">Derinlemesine tarama</string>
+    <string name="filescan_delete_ask" formatted="false">%file% dosyası silinsin mi?</string>
+    <string name="filescan_delete_ask_title">Dosyayı sil</string>
+    <string name="filescan_delete_error">"Cihaz yapılandırması nedeniyle, bir dosyanın silinmesi mümkün değil. Cihazı bir PC'ye bağlayıp dosyayı PC üzerinden silmeyi deneyin. Cihazı bir PC'ye bağlayıp dosyayı PC üzerinden silmeyi deneyin."</string>
+    <string name="filescan_delete_error_title">Hata</string>
+    <string name="filescan_end_scan">Zararlı yazılım kontrolü tamamlandı.</string>
+    <string name="filescan_files_clean">Dosya temiz,</string>
+    <string name="filescan_files_scanned">Kontrol edilen dosyalar:</string>
+    <string name="filescan_files_skipped">dosya atlandı.</string>
+    <string name="filescan_initial_message">Zararlı yazılım kontrolü hazırlanıyor…</string>
+    <string name="filescan_scan_status">Kontrol edilecek dosya:</string>
+    <string name="filescan_start_deep_scan">Performing deep scan</string>
+    <string name="filescan_start_scan">Zararlı yazılım kontrolü başlatılıyor…</string>
+    <string name="filescan_timeframe_a">Kontrol işlemi</string>
+    <string name="filescan_timeframe_b">dakika sürdü</string>
+    <string name="filter_activating_colliding_error">Bununla çelişen filtre mi devre dışı bırakılsın yoksa bu filtre mi devre dışı kalsın?</string>
+    <string name="filter_activating_colliding_error_disable">Devre dışı bırak</string>
+    <string name="filter_activating_colliding_error_header">Mantıksal çelişki</string>
+    <string name="filter_incompatiblity">SMS işlevi Android 4.4 ve sonraki sürümleri çalıştıran cihazlar için işlevsel değil.</string>
+    <string name="filter_selection_no_entries">"Bu uygulama, çeşitli filtreler aracılığıyla telefon rehberi giriş gruplarını haftanın belirli günlerinde ve saatlerinde engellemenizi veya izin vermenizi sağlar. 
+
+"</string>
+    <string name="filter_selection_no_entries_add">Yeni filtreler oluşturmak için başlık satırındaki + simgesine dokunun.</string>
+    <string name="filter_selection_title">Telefon rehberi girişleri</string>
+    <string name="fitler_fragment_title">SMS/arama filtresi</string>
+    <string name="form_error_filter_type">Lütfen en az bir filtre türü seçin.</string>
+    <string name="form_error_invalid_adress">Geçersiz adres</string>
+    <string name="form_error_invalid_date">Seçilen tarih geçersiz.</string>
+    <string name="form_error_invalid_merchant_number">Lütfen geçerli bir satıcı no. girin.</string>
+    <string name="form_error_invalid_missing_adress">Lütfen bir adres belirtin</string>
+    <string name="form_error_invalid_missing_email">Lütfen geçerli bir e-posta adresi girin.</string>
+    <string name="form_error_invalid_missing_firstname">Lütfen adınızı girin.</string>
+    <string name="form_error_invalid_missing_lastname">Lütfen soyadınızı girin.</string>
+    <string name="form_error_invalid_missing_name">Lütfen bir tanımlama girin</string>
+    <string name="form_error_invalid_missing_radius">Lütfen istenen bir kapsam belirtin</string>
+    <string name="form_error_invalid_time">Geçersiz zaman girildi</string>
+    <string name="form_error_no_service">Hizmete erişilemiyor.</string>
+    <string name="form_error_select_a_day">Lütfen, haftanın günleri arasından, filtrenin etkin olacağı en az bir gün seçin.</string>
+    <string name="freemium_not_allowed">"Bu işlev temel sürümde mevcut değildir.
+
+Şimdi premium sürümünü satın almak için teklifimize bakmak ister misiniz?"</string>
+    <string name="freemium_not_allowed_cancel">Hayır, teşekkürler</string>
+    <string name="freemium_not_allowed_ok">Teklife bak</string>
+    <string name="friday">Cu</string>
+    <string name="fullday">Tam gün</string>
+    <string name="gdata_install_text">\##app_name##, kurulum sırasında uygulamalarda zararlı yazılım kontrolü yapar</string>
+    <string name="gdata_install_ticker">G DATA koruması etkinleştirildi</string>
+    <string name="gold">Altın</string>
+    <string name="green">Yeşil</string>
+    <string name="grey">Gri</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Mobil cihazınızda bir USSD denetim kodunun çalıştırılması girişimi engellendi.</string>
+    <string name="hello_world_clean">"Erişmeye çalıştığınız telefon URL'si USSD denetim kodu değil ve mobil cihazınıza zarar veremez."</string>
+    <string name="hello_world_empty">Mobil cihazınıza USSD denetim kodları tarafından zarar verilmesini önlemek için, aşağıdaki iletişim kutusu görüntülendiğinde bu uygulamayı seçin.</string>
+    <string name="hide_contact">SMS ile iletişimin gizlenmesi Android 4.4 ve sonraki sürümleri çalıştıran cihazlarda artık mümkün değil.</string>
+    <string name="hide_dialog">Bir daha gösterme</string>
+    <string name="hint">Not</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">Daha fazla bilgi</string>
+    <string name="incblack">Gelen</string>
+    <string name="incwhite">Gelen</string>
+    <string name="info_txt_copyright">© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">Sürüm</string>
+    <string name="isblacklist" />
+    <string name="isincomingtext">Gelen</string>
+    <string name="isoutgoingtext">Giden</string>
+    <string name="issmstext">Gelen SMS</string>
+    <string name="iswhitelist" />
+    <string name="kidsbrowser_enabled_summary">"Çocuk Tarayıcısı'nı açar veya kapatır."</string>
+    <string name="kidsbrowser_enabled_title">Çocuk Tarayıcısı açık</string>
+    <string name="kidsguard_airplane_mode_summary">Uçuş modunu etkinleştir (yeni cihazlarda değil)</string>
+    <string name="kidsguard_airplane_mode_title">Uçuş modunu aç</string>
+    <string name="kidsguard_allow_emergency_calls_summary">Telefon uygulaması, acil numaralar için serbest bırakılır. Diğer numaralar engellenir.</string>
+    <string name="kidsguard_allow_emergency_calls_title">Acil aramalara izin ver</string>
+    <string name="kidsguard_app_background_preference_summary">Uygulama simgelerinin arka planı</string>
+    <string name="kidsguard_app_background_preference_title">Arka plan</string>
+    <string name="kidsguard_app_background_size_preference_summary">Uygulama simgesi arka planının boyutu</string>
+    <string name="kidsguard_app_background_size_preference_title">Arka plan boyutu</string>
+    <string name="kidsguard_app_grid">Uygulamaların sırası</string>
+    <string name="kidsguard_app_icon">Uygulama simgeleri</string>
+    <string name="kidsguard_app_icon_size_preference_summary">Uygulama simgelerinin boyutu</string>
+    <string name="kidsguard_app_icon_size_preference_title">Simge boyutu</string>
+    <string name="kidsguard_app_label">Uygulama adları</string>
+    <string name="kidsguard_app_label_color_summary">Uygulama adlarında kullanılacak renk</string>
+    <string name="kidsguard_app_label_color_title">Metin rengi</string>
+    <string name="kidsguard_app_textsize_summary">Uygulama adlarında kullanılacak metin boyutu</string>
+    <string name="kidsguard_app_textsize_title">Metin boyutu</string>
+    <string name="kidsguard_applock_configuration">Lütfen önce uygulama korumasını yapılandırın</string>
+    <string name="kidsguard_applock_denial_message">Güvenliğin için, bu uygulamaya erişim kısıtlandı.</string>
+    <string name="kidsguard_applock_denial_message_appname">Güvenliğin için, %s uygulamasına erişim kısıtlandı.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">Güvenliğin için, bu numaranın aranması kısıtlandı.</string>
+    <string name="kidsguard_applock_denial_title">Uygulama engellendi</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"%s uygulaması ancak yarın tekrar başlatılabilir.
+Ebeveynler zaman aralığını, simgeleri basılı tutarak uzatabilir."</string>
+    <string name="kidsguard_back_exit">Yapılandırmayı sonlandırmak için tekrar &lt;i>Geri&lt;/i> düğmesine basın.</string>
+    <string name="kidsguard_background_balloon">Hava balonu</string>
+    <string name="kidsguard_background_bubble">Su kabarcığı</string>
+    <string name="kidsguard_background_glass">Cam</string>
+    <string name="kidsguard_background_heart">Kalp</string>
+    <string name="kidsguard_background_none">Arka plan yok</string>
+    <string name="kidsguard_background_sphere">Küre</string>
+    <string name="kidsguard_block_incoming_calls_summary">Gelen aramalar engellenir. Bir telefon uygulaması serbest bırakıldığında giden aramalar yapılabilir.</string>
+    <string name="kidsguard_block_incoming_calls_title">Gelen aramaları engelle</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">Kara listeyi yapılandır…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">Beyaz listeyi yapılandır…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">İzin vermek/yasaklamak istediğiniz Web sitelerini yapılandırın ve bunları beyaz/kara listeye ekleyin.</string>
+    <string name="kidsguard_browser_configure_urls_title_text">Web siteleri</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">Başlık</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">URL ekle</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">"URL'yi düzenle"</string>
+    <string name="kidsguard_browser_listview_no_entries_add">"URL'leri ilgili listeye eklemek için, başlık satırındaki + simgesine dokunun."</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">Kara liste</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">Beyaz liste</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">Kara liste</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">Beyaz liste</string>
+    <string name="kidsguard_email_body">"Sayın müşterimiz,
+
+Çocuk Koruması parolanız #code#.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">Lütfen parolayı girin</string>
+    <string name="kidsguard_extend_time_subtitle">Bir kerelik uzatma süresi:</string>
+    <string name="kidsguard_extend_time_title">Süreyi uzat:</string>
+    <string name="kidsguard_fix_volume_keys_summary">Ses tuşlarıyla yapılan değişiklikler hemen geri alınır.</string>
+    <string name="kidsguard_fix_volume_keys_title">Ses düzeyini sabitle</string>
+    <string name="kidsguard_forgot_password"><small>"Parolanızı mı unuttunuz?
+Buraya dokunun!"</small></string>
+    <string name="kidsguard_home_hint">&lt;b>\"Başlangıç uygulamasını seç\"&lt;/b> iletişim kutusunda &lt;b>\"Internet Security\"&lt;/b> şıkkını seçip seçiminizi &lt;b>\"Her zaman\"&lt;/b> seçeneğiyle onaylayın.</string>
+    <string name="kidsguard_home_hint_title">"Çocuk Koruması'nı etkinleştir"</string>
+    <string name="kidsguard_label_color_black">Siyah</string>
+    <string name="kidsguard_label_color_white">Beyaz</string>
+    <string name="kidsguard_label_none">Ad yok</string>
+    <string name="kidsguard_leave">Sonlandır</string>
+    <string name="kidsguard_leave_title">"Çocuk Koruması'nı sonlandır"</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">Cihaz kullanımı için zaman sınırlandırmasını etkinleştir</string>
+    <string name="kidsguard_over_control_time_checkbox_title">Etkinleştir</string>
+    <string name="kidsguard_parents_options">Çocuk köşesi seçenekleri</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">Yatay sıralardaki simge sayısı</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">Yatay sıralar</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">Yatay sıralardaki simge sütunlarının sayısı</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">Yatay sıralarda sütunlar</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">Düşey sıralardaki simge sayısı</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">Düşey sıralar</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">Düşey sıralardaki simge sayısı</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">Düşey sıralarda sütunlar</string>
+    <string name="kidsguard_reset_time_limit_summary">Cihaz kullanımının zaman sınırlandırmasını sıfırlar ve uyku modunu devre dışı bırakır</string>
+    <string name="kidsguard_reset_time_limit_title">Zaman sınırlandırmasını sıfırla</string>
+    <string name="kidsguard_reset_time_limit_toast_text">Zaman sınırlandırması başarıyla sıfırlandı ve uyku modu devre dışı bırakıldı.</string>
+    <string name="kidsguard_reset_usage_time_summary">Cihazın şimdiye kadarki kullanım süresini sıfırlar</string>
+    <string name="kidsguard_reset_usage_time_title">Şimdiye kadarki kullanım süresini sıfırla</string>
+    <string name="kidsguard_reset_usage_time_toast_text">Cihazın şimdiye kadarki kullanım süresi başarıyla sıfırlandı.</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">Kendi hazır listelerim</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">Belirli Web sitelerinin kullanımını kısıtlamak için listeleri seçin.</string>
+    <string name="kidsguard_select_browser_mode_title_text">Tarayıcı ayarları</string>
+    <string name="kidsguard_set_allowed_usage_time_header">Cihaz kullanımı için zaman sınırlandırması</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">Cihazın kullanımı için zaman sınırlandırması ayarları</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">dakika</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">dakika</string>
+    <string name="kidsguard_set_allowed_usage_time_title">Zaman sınırlandırması ayarları</string>
+    <string name="kidsguard_settings">"Çocuk Koruması'nı yapılandır"</string>
+    <string name="kidsguard_show_usage_time_expired_text">Kullanım süresi: doldu</string>
+    <string name="kidsguard_show_usage_time_remaining_text">Kalan süre: %1$s dakika</string>
+    <string name="kidsguard_show_usage_time_text">Kullanım süresi: %1$s dakika (süre sonu: %2$s)</string>
+    <string name="kidsguard_subtitle">"Çocuklarınızı uygunsuz içeriklerden koruyun. İki moddan birini seçin.
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"Lütfen önce uygulama korumasını yapılandırın. Çocuk Koruması'nda da aynı şifre kullanılır. Uygulama korumasının etkinleştirilmesi gerekmez.
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"Genç köşesi şu anda etkin.
+"</string>
+    <string name="kidsguard_teenager">Genç köşesi</string>
+    <string name="kidsguard_teenager_configuration">Genç köşesini yapılandır</string>
+    <string name="kidsguard_teenager_deactivated">Genç köşesinden çıkıldı.</string>
+    <string name="kidsguard_teenager_description">G DATA temel işlevlerine erişim hakkına sahip, korunmuş alan</string>
+    <string name="kidsguard_title">Çocuk Koruması</string>
+    <string name="kidsguard_toddler">Çocuk köşesi</string>
+    <string name="kidsguard_toddler_configuration">Çocuk köşesini yapılandır</string>
+    <string name="kidsguard_toddler_deactivated">Çocuk köşesinden çıkıldı.</string>
+    <string name="kidsguard_toddler_description">Çocuklar için uygun başlangıç ekranlı kısıtlanmış alan</string>
+    <string name="kidsguard_usage_control__checkbox_summary">Cihaz, sadece seçtiğiniz yer ve kapsam içinde kullanılabilir.</string>
+    <string name="kidsguard_usage_control__checkbox_title">Etkinleştir</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">Mevcut:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">dakika</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">Zaman sınırlandırması</string>
+    <string name="kidsguard_usage_control_current">Mevcut:</string>
+    <string name="kidsguard_usage_control_invalid_adress">Adres geçersiz.</string>
+    <string name="kidsguard_usage_control_kilometer">km</string>
+    <string name="kidsguard_usage_control_location_category">Yer sınırlandırması</string>
+    <string name="kidsguard_usage_control_no_adress">Adres girilmedi</string>
+    <string name="kidsguard_usage_control_radius_title">Kilometre cinsinden kapsam belirleyin</string>
+    <string name="kidsguard_usage_control_scheduled_category">Haftalık zamanlama</string>
+    <string name="kidsguard_usage_control_scheduled_summary">Haftanın her günü için, cihazın kullanımına izin verilecek bir zaman aralığı belirleyin</string>
+    <string name="kidsguard_usage_control_scheduled_title">Zamanla</string>
+    <string name="kidsguard_usage_control_set_adress">Adres girin</string>
+    <string name="kidsguard_usage_control_summary">Kullanım süresi veya yer sınırlandırması ayarları</string>
+    <string name="kidsguard_usage_control_title">Ayarlar</string>
+    <string name="kidsguard_usage_control_weekly_category">Haftalık genel bakış</string>
+    <string name="kidsguard_usage_time_device_admin_text">Yetkiler, cihazın kilitlenerek uyku modunun doğru işleyişinin sağlanabilmesi için gereklidir.</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">İzin verilen günlük kullanım süresi doldu. Şimdi cihazınız kilitlenecek.</string>
+    <string name="kidsguard_usagecontrol_toddler">Kilitlenen Zamanlar</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">Kilitlenen zamanları yapılandır</string>
+    <string name="kidsguard_usagecontrol_toddler_description">Cihazın izin verilen kullanımını kendi belirlediğiniz zaman aralıklarıyla veya yerlerle sınırlandırır.</string>
+    <string name="kidsguard_wallpaper">Arka plan</string>
+    <string name="kidsguard_wifi_off_summary">"Tüm ağ bağlantılarını kes ve WiFi'yi devre dışı bırak"</string>
+    <string name="kidsguard_wifi_off_title">"WiFi'yi kapat"</string>
+    <string name="lightblue">Açık mavi</string>
+    <string name="lightgrey">Açık gri</string>
+    <string name="localisation_service">Yerelleştirme hizmeti</string>
+    <string name="locationlock_add_title">Yeni kısıtlama ekle</string>
+    <string name="locationlock_add_title_edit">Kısıtlamayı düzenle</string>
+    <string name="locationlock_selection_title">Kısıtlamalar</string>
+    <string name="locationpicker_add">Yer seç</string>
+    <string name="lockedlocations_selection_no_entries">"Bu uygulama, akıllı telefonunuzu, haftanın belirli günlerinde ve saatlerinde, belirli yerlerde kullanıma kilitlemenize olanak verir. 
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">Yeni kısıtlamalar oluşturmak için başlık satırındaki + simgesine dokunun.</string>
+    <string name="lockscreen_part_disabled_services" />
+    <string name="lockscreen_part_five" />
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">Cihazınız şu kısıtlama nedeniyle kilitlendi:</string>
+    <string name="lockscreen_part_six" />
+    <string name="lockscreen_part_two" />
+    <string name="log_blocked_app">Engellenen uygulama başlatıldı:</string>
+    <string name="log_clar_caption">Günlükler</string>
+    <string name="log_clear_logs">Sil</string>
+    <string name="log_confirm_clear_logs">Tüm günlükleri silmek mi istiyorsunuz?</string>
+    <string name="log_detail_title">Günlük</string>
+    <string name="log_dont_clear_logs">İptal</string>
+    <string name="log_hashcode_block_app">Uygulama, farklı imza nedeniyle engellendi:</string>
+    <string name="log_hashcode_mismatch">Farklı imza:</string>
+    <string name="log_incoming_call_blocked">Gelen arama engellendi:</string>
+    <string name="log_locked_app">Korunan uygulama başlatıldı:</string>
+    <string name="log_oninstall_app" formatted="false">Uygulama: %app%</string>
+    <string name="log_oninstall_malware_found">Zararlı yazılım bulundu</string>
+    <string name="log_oninstall_malware_name" formatted="false">Virüs: %name%</string>
+    <string name="log_oninstall_package_name" formatted="false">Kurulum paketi: %package%</string>
+    <string name="log_oninstall_pup_found">Muhtemelen istenmeyen program bulundu</string>
+    <string name="log_outgoing_call_blocked">Giden arama engellendi:</string>
+    <string name="log_phishing_site_found">Olta atma sitesi bulundu:</string>
+    <string name="log_scan_app_scan_title">Uygulama taraması:</string>
+    <string name="log_scan_apps_scanned" formatted="false">Kurulu %cnt% uygulama kontrol edildi</string>
+    <string name="log_scan_duration" formatted="false">Tarama süresi: %time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt% dosya kontrol edildi</string>
+    <string name="log_scan_infection_found" formatted="false">%cnt% virüs bulundu</string>
+    <string name="log_scan_infections_found" formatted="false">%cnt% virüs bulundu</string>
+    <string name="log_scan_malware_found_title">Zararlı yazılım bulundu</string>
+    <string name="log_scan_nothing_found_title">Zararlı yazılım bulunmadı</string>
+    <string name="log_scan_pup_found" formatted="false">Muhtemelen istenmeyen %cnt% program bulundu</string>
+    <string name="log_scan_pup_found_title">Muhtemelen istenmeyen programlar bulundu</string>
+    <string name="log_scan_pups_found" formatted="false">Muhtemelen istenmeyen %cnt% program bulundu</string>
+    <string name="log_scan_sig_date" formatted="false">İmzalar: %date%</string>
+    <string name="log_scan_system_scan_title">Sistem taraması:</string>
+    <string name="log_sigfile_updated">İmzalar güncelleştirildi.</string>
+    <string name="main_activation_state">Durum:</string>
+    <string name="main_antiphish_checked_none">Yok</string>
+    <string name="main_apps_denials_all">Bütün uygulamalar engelleniyor</string>
+    <string name="main_apps_denials_hdr">Engellenen uygulamalar</string>
+    <string name="main_apps_denials_hdr_invert">Serbest bırakılmış olan uygulamalar</string>
+    <string name="main_apps_denials_none">Hiçbir uygulama engellenmiyor</string>
+    <string name="main_apps_locked_all">Bütün uygulamalar korunuyor</string>
+    <string name="main_apps_locked_hdr">Korunan uygulamalar</string>
+    <string name="main_apps_locked_hdr_invert">Korunmayan uygulamalar</string>
+    <string name="main_apps_locked_none">Korunan uygulama yok</string>
+    <string name="main_calls_blocked_multiple">%d arama/SMS engellenmiş durumda</string>
+    <string name="main_calls_blocked_singular">1 arama/SMS engellenmiş durumda</string>
+    <string name="main_calls_filtered_hdr">Engellenen aramalar:</string>
+    <string name="main_calls_filtered_none">Yok</string>
+    <string name="main_contacts_filtered_none">Yok</string>
+    <string name="main_contacts_hidden_count">%d rehber girişi gizlenmiş durumda</string>
+    <string name="main_contacts_hidden_count_singular">1 rehber girişi gizlenmiş durumda</string>
+    <string name="main_contacts_hidden_hdr">Korunan telefon rehberi girişleri:</string>
+    <string name="main_hub_phishing">Olta atma filtresi</string>
+    <string name="main_hub_privacy">Telefon rehberi girişlerini gizle</string>
+    <string name="main_info">G DATA hakkında</string>
+    <string name="main_last_scan_hdr">Son virüs kontrolü:</string>
+    <string name="main_last_scan_never">Henüz hiç yapılmadı</string>
+    <string name="main_permission">Yetkiler</string>
+    <string name="main_premium_antitheft">Hırsızlığa karşı koruma</string>
+    <string name="main_premium_callblock">Arama filtresi</string>
+    <string name="main_premium_phishing">Olta atma filtresi</string>
+    <string name="main_premium_privacy">Kişisel bilgiler</string>
+    <string name="main_scan">Virüs kontrolü</string>
+    <string name="main_settings">Ayarlar</string>
+    <string name="main_state_active">etkin</string>
+    <string name="main_state_inactive">devre dışı</string>
+    <string name="mdm_choose_another_profile">Başka profil seç</string>
+    <string name="mdm_choose_profile_title">Profil seç</string>
+    <string name="mdm_device_compromised_rooted_locked">Kullanıcının cihazına müdahale edildi (girildi) ve bu nedenle yönetici tarafından kilitlendi</string>
+    <string name="mdm_set_camera_state">Kamerayı açma/kapatma desteği yoktur.</string>
+    <string name="mdm_storage_encryption_accepted_by_user">Cihaz şifreleme işlemi kullanıcı tarafından etkinleştirildi</string>
+    <string name="mdm_storage_encryption_denied_by_user">Cihaz şifreleme işlemi kullanıcı tarafından etkinleştirilmedi</string>
+    <string name="menu_accman">Hesap yönetimi</string>
+    <string name="menu_antitheft">Kayıp/hırsızlık</string>
+    <string name="menu_applock">Uygulama koruması</string>
+    <string name="menu_apps">Uygulamalar</string>
+    <string name="menu_conversations">Aramalar/SMS</string>
+    <string name="menu_exit">Uygulamayı sonlandırmak için tekrar &lt;i>Geri&lt;/i> düğmesine basın.</string>
+    <string name="menu_filter">Arama filtresi</string>
+    <string name="menu_filter_in">Gelen filtresi</string>
+    <string name="menu_filter_out">Giden filtresi</string>
+    <string name="menu_goback">Geri</string>
+    <string name="menu_guard_done">Tamamlandı</string>
+    <string name="menu_hide_contacts">Telefon rehberi girişlerini gizle</string>
+    <string name="menu_info">Hakkında</string>
+    <string name="menu_kidsguard">Çocuk Koruması</string>
+    <string name="menu_kidsguard_broser">Tarayıcı ayarları</string>
+    <string name="menu_other">Diğer</string>
+    <string name="menu_panic_button">Panik düğmesi</string>
+    <string name="menu_security">Güvenlik</string>
+    <string name="menu_security_hub">Güvenlik merkezi</string>
+    <string name="menu_settings">Ayarlar</string>
+    <string name="missing_libs">Kurulum başarısız. Lütfen yeterli boş alanınız olduğundan emin olup uygulamayı yeniden kurun.</string>
+    <string name="mms_configure">Uzaktan bakımı yapılandır</string>
+    <string name="mms_connect_deferred">Henüz ManagementServer sunucusuyla hiç bağlantı kurulamadığından, güncelleştirmelerin yüklenmesi mümkün değil. Uzaktan bakım ayarlarınızı kontrol edin.</string>
+    <string name="mms_contact">Şirket iletişim bilgisi</string>
+    <string name="mms_eula_show">Kullanım sözleşmesini göster…</string>
+    <string name="mms_invalid_data">Uzak yönetim için geçersiz oturum açma bilgileri</string>
+    <string name="mms_log">MMS aktarımı</string>
+    <string name="mms_server_address">Sunucu adresi</string>
+    <string name="mms_server_address_summary">ManagementServer adresi (IP/sunucu adı)</string>
+    <string name="mms_server_name">Aygıt adı</string>
+    <string name="mms_server_name_summary">Kimlik belirleme için cihaz adı.</string>
+    <string name="mms_server_not_found">ManagementServers sunucusu henüz ulaşılamadı.</string>
+    <string name="mms_server_password">Parola</string>
+    <string name="mms_server_password_summary">Yetkilendirme parolası.</string>
+    <string name="mms_synch_data">G DATA Management Server ile senkronize et…</string>
+    <string name="mockapp">\"Sahte GPS uygulaması bulundu.\"</string>
+    <string name="monday">Pt</string>
+    <string name="new_filter_title">Yeni filtre ekle</string>
+    <string name="new_group_filter_scheduler_header">Her gün</string>
+    <string name="new_locked_location_adress_header">Adres</string>
+    <string name="new_locked_location_adress_hint" />
+    <string name="new_locked_location_from_hint">Kimden</string>
+    <string name="new_locked_location_header">Tanımlama</string>
+    <string name="new_locked_location_location_activate">Yere bağlı kilitlemeyi etkinleştir</string>
+    <string name="new_locked_location_radius_header">Kapsam</string>
+    <string name="new_locked_location_radius_hint" />
+    <string name="new_locked_location_scheduler_header">Planlama</string>
+    <string name="new_locked_location_till_hint">Bitiş:</string>
+    <string name="new_widget_help">Yeni panik düğmeleri sadece ana ekranınıza pencere öğesi olarak eklenebilir.</string>
+    <string name="news_follow_link">devamını okuyun …</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/tr/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/tr/messages.xml</string>
+    <string name="no_entrys">Hiç giriş yok</string>
+    <string name="notification_accessibility_applock_off_text">G DATA uygulama denetleyicisi aktif olmadığı için uygulama koruma özelliği kapatıldı. Bu hizmet Android Lollipop‘dan itibaren gerekli.</string>
+    <string name="notification_accessibility_applock_off_ticker">Uygulama koruma özelliği kapatıldı.</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name##,</string>
+    <string name="notification_app_installed_clean_ticker_part2">uygulamasını başarıyla kontrol etti.</string>
+    <string name="notification_arp_detection">"Bu WLAN'a muhtemelen müdahale edilmiş."</string>
+    <string name="notification_arp_detection_auto">"Bu WLAN'a muhtemelen müdahale edilmiş."</string>
+    <string name="notification_arp_detection_auto_ticker">"Bu WLAN'a muhtemelen müdahale edilmiş. İhtiyat tedbiri olarak WLAN bağlantınız kesildi."</string>
+    <string name="notification_arp_detection_ticker">"Bu WLAN'a muhtemelen müdahale edilmiş. Şu anda kamuya açık bir WiFi veya güvensiz başka bir ağa bağlıysanız bağlantıyı kesmenizi öneririz."</string>
+    <string name="notification_bssid_detection">"Bu WLAN'a muhtemelen müdahale edilmiş."</string>
+    <string name="notification_bssid_detection_ticker">"Bu WLAN'a muhtemelen müdahale edilmiş. Bu, genişletilmiş analizin sonucudur."</string>
+    <string name="notification_infected">Sisteminizde virüs var!</string>
+    <string name="notification_infected_pup">Sisteminizde muhtemelen virüs var!</string>
+    <string name="notification_infected_pup_ticker">Sisteminizde muhtemelen istenmeyen programlar kurulu.</string>
+    <string name="notification_infected_ticker">Sisteminizde virüs var!</string>
+    <string name="notification_ipx_cancellation_success">Aboneliğiniz başarıyla iptal edildi.</string>
+    <string name="notification_ipx_error">Siparişinizde bir hata oluştu. Lütfen başka bir ödeme yöntemi ile işlem yapmayı deneyin.</string>
+    <string name="notification_ipx_subscription_success">Aboneliğiniz başarıyla düzenlendi.</string>
+    <string name="notification_new_apk_available">Yeni program sürümü mevcut.</string>
+    <string name="notification_new_apk_available_ticker">Programın yeni bir sürümü mevcut.</string>
+    <string name="notification_new_news_ticker">Yeni haberler var</string>
+    <string name="notification_new_unread_multiple">Okunmamış %d mesaj var</string>
+    <string name="notification_new_unread_one">Okunmamış 1 mesaj var</string>
+    <string name="notification_persistent_text">etkin</string>
+    <string name="notification_persistent_ticker">\##app_name## başlatıldı.</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">Kur</string>
+    <string name="notification_query_message_news">Okunmamış haberler var.</string>
+    <string name="notification_query_open_news">Haberleri göster</string>
+    <string name="notification_query_start_disinfect">Virüsten temizle</string>
+    <string name="notification_query_start_scan">Tarama başlat</string>
+    <string name="notification_query_start_update">Güncelleştirmeyi başlat</string>
+    <string name="notification_scan_finished_clean">Taramada virüs bulunmadı</string>
+    <string name="notification_scan_outdated">Tarama gerekli</string>
+    <string name="notification_scan_outdated_ticker">Son tarama 7 günden daha önce yapılmış.</string>
+    <string name="notification_sig_file_to_old">İmzalar eskimiş!</string>
+    <string name="notification_sig_file_to_old_ticker">Kullanılan imzalar eskimiş!</string>
+    <string name="notification_usage_time_left">dakika kaldı…</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">Yeni numara olarak ekle</string>
+    <string name="number_picker_add_entries">Girişleri gizle</string>
+    <string name="number_picker_new_contact">Ekle</string>
+    <string name="number_picker_search">Ara</string>
+    <string name="orange">Turuncu</string>
+    <string name="orange_ask_activate">Virüs korumanız güncel olmadığından artık yeterli koruma sağlayacak durumda değil. Akıllı telefonunuzu virüslerden ve tehditlerden korumak için lisans satın almak ister misiniz?</string>
+    <string name="orange_err_no_orange_sim">Bu hizmet sadece Orange Avusturya müşterileri tarafından kullanılabilir.</string>
+    <string name="orange_err_no_sim">SIM kartı takılmadan güncelleştirmeler yüklenemez.</string>
+    <string name="orange_wizard_explaination">Ürünlerle ilgili bilgiler için bu veriler ve kullanım verileri, 12 ay boyunca kullanılabilir.</string>
+    <string name="orange_wizard_purchase_link">Şimdi satın al…</string>
+    <string name="orange_wizard_subtitle">"30 gün boyunca ücretsiz deneyin! 
+
+Tüm premium sürüm özellikleri 30 gün boyunca ücretsiz. Adınızı ve e-posta adresinizi girmeniz yeterli."</string>
+    <string name="outblack">Giden</string>
+    <string name="outwhite">Giden</string>
+    <string name="package_already_uninstalled">Paket zaten silinmiş</string>
+    <string name="panicActionContent">Metin</string>
+    <string name="panicActionType">İşlem</string>
+    <string name="panic_button_dialog_title">İşlemler uygulanıyor …</string>
+    <string name="panic_button_info_text">"Panik düğmesi, acil durumlarda bir mesaj aracılığıyla dostlarınıza sözgelimi bulunduğunuz yeri hızla ve kolayca haber vermenizi sağlar. 
+
+ Bunlar ana ekrana yeni pencere öğesi olarak yerleştirilecek.
+
+"</string>
+    <string name="panic_button_prompt">Yeni mesaj ekle</string>
+    <string name="panic_button_ready">Tamamlandı</string>
+    <string name="panic_call">Arama başlat</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Ara</string>
+    <string name="panic_edittext_hint">Mesajınız…</string>
+    <string name="panic_edittext_hint_header">Başlığınız…</string>
+    <string name="panic_edittext_sender">Adınız…</string>
+    <string name="panic_email">E-posta gönder</string>
+    <string name="panic_email_content">Mesaj</string>
+    <string name="panic_email_header">Konu</string>
+    <string name="panic_email_type">E-posta</string>
+    <string name="panic_form_no_content_error">Lütfen bir mesaj girin.</string>
+    <string name="panic_form_no_number_error">Lütfen bir alıcı girin.</string>
+    <string name="panic_fragment_title">Panik düğmesi</string>
+    <string name="panic_gps_email_last_location">"Sayın Bayan/Bay, #4# adlı müşterimiz tarafından acil durumda iletişim kurulacak kişi olarak seçildiniz. Bu nedenle size şu anda müşterimizin telefonunun bulunduğu yerin koordinatlarını gönderiyoruz.
+
+#0#Telefonun bilinen son yeri şudur: #1#. Yeri haritada görmek için lütfen #2# veya #3# bağlantısını izleyin. Not: Son kullanılan yönlendiricinin MAC adresi: #5#.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"Sayın Bayan/Bay, müşterimiz (#4#) tarafından acil durumda iletişim kurulacak kişi olarak seçildiniz. Bu nedenle size şu anda müşterimizin telefonunun bulunduğu yerin koordinatlarını gönderiyoruz.
+
+#0#Telefonun şu anda bulunduğu yer şudur: #1#. Yeri haritada görmek için lütfen #2# veya #3# bağlantısını izleyin. Not: Son kullanılan yönlendiricinin MAC adresi: #5#.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"Sayın Bayan/Bay, #4# adlı müşterimiz tarafından acil durumda iletişim kurulacak kişi olarak seçildiniz. Bu nedenle size şu anda müşterimizin telefonunun bulunduğu yeri bildirmemiz gerekiyordu. Ancak ne yazık ki şu anda telefonun yerini saptayamıyoruz.
+
+#0# Not: Son kullanılan yönlendiricinin MAC adresi: #5#.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">\#1# telefonunun bilinen son yeri: #2#.</string>
+    <string name="panic_gps_sms_location">\#1# adlı kişinin telefonu #2# koordinatlarında bulundu.</string>
+    <string name="panic_gps_sms_no_location">>#0##4# telefonu, şu anki konumunu saptayamadı.</string>
+    <string name="panic_header">Yeni panik düğmesi oluştur</string>
+    <string name="panic_header_edit">Panik düğmesini düzenle</string>
+    <string name="panic_list_header">Panik düğmesi</string>
+    <string name="panic_location">Yer bilgisini gönder</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">E-posta adresi veya cep telefonu numarası girin:</string>
+    <string name="panic_location_type">Konum</string>
+    <string name="panic_min_actions">En az bir işlem seçmeniz gerekiyor.</string>
+    <string name="panic_sms">SMS gönder</string>
+    <string name="panic_text_message">Mesaj gönder</string>
+    <string name="panic_text_message_content">Mesaj</string>
+    <string name="panic_text_message_type">Mesaj</string>
+    <string name="panic_textview_hint">Rehber girişiniz…</string>
+    <string name="panic_trigger_email">E-posta gönder</string>
+    <string name="panic_trigger_emergency_call">Acil durum çağrısı başlat</string>
+    <string name="panic_trigger_location">Konum bilgisini gönder</string>
+    <string name="panic_trigger_sms">SMS gönder</string>
+    <string name="panic_unknown_sender">Belirtilmedi</string>
+    <string name="panic_wizard_description_one">Acil durum düğmesine basıldığında başlatılacak işlemlerden birini ekleyin.</string>
+    <string name="panic_wizard_description_sender">İşlemlerden bazıları için gönderen adı olarak adınızın kullanılması gerekir:</string>
+    <string name="panic_wizard_description_three">Rehber girişlerinizden, acil durumda haber verilecek bir kişi seçin.</string>
+    <string name="panic_wizard_two_desc_call">Bu işlem, acil durumda iletişim kurulacak kişiye doğrudan acil çağrı başlatır.</string>
+    <string name="panic_wizard_two_desc_email">Bu işlem, girdiğiniz mesajı doğrudan acil durumda iletişim kurulacak kişiye gönderir.</string>
+    <string name="panic_wizard_two_desc_location">Bu işlem, acil durum sırasında bulunduğunuz yerin koordinatlarını doğrudan acil durumda iletişim kurulacak kişiye gönderir.</string>
+    <string name="panic_wizard_two_desc_message">Bu işlem, girdiğiniz mesajı doğrudan acil durumda iletişim kurulacak kişiye gönderir.</string>
+    <string name="panicbutton">Panik düğmesi</string>
+    <string name="panicbutton_big">G DATA L panik düğmesi</string>
+    <string name="panicbutton_medium">G DATA M panik düğmesi</string>
+    <string name="panicbutton_small">G DATA S panik düğmesi</string>
+    <string name="periodic_scan_type_summary">Kurulu uygulamalara hızlı tarama mı uygulanacağını yoksa komple sistem taraması mı yapılacağını belirler.</string>
+    <string name="periodic_scan_type_title">Tür</string>
+    <string name="permission_access_network_state_desc">Ağ bağlantılarını görüntüleme</string>
+    <string name="permission_access_wifi_state_desc">WLAN bağlantılarını görüntüleme</string>
+    <string name="permission_additional_fees_desc">Bu yüzden ücret ödemeniz gerekebilir</string>
+    <string name="permission_authenticate_accounts_desc">Hesap oluşturma ve parola koyma</string>
+    <string name="permission_billing_desc">Google Play muhasebe hizmeti</string>
+    <string name="permission_broadcast_sticky_desc">Sürekli yayın gönderme</string>
+    <string name="permission_call_phone_desc">Telefon numaralarını doğrudan arama</string>
+    <string name="permission_change_wifi_state_desc">WLAN bağlantısı kurma veya bağlantıyı kesme</string>
+    <string name="permission_check_license_desc">Google Play lisans sınaması</string>
+    <string name="permission_full_network_access_desc">Tam ağ erişimi</string>
+    <string name="permission_get_accounts_desc">Cihazdaki hesapları arama</string>
+    <string name="permission_get_tasks_desc">Etkin durumdaki uygulamaları çağırma</string>
+    <string name="permission_internet_desc">"Uygulamalar, Internet'e erişebilir."</string>
+    <string name="permission_internet_desc_detail">"Internet'e erişmesine izin verilen uygulamalar:"</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">Internet erişimi</string>
+    <string name="permission_location_coarse_desc">Uygulamalar telefonunuzun yaklaşık yerini sorgulayabilir.</string>
+    <string name="permission_location_coarse_desc_detail">Telefonunuzun yaklaşık yer bilgilerini sorgulamasına izin verilen uygulamalar:</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">Şebeke/WiFi ile yer belirleme</string>
+    <string name="permission_location_desc">Tam konum (GPS ve ağa dayalı olarak)</string>
+    <string name="permission_location_fine_desc">Uygulamalar, telefonunuzun tam yerini sorgulayabilir.</string>
+    <string name="permission_location_fine_desc_detail">Telefonunuzun kesin yer bilgilerini sorgulamasına izin verilen uygulamalar:</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">GPS üzerinden yer belirleme</string>
+    <string name="permission_manage_accounts_desc">Cihazdaki hesapları kullanma</string>
+    <string name="permission_outgoing_calls_desc">Uygulamalar telefon araması başlatabilir.</string>
+    <string name="permission_outgoing_calls_desc_detail">Telefon araması başlatmasına izin verilen uygulamalar:</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">Telefon aramaları</string>
+    <string name="permission_outgoing_sms_desc">Uygulamalar SMS gönderebilir.</string>
+    <string name="permission_outgoing_sms_desc_detail">SMS göndermesine izin verilen uygulamalar:</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">SMS</string>
+    <string name="permission_process_outgoing_calls_desc">Giden aramaları yönlendirme</string>
+    <string name="permission_read_call_logs_desc">Arama günlüğünü okuma</string>
+    <string name="permission_read_contacts_desc">Uygulamalar, adres defterinize erişebilir.</string>
+    <string name="permission_read_contacts_desc_detail">Adres defterine erişmesine izin verilen uygulamalar:</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">Adres defteri</string>
+    <string name="permission_read_history_bookmarks_desc">Web sayfaları ve Web günlüğü için yer işaretlerini okuma</string>
+    <string name="permission_read_logs_desc">Uygulamalar, sistem günlük dosyalarını okuyabilir.</string>
+    <string name="permission_read_logs_desc_detail">Sistem günlük dosyalarına erişmesine izin verilen uygulamalar. Bu günlük dosyalarında kişisel bilgiler bulunabilir:</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">Günlük dosyaları</string>
+    <string name="permission_read_phone_state_desc">Telefon durumu ve kimlik bilgilerini isteme</string>
+    <string name="permission_read_sms_desc">SMS veya MMS okuma</string>
+    <string name="permission_read_sync_settings_desc">Senkronizasyon ayarlarını okuma</string>
+    <string name="permission_receive_boot_completed_desc">Başlangıçta çalıştırma</string>
+    <string name="permission_receive_sms_desc">SMS alma</string>
+    <string name="permission_reorder_tasks_desc">Etkin durumdaki uygulamaları yeniden sıralama</string>
+    <string name="permission_send_sms_desc">Kısa mesaj gönderme</string>
+    <string name="permission_use_credentials_desc">Hesap ekleme veya kaldırma</string>
+    <string name="permission_write_call_logs_desc">Arama günlüğünü düzenleme</string>
+    <string name="permission_write_contacts_desc">Telefon rehberindeki iletişim bilgileri üzerinde değişiklik yapma</string>
+    <string name="permission_write_external_storage_desc">SD kart içeriklerini değiştirme veya silme</string>
+    <string name="permission_write_settings_desc">Sistem ayarlarını değiştirme</string>
+    <string name="permission_write_sms_desc">SMS veya MMS düzenleme</string>
+    <string name="permission_write_sync_settings_desc">Senkronizasyonu etkinleştirme veya devre dışı bırakma</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">\##app_name## uygulaması, bu Web sayfasının yüklenmesini iptal etti. &lt;br/>Bu sayfa, bilinen bir olta atma sayfasıdır.</string>
+    <string name="phishing_blocked_title">Web sayfası engellendi!</string>
+    <string name="phishing_checkbox_label">Web korumasını aç</string>
+    <string name="phishing_intro">Web koruması, Android tarayıcısı ve Chrome tarayıcısı üzerinden olta atma saldırılarını önler. Anonim moddayken, olta atma saldırılarına karşı koruma sağlamanın mümkün olmadığını lütfen unutmayın.</string>
+    <string name="phishing_intro_long">Olta atma kavramından, kullanıcı adı, parolalar, kredi kartı numarası, banka kayıtlarına erişim bilgileri gibi kişisel verilerin sahte Web siteleri veya istenmeyen e-postalar aracılığıyla elde etme girişimi anlaşılır. Olta atma girişimleri çoğunlukla, Internet bankacılık hizmetleri veren bankaların, ödeme hizmetlerinin, Internet Servis Sağlayıcılarının veya çevrimiçi alışveriş sitelerinin müşterilerini hedef alır. Bunun için kullanıcı çoğunlukla e-posta veya anlık ileti üzerinden, gerçek Web sitelerinin çok iyi taklitleri olan sahte Web sitelerine yönlendirilir.</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">Hata</string>
+    <string name="plasma_status_code_cancel">İşlem iptal edildi</string>
+    <string name="plasma_status_code_invalidaccount">Geçersiz hesap</string>
+    <string name="plasma_status_code_invalidcreditcard">Geçersiz kredi kartı bilgileri</string>
+    <string name="plasma_status_code_itemgroupidnotfound">Geçersiz sipariş işlemi</string>
+    <string name="plasma_status_code_itemidnotfound">Geçersiz sipariş işlemi</string>
+    <string name="plasma_status_code_networkerror">Ağ hatası</string>
+    <string name="plasma_status_code_paymentidnotfound">Geçersiz sipariş işlemi</string>
+    <string name="plasma_status_code_processerror">İşleme hatası</string>
+    <string name="plasma_status_code_serviceunavailable">Hizmet mevcut değil</string>
+    <string name="plasma_status_code_success">İşlem başarıyla tamamlandı</string>
+    <string name="plasma_try_later">Lütfen hesap ayarlarınızı kontrol edin veya daha sonra tekrar deneyin</string>
+    <string name="postTime" />
+    <string name="preTime" />
+    <string name="pref_category_account">Erişim bilgileri ve abonelikler</string>
+    <string name="pref_category_account_summary">Erişim bilgilerini yönet</string>
+    <string name="pref_category_default">Genel</string>
+    <string name="pref_category_licenses">Yazılım lisansları</string>
+    <string name="pref_category_mms">Uzak yönetim</string>
+    <string name="pref_category_scan">Virüs kontrolü</string>
+    <string name="pref_category_scan_header">Virüs kontrolü</string>
+    <string name="pref_category_scan_summary">Otomatik kontrol ayarları.</string>
+    <string name="pref_category_timedUpdate">Güncelleştirmeler</string>
+    <string name="pref_category_webportal">Web Portalı</string>
+    <string name="pref_category_webshield">Web Koruması</string>
+    <string name="pref_licenses">Açık kaynak lisansları</string>
+    <string name="pref_licenses_summary">Açık kaynak yazılım lisans ayrıntılarını göster</string>
+    <string name="privacy_applying_privacy">Veriler gizlenecek</string>
+    <string name="privacy_blocked_call">%1$s tarafından yapılan aramalar engellendi</string>
+    <string name="privacy_blocked_sms">SMS, %1$s tarafından alındı</string>
+    <string name="privacy_call_history">Arama geçmişi</string>
+    <string name="privacy_call_text">Ara</string>
+    <string name="privacy_cancel">İptal</string>
+    <string name="privacy_chat_history">Sohbet geçmişi</string>
+    <string name="privacy_clear_logs">Arama geçmişini sil</string>
+    <string name="privacy_contact">Kişisel iletişim bilgisi</string>
+    <string name="privacy_contact_add">Rehber girişi veya numara ekle</string>
+    <string name="privacy_contact_picture">Rehber girişi resmi</string>
+    <string name="privacy_contact_remove">Seçilenleri kaldır</string>
+    <string name="privacy_contacts">Gizlenmiş telefon rehberi girişlerini yönet</string>
+    <string name="privacy_data_loss">Ayrıca, şu anda gizlenmiş durumda olan rehber girişlerinin bütün bilgileri silinir.</string>
+    <string name="privacy_deleted_user">Silinen telefon rehberi girişi</string>
+    <string name="privacy_detail">Ayrıntılar</string>
+    <string name="privacy_disable_privacy">Korumayı devre dışı bırak</string>
+    <string name="privacy_do_hide">Gizlensin</string>
+    <string name="privacy_do_not_hide">Gizlenmesin</string>
+    <string name="privacy_enable_privacy">Korumayı etkinleştir</string>
+    <string name="privacy_hidden_contacts">Gizlenen telefon rehberi girişleri</string>
+    <string name="privacy_hide_contacts">Telefon rehberi girişlerini gizle</string>
+    <string name="privacy_known_contacts">Telefon rehberi girişleri</string>
+    <string name="privacy_managecontacts">Gizlenen telefon rehberi girişlerini yönet</string>
+    <string name="privacy_move_to_phone_header">Rehber girişini düzenle</string>
+    <string name="privacy_no_chat_history">Mesaj yok</string>
+    <string name="privacy_no_hidden_contacts">Gizlemek istediğiniz numaraları seçmek için, başlık satırındaki + işaretine dokunun.</string>
+    <string name="privacy_remove_contacts">Girişi sil</string>
+    <string name="privacy_remove_conversations">Mesajları gizle</string>
+    <string name="privacy_restoring_privacy">Veriler geri yüklenecek</string>
+    <string name="privacy_send_message_text">Mesaj gönder</string>
+    <string name="privacy_sim_contacs_to_phone">Bu rehber girişi bir hesap üzerinden senkronize edilmiştir. Senkronizasyon sorunlarını önlemek için bu hesabın gizlenmeden önce telefon rehberine taşınması gerekir.</string>
+    <string name="privacy_suppres_communication">Gelen mesajları gizle</string>
+    <string name="privacy_title">Telefon rehberi girişlerini gizle</string>
+    <string name="profile_config_title">Profil seç</string>
+    <string name="profile_create_new">Yeni profil oluştur</string>
+    <string name="profile_title">Profil adı</string>
+    <string name="progress_deleting_infected_files">Virüslü dosyalar siliniyor. Lütfen bekleyin…</string>
+    <string name="protected_features">"Bu işlev, ancak uygulamanın etkinleştirilmesinden sonra kullanılabilir.
+
+Etkinleştirme işlemini şimdi yapmak ister misiniz?"</string>
+    <string name="protectuninstall_text">Bu işlemin ardından sisteminizin korumasız kalacağını unutmayın.</string>
+    <string name="protectuninstall_title">\##app_name## uygulaması kaldırılsın mı?</string>
+    <string name="purchase_article">Ürün</string>
+    <string name="purchase_article_number">Ürün numarası</string>
+    <string name="purchase_date">Tarih</string>
+    <string name="purchase_information">Sipariş bilgileri</string>
+    <string name="purchase_number">Sipariş numarası</string>
+    <string name="purchase_price">Fiyatı</string>
+    <string name="red">Kırmızı</string>
+    <string name="remote_device_located">Cihazın yeri saptandı.</string>
+    <string name="remote_device_locating">Cihaz, konum belirleme işlemi başlatıyor.</string>
+    <string name="remote_lock_fail">Cihaz kilitlenemedi.</string>
+    <string name="remote_lock_no_password">Cihaz parolasız olarak kilitlendi.</string>
+    <string name="remote_lock_ok">Cihaz başarılı şekilde kilitlendi.</string>
+    <string name="remote_lock_password_reset">Cihaz uzaktan bakım parolasıyla başarılı şekilde kilitlendi.</string>
+    <string name="remote_set_password_fail">Parola değiştirilemedi.</string>
+    <string name="remote_set_password_ok">Parola başarılı şekilde değiştirildi.</string>
+    <string name="report_dialog_title">Bize yardımcı olun!</string>
+    <string name="restriction_locked_for_a_day">Engelleme, sonraki gün için devre dışıdır.</string>
+    <string name="restriction_locked_for_till_restart">"Kilitleme, Çocuk Koruması'nın bundan sonraki başlatılışına kadar devre dışı bırakıldı."</string>
+    <string name="saturday">Ct</string>
+    <string name="saveProtocolls_summary">Sistem kontrolü sırasında oluşturulan günlükleri kaydeder.</string>
+    <string name="saveProtocolls_title">Günlükleri kaydet</string>
+    <string name="scanOnInstall_summary">Yeni kurulan uygulamaları otomatik olarak kontrol et.</string>
+    <string name="scanOnInstall_title">Uygulama kurulurken</string>
+    <string name="scan_power_connected_summary">Arka planda tarama, sadece cihaz şarj edilirken yapılsın.</string>
+    <string name="scan_power_connected_title">Sadece şarj işleminde</string>
+    <string name="scan_service_infection">Otomatik kontrol sırasında zararlı yazılım bulundu.</string>
+    <string name="scan_service_ok">Otomatik kontrol, tamamlandı. Virüs bulunmadı.</string>
+    <string name="scan_skip_power_low_summary">Pil boşalmaya yaklaştığında arka planda tarama yapılmasın</string>
+    <string name="scan_skip_power_low_title">Pil tasarruf modu</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">Kurulu uygulamalar</string>
+    <string name="scan_type_system">Sistem (komple tarama)</string>
+    <string name="security_hub_log_title">Mesajlar</string>
+    <string name="security_hub_scan_manually_canceled">Tarama, kullanıcı tarafından durduruldu</string>
+    <string name="security_hub_subtitle_empty">Her şey yolunda</string>
+    <string name="security_hub_subtitle_empty_trial">Lisans / deneme süresi %d gün içinde sona erecek.</string>
+    <string name="security_hub_subtitle_empty_trial_expired">Lisans / deneme süresi doldu.</string>
+    <string name="security_hub_title">Güvenlik merkezi</string>
+    <string name="sendErrorReports_summary">"Hata raporlarını G DATA Software AG'ye gönderir. Veri aktarımı, şebeke operatörünüz tarafından ücretlendirilebilir."</string>
+    <string name="sendErrorReports_title">Hata raporlarını gönder</string>
+    <string name="sendSMS">Gönder</string>
+    <string name="sendUsageData_summary">Verileri, G DATA Software AG araştırma geliştirme bölümüne gönderir. Veri aktarımı, şebeke operatörünüz tarafından ücretlendirilebilir.</string>
+    <string name="sendUsageData_title">İstatistikleri gönder</string>
+    <string name="send_email">E-posta gönder</string>
+    <string name="send_location">Yer bilgisini gönder</string>
+    <string name="send_sms">SMS gönder</string>
+    <string name="server_license_expired">Sunucu lisansının süresi doldu. Lütfen yöneticinize başvurun.</string>
+    <string name="showTrayIcon_title">Sistem bildirim alanı simgesi</string>
+    <string name="showTrayIcons_summary">Sistem bildirim çubuğunda ##app_name## logosunu görüntüler.</string>
+    <string name="sim_change_message">Cihazınızdaki SIM kartı değiştirildi.</string>
+    <string name="sim_change_message_subscriber">Yeni arama numarası:</string>
+    <string name="sms_answer_device_password_failed">Parola kurallarına uymadığından, parola belirlenemedi.</string>
+    <string name="sms_answer_device_password_succeeded">Parola başarılı bir şekilde belirlendi.</string>
+    <string name="sms_answer_latest_known">Telefonunuzun bilinen son yeri #1# idi.</string>
+    <string name="sms_answer_location">Telefonunuz, #1# koordinatlarında bulundu.</string>
+    <string name="sms_answer_lock">Cihaz kilitlendi.</string>
+    <string name="sms_answer_lock_fail">Cihaz kilitlenemedi.</string>
+    <string name="sms_answer_lock_no_password">Cihazınızın ekranı kapatıldı. Kilit konulmadı.</string>
+    <string name="sms_answer_lock_reset_password">Cihaz, SMS komutu parolanızla kilitlendi.</string>
+    <string name="sms_answer_no_location">\#0#Telefonunuz şu anki yerini saptayamadı.</string>
+    <string name="sms_answer_reset_password_failed">Dört karakterden daha azını içerdiğinden parola belirlenemedi.</string>
+    <string name="sms_answer_reset_password_succeeded">SMS parolası başarılı bir şekilde belirlendi.</string>
+    <string name="sms_answer_service_disabled">"GPS kapatılmış veya kullanılamıyor. "</string>
+    <string name="sms_answer_wipe">Cihazın silinmesi başlatıldı.</string>
+    <string name="sms_command_email_summary">E-posta</string>
+    <string name="sms_command_email_title">Saptanan konumlar için ek e-posta adresi.</string>
+    <string name="sms_email_answer_latest_known">"Sayın Müşterimiz,
+
+#0#Telefonunuzun bilinen son yeri #1# idi. Haritada görmek için lütfen #2# bağlantısını veya alternatif olarak #3# bağlantısını kullanın.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"Sayın Müşterimiz,
+
+Telefonunuz #1# koordinatlarında bulundu. Haritada görmek için lütfen #2# bağlantısını veya alternatif olarak #3# bağlantısını kullanın.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"Sayın Müşterimiz,
+
+Telefonunuz başarıyla kilitlendi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"Sayın müşterimiz,
+
+Telefonunuz kilitlenemedi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"Sayın Müşterimiz,
+
+Telefonunuzun ekranı kapatıldı. Ancak kilit konulmadı.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"Sayın Müşterimiz,
+
+Telefonunuz SMS komutu parolanızla kilitlendi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"Sayın Müşterimiz,
+
+#0#Telefonunuzun yeri saptanamıyor.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"Sayın Müşterimiz,
+
+Yeni SMS komutu parolası başarıyla belirlendi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"Sayın Müşterimiz,
+
+SMS komutu parolası belirlenemedi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"Sayın Müşterimiz,
+
+Telefonunuzun ekran kilidi parolası başarıyla belirlendi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"Sayın Müşterimiz,
+
+Telefonunuzun ekran kilidi parolası belirlenemedi.
+
+Saygılarımızla
+G DATA Software AG"</string>
+    <string name="sms_enter_text">Lütfen önce gönderilecek mesajı girin.</string>
+    <string name="sms_not_sent">"SMS'iniz gönderilemedi. Bağlantınızı kontrol edin."</string>
+    <string name="sms_self">Ben</string>
+    <string name="sms_sent">SMS gönderildi</string>
+    <string name="spoof_detection_activated_summary">ARP tablosunun girişlerini gözetim altında tut</string>
+    <string name="spoof_detection_activated_title">WiFi koruması</string>
+    <string name="spoof_detection_advanced_summary">Ek kontrol ve kurallar</string>
+    <string name="spoof_detection_advanced_title">Gelişmiş ayarlar</string>
+    <string name="spoof_detection_network_unreachable">Ağa erişilemiyor</string>
+    <string name="spoof_detection_networks_summary">Bu WLAN ağlarında ARP tablosu gözetimi devre dışı bırakılacak</string>
+    <string name="spoof_detection_networks_title">Güvenilir ağlar</string>
+    <string name="spoof_detection_no_network">Şu anda mevcut ağ yok.</string>
+    <string name="startOnBoot_summary">Sistem başlatılırken ##app_name## uygulamasını başlatır.</string>
+    <string name="startOnBoot_title">Otomatik başlat</string>
+    <string name="sunday">Pa</string>
+    <string name="task_icon_type_always">Her zaman</string>
+    <string name="task_icon_type_if_action">Sadece işlem yapıldığında</string>
+    <string name="task_icon_type_never">Hiçbir zaman</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg">"&lt;a href=tel:*%2306%23>G DATA USSD filtresini şimdi test edin. Testte, cihaz ID'niz (IMEI) gösterilir.&lt;/a>"</string>
+    <string name="textViewHeaderAdd">Rehber girişi seç</string>
+    <string name="text_trial">Yeni hesap oluştur</string>
+    <string name="text_unlock">Benim zaten bir hesabim var</string>
+    <string name="thursday">Pe</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">"Telefon URL'si bloke edildi"</string>
+    <string name="title_activity_tel_ok">"Telefon URL'si kontrol edildi"</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">Kapalı</string>
+    <string name="toggle_on">Açık</string>
+    <string name="trial_app_name">\##app_name## deneme sürümü</string>
+    <string name="trial_err_already_registered">Virüs imzaları için ücretsiz kayıt daha önce gerçekleştirildi. Bir daha ücretsiz kayıt yaptıramazsınız.</string>
+    <string name="trial_not_allowed_expired">"Deneme süresi dolduğundan, bu fonksiyon kullanılamaz.
+
+Şimdi tam sürümü edinmek için başvuruda bulunmak istiyor musunuz?"</string>
+    <string name="trial_not_allowed_unregistered">"Bu fonksiyon ancak bu deneme sürümünün ücretsiz olarak kaydedilmesinden sonra kullanılabilir.
+
+Kayıt işlemini şimdi gerçekleştirmek istiyor musunuz?"</string>
+    <string name="trial_registration_dlg_mess">Düzenli güncelleştirmelere ücretsiz erişiminiz. Lütfen müşteri bilgilerinizi girin. İmza güncelleştirmeleriniz için erişim bilgileri otomatik olarak ##app_name## uygulamasına girilecek, ayrıca e-posta adresinize de gönderilecektir.</string>
+    <string name="tuesday">Sa</string>
+    <string name="uncheck_all">Tümünün seçimini kaldır</string>
+    <string name="undobar_delete">Günlük silindi</string>
+    <string name="undobar_undo">Geri al</string>
+    <string name="unlock_question_1">En sevdiğim hayvan hangisi?</string>
+    <string name="unlock_question_2">Annemin kızlık soyadı ne?</string>
+    <string name="unlock_question_3">En yakın arkadaşımın adı ne?</string>
+    <string name="unlock_question_4">Babamın doğduğu yer neresi?</string>
+    <string name="unlock_question_custom">Sorunuz</string>
+    <string name="unlock_time_1">1 saat</string>
+    <string name="unlock_time_15">15 dakika</string>
+    <string name="unlock_time_2">2 saat</string>
+    <string name="unlock_time_30">30 dakika</string>
+    <string name="unlock_time_4">4 saat</string>
+    <string name="unlock_time_inf">Sonsuz</string>
+    <string name="unlock_time_subtitle">%s uygulamasının ne kadar süreyle kullanılabilir kalacağını belirleyin</string>
+    <string name="unlock_time_title">Uygulamayı serbest bırak:</string>
+    <string name="unlock_wizard">Internet Security</string>
+    <string name="updateWifiOnly_summary">Güncelleştirmeler sadece WLAN bağlantısı kurulduğunda yapılsın.</string>
+    <string name="updateWifiOnly_title">Sadece WLAN üzerinden</string>
+    <string name="update_region_africa">Afrika</string>
+    <string name="update_region_asia">Asya</string>
+    <string name="update_region_asia_china">Asya (Çin)</string>
+    <string name="update_region_asia_india">Asya (Hindistan)</string>
+    <string name="update_region_asia_japan">Asya (Japonya)</string>
+    <string name="update_region_australia">Avustralya</string>
+    <string name="update_region_auto">Otomatik sapta</string>
+    <string name="update_region_europe">Avrupa</string>
+    <string name="update_region_north_america">Kuzey Amerika</string>
+    <string name="update_region_south_america">Güney Amerika</string>
+    <string name="upgrade_offer_err_no_connection">Güncelleştirme bilgileri yüklenemedi. Lütfen ağ bağlantısını kontrol edin.</string>
+    <string name="upgrade_offer_title">Güncelleştirme bilgileri</string>
+    <string name="usage_control_lock_dialog_part1" />
+    <string name="usage_control_lock_dialog_part12" />
+    <string name="usage_control_lock_dialog_part13" />
+    <string name="ussd_filter_title">USSD filtresi</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">ActionCenter tarafından üretilen AuthCode</string>
+    <string name="web_portal_scan_interval">Web Portalı güncelleştirme sıklığı</string>
+    <string name="web_portal_scan_interval_summary">İki senkronizasyon arasındaki süre</string>
+    <string name="web_portal_server_address">Web Portalı sunucusu</string>
+    <string name="web_portal_server_address_summary">Kullanılan Web Portalı sunucusunun adresi</string>
+    <string name="webprotection_dialog_accept">Engelle</string>
+    <string name="webprotection_dialog_continue">Devam</string>
+    <string name="webprotection_dialog_text">Bu site, bilinen bir olta atma sitesi. Ancak riske girmediğinizden eminseniz devam edin.</string>
+    <string name="webprotection_dialog_title">Web Koruması</string>
+    <string name="webshield_activated_summary">Sizi olta atma Web sitelerinden korur. Sadece Android tarayıcısında çalışır.</string>
+    <string name="webshield_activated_title">Web Koruması</string>
+    <string name="webshield_only_wlan_summary">Web sitelerini sadece WLAN bağlantısı kurulduğunda kontrol et.</string>
+    <string name="webshield_only_wlan_title">Sadece WLAN üzerinden</string>
+    <string name="webshield_phishing_timeout_summary">Bir olta atma sitesinin istisna durumunda incelenebileceği süre (saniye).</string>
+    <string name="webshield_phishing_timeout_title">İstisna süresi</string>
+    <string name="wednesday">Ça</string>
+    <string name="whitelist">Beyaz liste</string>
+    <string name="wizard_app_lock">Uygulama koruması sayesinde uygulamalara şifre koyabilirsiniz. Böylece sizin haberiniz olmadan kimse kişisel bilgilerinizi kurcalayamaz.</string>
+    <string name="wizard_audit">\##app_name## uygulamasının şu fonksiyonlarını başarılı şekilde yapılandırdınız:</string>
+    <string name="wizard_audit_subtitle_fail_text">Yapılandırılmadı</string>
+    <string name="wizard_audit_subtitle_succ_text">Yapılandırma başarılı şekilde yapıldı</string>
+    <string name="wizard_audit_title">Denetim</string>
+    <string name="wizard_bt_antitheft_text">Hırsızlık koruması ayarlarını yap</string>
+    <string name="wizard_bt_applock_text">Uygulama koruması ayarlarını yap</string>
+    <string name="wizard_bt_audit_skip_text">Bitir</string>
+    <string name="wizard_bt_callfilter_text">Arama/SMS filtresi ayarlarını yap</string>
+    <string name="wizard_bt_malware_text">Hesabı etkinleştir</string>
+    <string name="wizard_bt_next_text">Atla</string>
+    <string name="wizard_bt_welcomen_skip_text">Devam</string>
+    <string name="wizard_dlg_exit_caption">\##app_name## yardımcısı</string>
+    <string name="wizard_dlg_exit_text">Gerçekten sonlandırılsın mı?</string>
+    <string name="wizard_eula">Son kullanıcı sözleşmesini okudum ve kabul ediyorum.</string>
+    <string name="wizard_eula_not_accpted_warning">Devam etmek için son kullanıcı sözleşmesini kabul etmeniz gerekiyor.</string>
+    <string name="wizard_exit">Sonlandır</string>
+    <string name="wizard_intro">"\##app_name## uygulaması, sadece Internet'te gezinirken değil, yeni uygulamaları muhtemel tehditlere kontrol ederek de cihazınızın ve verilerinizin güvenliğini sağlar."</string>
+    <string name="wizard_lbl_antitheft_headline_text">Hırsızlığa karşı koruma</string>
+    <string name="wizard_lbl_audit_headline_text">\##app_name## denetimi</string>
+    <string name="wizard_lbl_callfilter_headline_text">Arama filtresi</string>
+    <string name="wizard_lbl_malware_headline_text">Zararlı yazılım koruması</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">Bu kayıt ile birlikte otomatik olarak 30 gün boyunca İnternet Security premium özelliklerine erişebilirsiniz. Bu sürenin sonunda malware koruma gibi temel işlevler kalır. Premium özellikleri istediğiniz zaman abonelik yoluyla tekrar etkinleştirebilirsiniz.</string>
+    <string name="wizard_malware_already_registered_text">Zaten müşteri misiniz?</string>
+    <string name="wizard_malware_email_hint">E-posta</string>
+    <string name="wizard_malware_firstname_hint">Ad</string>
+    <string name="wizard_malware_lastname_hint">Soyadı</string>
+    <string name="wizard_malware_proceed_text">Yazılımı etkinleştir…</string>
+    <string name="wizard_password">Bu parola, hırsızlık veya uygulama koruması için gereklidir (farklı ve birbirini izlemeyen en az 4 rakam)</string>
+    <string name="wizard_password_forgot">Parolanızı mı unuttunuz? Bu telefon numarasıyla, SMS komutu yardımıyla parolanızı sıfırlayabilirsiniz. SIM değişikliğini bildiren SMS mesajları bu numaraya gönderilir.</string>
+    <string name="wizard_send_mail">SMS komutlarına gelen yanıtlar ayrıca e-posta adresinize de gönderilir.</string>
+    <string name="wizard_start_header">Daha fazla güvenlik için yardımcınıza hoş geldiniz. Ürünümüzü önce denemek mi istiyorsunuz yoksa zaten lisansınız mı var?</string>
+    <string name="wizard_theft">Hırsızlık koruması sayesinde SMS üzerinden cihazınızın yerini saptayabilir veya cihazı kaybetmeniz durumunda kilitleyebilir ve silebilirsiniz. Otomatik fonksiyonlar, SIM kartı değişikliklerini veya şarj bittiğinde cihazın en son konumunu size bildirebilir.</string>
+    <string name="wizard_uninstall_protection_checkbox">Kaldırma korumasını aç</string>
+    <string name="wizard_uninstall_protection_text">Yetkisiz kaldırma işlemini önlemek için, kaldırma korumasını etkinleştirin (cihaz yöneticisinin etkinleştirilmesini gerektirir)</string>
+    <string name="zoomToSelectPerimeter">Haritanın görünen kısmı kapsam sınırlarını içerir ve yakınlaştırarak veya uzaklaştırarak değiştirilebilir.</string>
+</resources>

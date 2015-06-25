@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_default" android:key="default">
+        <ListPreference android:entries="@array/task_icon_type_entries" android:title="@string/showTrayIcon_title" android:key="TRAY_ICON_TYPE" android:summary="@string/showTrayIcons_summary" android:defaultValue="always" android:dialogTitle="@string/showTrayIcon_title" android:entryValues="@array/task_icon_type_values" />
+        <CheckBoxPreference android:title="@string/kidsbrowser_enabled_title" android:key="BROWSER_ENABLED" android:summary="@string/kidsbrowser_enabled_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_timedUpdate">
+        <CheckBoxPreference android:title="@string/enableUpdate_title" android:key="ENABLE_PERIODIC_UPDATE" android:summary="@string/enableUpdate_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/update_freq" android:title="@string/choose_update_title" android:key="PERIODIC_UPDATE_FREQ" android:summary="@string/choose_update_summary" android:defaultValue="1" android:dialogTitle="@string/dialog_update_freq_title" android:entryValues="@array/update_freq" />
+        <CheckBoxPreference android:title="@string/updateWifiOnly_title" android:key="PERIODIC_UPDATE_WIFI_ONLY" android:summary="@string/updateWifiOnly_summary" android:defaultValue="true" />
+        <ListPreference android:entries="@array/update_region" android:title="@string/choose_update_region_title" android:key="UPDATE_SERVER_REGION" android:summary="@string/choose_update_region_summary" android:defaultValue="" android:dialogTitle="@string/dialog_update_region_title" android:entryValues="@array/update_region_values" />
+        <PreferenceScreen android:title="@string/pref_category_account" android:key="ScanAccountKey" android:summary="@string/pref_category_account_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_scan_header">
+        <PreferenceScreen android:title="@string/pref_category_scan" android:key="ScanPrefsKey" android:summary="@string/pref_category_scan_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_webshield" android:key="webshield">
+        <CheckBoxPreference android:title="@string/webshield_only_wlan_title" android:key="WEBSHIELD_ONLY_WLAN" android:summary="@string/webshield_only_wlan_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/spoof_detection_activated_title" android:key="SPOOF_DETECTION_ACTIVATED" android:summary="@string/spoof_detection_activated_summary" android:defaultValue="false" />
+        <Preference android:title="@string/spoof_detection_networks_title" android:key="DIALOG_TRUSTED_NETWORKS" android:summary="@string/spoof_detection_networks_summary" />
+        <Preference android:title="@string/spoof_detection_advanced_title" android:key="DIALOG_ADVANCED_OPTIONS" android:summary="@string/spoof_detection_advanced_summary" />
+        <Preference android:title="@string/clear_arp_exceptions_title" android:key="CLEAR_ARP_EXCEPTION" android:summary="@string/clear_arp_exceptions_summary" />
+        <EditTextPreference android:title="Sender of ARP logs" android:key="SPOOF_REPORT_SENDER" android:summary="Identifying (nick-)name for the user" />
+        <Preference android:title="Submit logs" android:key="SPOOF_SEND_REPORT" android:summary="Send ARP poisoning detection details" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_licenses">
+        <PreferenceScreen android:title="@string/pref_licenses" android:key="License" android:summary="@string/pref_licenses_summary" />
+        <PreferenceScreen android:title="@string/info_txt_cr" android:key="Version" android:summary="@string/info_txt_versioninfo_name" />
+    </PreferenceCategory>
+</PreferenceScreen>

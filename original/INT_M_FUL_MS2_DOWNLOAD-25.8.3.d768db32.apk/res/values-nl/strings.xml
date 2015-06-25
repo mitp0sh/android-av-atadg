@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">De desinfectie is met succes uitgevoerd.</string>
+    <string name="AppFix_subtitle">Uw systeem is geïnfecteerd. Selecteer de malware die u wilt verwijderen en bevestig het verwijderen in het volgende dialoogvenster.</string>
+    <string name="AppFix_subtitle_pup">Uw systeem bevat mogelijk ongewenste software. Selecteer het item dat u wilt verwijderen en bevestig het verwijderen in het volgende dialoogvenster.</string>
+    <string name="AppFix_subtitle_sideLoaded">Het bestand dat u probeert te installeren, is geïnfecteerd. Selecteer de malware die u wilt verwijderen en bevestig het verwijderen in het volgende dialoogvenster.</string>
+    <string name="AppFix_title">Desinfecteren</string>
+    <string name="AppFix_title_pup">Ongewenste software</string>
+    <string name="AppScan_Malware_found_with_Name">Malware gevonden:</string>
+    <string name="AppScan_amount_was_scanned">De toepassingen zijn gecontroleerd.</string>
+    <string name="MainGuiGridAdapter_permissions">Rechten</string>
+    <string name="MainGuiGridAdapter_protocolls">Logboeken</string>
+    <string name="MainGuiGridAdapter_scan">Viruscontrole</string>
+    <string name="MainGuiGridAdapter_settings">Instellingen</string>
+    <string name="MainGuiGridAdapter_update">Update</string>
+    <string name="PacketViewerGui_name_not_found">FOUT</string>
+    <string name="PacketViewerGui_version">Versie</string>
+    <string name="PermissionUsage_subtitle">Geeft weer welke rechten hoe vaak gebruikt zijn.</string>
+    <string name="PermissionUsage_title">Rechten</string>
+    <string name="ProgressDialog_while_loading_Permissions">De rechten worden gecontroleerd. Even geduld…</string>
+    <string name="ProtocolViewerXml_empty_list">Geen logboeken beschikbaar.</string>
+    <string name="ProtocolViewerXml_motd">Logboeken</string>
+    <string name="ScanGui_finished_dialog_abort_button">Annuleren</string>
+    <string name="ScanGui_finished_dialog_clean">"Controle met succes voltooid.
+Uw systeem bevat geen malware."</string>
+    <string name="ScanGui_finished_dialog_fix_button">Desinfecteren</string>
+    <string name="ScanGui_finished_dialog_infected">"Controle voltooid.
+
+WAARSCHUWING: MALWARE GEVONDEN!"</string>
+    <string name="ScanGui_finished_dialog_ok_button">OK</string>
+    <string name="ScanGui_finished_dialog_warning">"Controle voltooid.
+Er zijn problemen opgetreden."</string>
+    <string name="ScanGui_finished_title">Viruscontrole</string>
+    <string name="ScanGui_menu_applications">Toepassingen</string>
+    <string name="ScanGui_progressdialog_abort_button">Annuleren</string>
+    <string name="ScanGui_progressdialog_title">Systeem controleren</string>
+    <string name="ScanGui_report_fiels_infected">"Controle voltooid.
+
+WAARSCHUWING: MALWARE GEVONDEN!"</string>
+    <string name="ScanGui_report_fiels_ok">"Controle met succes voltooid.
+Uw systeem bevat geen malware."</string>
+    <string name="Scan_scan_button">Start</string>
+    <string name="Scan_spinner_msg">Selecteer het type viruscontrole.</string>
+    <string name="Scan_subtitle">Selecteer het type viruscontrole en bevestig met Start.</string>
+    <string name="Scan_title">Systeem controleren</string>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Gereed</string>
+    <string name="abc_activity_chooser_view_see_all">Alles weergeven</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="ac_device_already_registered">Dit apparaat is al geregistreerd.</string>
+    <string name="ac_server_error">Er is een fout opgetreden, neem contact op met G DATA support</string>
+    <string name="accesibility_service">G DATA App Checker</string>
+    <string name="accman_bt_connectToServer">Verbinding maken</string>
+    <string name="accman_bt_forgottenData">Toegangsgegevens kwijt?</string>
+    <string name="accman_bt_registerAtServer">Bij server aanmelden…</string>
+    <string name="accman_check">Updates zoeken…</string>
+    <string name="accman_check_license">Licentie controleren…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">Mogelijk wilt u graag meer te weten komen over ons nieuwe product:</string>
+    <string name="accman_fixed_content_3">G DATA ##app_name##</string>
+    <string name="accman_fixed_content_4">We hebben hier heel wat bijkomende functies geïntegreerd die uw mobiele toestel nog veiliger maken.</string>
+    <string name="accman_fixed_content_5">Bezoek onze pagina in de Google Play Store voor meer informatie</string>
+    <string name="accman_inapp_text">"Uw toestel is niet meer beschermd tegen de nieuwste bedreigingen.
+Verleng uw licentie nu. Uw toestel is meteen opnieuw beveiligd!"</string>
+    <string name="accman_inapp_title">Uw ##app_name##-licentie is verlopen!</string>
+    <string name="accman_inapp_txt_subs_month">maand</string>
+    <string name="accman_inapp_txt_subs_year">jaar</string>
+    <string name="accman_inapp_txt_subtitle">"
+Laden…"</string>
+    <string name="accman_inapp_txt_subtitle_subs">Beschikbare abonnementen</string>
+    <string name="accman_ipx_bottom_nav_about_text">Info</string>
+    <string name="accman_ipx_bottom_nav_agb_text">Voorwaarden</string>
+    <string name="accman_ipx_bottom_nav_contact_text">Contact</string>
+    <string name="accman_ipx_bottom_nav_faq_text">FAQ</string>
+    <string name="accman_ipx_bottom_nav_sub_text">Abonnementsbeheer</string>
+    <string name="accman_ipx_confirm">BEVESTIGEN</string>
+    <string name="accman_ipx_confirm_dialog_text">\##app_name## informeert u zodra het aankoopproces op de achtergrond is voltooid en uw account is geactiveerd.</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">Door het kopen van een abonnement krijgt u toegang tot alle premiumfuncties van Internet Security en tot regelmatige updates. Facturering via mobiele telefoonrekening.</string>
+    <string name="accman_ipx_infoscreen_title_text">Abonnement voor 1,99 €/maand</string>
+    <string name="accman_ipx_progress_dialog_text">Uw bestelling wordt verwerkt…</string>
+    <string name="accman_ipx_purchase">KOPEN</string>
+    <string name="accman_perform_connect">Verbinding met de server maken…</string>
+    <string name="accman_pre_bt_ok">Volgende</string>
+    <string name="accman_pre_ipx_radio_gdata">G DATA website</string>
+    <string name="accman_pre_ipx_radio_gemalto">Mobiele telefoonrekening</string>
+    <string name="accman_pre_ipx_radio_register">Registreren/activeren</string>
+    <string name="accman_pre_ipx_text_gdata">Kopen via de G DATA website</string>
+    <string name="accman_pre_ipx_text_gemalto">Facturering via uw mobiele telefoonrekening</string>
+    <string name="accman_pre_ipx_text_register">Registreren/activeren</string>
+    <string name="accman_pre_ipx_title">Kopen</string>
+    <string name="accman_pre_radio_activate">Registreren</string>
+    <string name="accman_pre_radio_activate_long">Ik ben een nieuwe klant en wil mij aanmelden bij de G DATA-updateserver.</string>
+    <string name="accman_pre_radio_enter">Toegangsgegevens invoeren</string>
+    <string name="accman_pre_radio_enter_long">Ik wil mij aanmelden met mijn G DATA-gebruikersnaam en -wachtwoord.</string>
+    <string name="accman_pre_tab_activate">Inschakelen</string>
+    <string name="accman_pre_txt_choose">Om toegang te krijgen tot updates, voert u uw toegangsgegevens (gebruikersnaam en wachtwoord) voor de G DATA-updateserver in. Als u nog geen toegangsgegevens hebt, kunt u zich met uw registratienummer bij de G DATA-updateserver registreren.</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">Updates inschakelen</string>
+    <string name="accman_red_bt_buy">Bestellen</string>
+    <string name="accman_red_txt_city">Plaats:*</string>
+    <string name="accman_red_txt_country">Land:*</string>
+    <string name="accman_red_txt_firstname">Voornaam:*</string>
+    <string name="accman_red_txt_fooder">Bij onvolledige of foutieve gegevens behoudt G DATA zich het recht voor om de toegang tot online-updates zonder kennisgeving te blokkeren. De met een * gemarkeerde velden zijn verplicht.</string>
+    <string name="accman_red_txt_mail">E-mail:*</string>
+    <string name="accman_red_txt_phone">Telefoon:</string>
+    <string name="accman_red_txt_plz">Postcode:*</string>
+    <string name="accman_red_txt_street">Straat, nr.:*</string>
+    <string name="accman_red_txt_surname">Achternaam:</string>
+    <string name="accman_red_txt_title">Aanspreektitel:*</string>
+    <string name="accman_register_bt_register">Aanmelden</string>
+    <string name="accman_register_checkbox_agb">Ik ga ermee akkoord dat de door mij opgegeven gegevens en de door het gebruik ontstane gegevens voor aan mij gerichte reclame mogen worden opgeslagen en gebruikt.</string>
+    <string name="accman_register_checkbox_agb_oempartner">Ik ga ermee akkoord dat de door mij opgegeven gegevens en de door het gebruik ontstane gegevens voor aan mij gerichte reclame mogen worden doorgegeven aan oem_partner_company, opgeslagen en gebruikt.</string>
+    <string name="accman_register_progress">Registratiegegevens overdragen…</string>
+    <string name="accman_register_purchase_link_text">Geen registratienummer?</string>
+    <string name="accman_register_purchase_proceed_link_text">Koop een licentie…</string>
+    <string name="accman_register_txt_email">E-mail</string>
+    <string name="accman_register_txt_forename">Voornaam</string>
+    <string name="accman_register_txt_header">Bestelling</string>
+    <string name="accman_register_txt_merchant">Verdelersnr. (optioneel)</string>
+    <string name="accman_register_txt_mobile">Mobiel nummer</string>
+    <string name="accman_register_txt_regnum">Registratienummer</string>
+    <string name="accman_register_txt_subtitle">Voer hier uw registratienummer en contactgegevens in. De toegangsgegevens voor uw handtekeningupdates worden vervolgens automatisch in ##app_name## ingevoerd en u ontvangt deze tevens via e-mail.</string>
+    <string name="accman_register_txt_surename">Naam</string>
+    <string name="accman_register_txt_title">Aanmelden bij de handtekeningupdates</string>
+    <string name="accman_txt_password">Wachtwoord</string>
+    <string name="accman_txt_subtitle">Voer onder Gebruikersnaam en Wachtwoord uw logingegevens voor regelmatige updates in.</string>
+    <string name="accman_txt_title">Premiumfuncties activeren</string>
+    <string name="accman_txt_username">Gebruikersnaam</string>
+    <string name="accman_unlock_auth">Updates inschakelen…</string>
+    <string name="accman_updateinfos_bt_ok">Volgende</string>
+    <string name="accman_updateinfos_radio_activate">Updates inschakelen</string>
+    <string name="accman_updateinfos_radio_activate_long">Ik heb ##app_name## inclusief updates of een ander product van G DATA al gekocht en wil de toegang tot updates activeren.</string>
+    <string name="accman_updateinfos_radio_inform">Updateaanbieding weergeven</string>
+    <string name="accman_updateinfos_radio_inform_long">Ik heb een gratis versie van ##app_name## (zonder updates) geïnstalleerd en ben geïnteresseerd in een licentie voor het laden van updates.</string>
+    <string name="accman_updateinfos_txt_choose">Het aantal mobiele schadelijke bestanden blijft toenemen. Met regelmatige updates bent u steeds beschermd tegen toekomstige malware.</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">Updates inschakelen</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">minstens 4 tekens</string>
+    <string name="action_center_summary">Beheer uw apparaat op een eenvoudige manier met het ActionCenter http://ac.gdata.de</string>
+    <string name="action_portal_password">Wachtwoord ActionCenter</string>
+    <string name="action_portal_register_device">Apparaat registreren</string>
+    <string name="action_portal_user_name">Gebruikersnaam ActionCenter</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="activate_location_services">Sta de toegang tot de locatie toe om de functie van de geografische blokkering te garanderen.</string>
+    <string name="activate_mms_connection">Onderhoud op afstand inschakelen</string>
+    <string name="activate_updates">Updates inschakelen</string>
+    <string name="activate_updates_info">Activeer de updates zodat u beschermd bent tegen de nieuwste mobiele bedreigingen.</string>
+    <string name="active">Actief</string>
+    <string name="add_action">Actie toevoegen</string>
+    <string name="add_title_to">Toevoegen (##to##)</string>
+    <string name="added_app_to_protection">Selectie is aan de app-beveiliging toegevoegd</string>
+    <string name="admin_receiver_status_disable_warning">Als u de rechten uitschakelt, kan ##app_name## geen verloren gegane toestellen blokkeren of wissen.</string>
+    <string name="admin_receiver_status_disabled">Verloren gegane toestellen kunnen niet worden geblokkeerd of gewist omdat de rechten werden ingetrokken.</string>
+    <string name="alarm_action_title">Actie:</string>
+    <string name="alarm_email_number">E-mailadressen</string>
+    <string name="alarm_sms_number">Nummer</string>
+    <string name="alarm_text_include_location">Locatiegegevens opnemen</string>
+    <string name="anonym">Anoniem</string>
+    <string name="antiphish_last_domain">laatst gecontroleerde domein:</string>
+    <string name="antiphishing_info">Webbeveiliging</string>
+    <string name="antitheft_changed_data">Gewijzigde gegevens</string>
+    <string name="antitheft_correct">Corrigeren</string>
+    <string name="antitheft_discard">Negeren</string>
+    <string name="antitheft_discard_or_correct">Wilt u uw wijzigingen negeren of corrigeren?</string>
+    <string name="antitheft_edit_mode">Gegevens wijzigen</string>
+    <string name="antitheft_email">Antwoorden op sms-opdrachten tevens naar het volgende e-mailadres verzenden:</string>
+    <string name="antitheft_email_long">Antwoorden op sms-opdrachten (bijv. de positiegegevens) worden via sms verzonden naar het toestel waarmee de opdracht werd verzonden. Bovendien kunt u het antwoord ook via e-mail ontvangen. Voer daarvoor hier uw e-mailadres in.</string>
+    <string name="antitheft_email_subject">Informatie over ##app_name##</string>
+    <string name="antitheft_email_test">E-mail testen</string>
+    <string name="antitheft_error_email">Het ingevoerde e-mailadres heeft geen geldige opmaak.</string>
+    <string name="antitheft_error_enter_password">Voer eerst een wachtwoord in.</string>
+    <string name="antitheft_error_password_too_simple">Kies een ander wachtwoord. Het ingevoerde wachtwoord is onveilig.</string>
+    <string name="antitheft_error_repeat_password">Herhaal eerst het wachtwoord.</string>
+    <string name="antitheft_error_repeat_phone">Herhaal eerst het telefoonnummer.</string>
+    <string name="antitheft_error_repeat_phone_wrongly">De ingevoerde telefoonnummers komen niet overeen.</string>
+    <string name="antitheft_error_repeat_wrongly">De ingevoerde wachtwoorden komen niet overeen.</string>
+    <string name="antitheft_help">Help</string>
+    <string name="antitheft_help_intro">In dit overzicht ziet u welke opdrachten u via sms naar uw toestel kunt sturen. Antwoorden worden verzonden naar het toestel waarmee de sms-opdracht werd verzonden. Als u een e-mailadres hebt opgegeven, worden de antwoorden tevens via e-mail verzonden.</string>
+    <string name="antitheft_help_locate">&lt;i>password&lt;/i> &lt;b>locate&lt;/b> &lt;br/> &lt;br/>De positiegegevens van het toestel worden verzonden.</string>
+    <string name="antitheft_help_lock">&lt;i>password&lt;/i> &lt;b>lock&lt;/b> &lt;br/> &lt;br/>Veroorzaakt de vergrendeling van het beeldscherm (stand-by).&lt;br/>Als geen wachtwoord voor de vergrendeling van het beeldscherm is ingesteld, wordt het wachtwoord automatisch ingesteld voor SMS-opdrachten.</string>
+    <string name="antitheft_help_mute">&lt;i>password&lt;/i> &lt;b>mute&lt;/b> &lt;br/> &lt;br/>Dempt het geluid van de telefoon.</string>
+    <string name="antitheft_help_reset_remote_password">&lt;b>remote password reset:&lt;/b> &lt;i>new password&lt;/i> &lt;br/> &lt;br/>Wachtwoord voor sms-opdrachten opnieuw instellen. Deze opdracht moet vanaf het vooraf opgeslagen telefoonnummer worden verzonden.</string>
+    <string name="antitheft_help_ring">&lt;i>password&lt;/i> &lt;b>ring&lt;/b> &lt;br/> &lt;br/>Speelt een waarschuwingsgeluid af. Dit wordt na het starten of het ontgrendelen van de toepassing uitgeschakeld.</string>
+    <string name="antitheft_help_set_device_password">&lt;i>password&lt;/i> &lt;b>set device password:&lt;/b> &lt;i>device password&lt;/i> &lt;br/> &lt;br/>Stelt een wachtwoord voor de vergrendeling van het beeldscherm in. Verstuur vervolgens de opdracht &lt;i>lock&lt;/i> om de vergrendeling te activeren.</string>
+    <string name="antitheft_help_title">Verlies/diefstal help</string>
+    <string name="antitheft_help_wipe">&lt;i>password&lt;/i> &lt;b>wipe&lt;/b> &lt;br/> &lt;br/>Zet het toestel terug naar de fabrieksinstellingen. Alle gegevens worden verwijderd.</string>
+    <string name="antitheft_hint_change_password">Wachtwoord wijzigen</string>
+    <string name="antitheft_hint_email">E-mailadres</string>
+    <string name="antitheft_hint_new_password">Wachtwoord invoeren</string>
+    <string name="antitheft_hint_phone">Telefoonnummer invoeren</string>
+    <string name="antitheft_hint_repeat_password">Wachtwoord herhalen</string>
+    <string name="antitheft_hint_repeat_phone">Telefoonnummer herhalen</string>
+    <string name="antitheft_intro">Hebt u uw toestel verloren of is het gestolen?</string>
+    <string name="antitheft_intro_long">"Wat gebeurt er wanneer u uw toestel verloren bent of wanneer het gestolen is?
+In dat geval kunt u door een sms te verzenden een actie starten op uw toestel. U kunt zich bijvoorbeeld de positie van het toestel laten toesturen of alle persoonlijke gegevens op het toestel verwijderen, zodat deze niet in de verkeerde handen terechtkomen."</string>
+    <string name="antitheft_intro_title">Verlies/diefstal</string>
+    <string name="antitheft_mac_unknown">onbekend</string>
+    <string name="antitheft_notify_sim_changed">De simkaart in uw toestel is vervangen. Druk hier om de nieuwe simkaart te registreren.</string>
+    <string name="antitheft_option_detect_sim_change">Controleren of de simkaart van de telefoon is vervangen.</string>
+    <string name="antitheft_option_headset_subtitle_text">Beveiliging via headsetaansluiting</string>
+    <string name="antitheft_option_headset_title_text">Selecteer deze optie om een alarmsignaal te laten horen wanneer de headset wordt losgekoppeld:</string>
+    <string name="antitheft_option_locate">Apparaat lokaliseren</string>
+    <string name="antitheft_option_locate_sim_change">Telefoon bij vervanging van de simkaart lokaliseren</string>
+    <string name="antitheft_option_lock">Beeldscherm vergrendelen</string>
+    <string name="antitheft_option_lock_sim_change">Telefoon bij vervanging van de simkaart blokkeren</string>
+    <string name="antitheft_option_mute">Apparaat dempen</string>
+    <string name="antitheft_option_ring">Waarschuwingsgeluid afspelen</string>
+    <string name="antitheft_option_set_device_password">Wachtwoord voor de beeldschermvergrendeling instellen</string>
+    <string name="antitheft_option_signal_flare">Apparaat lokaliseren bij laag batterijvermogen en positiegegevens naar het geregistreerde telefoonnummer/e-mailadres verzenden.</string>
+    <string name="antitheft_option_signal_flare_text">Als de batterij leeg is en het apparaat uitgeschakeld is, kan het niet meer worden gelokaliseerd. Daarom bevelen we automatisch lokaliseren bij laag batterijvermogen aan:</string>
+    <string name="antitheft_option_wipe">Persoonlijke gegevens verwijderen</string>
+    <string name="antitheft_password">Stuur een sms-opdracht naar uw toestel met het volgende wachtwoord om de locatie van het toestel te bepalen of uw gegevens te beveiligen (minstens vier verschillende, niet op elkaar volgende cijfers):</string>
+    <string name="antitheft_password_long">Sms-opdrachten worden beveiligd met een wachtwoord, zodat vreemde personen geen acties op uw toestel kunnen starten. Het wachtwoord wordt ook gebruikt voor de app-beveiliging, waarmee u kunt voorkomen dat onbevoegden beveiligde toepassingen starten op uw toestel.</string>
+    <string name="antitheft_phone">Wachtwoord vergeten? Stel het opnieuw in via een sms-opdracht van het volgende telefoonnummer. Bij vervanging van de simkaart wordt een sms-bericht naar dit nummer verzonden.</string>
+    <string name="antitheft_phone_long">Uw toestel is verdwenen en u bent het wachtwoord voor de sms-opdrachten vergeten? U kunt hier het telefoonnummer van een betrouwbare persoon (bijv. uw partner) opgeven. Vanaf dit nummer kunt u het wachtwoord opnieuw instellen via sms.</string>
+    <string name="antitheft_progress_sending_email">E-mail wordt verzonden. Even geduld…</string>
+    <string name="antitheft_reset_command_text">Deze opdracht wordt enkel uitgevoerd als hiervoor een telefoonnummer is opgeslagen.</string>
+    <string name="antitheft_router_mac">Router MAC</string>
+    <string name="antitheft_save">Opslaan</string>
+    <string name="antitheft_save_or_discard">Wilt u uw wijzigingen opslaan of negeren?</string>
+    <string name="antitheft_settings">Instellingen</string>
+    <string name="antitheft_settings_intro_text">Als u uw toestel verloren hebt of als het gestolen is, kunt u door een sms te verzenden een actie starten. Selecteer de acties die door een sms-opdracht kunnen worden gestart.</string>
+    <string name="antitheft_settings_sim_change_text">Is uw toestel gestolen en heeft de dief een nieuwe simkaart geplaatst? Nu kunt u geen sms-opdrachten meer verzenden naar uw toestel. Selecteer hier wat er bij een vervanging van de simkaart moet gebeuren.</string>
+    <string name="antitheft_settings_title">Verlies/diefstal</string>
+    <string name="antitheft_settings_warning">Voer eerst een wachtwoord in.</string>
+    <string name="antitheft_sim_planedupdate_text">Druk hier als u van plan bent de simkaart te vervangen.</string>
+    <string name="antitheft_sim_update_confirm_text">Schakel uw toestel nu uit en plaats de nieuwe simkaart. Nadat het apparaat opnieuw is opgestart, wordt het geregistreerd voor diefstalbeveiliging.</string>
+    <string name="antitheft_sim_update_text">De simkaart in uw toestel is vervangen. Druk hier om de procedure te voltooien.</string>
+    <string name="antitheft_sim_updated_text">De procedure is voltooid.</string>
+    <string name="antitheft_tab_sim_name">Diefstaldetectie</string>
+    <string name="antitheft_tab_sms_name">"Toegestane SMS-commando's"</string>
+    <string name="antitheft_test_email_body">"Beste klant,
+
+U hebt uw e-mailadres met succes geconfigureerd.
+Hartelijk dank!
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">Het verzenden van de e-mail is mislukt. Controleer de internetverbinding en het e-mailadres.</string>
+    <string name="antitheft_test_email_success">De test-e-mail is met succes verzonden.</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">Verwijderen</string>
+    <string name="antitheft_warn_receivers_text_plural">De verlies/diefstal/privésfeer-functie wordt mogelijk beperkt door de apps #app#.</string>
+    <string name="antitheft_warn_receivers_text_singular">De verlies/diefstal/privésfeer-functie wordt mogelijk beperkt door de app #app#.</string>
+    <string name="antitheft_warn_receivers_title">Incompatibele app</string>
+    <string name="antitheft_widget_label">G DATA - Widget headsetaansluiting</string>
+    <string name="app_name">Internet Security</string>
+    <string name="app_name_browser">Kids Browser</string>
+    <string name="app_permissions_applock">Toevoegen aan app-beveiliging</string>
+    <string name="app_permissions_subtitle">Deze app heeft toegang tot de volgende functies op uw toestel:</string>
+    <string name="app_permissions_uninstall">Verwijderen</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">De Accessibility-dienst zorgt voor snellere en veilige reacties van App-beveiliging en is nodig vanaf Android Lollipop.</string>
+    <string name="applock_accessibility_label">Accessibility Service inschakelen</string>
+    <string name="applock_changed_data">Gewijzigde gegevens</string>
+    <string name="applock_checkbox_label">App-beveiliging inschakelen</string>
+    <string name="applock_choose_email_bt">E-mail</string>
+    <string name="applock_choose_question_bt">Vraag</string>
+    <string name="applock_choose_text">Het wachtwoord naar het opgeslagen e-mailadres verzenden of de beveiligingsvraag beantwoorden?</string>
+    <string name="applock_correct">Corrigeren</string>
+    <string name="applock_deactivated">De app-beveiliging is uitgeschakeld.</string>
+    <string name="applock_denial_disable_title">Apps blokkeren</string>
+    <string name="applock_denial_enable_title">Apps goedkeuren</string>
+    <string name="applock_denial_help_intro">Informatie over geblokkeerde en/of goedgekeurde apps: als ##app_name## is geconfigureerd voor beheer via een Mobile Management Server (MMS), kan de toegang tot individuele apps worden geblokkeerd of, als de toegang standaard is geblokkeerd voor alle apps, worden goedgekeurd door de MMS-beheerder.</string>
+    <string name="applock_denial_help_request">De goedkeuring voor toegang tot de app kan worden aangevraagd bij de beheerder in het dialoogvenster dat het opstarten van de app blokkeert. Deze beslist of de toegang wordt goedgekeurd.</string>
+    <string name="applock_denial_info">"Wilt u meer informatie?
+Druk hier."</string>
+    <string name="applock_denial_no_entries">Er worden momenteel geen apps geblokkeerd. Indien nodig kunt u toepassingen beveiligen met een wachtwoord.</string>
+    <string name="applock_denial_no_entries_add">Druk op het +-symbool in de titelbalk om de apps te selecteren die u wilt blokkeren.</string>
+    <string name="applock_denial_no_entries_deny_add_default">Druk op het +-symbool in de titelbalk om de apps die u wilt goedkeuren, te selecteren.</string>
+    <string name="applock_denial_no_entries_deny_default">Er zijn momenteel geen apps goedgekeurd.</string>
+    <string name="applock_denial_no_entries_mms">Er worden momenteel geen apps geblokkeerd. Indien nodig kunt u toepassingen beveiligen met een wachtwoord.</string>
+    <string name="applock_denial_no_entries_mms_deny_default">Er zijn momenteel geen apps goedgekeurd. Indien nodig kunt u de beheerder om goedkeuring vragen wanneer een app wordt gestart.</string>
+    <string name="applock_denial_request">Goedkeuring vragen</string>
+    <string name="applock_denial_selection_title">Geblokkeerde apps</string>
+    <string name="applock_denial_selection_title_invert">Goedgekeurde apps</string>
+    <string name="applock_denial_title">Geblokkeerde toepassing</string>
+    <string name="applock_denial_txt">De beheerder heeft de toegang tot deze toepassing geblokkeerd.</string>
+    <string name="applock_discard">Negeren</string>
+    <string name="applock_discard_or_correct">Wilt u uw wijzigingen negeren of corrigeren?</string>
+    <string name="applock_edit_mode">Gegevens wijzigen</string>
+    <string name="applock_email">Wachtwoord vergeten? Uw toestel kan het wachtwoord naar het volgende e-mailadres verzenden:</string>
+    <string name="applock_email_body">"Beste klant,
+
+Uw wachtwoord voor de toepassingsbeveiliging is #code#.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="applock_email_error">Het verzenden van de e-mail is mislukt. Controleer de internetverbinding en het e-mailadres in de instellingen.</string>
+    <string name="applock_email_long">Als u uw wachtwoord vergeten bent, kunt u uw toestel een e-mail met het wachtwoord naar het volgende adres laten verzenden.</string>
+    <string name="applock_email_subject">Informatie over ##app_name##</string>
+    <string name="applock_email_success">De e-mail is verzonden!</string>
+    <string name="applock_email_test">E-mail testen</string>
+    <string name="applock_enter_password">Voer uw wachtwoord in</string>
+    <string name="applock_error_email">Het ingevoerde e-mailadres heeft geen geldige opmaak.</string>
+    <string name="applock_error_enter_answer">Voer eerst een antwoord op de beveiligingsvraag in!</string>
+    <string name="applock_error_enter_custom_question">Voer eerst een eigen beveiligingsvraag in!</string>
+    <string name="applock_error_enter_email_or_question">Voer een e-mailadres of een beveiligingsvraag in!</string>
+    <string name="applock_error_enter_password">Voer eerst een wachtwoord in.</string>
+    <string name="applock_error_no_data">Voer eerst gegevens in en sla deze op!</string>
+    <string name="applock_error_password_too_simple">Kies een ander wachtwoord. Het ingevoerde wachtwoord is onveilig.</string>
+    <string name="applock_error_repeat_password">Herhaal eerst het wachtwoord.</string>
+    <string name="applock_error_repeat_phone">Herhaal eerst het telefoonnummer.</string>
+    <string name="applock_error_repeat_phone_wrongly">De ingevoerde telefoonnummers komen niet overeen.</string>
+    <string name="applock_error_repeat_wrongly">De ingevoerde wachtwoorden komen niet overeen.</string>
+    <string name="applock_error_test_email">Voer eerst een test met uw e-mailadres uit.</string>
+    <string name="applock_forgot_password"><small>"Wachtwoord vergeten?
+Druk hier!"</small></string>
+    <string name="applock_forgot_password_title">Wachtwoord vergeten?</string>
+    <string name="applock_help">Help</string>
+    <string name="applock_help_delay">Zodra een app gestart en ontgrendeld is, kan deze tot 60 seconden na het afsluiten van de app zonder invoer van een wachtwoord opnieuw worden uitgevoerd. Dit geldt enkel zolang het beeldscherm ingeschakeld blijft.</string>
+    <string name="applock_help_intro">"Richtlijnen bij app-beveiliging: 
+
+Doorgaans worden Android-apps via bundels uit de Google Play Store geïnstalleerd. Enkele bundels bevatten meerdere apps, zoals de telefoon- en contactpersonentoepassing. U kunt deze enkel samen beveiligen."</string>
+    <string name="applock_help_perm">Als een app rechten nodig heeft, die de functies van ##app_name## kunnen uitschakelen of beïnvloeden, dan wordt app-beveiliging aanbevolen. Hiertoe behoren bijv. apps die andere toepassingen kunnen verwijderen of afsluiten.</string>
+    <string name="applock_help_title">Help bij app-beveiliging</string>
+    <string name="applock_help_uninstall">In enkele gevallen kan de app-beveiliging bij het verwijderen actief worden. Dit gebeurt op enkele toestellen altijd wanneer er technisch geen andere veilige mogelijkheid bestaat om te voorkomen dat ##app_name## onopgemerkt wordt verwijderd. Om dezelfde reden wordt de activering van de apparaatbeheerder aanbevolen.</string>
+    <string name="applock_hint_answer">Antwoord invoeren</string>
+    <string name="applock_hint_change_answer">Antwoord wijzigen</string>
+    <string name="applock_hint_change_password">Wachtwoord wijzigen</string>
+    <string name="applock_hint_custom_question">Vraag invoeren</string>
+    <string name="applock_hint_email">E-mail invoeren</string>
+    <string name="applock_hint_new_answer">Antwoord invoeren</string>
+    <string name="applock_hint_new_password">Wachtwoord invoeren</string>
+    <string name="applock_hint_repeat_password">Wachtwoord herhalen</string>
+    <string name="applock_image_description">App-pictogram</string>
+    <string name="applock_intro">Beveilig de toepassingen tegen gebruik door onbevoegden.</string>
+    <string name="applock_intro_long">"Met de app-beveiliging kunt u voorkomen dat onbevoegden beveiligde toepassingen starten op uw toestel. De toepassingen kunnen enkel na invoer van het juiste wachtwoord worden gestart.
+
+Let op: onthoud uw wachtwoord goed. Als u het vergeet, kunt u uw toestel niet meer volledig gebruiken."</string>
+    <string name="applock_off_due_to_accessibility_service">App-beveiliging is gedeactiveerd omdat G DATA App Checker niet meer actief is.</string>
+    <string name="applock_password">Beveiligde toepassingen enkel na invoer van dit wachtwoord starten (minstens vier verschillende, niet op elkaar volgende cijfers):</string>
+    <string name="applock_password_long">Voer het wachtwoord in waarmee de beveiligde toepassingen gestart kunnen worden. Dit wachtwoord wordt ook gebruikt voor de sms-opdrachten (zie verlies/diefstal).</string>
+    <string name="applock_password_title">Wachtwoord</string>
+    <string name="applock_progress_sending_email">E-mail verzenden. Even geduld…</string>
+    <string name="applock_question">Beveiligingsvraag…</string>
+    <string name="applock_question_text">Of beantwoord de beveiligingsvraag:</string>
+    <string name="applock_question_text_long">Geef daarnaast een beveiligingsvraag op. Als u de vraag later juist beantwoordt, kunt u daarmee de app-beveiliging uitschakelen en de beveiligde toepassingen zonder wachtwoord starten.</string>
+    <string name="applock_resend_bt">Ja</string>
+    <string name="applock_resend_password_title">Wachtwoord verzenden</string>
+    <string name="applock_resend_text">Het wachtwoord naar het opgeslagen e-mailadres verzenden?</string>
+    <string name="applock_save">Opslaan</string>
+    <string name="applock_save_or_discard">Wilt u uw wijzigingen opslaan of negeren?</string>
+    <string name="applock_security_question_title">Beveiligingsvraag</string>
+    <string name="applock_selection_add_action">Apps toevoegen</string>
+    <string name="applock_selection_no_entries">"De app-beveiliging voorkomt dat onbevoegden beveiligde toepassingen starten op uw apparaat.
+
+"</string>
+    <string name="applock_selection_no_entries_add">Druk op het +-symbool in de titelbalk om de apps die u wilt beveiligen, te selecteren.</string>
+    <string name="applock_selection_no_entries_protect_add_default">Druk op het +-symbool in de titelbalk om de apps te selecteren die u zonder wachtwoordbeveiliging wilt gebruiken.</string>
+    <string name="applock_selection_no_entries_protect_default">"De app-beveiliging voorkomt dat onbevoegden beveiligde toepassingen starten op uw toestel. Met de huidige instelling zijn alle apps standaard beveiligd.
+
+"</string>
+    <string name="applock_selection_remove_action">Items verwijderen</string>
+    <string name="applock_selection_remove_title">Items verwijderen</string>
+    <string name="applock_selection_select_all">Alles markeren</string>
+    <string name="applock_selection_settings_action">Instellingen</string>
+    <string name="applock_selection_show_disabled">Geblokkeerde apps</string>
+    <string name="applock_selection_show_enabled">Goedgekeurde apps</string>
+    <string name="applock_selection_title">Beveiligde apps</string>
+    <string name="applock_selection_title_invert">Onbeveiligde apps</string>
+    <string name="applock_selector_add_action">Items toevoegen</string>
+    <string name="applock_selector_add_title">Items die u wilt toevoegen, selecteren</string>
+    <string name="applock_selector_block_title">Apps blokkeren</string>
+    <string name="applock_selector_block_title_invert">Apps goedkeuren</string>
+    <string name="applock_selector_discard">Selectie ongedaan maken</string>
+    <string name="applock_selector_no_entries">Geen items beschikbaar.</string>
+    <string name="applock_selector_select_all">Alles markeren</string>
+    <string name="applock_selector_tab_all">Alles</string>
+    <string name="applock_selector_tab_downloaded">Gedownload</string>
+    <string name="applock_selector_tab_recommended">Aanbevolen</string>
+    <string name="applock_selector_tab_recommended_invert">Niet aanbevolen</string>
+    <string name="applock_selector_title">Apps beveiligen</string>
+    <string name="applock_selector_title_invert">App-beveiliging verwijderen</string>
+    <string name="applock_settings_title">Instellingen voor app-beveiliging</string>
+    <string name="applock_test_email_body">"Beste klant,
+
+U hebt uw e-mailadres met succes geconfigureerd.
+Hartelijk dank!
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">Het verzenden van de e-mail is mislukt. Controleer de internetverbinding en het e-mailadres.</string>
+    <string name="applock_test_email_success">De test-e-mail is met succes verzonden.</string>
+    <string name="applock_txt_title">Beveiligde toepassing</string>
+    <string name="applock_txt_title_invert">Onbeveiligde app</string>
+    <string name="applock_wait">Even geduld</string>
+    <string name="applock_wrong_answer">Dat was helaas niet het juiste antwoord.</string>
+    <string name="applock_wrong_password">Dat was helaas niet het juiste wachtwoord.</string>
+    <string name="arp_exception_bssid_text">Permanente uitzondering toevoegen</string>
+    <string name="arp_exception_cleared">Uitzonderingen verwijderd</string>
+    <string name="arp_exception_info">"Wilt u meer informatie?
+Druk hier."</string>
+    <string name="arp_exception_text">Uitzondering voor deze dag toevoegen</string>
+    <string name="arp_network_dialog_text">Dit netwerk als betrouwbaar categoriseren</string>
+    <string name="arp_network_dialog_title">Nieuw netwerk</string>
+    <string name="arp_options_auto_disconnect">Bij uitschakeling van het scherm onveilig WLAN uitschakelen</string>
+    <string name="arp_options_bssid_analysis">Uitgebreide analyse (BSSD-ID controleren)</string>
+    <string name="arp_options_continuous_mode">Doorgaan met controle tussen sessies</string>
+    <string name="arp_warning_dialog_accept">Doorgaan</string>
+    <string name="arp_warning_dialog_bssid_text">Dit WLAN-netwerk is mogelijk onveilig. Dit is een resultaat van de uitgebreide analyse.</string>
+    <string name="arp_warning_dialog_continue">Verbinding met WLAN verbreken</string>
+    <string name="arp_warning_dialog_text">Dit WLAN-netwerk is mogelijk onveilig. Als u met een openbaar WLAN-netwerk of een ander onveilig netwerk verbonden bent, raden we u aan de verbinding te verbreken.</string>
+    <string name="arp_warning_dialog_title">WiFi-beveiliging</string>
+    <string name="billing_cannot_connect_message">Er kan geen verbinding worden gemaakt met Google Play. De versie van Google Play is mogelijk verouderd.</string>
+    <string name="billing_cannot_connect_title">Geen verbinding met Google Play</string>
+    <string name="billing_not_supported_message">De licentie kan niet worden verlengd, omdat Google Play niet beschikbaar is.</string>
+    <string name="billing_not_supported_title">Licentieverlenging niet mogelijk</string>
+    <string name="billing_purchase_title">Licentie verlengd</string>
+    <string name="billing_purchased_message">Hartelijk dank voor het verlengen van de licentie. U hebt nu toegang tot de handtekening- en software-updates.</string>
+    <string name="black">Zwart</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="blacklist_prompt">Selecteer een filtertype</string>
+    <string name="block_explain">USSD-controlecodes kunnen uw mobiel toestel in bepaalde omstandigheden beschadigen. Voordat u een USSD-controlecode uitvoert, informeert u zich best over zijn bedoeling.</string>
+    <string name="block_incoming_call">Inkomende oproepen</string>
+    <string name="block_is_blacklist">Geselecteerde contactpersonen blokkeren</string>
+    <string name="block_is_whitelist">Alleen geselecteerde contactpersonen toestaan</string>
+    <string name="block_outgoing_call">Uitgaande oproepen</string>
+    <string name="block_sms">Sms</string>
+    <string name="blue">Blauw</string>
+    <string name="bronze">Brons</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.gdatasoftware.com</string>
+    <string name="browser_about_text">© 2015 G DATA Software AG</string>
+    <string name="browser_about_title">G DATA Kids Browser &lt;br/> versie %s</string>
+    <string name="browser_bar_hint_text">URL invoeren</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">De toegang tot deze website is geblokkeerd voor uw veiligheid.</string>
+    <string name="browser_menu_about">Info</string>
+    <string name="browser_menu_back">Vorige</string>
+    <string name="browser_menu_forward">Volgende</string>
+    <string name="browser_menu_quit">Beëindigen</string>
+    <string name="browser_menu_settings">Instellingen</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">Lege pagina</string>
+    <string name="browser_preferences_rb_default_text">Standaardpagina (%s)</string>
+    <string name="browser_preferences_rb_specific_text">Vooraf gedefinieerde pagina:</string>
+    <string name="browser_preferences_subtitle_text">Selecteer de webpagina die bij het starten moet worden geopend.</string>
+    <string name="browser_preferences_title_text">Bij het starten</string>
+    <string name="bye_team">G DATA SecurityLabs.</string>
+    <string name="bye_world">Met vriendelijke groet vanuit Bochum,</string>
+    <string name="call">Bellen</string>
+    <string name="call_block_info">"Wilt u meer informatie?
+Druk hier."</string>
+    <string name="call_block_request">Goedkeuring vragen</string>
+    <string name="call_block_title">Geblokkeerde oproep</string>
+    <string name="call_block_txt">Dit telefoonnummer is geblokkeerd.</string>
+    <string name="callfilter_blockings_delete">Items verwijderen</string>
+    <string name="callfilter_blockings_delete_title">Items die u wilt verwijderen, selecteren</string>
+    <string name="callfilter_blockings_no_enries">Geen logboeken beschikbaar.</string>
+    <string name="callfilter_blockings_select_all">Alles selecteren</string>
+    <string name="callfilter_blockings_title_in">Onderdrukte inkomende oproepen en sms-berichten</string>
+    <string name="callfilter_blockings_title_out">Onderdrukte uitgaande oproepen</string>
+    <string name="callfilter_gsc_header">Contactpersoon blokkeren</string>
+    <string name="callfilter_hidden_number">Anoniem nummer</string>
+    <string name="callfilter_hidden_numbers">Anonieme nummers</string>
+    <string name="callfilter_image_description_checkbox">Selectievakje</string>
+    <string name="callfilter_image_description_contact">Scherm</string>
+    <string name="callfilter_missed_call">"Oproep om "</string>
+    <string name="callfilter_options_allow_unknown">Ondanks filter gesprekken van anonieme nummers toestaan</string>
+    <string name="callfilter_options_blacklist">Alle nummers uit de blacklist zijn geblokkeerd</string>
+    <string name="callfilter_options_edit">Witte of zwarte lijst weergeven</string>
+    <string name="callfilter_options_in_intro_text">"Onderdruk ongewenste telefoongesprekken en filter ongewenste sms-berichten. Bepaal hoe de filter moet werken:
+"</string>
+    <string name="callfilter_options_log">Logboek</string>
+    <string name="callfilter_options_no_entries">Geen items beschikbaar.</string>
+    <string name="callfilter_options_out_intro_text">"Blokkeer ongewenste oproepen. Selecteer hoe de filter moet werken:
+"</string>
+    <string name="callfilter_options_phonebook">Sta alle nummers van het telefoonboek toe</string>
+    <string name="callfilter_options_phonebook_black">Sta alle nummers van het telefoonboek toe, die niet op de zwarte lijst staan</string>
+    <string name="callfilter_options_show_book">Telefoonboekitems weergeven</string>
+    <string name="callfilter_options_title">Oproep-/sms-filter</string>
+    <string name="callfilter_options_whitelist">Sta alle nummers van de witte lijst toe</string>
+    <string name="callfilter_selection">Lijst weergeven</string>
+    <string name="callfilter_selection_add">Toevoegen</string>
+    <string name="callfilter_selection_blacklist_no_enries">Druk op het +-symbool in de titelbalk om nummers te selecteren die u wilt blokkeren.</string>
+    <string name="callfilter_selection_no_enries">Er zijn momenteel geen contactpersonen uit het telefoonboek geselecteerd.</string>
+    <string name="callfilter_selection_phonebook_no_enries">Het telefoonboek bevat geen items.</string>
+    <string name="callfilter_selection_remove">Items verwijderen</string>
+    <string name="callfilter_selection_remove_title">Geselecteerde items verwijderen</string>
+    <string name="callfilter_selection_select_all">Alle items selecteren</string>
+    <string name="callfilter_selection_title_blacklist">Blacklist</string>
+    <string name="callfilter_selection_title_in_blacklist">Blacklist voor inkomende oproepen en sms-berichten</string>
+    <string name="callfilter_selection_title_in_whitelist">Whitelist voor inkomende oproepen en sms-berichten</string>
+    <string name="callfilter_selection_title_out_blacklist">Blacklist uitgaande gesprekken</string>
+    <string name="callfilter_selection_title_out_whitelist">Whitelist uitgaande gesprekken</string>
+    <string name="callfilter_selection_title_phonebook">Telefoonboek</string>
+    <string name="callfilter_selection_title_phonebook_new">Alle contactpersonen selecteren</string>
+    <string name="callfilter_selection_title_whitelist">Whitelist</string>
+    <string name="callfilter_selection_whitelist_no_enries">Druk op het +-symbool in de titelbalk om nummers te selecteren die u wilt toestaan.</string>
+    <string name="callfilter_unknown_contact">Onbekende contactpersoon</string>
+    <string name="calllog_unknown_contact">Onbekend nummer</string>
+    <string name="check_all">Alles selecteren</string>
+    <string name="choose_color">Selecteren</string>
+    <string name="choose_scan_freq_summary">Bepaalt hoe vaak het apparaat gecontroleerd wordt (in dagen).</string>
+    <string name="choose_scan_freq_title">Frequentie</string>
+    <string name="choose_update_region_summary">Selecteer de dichtstbijzijnde updateserver.</string>
+    <string name="choose_update_region_title">Serverregio</string>
+    <string name="choose_update_summary">Bepaalt hoe vaak op updates moet worden gecontroleerd (in dagen).</string>
+    <string name="choose_update_title">Frequentie</string>
+    <string name="clear_arp_exceptions_summary">Uitzonderingen voor WiFi-beveiliging en uitgebreide WiFi-analyse verwijderen</string>
+    <string name="clear_arp_exceptions_title">Uitzonderingen verwijderen</string>
+    <string name="colorLabel">Kleur</string>
+    <string name="color_picker_default_title">Kleur selecteren:</string>
+    <string name="color_swatch_description">Kleur %1$d</string>
+    <string name="color_swatch_description_selected">Kleur %1$d geselecteerd</string>
+    <string name="common_android_wear_notification_needs_update_text">Er is een update van de Android Wear-app vereist voor een bepaalde app.</string>
+    <string name="common_android_wear_update_text">Deze app wordt niet uitgevoerd, tenzij u de Android Wear-app bijwerkt.</string>
+    <string name="common_android_wear_update_title">Android Wear bijwerken</string>
+    <string name="common_google_play_services_enable_button">Google Play-services inschak.</string>
+    <string name="common_google_play_services_enable_text">Deze app werkt niet, tenzij u Google Play-services inschakelt.</string>
+    <string name="common_google_play_services_enable_title">Google Play-services inschakelen</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Aangevraagd door %1$s</string>
+    <string name="common_google_play_services_install_button">Google Play-services ophalen</string>
+    <string name="common_google_play_services_install_text_phone">Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw telefoon.</string>
+    <string name="common_google_play_services_install_text_tablet">Deze app kan niet worden uitgevoerd zonder Google Play-services die ontbreken op uw tablet.</string>
+    <string name="common_google_play_services_install_title">Google Play-services ophalen</string>
+    <string name="common_google_play_services_invalid_account_text">Het gespecificeerde account bestaat niet op dit apparaat. Kies een ander account.</string>
+    <string name="common_google_play_services_invalid_account_title">Ongeldig account</string>
+    <string name="common_google_play_services_needs_enabling_title">Google Play-services moet zijn ingeschakeld voor een app.</string>
+    <string name="common_google_play_services_network_error_text">Er is een gegevensverbinding nodig om verbinding te kunnen maken met Google Play-services.</string>
+    <string name="common_google_play_services_network_error_title">Netwerkfout</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Google Play-services moet zijn geïnstalleerd voor een app.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Google Play-services moet worden geüpdatet voor een app.</string>
+    <string name="common_google_play_services_notification_ticker">Fout met Google Play-services</string>
+    <string name="common_google_play_services_unknown_issue">Onbekend probleem met Google Play-services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play-services, dat vereist is voor een aantal van uw applicaties, wordt niet ondersteund door uw apparaat. Neem contact op met de fabrikant voor ondersteuning.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-services</string>
+    <string name="common_google_play_services_update_button">Updaten</string>
+    <string name="common_google_play_services_update_text">Deze app kan niet worden uitgevoerd, tenzij u Google Play-services updatet.</string>
+    <string name="common_google_play_services_update_title">Google Play-services updaten</string>
+    <string name="common_open_on_phone">Openen op telefoon</string>
+    <string name="common_signin_button_text">Inloggen</string>
+    <string name="common_signin_button_text_long">Inloggen met Google</string>
+    <string name="compass_privacy_warning_message">連絡先を非表示/ON の状態で G DATA Internet Security を削除した場合、非表示の連絡先が削除されます。 必ず、 G DATA Internet Security の削除前に、連絡先を非表示/OFF の状態にして下さい。</string>
+    <string name="compass_privacy_warning_title">Let op</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">Instellingen</string>
+    <string name="configure_action_center">Registreren</string>
+    <string name="contact_missing">Selecteer een contactpersoon.</string>
+    <string name="contact_selection_empty_text">Druk op het +-symbool in de titelbalk om nieuwe contactpersonen toe te voegen.</string>
+    <string name="contactpicker_add">Toevoegen</string>
+    <string name="contactpicker_calllog">Oproepgeschiedenis</string>
+    <string name="contactpicker_contacts">Adresboek</string>
+    <string name="copy">Kopiëren</string>
+    <string name="corporate_profile">Bedrijf</string>
+    <string name="crash_report">Dit G DATA-product is onverwacht afgesloten. Wilt u dit foutbericht aan G DATA sturen?</string>
+    <string name="daily">Dagelijks</string>
+    <string name="debug_options">Debug options</string>
+    <string name="default_profile">Particulier</string>
+    <string name="detailed_texts">meer…</string>
+    <string name="dev_admin_applock_explanation">De rechten helpen voorkomen dat ##app_name## onopzettelijk verwijderd wordt om de beveiliging te behouden.</string>
+    <string name="dev_admin_receiver_description">Voor verlies/diefstal benodigde rechten.</string>
+    <string name="dev_admin_receiver_explanation">De rechten zijn nodig om verloren gegane toestellen te blokkeren, te wissen of het wachtwoord van het toestel in te stellen.</string>
+    <string name="device_already_registered">Uw apparaat is al bij het G DATA ActionCenter geregistreerd.</string>
+    <string name="dialog_accessibility_for_lollipop">Vanaf Android Lollipop is G DATA App Checker nodig. Activeer de dienst in de Systeeminstellingen.</string>
+    <string name="dialog_accessibility_for_lollipop_mms">Vanaf Android Lollipop is G DATA App Checker nodig voor Mobile Device Management. Activeer de dienst in de Systeeminstellingen.</string>
+    <string name="dialog_accessibility_info_activate">U gaat nu naar de systeeminstellingen. Schakel daar de G DATA App Checker in.</string>
+    <string name="dialog_accessibility_info_deactivate">U gaat nu naar de systeeminstellingen. Schakel daar de G DATA App Checker uit.</string>
+    <string name="dialog_apkfile_updated">\##app_name## wordt nu bijgewerkt!</string>
+    <string name="dialog_auth_succefull">De aanmelding bij de server is met succes uitgevoerd.</string>
+    <string name="dialog_cancel">Annuleren</string>
+    <string name="dialog_cancel_short">Annul.</string>
+    <string name="dialog_done">Gereed</string>
+    <string name="dialog_err_computerid_change_failed">De overdracht van de rechten is mislukt.</string>
+    <string name="dialog_err_computerid_change_succeeded">De rechten voor het laden van updates zijn overgedragen.</string>
+    <string name="dialog_err_computerid_changed">Een ander apparaat heeft het recht om updates te laden. Dit apparaat beschikt niet over de rechten om updates te laden.</string>
+    <string name="dialog_err_computerid_changed_extern">Een ander apparaat heeft het recht om updates te laden. Start handmatig een update om de rechten naar deze computer over te dragen.</string>
+    <string name="dialog_err_data_corrupt">Update mislukt: de geladen gegevens zijn beschadigd.</string>
+    <string name="dialog_err_database_operation">De updateserver is momenteel niet bereikbaar. Probeer het later opnieuw.</string>
+    <string name="dialog_err_install_signature_update">Update mislukt: de geladen virushandtekeningen konden niet worden geïnstalleerd.</string>
+    <string name="dialog_err_invalid_customer_data">De klantgegevens zijn niet aanvaard. Voer een geldig adres in.</string>
+    <string name="dialog_err_invalid_login">Update mislukt: de toegangsgegevens zijn ongeldig.</string>
+    <string name="dialog_err_invalid_reg_number">Het registratienummer is ongeldig.</string>
+    <string name="dialog_err_license_fault">Een ander apparaat heeft het recht om updates te laden. De rechten kunnen niet worden overgedragen naar dit apparaat. Neem contact op met de supportafdeling.</string>
+    <string name="dialog_err_login_deleted">De toegangsrechten hadden een tijdslimiet die afgelopen is.</string>
+    <string name="dialog_err_login_expired">Uw ##app_name##-licentie is niet meer geldig!</string>
+    <string name="dialog_err_login_expired_extern">Uw ##app_name##-licentie is niet meer geldig. Start de update handmatig voor meer informatie.</string>
+    <string name="dialog_err_mms_initial_connect_failed">De laatste verbindingspoging met de Remote-ManagementServer is mislukt. Neem contact op met uw beheerder.</string>
+    <string name="dialog_err_mms_missing_login_data">Update mislukt: geen aanmeldingsgegevens beschikbaar. Neem contact op met uw beheerder.</string>
+    <string name="dialog_err_no_update_available">Er is nog geen update beschikbaar. U beschikt over de actuele versie.</string>
+    <string name="dialog_err_not_allowed_in_this_country">Deze licentie is beperkt tot een bepaald gebied. Het toestel waarop u de licentie wilt activeren, bevindt zich niet in dit gebied. Neem contact op met uw leverancier.</string>
+    <string name="dialog_err_open_database">De updateserver is momenteel niet bereikbaar. Probeer het later opnieuw.</string>
+    <string name="dialog_err_product_already_registered">Het product is al geregistreerd.</string>
+    <string name="dialog_err_request_extension">Er is momenteel geen aanbieding beschikbaar voor uw product.</string>
+    <string name="dialog_err_single_update_already_used">U hebt al alle updates uitgevoerd. Er zijn geen updates meer mogelijk.</string>
+    <string name="dialog_err_update_not_allowed">U hebt geen rechten om updates te laden.</string>
+    <string name="dialog_error">Er is een onbekende fout opgetreden (%s).</string>
+    <string name="dialog_fix">Corrigeren</string>
+    <string name="dialog_mobile_network_error">Er kan geen SMS-verbinding worden gemaakt. Controleer alstublieft of uw apparaat SMS-berichten kan versturen.</string>
+    <string name="dialog_network_error">De server is niet bereikbaar. Controleer de netwerkverbinding.</string>
+    <string name="dialog_no">Nee</string>
+    <string name="dialog_no_auth_data_entered">Er zijn tot nu toe geen toegangsgegevens ingevoerd.</string>
+    <string name="dialog_no_space_available">De update kon niet worden uitgevoerd. Controleer of er voldoende geheugen beschikbaar is.</string>
+    <string name="dialog_not_all_data_entered">Niet alle benodigde gegevens zijn correct ingevoerd.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_periodic_scan_type_title">Type viruscontrole</string>
+    <string name="dialog_query_computerid_changed">Een ander apparaat heeft het recht om updates te laden. Moeten de rechten naar dit apparaat worden overgedragen?</string>
+    <string name="dialog_scan_freq_title">Scaninterval in dagen</string>
+    <string name="dialog_sigfile_updated">De handtekeningen zijn bijgewerkt. ##app_name## is nu up-to-date!</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">Update-interval in dagen</string>
+    <string name="dialog_update_not_needed">\##app_name## is up-to-date!</string>
+    <string name="dialog_update_region_title">Serverregio</string>
+    <string name="dialog_yes">Ja</string>
+    <string name="disabled">Uitgeschakeld</string>
+    <string name="disinfect_all">Alles desinfecteren</string>
+    <string name="disinfect_all_files_mess">Moeten alle geïnfecteerde bestanden worden verwijderd?</string>
+    <string name="disinfect_all_files_title">Bestanden verwijderen</string>
+    <string name="disinfect_system_cleaned_mess">Het systeem is met succes gedesinfecteerd.</string>
+    <string name="drawer_close">Navigatiebalk sluiten</string>
+    <string name="drawer_open">Navigatiebalk openen</string>
+    <string name="edit_action">Actie bewerken</string>
+    <string name="edit_filter_title">Filter bewerken</string>
+    <string name="email_hint">E-mailadres toevoegen…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">Het apparaat wordt regelmatig op virussen gecontroleerd.</string>
+    <string name="enableTimedScan_title">Periodiek</string>
+    <string name="enableUpdate_summary">Handtekeningupdates worden regelmatig op de achtergrond uitgevoerd.</string>
+    <string name="enableUpdate_title">Automatisch</string>
+    <string name="enable_mms_server">Beheer op afstand toestaan</string>
+    <string name="enable_mms_server_summary">Maakt beheer op afstand van het apparaat mogelijk.</string>
+    <string name="enable_web_portal_summary">G DATA WebPortal gebruiken</string>
+    <string name="enable_web_portal_title">G DATA WebPortal</string>
+    <string name="filescan_calculate_files">Te controleren hoeveelheid berekenen…</string>
+    <string name="filescan_deep_scan">Dieptescan</string>
+    <string name="filescan_delete_ask" formatted="false">Moet het bestand %file% worden verwijderd?</string>
+    <string name="filescan_delete_ask_title">Bestand verwijderen</string>
+    <string name="filescan_delete_error">De configuratie van het apparaat maakt het onmogelijk om een bestand te verwijderen. Probeer het apparaat op een pc aan te sluiten en het bestand via die weg te verwijderen.</string>
+    <string name="filescan_delete_error_title">Fout</string>
+    <string name="filescan_end_scan">Malwarecontrole beëindigd.</string>
+    <string name="filescan_files_clean">bestanden zonder infectie,</string>
+    <string name="filescan_files_scanned">bestanden gecontroleerd:</string>
+    <string name="filescan_files_skipped">bestanden zijn overgeslagen.</string>
+    <string name="filescan_initial_message">Malwarecontrole wordt geïnitialiseerd…</string>
+    <string name="filescan_scan_status">Bestand controleren:</string>
+    <string name="filescan_start_deep_scan">Performing deep scan</string>
+    <string name="filescan_start_scan">Malwarecontrole wordt gestart…</string>
+    <string name="filescan_timeframe_a">De controle duurde</string>
+    <string name="filescan_timeframe_b">minuten</string>
+    <string name="filter_activating_colliding_error">Moeten de conflicterende filters uitgeschakeld worden of inactief blijven?</string>
+    <string name="filter_activating_colliding_error_disable">Uitschakelen</string>
+    <string name="filter_activating_colliding_error_header">Logisch conflict</string>
+    <string name="filter_incompatiblity">De SMS-functie is niet beschikbaar op apparaten met Android 4.4 of hoger.</string>
+    <string name="filter_selection_no_entries">"Met deze app kunt u groepen contactpersonen op bepaalde weekdagen en tijdstippen met verschillende filters blokkeren of toestaan. 
+
+"</string>
+    <string name="filter_selection_no_entries_add">Druk op het +-symbool in de titelbalk om nieuwe filters te maken.</string>
+    <string name="filter_selection_title">Contactpersonen</string>
+    <string name="fitler_fragment_title">Sms-/oproepfilter</string>
+    <string name="form_error_filter_type">Selecteer minstens één filtertype.</string>
+    <string name="form_error_invalid_adress">Ongeldig adres</string>
+    <string name="form_error_invalid_date">De geselecteerde datum is ongeldig.</string>
+    <string name="form_error_invalid_merchant_number">Voer een geldig verdelersnr. in.</string>
+    <string name="form_error_invalid_missing_adress">Geef een adres op</string>
+    <string name="form_error_invalid_missing_email">Voer een geldig e-mailadres in.</string>
+    <string name="form_error_invalid_missing_firstname">Voer uw voornaam in.</string>
+    <string name="form_error_invalid_missing_lastname">Voer uw achternaam in.</string>
+    <string name="form_error_invalid_missing_name">Geef een beschrijving op.</string>
+    <string name="form_error_invalid_missing_radius">Geef een gewenste straal op</string>
+    <string name="form_error_invalid_time">Ongeldige tijdsopgave</string>
+    <string name="form_error_no_service">Service niet bereikbaar.</string>
+    <string name="form_error_select_a_day">Selecteer minstens één weekdag waarop de filter actief moet zijn.</string>
+    <string name="freemium_not_allowed">"Deze functie is niet beschikbaar in de basisversie.
+
+Wilt u een aanbieding voor de premiumversie bekijken?"</string>
+    <string name="freemium_not_allowed_cancel">Nee, bedankt</string>
+    <string name="freemium_not_allowed_ok">Aanbieding bekijken</string>
+    <string name="friday">Vr</string>
+    <string name="fullday">De hele dag</string>
+    <string name="gdata_install_text">\##app_name## controleert apps bij de installatie op schadelijke software</string>
+    <string name="gdata_install_ticker">G DATA-beveiliging is nu actief</string>
+    <string name="gold">Goud</string>
+    <string name="green">Groen</string>
+    <string name="grey">Grijs</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Er is een poging om een USSD-controlecode op uw mobiel toestel uit te voeren, geblokkeerd.</string>
+    <string name="hello_world_clean">De telefoon-URL die u wilt openen, is geen USSD-controlecode en kan uw mobiel toestel niet beschadigen.</string>
+    <string name="hello_world_empty">Om schade aan uw mobiel toestel door USSD-controlecodes te voorkomen, selecteert u deze app wanneer het onderstaande dialoogvenster wordt weergegeven.</string>
+    <string name="hide_contact">SMS-communicatie kan met Android 4.4 en hoger niet meer worden verborgen.</string>
+    <string name="hide_dialog">Niet meer weergeven</string>
+    <string name="hint">Opmerking</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">meer info</string>
+    <string name="incblack">Inkomende</string>
+    <string name="incwhite">Inkomende</string>
+    <string name="info_txt_copyright">© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">Versie</string>
+    <string name="isblacklist" />
+    <string name="isincomingtext">Inkomend</string>
+    <string name="isoutgoingtext">Uitgaand</string>
+    <string name="issmstext">inkomende sms-berichten</string>
+    <string name="iswhitelist" />
+    <string name="kidsbrowser_enabled_summary">Schakelt de Kids Browser in of uit.</string>
+    <string name="kidsbrowser_enabled_title">Kids Browser ingeschakeld</string>
+    <string name="kidsguard_airplane_mode_summary">De vliegtuigstand inschakelen (niet op nieuwere apparaten)</string>
+    <string name="kidsguard_airplane_mode_title">Vliegtuigstand inschakelen</string>
+    <string name="kidsguard_allow_emergency_calls_summary">De telefoon-app kan noodnummers kiezen. Andere oproepnummers zijn geblokkeerd.</string>
+    <string name="kidsguard_allow_emergency_calls_title">Noodnummers toestaan</string>
+    <string name="kidsguard_app_background_preference_summary">Achtergrond van app-pictogrammen</string>
+    <string name="kidsguard_app_background_preference_title">Achtergrond</string>
+    <string name="kidsguard_app_background_size_preference_summary">Grootte van achtergrond app-pictogram</string>
+    <string name="kidsguard_app_background_size_preference_title">Grootte van achtergrond</string>
+    <string name="kidsguard_app_grid">Volgorde van de apps</string>
+    <string name="kidsguard_app_icon">App-pictogrammen</string>
+    <string name="kidsguard_app_icon_size_preference_summary">Grootte van app-pictogrammen</string>
+    <string name="kidsguard_app_icon_size_preference_title">Grootte van pictogram</string>
+    <string name="kidsguard_app_label">App-label</string>
+    <string name="kidsguard_app_label_color_summary">Kleur van de app-naam</string>
+    <string name="kidsguard_app_label_color_title">Tekstkleur</string>
+    <string name="kidsguard_app_textsize_summary">Tekengrootte van de app-naam</string>
+    <string name="kidsguard_app_textsize_title">Tekengrootte</string>
+    <string name="kidsguard_applock_configuration">Configureer eerst de app-beveiliging</string>
+    <string name="kidsguard_applock_denial_message">De toegang tot deze toepassing is beperkt voor uw veiligheid.</string>
+    <string name="kidsguard_applock_denial_message_appname">De toegang tot de app %s is beperkt voor uw veiligheid.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">Het kiezen van dit nummer is geblokkeerd voor uw veiligheid.</string>
+    <string name="kidsguard_applock_denial_title">Toepassing geblokkeerd</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"De app %s mag pas morgen opnieuw worden gestart.
+Ouders kunnen de periode verlengen door de symbolen ingedrukt te houden."</string>
+    <string name="kidsguard_back_exit">Druk opnieuw op &lt;i>Vorige&lt;/i> om de configuratie te beëindigen.</string>
+    <string name="kidsguard_background_balloon">Luchtballon</string>
+    <string name="kidsguard_background_bubble">Bel</string>
+    <string name="kidsguard_background_glass">Glas</string>
+    <string name="kidsguard_background_heart">Hart</string>
+    <string name="kidsguard_background_none">Geen achtergrond</string>
+    <string name="kidsguard_background_sphere">Bol</string>
+    <string name="kidsguard_block_incoming_calls_summary">Inkomende oproepen worden geblokkeerd. Uitgaande oproepen zijn mogelijk als een telefoon-app goedgekeurd is</string>
+    <string name="kidsguard_block_incoming_calls_title">Inkomende oproepen blokkeren</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">Blacklist configureren…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">Whitelist configureren…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">Configureer de websites die u wilt toestaan/verbieden en voeg deze toe aan de whitelist/blacklist.</string>
+    <string name="kidsguard_browser_configure_urls_title_text">Websites</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">Titel</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">URL toevoegen</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">URL bewerken</string>
+    <string name="kidsguard_browser_listview_no_entries_add">"Druk op het +-symbool in de titelbalk om de URL's aan de overeenkomstige lijst toe te voegen."</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">Blacklist</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">Whitelist</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">Blacklist</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">Whitelist</string>
+    <string name="kidsguard_email_body">"Beste klant,
+
+Uw wachtwoord voor de kinderbeveiliging is #code#.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">Voer uw wachtwoord in</string>
+    <string name="kidsguard_extend_time_subtitle">Eenmalige verlenging met:</string>
+    <string name="kidsguard_extend_time_title">Periode verlengen:</string>
+    <string name="kidsguard_fix_volume_keys_summary">De wijzigingen aan de volumetoetsen worden meteen ongedaan gemaakt.</string>
+    <string name="kidsguard_fix_volume_keys_title">Volume vergrendelen</string>
+    <string name="kidsguard_forgot_password"><small>"Wachtwoord vergeten?
+Druk hier!"</small></string>
+    <string name="kidsguard_home_hint">Selecteer &lt;b>\"Internet Security\"&lt;/b> in het dialoogvenster &lt;b>\"Start-app selecteren\"&lt;/b> en bevestig uw keuze met &lt;b>\"Altijd\"&lt;/b> .</string>
+    <string name="kidsguard_home_hint_title">Kinderbeveiliging inschakelen</string>
+    <string name="kidsguard_label_color_black">Zwart</string>
+    <string name="kidsguard_label_color_white">Wit</string>
+    <string name="kidsguard_label_none">Geen label</string>
+    <string name="kidsguard_leave">Beëindigen</string>
+    <string name="kidsguard_leave_title">Kinderbeveiliging sluiten</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">Tijdsbeperking voor apparaatgebruik inschakelen</string>
+    <string name="kidsguard_over_control_time_checkbox_title">Inschakelen</string>
+    <string name="kidsguard_parents_options">Opties voor de kinderhoek</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">Aantal rijen met pictogrammen liggend</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">Rijen liggend</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">Aantal kolommen met pictogrammen liggend</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">Kolommen liggend</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">Aantal rijen met pictogrammen staand</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">Rijen staand</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">Aantal kolommen met pictogrammen staand</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">Kolommen staand</string>
+    <string name="kidsguard_reset_time_limit_summary">Tijdsbeperking van apparaatgebruik terugzetten en slaapstand uitschakelen</string>
+    <string name="kidsguard_reset_time_limit_title">Tijdsbeperking terugzetten</string>
+    <string name="kidsguard_reset_time_limit_toast_text">De tijdsbeperking is teruggezet en de slaapstand is uitgeschakeld.</string>
+    <string name="kidsguard_reset_usage_time_summary">Reeds gebruikte tijd van het apparaat terugzetten</string>
+    <string name="kidsguard_reset_usage_time_title">Reeds gebruikte tijd terugzetten</string>
+    <string name="kidsguard_reset_usage_time_toast_text">De tot nu toe gebruikte tijd van het apparaat is teruggezet.</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">Eigen vooraf gedefinieerde lijsten</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">Selecteer de lijsten om het gebruik van bepaalde websites te beperken.</string>
+    <string name="kidsguard_select_browser_mode_title_text">Browserinstellingen</string>
+    <string name="kidsguard_set_allowed_usage_time_header">Tijdsbeperking voor apparaatgebruik</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">Tijdsbeperking voor apparaatgebruik instellen</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">Minuten</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">Minuut</string>
+    <string name="kidsguard_set_allowed_usage_time_title">Tijdsbeperking instellen</string>
+    <string name="kidsguard_settings">Kinderbeveiliging configureren</string>
+    <string name="kidsguard_show_usage_time_expired_text">Gebruiksduur: afgelopen</string>
+    <string name="kidsguard_show_usage_time_remaining_text">Resterende tijd: %1$s minuten</string>
+    <string name="kidsguard_show_usage_time_text">Gebruikstijd: %1$s minuten (verloopt: %2$s)</string>
+    <string name="kidsguard_subtitle">"Bescherm uw kinderen tegen ongepaste inhoud. Selecteer een van beide modi.
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"Configureer eerst de app-beveiliging. Voor de kinderbeveiliging kunt u hetzelfde wachtwoord gebruiken. U hoeft de app-beveiliging niet in te schakelen.
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"De tienerhoek is momenteel actief.
+"</string>
+    <string name="kidsguard_teenager">Tienerhoek</string>
+    <string name="kidsguard_teenager_configuration">Tienerhoek configureren</string>
+    <string name="kidsguard_teenager_deactivated">De tienerhoek is leeg.</string>
+    <string name="kidsguard_teenager_description">Beveiligd gedeelte met toegang tot de basisfuncties van G DATA</string>
+    <string name="kidsguard_title">Kinderbeveiliging</string>
+    <string name="kidsguard_toddler">Kinderhoek</string>
+    <string name="kidsguard_toddler_configuration">Kinderhoek configureren</string>
+    <string name="kidsguard_toddler_deactivated">De kinderhoek is leeg.</string>
+    <string name="kidsguard_toddler_description">Beperkt bereik met voor kinderen geschikt startscherm</string>
+    <string name="kidsguard_usage_control__checkbox_summary">Het apparaat kan enkel nog op de geselecteerde plaats en binnen de ingestelde straal worden gebruikt.</string>
+    <string name="kidsguard_usage_control__checkbox_title">Inschakelen</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">Huidig:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">Minuten</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">Tijdsbeperking</string>
+    <string name="kidsguard_usage_control_current">Huidig:</string>
+    <string name="kidsguard_usage_control_invalid_adress">Het adres is ongeldig.</string>
+    <string name="kidsguard_usage_control_kilometer">km</string>
+    <string name="kidsguard_usage_control_location_category">Geografische beperking</string>
+    <string name="kidsguard_usage_control_no_adress">Geen adres ingevoerd</string>
+    <string name="kidsguard_usage_control_radius_title">Straal in kilometer instellen</string>
+    <string name="kidsguard_usage_control_scheduled_category">Weekplanning</string>
+    <string name="kidsguard_usage_control_scheduled_summary">Stel voor elke weekdag een periode in waarin het apparaat mag worden gebruikt</string>
+    <string name="kidsguard_usage_control_scheduled_title">Plannen</string>
+    <string name="kidsguard_usage_control_set_adress">Adres invoeren</string>
+    <string name="kidsguard_usage_control_summary">Instellingen voor het beperken van de gebruikstijd of plaats</string>
+    <string name="kidsguard_usage_control_title">Instellingen</string>
+    <string name="kidsguard_usage_control_weekly_category">Weekoverzicht</string>
+    <string name="kidsguard_usage_time_device_admin_text">De rechten zijn nodig om het apparaat te blokkeren en de correcte werking van de slaapstand te garanderen.</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">De dagelijks toegelaten gebruiksduur is verstreken. Uw apparaat wordt nu geblokkeerd.</string>
+    <string name="kidsguard_usagecontrol_toddler">Geblokkeerde periodes</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">Geblokkeerde periodes configureren</string>
+    <string name="kidsguard_usagecontrol_toddler_description">Beperkt het toegelaten apparaatgebruik tot zelf gedefinieerde periodes of plaatsen.</string>
+    <string name="kidsguard_wallpaper">Achtergrond</string>
+    <string name="kidsguard_wifi_off_summary">Alle netwerken verbreken en WiFi uitschakelen</string>
+    <string name="kidsguard_wifi_off_title">WiFi uitschakelen</string>
+    <string name="lightblue">Lichtblauw</string>
+    <string name="lightgrey">Lichtgrijs</string>
+    <string name="localisation_service">Lokalisatiedienst</string>
+    <string name="locationlock_add_title">Nieuwe beperking toevoegen</string>
+    <string name="locationlock_add_title_edit">Beperking bewerken</string>
+    <string name="locationlock_selection_title">Beperkingen</string>
+    <string name="locationpicker_add">Plaats selecteren</string>
+    <string name="lockedlocations_selection_no_entries">"Met deze app kunt u uw smartphone voor bepaalde plaatsen op verschillende weekdagen en tijdstippen blokkeren. 
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">Druk op het +-symbool in de titelbalk om nieuwe beperkingen te maken.</string>
+    <string name="lockscreen_part_disabled_services" />
+    <string name="lockscreen_part_five" />
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">Uw apparaat is geblokkeerd door de beperking:</string>
+    <string name="lockscreen_part_six" />
+    <string name="lockscreen_part_two" />
+    <string name="log_blocked_app">Geblokkeerde app gestart:</string>
+    <string name="log_clar_caption">Logboeken</string>
+    <string name="log_clear_logs">Verwijderen</string>
+    <string name="log_confirm_clear_logs">Wilt u alle logboeken verwijderen?</string>
+    <string name="log_detail_title">Logboek</string>
+    <string name="log_dont_clear_logs">Annuleren</string>
+    <string name="log_hashcode_block_app">App geblokkeerd omdat de handtekening afwijkt:</string>
+    <string name="log_hashcode_mismatch">Afwijkende handtekening:</string>
+    <string name="log_incoming_call_blocked">Inkomende oproep onderdrukt:</string>
+    <string name="log_locked_app">Beveiligde app gestart:</string>
+    <string name="log_oninstall_app" formatted="false">Toepassing: %app%</string>
+    <string name="log_oninstall_malware_found">Malware gevonden</string>
+    <string name="log_oninstall_malware_name" formatted="false">Infectie: %name%</string>
+    <string name="log_oninstall_package_name" formatted="false">Installatiepakket: %package%</string>
+    <string name="log_oninstall_pup_found">Mogelijk ongewenst programma gevonden</string>
+    <string name="log_outgoing_call_blocked">Uitgaande oproep onderdrukt:</string>
+    <string name="log_phishing_site_found">Phishingsite gevonden:</string>
+    <string name="log_scan_app_scan_title">Toepassingsscan:</string>
+    <string name="log_scan_apps_scanned" formatted="false">%cnt% geïnstalleerde toepassingen gecontroleerd</string>
+    <string name="log_scan_duration" formatted="false">Scanduur: %time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt% bestanden gecontroleerd</string>
+    <string name="log_scan_infection_found" formatted="false">%cnt% infectie gevonden</string>
+    <string name="log_scan_infections_found" formatted="false">%cnt% infecties gevonden</string>
+    <string name="log_scan_malware_found_title">Malware gevonden</string>
+    <string name="log_scan_nothing_found_title">geen malware gevonden</string>
+    <string name="log_scan_pup_found" formatted="false">%cnt% mogelijk ongewenst programma gevonden</string>
+    <string name="log_scan_pup_found_title">"mogelijk ongewenste programma's gevonden"</string>
+    <string name="log_scan_pups_found" formatted="false">"%cnt% mogelijk ongewenste programma's gevonden"</string>
+    <string name="log_scan_sig_date" formatted="false">Handtekeningen: %date%</string>
+    <string name="log_scan_system_scan_title">Systeemscan:</string>
+    <string name="log_sigfile_updated">De handtekeningen zijn bijgewerkt.</string>
+    <string name="main_activation_state">Status:</string>
+    <string name="main_antiphish_checked_none">geen</string>
+    <string name="main_apps_denials_all">Alle apps geblokkeerd</string>
+    <string name="main_apps_denials_hdr">Geblokkeerde apps</string>
+    <string name="main_apps_denials_hdr_invert">Goedgekeurde apps</string>
+    <string name="main_apps_denials_none">Geen apps geblokkeerd</string>
+    <string name="main_apps_locked_all">Alle apps beveiligd</string>
+    <string name="main_apps_locked_hdr">Beveiligde apps</string>
+    <string name="main_apps_locked_hdr_invert">Onbeveiligde apps</string>
+    <string name="main_apps_locked_none">geen apps beveiligd</string>
+    <string name="main_calls_blocked_multiple">%d oproepen/sms-berichten onderdrukt</string>
+    <string name="main_calls_blocked_singular">1 oproep/sms-bericht onderdrukt</string>
+    <string name="main_calls_filtered_hdr">onderdrukte oproepen:</string>
+    <string name="main_calls_filtered_none">geen</string>
+    <string name="main_contacts_filtered_none">geen</string>
+    <string name="main_contacts_hidden_count">%d contactpersonen verborgen</string>
+    <string name="main_contacts_hidden_count_singular">1 contactpersoon verborgen</string>
+    <string name="main_contacts_hidden_hdr">beveiligde contactpersonen:</string>
+    <string name="main_hub_phishing">Phishingfilter</string>
+    <string name="main_hub_privacy">Contactpersonen verbergen</string>
+    <string name="main_info">Over G DATA</string>
+    <string name="main_last_scan_hdr">laatste viruscontrole:</string>
+    <string name="main_last_scan_never">nog nooit</string>
+    <string name="main_permission">Rechten</string>
+    <string name="main_premium_antitheft">Diefstalbeveiliging</string>
+    <string name="main_premium_callblock">Oproepfilter</string>
+    <string name="main_premium_phishing">Phishingfilter</string>
+    <string name="main_premium_privacy">Privésfeer</string>
+    <string name="main_scan">Viruscontrole</string>
+    <string name="main_settings">Instellingen</string>
+    <string name="main_state_active">actief</string>
+    <string name="main_state_inactive">inactief</string>
+    <string name="mdm_choose_another_profile">Ander profiel selecteren</string>
+    <string name="mdm_choose_profile_title">Profiel selecteren</string>
+    <string name="mdm_device_compromised_rooted_locked">Het apparaat van de gebruiker is geïnfecteerd (rooted) en werd daarom geblokkeerd door de beheerder</string>
+    <string name="mdm_set_camera_state">Het in-/uitschakelen van de camera wordt niet ondersteund.</string>
+    <string name="mdm_storage_encryption_accepted_by_user">De gebruiker heeft de codering van het apparaat ingeschakeld</string>
+    <string name="mdm_storage_encryption_denied_by_user">De gebruiker heeft de codering van het apparaat niet ingeschakeld</string>
+    <string name="menu_accman">Accountbeheer</string>
+    <string name="menu_antitheft">Verlies/diefstal</string>
+    <string name="menu_applock">App-beveiliging</string>
+    <string name="menu_apps">Apps</string>
+    <string name="menu_conversations">Oproepen / sms-berichten</string>
+    <string name="menu_exit">Druk opnieuw op &lt;i>Vorige&lt;/i> om de toepassing te sluiten.</string>
+    <string name="menu_filter">Oproepfilter</string>
+    <string name="menu_filter_in">Inkomende filter</string>
+    <string name="menu_filter_out">Uitgaande filter</string>
+    <string name="menu_goback">Vorige</string>
+    <string name="menu_guard_done">Gereed</string>
+    <string name="menu_hide_contacts">Contactpersonen verbergen</string>
+    <string name="menu_info">Over</string>
+    <string name="menu_kidsguard">Kinderbeveiliging</string>
+    <string name="menu_kidsguard_broser">Browserinstellingen</string>
+    <string name="menu_other">Meer</string>
+    <string name="menu_panic_button">Panic Button</string>
+    <string name="menu_security">Beveiliging</string>
+    <string name="menu_security_hub">Beveiligingscentrum</string>
+    <string name="menu_settings">Instellingen</string>
+    <string name="missing_libs">De installatie bevat fouten. Controleer of u over voldoende vrije schijfruimte beschikt en installeer de toepassing opnieuw.</string>
+    <string name="mms_configure">Onderhoud op afstand configureren</string>
+    <string name="mms_connect_deferred">Het laden van updates is niet mogelijk, omdat nog nooit verbinding met de ManagementServer kon worden gemaakt. Controleer de instellingen voor onderhoud op afstand.</string>
+    <string name="mms_contact">Contactpersoon bedrijf</string>
+    <string name="mms_eula_show">Gebruiksovereenkomst weergeven…</string>
+    <string name="mms_invalid_data">Ongeldige aanmeldingsgegevens voor extern beheer</string>
+    <string name="mms_log">MMS-overdracht</string>
+    <string name="mms_server_address">Serveradres</string>
+    <string name="mms_server_address_summary">Het adres van de ManagementServer (IP/servernaam)</string>
+    <string name="mms_server_name">Apparaatnaam</string>
+    <string name="mms_server_name_summary">Apparaatnaam voor identificatie.</string>
+    <string name="mms_server_not_found">ManagementServer kon tot nu toe nog niet worden bereikt.</string>
+    <string name="mms_server_password">Wachtwoord</string>
+    <string name="mms_server_password_summary">Wachtwoord voor autorisatie.</string>
+    <string name="mms_synch_data">Synchroniseer met G DATA ManagementServer…</string>
+    <string name="mockapp">\"GPS Fake-app ontdekt.\"</string>
+    <string name="monday">Ma</string>
+    <string name="new_filter_title">Nieuwe filter toevoegen</string>
+    <string name="new_group_filter_scheduler_header">Dagelijks</string>
+    <string name="new_locked_location_adress_header">Adres</string>
+    <string name="new_locked_location_adress_hint" />
+    <string name="new_locked_location_from_hint">Van</string>
+    <string name="new_locked_location_header">Beschrijving</string>
+    <string name="new_locked_location_location_activate">Geografische blokkering inschakelen</string>
+    <string name="new_locked_location_radius_header">Straal</string>
+    <string name="new_locked_location_radius_hint" />
+    <string name="new_locked_location_scheduler_header">Planning</string>
+    <string name="new_locked_location_till_hint">Tot</string>
+    <string name="new_widget_help">Nieuwe Panic Buttons kunnen alleen als widget op uw beginscherm worden toegevoegd.</string>
+    <string name="news_follow_link">meer lezen…</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/nl/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/nl/messages.xml</string>
+    <string name="no_entrys">Geen items</string>
+    <string name="notification_accessibility_applock_off_text">App-beveiliging is gedeactiveerd omdat G DATA App Checker niet meer actief is. Deze dienst is vanaf Android Lollipop nodig voor App-beveiliging.</string>
+    <string name="notification_accessibility_applock_off_ticker">App-beveiliging is gedeactiveerd.</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name## heeft de toepassing</string>
+    <string name="notification_app_installed_clean_ticker_part2">met succes gecontroleerd.</string>
+    <string name="notification_arp_detection">Dit WLAN-netwerk is mogelijk onveilig.</string>
+    <string name="notification_arp_detection_auto">Dit WLAN-netwerk is mogelijk onveilig.</string>
+    <string name="notification_arp_detection_auto_ticker">Dit WLAN-netwerk is mogelijk onveilig. Uw WLAN-verbinding is uit voorzorg verbroken.</string>
+    <string name="notification_arp_detection_ticker">Dit WLAN-netwerk is mogelijk onveilig. Als u met een openbaar WLAN-netwerk of een ander onveilig netwerk verbonden bent, raden we u aan de verbinding te verbreken.</string>
+    <string name="notification_bssid_detection">Dit WLAN-netwerk is mogelijk onveilig.</string>
+    <string name="notification_bssid_detection_ticker">Dit WLAN-netwerk is mogelijk onveilig. Dit is een resultaat van de uitgebreide analyse.</string>
+    <string name="notification_infected">Uw systeem is geïnfecteerd.</string>
+    <string name="notification_infected_pup">Uw systeem is mogelijk geïnfecteerd!</string>
+    <string name="notification_infected_pup_ticker">"Er zijn mogelijk ongewenste programma's geïnstalleerd op uw systeem."</string>
+    <string name="notification_infected_ticker">Uw systeem is geïnfecteerd.</string>
+    <string name="notification_ipx_cancellation_success">Uw abonnement is opgezegd.</string>
+    <string name="notification_ipx_error">Er is een fout opgetreden tijdens het bestellen. Probeer de bestelling met een andere betaalmethode uit te voeren.</string>
+    <string name="notification_ipx_subscription_success">Uw abonnement is geconfigureerd.</string>
+    <string name="notification_new_apk_available">Nieuwe programmaversie beschikbaar.</string>
+    <string name="notification_new_apk_available_ticker">Er is een nieuwe programmaversie beschikbaar.</string>
+    <string name="notification_new_news_ticker">Nieuwe berichten beschikbaar</string>
+    <string name="notification_new_unread_multiple">%d ongelezen berichten</string>
+    <string name="notification_new_unread_one">1 ongelezen bericht</string>
+    <string name="notification_persistent_text">actief</string>
+    <string name="notification_persistent_ticker">\##app_name## is gestart.</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">Installeren</string>
+    <string name="notification_query_message_news">U hebt ongelezen berichten.</string>
+    <string name="notification_query_open_news">Berichten weergeven</string>
+    <string name="notification_query_start_disinfect">Desinfecteren</string>
+    <string name="notification_query_start_scan">Scan starten</string>
+    <string name="notification_query_start_update">Update starten</string>
+    <string name="notification_scan_finished_clean">De scan heeft geen infecties gevonden</string>
+    <string name="notification_scan_outdated">Scan vereist</string>
+    <string name="notification_scan_outdated_ticker">De laatste scan is langer dan 7 dagen geleden.</string>
+    <string name="notification_sig_file_to_old">De handtekeningen zijn verouderd!</string>
+    <string name="notification_sig_file_to_old_ticker">De gebruikte handtekeningen zijn verouderd!</string>
+    <string name="notification_usage_time_left">Minuten resterend…</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">Als nieuw nummer toevoegen</string>
+    <string name="number_picker_add_entries">Items verbergen</string>
+    <string name="number_picker_new_contact">Toevoegen</string>
+    <string name="number_picker_search">Zoeken</string>
+    <string name="orange">Oranje</string>
+    <string name="orange_ask_activate">Uw virusbeveiliging is niet meer up-to-date. Wilt u een licentie kopen om uw smartphone te beveiligen tegen virussen en bedreigingen?</string>
+    <string name="orange_err_no_orange_sim">Houd er rekening mee dat deze dienst enkel beschikbaar is voor klanten van Orange Oostenrijk.</string>
+    <string name="orange_err_no_sim">Zonder simkaart kunnen geen updates worden geladen.</string>
+    <string name="orange_wizard_explaination">Deze gegevens, evenals de gebruiksgegevens, mogen 12 maanden lang voor productrelevante informatie worden gebruikt.</string>
+    <string name="orange_wizard_purchase_link">Nu kopen…</string>
+    <string name="orange_wizard_subtitle">"30 dagen gratis proberen!
+
+Alle premiumfuncties 30 dagen gratis. Voer alleen uw naam en e-mailadres in."</string>
+    <string name="outblack">Uitgaande</string>
+    <string name="outwhite">Uitgaande</string>
+    <string name="package_already_uninstalled">Pakket al verwijderd</string>
+    <string name="panicActionContent">Tekst</string>
+    <string name="panicActionType">Actie</string>
+    <string name="panic_button_dialog_title">Acties worden uitgevoerd in …</string>
+    <string name="panic_button_info_text">"Met een Panic Button kunt u in noodgevallen snel en eenvoudig een bericht naar uw vrienden sturen bv. om hen te laten weten waar u zich op dat moment bevindt. 
+
+ Deze worden als nieuwe widgets aangemaakt via het beginscherm.
+
+"</string>
+    <string name="panic_button_prompt">Nieuwe actie toevoegen</string>
+    <string name="panic_button_ready">Klaar</string>
+    <string name="panic_call">Oproep starten</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Oproep</string>
+    <string name="panic_edittext_hint">Uw bericht…</string>
+    <string name="panic_edittext_hint_header">Uw titel…</string>
+    <string name="panic_edittext_sender">Uw naam…</string>
+    <string name="panic_email">E-mail verzenden</string>
+    <string name="panic_email_content">Bericht</string>
+    <string name="panic_email_header">Onderwerp</string>
+    <string name="panic_email_type">E-mail</string>
+    <string name="panic_form_no_content_error">Voer een bericht in.</string>
+    <string name="panic_form_no_number_error">Voer een ontvanger in.</string>
+    <string name="panic_fragment_title">Panic Button</string>
+    <string name="panic_gps_email_last_location">"Geachte heer of mevrouw, onze klant #4# heeft u als contactpersoon voor noodgevallen opgegeven en daarom ontvangt u de huidige coördinaten van zijn/haar telefoon.
+
+#0#De laatste bekende positie van de telefoon is #1#. Volg de link #2# of #3# voor een kaartweergave. Opmerking: het MAC-adres van de laatst gebruikte router is #5#.
+
+Met vriendelijke groet
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"Geachte heer of mevrouw, Onze klant (#4#) heeft u als contactpersoon voor noodgevallen opgegeven en daarom ontvangt u de huidige coördinaten van zijn/haar telefoon.
+
+#0#De huidige positie van de telefoon is #1#. Volg de link #2# of #3# voor een kaartweergave. Opmerking: het MAC-adres van de laatst gebruikte router is #5#.
+
+Met vriendelijke groet
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"Geachte heer, mevrouw, onze klant #4# heeft u als contactpersoon voor noodgevallen opgegeven en daarom zou u de huidige positie van zijn/haar telefoon moeten ontvangen. Deze kan op dit moment helaas niet worden gelokaliseerd.
+
+#0# Opmerking: het MAC-adres van de laatst gebruikte router is #5#.
+
+Met vriendelijke groet
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">De laatst bekende positie van de telefoon #1# was #2#.</string>
+    <string name="panic_gps_sms_location">De telefoon van #1# is bij de coördinaten #2# gevonden.</string>
+    <string name="panic_gps_sms_no_location">>#0##4# Telefoon kan de huidige positie niet verzenden.</string>
+    <string name="panic_header">Nieuwe Panic Button maken</string>
+    <string name="panic_header_edit">Panic Button bewerken</string>
+    <string name="panic_list_header">Panic Button</string>
+    <string name="panic_location">Locatie verzenden</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">E-mailadres of mobiel nummer invoeren:</string>
+    <string name="panic_location_type">Locatie</string>
+    <string name="panic_min_actions">U hebt minstens één actie nodig.</string>
+    <string name="panic_sms">Sms verzenden</string>
+    <string name="panic_text_message">Bericht verzenden</string>
+    <string name="panic_text_message_content">Bericht</string>
+    <string name="panic_text_message_type">Bericht</string>
+    <string name="panic_textview_hint">Uw contactpersoon…</string>
+    <string name="panic_trigger_email">E-mail verzenden</string>
+    <string name="panic_trigger_emergency_call">Noodoproep starten</string>
+    <string name="panic_trigger_location">Locatie verzenden</string>
+    <string name="panic_trigger_sms">Sms verzenden</string>
+    <string name="panic_unknown_sender">Niet opgegeven</string>
+    <string name="panic_wizard_description_one">Voeg een van meerdere acties toe die worden uitgevoerd wanneer op de Panic Button wordt gedrukt.</string>
+    <string name="panic_wizard_description_sender">Voor sommige acties is uw naam als afzender nodig:</string>
+    <string name="panic_wizard_description_three">Selecteer een persoon uit uw contactpersonen die in noodgevallen op de hoogte moet worden gebracht.</string>
+    <string name="panic_wizard_two_desc_call">Deze actie start een directe noodoproep naar uw contactpersoon voor noodgevallen.</string>
+    <string name="panic_wizard_two_desc_email">Deze actie verzendt uw opgeslagen bericht direct naar uw contactpersoon voor noodgevallen.</string>
+    <string name="panic_wizard_two_desc_location">Deze actie verzendt uw locatie bij een noodgeval direct naar uw contactpersoon voor noodgevallen.</string>
+    <string name="panic_wizard_two_desc_message">Deze actie verzendt uw opgeslagen bericht direct naar uw contactpersoon voor noodgevallen.</string>
+    <string name="panicbutton">Panic Button</string>
+    <string name="panicbutton_big">G DATA L Panic Button</string>
+    <string name="panicbutton_medium">G DATA M Panic Button</string>
+    <string name="panicbutton_small">G DATA S Panic Button</string>
+    <string name="periodic_scan_type_summary">Bepaalt of een snelcontrole van de geïnstalleerde toepassingen of een volledige systeemscan uitgevoerd wordt.</string>
+    <string name="periodic_scan_type_title">Type</string>
+    <string name="permission_access_network_state_desc">Netwerkverbindingen weergeven</string>
+    <string name="permission_access_wifi_state_desc">WLAN-verbindingen weergeven</string>
+    <string name="permission_additional_fees_desc">Hiervoor kunnen kosten worden aangerekend</string>
+    <string name="permission_authenticate_accounts_desc">Accounts maken en wachtwoorden instellen</string>
+    <string name="permission_billing_desc">Google Play-factureringsdienst</string>
+    <string name="permission_broadcast_sticky_desc">Permanente broadcast verzenden</string>
+    <string name="permission_call_phone_desc">Telefoonnummers direct bellen</string>
+    <string name="permission_change_wifi_state_desc">WLAN-verbindingen maken en verbreken</string>
+    <string name="permission_check_license_desc">Google Play-licentiecontrole</string>
+    <string name="permission_full_network_access_desc">Volledige netwerktoegang</string>
+    <string name="permission_get_accounts_desc">Accounts op het apparaat zoeken</string>
+    <string name="permission_get_tasks_desc">Actieve apps opvragen</string>
+    <string name="permission_internet_desc">Toepassingen krijgen toegang tot internet.</string>
+    <string name="permission_internet_desc_detail">Toepassingen die toegang tot internet krijgen:</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">Internettoegang</string>
+    <string name="permission_location_coarse_desc">Toepassingen mogen de algemene positie van de telefoon opvragen.</string>
+    <string name="permission_location_coarse_desc_detail">Toepassingen die de algemene positiegegevens van de telefoon mogen opvragen:</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">Plaatsbepaling mobiele telefoon/WiFi</string>
+    <string name="permission_location_desc">exacte locatie (op basis van gps en netwerk)</string>
+    <string name="permission_location_fine_desc">Toepassingen mogen de exacte locatie van de telefoon opvragen.</string>
+    <string name="permission_location_fine_desc_detail">Toepassingen die exacte positiegegevens van de telefoon mogen opvragen:</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">Plaatsbepaling gps</string>
+    <string name="permission_manage_accounts_desc">Accounts op het apparaat gebruiken</string>
+    <string name="permission_outgoing_calls_desc">Toepassingen mogen oproepen starten.</string>
+    <string name="permission_outgoing_calls_desc_detail">Toepassingen die oproepen mogen starten:</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">Oproepen</string>
+    <string name="permission_outgoing_sms_desc">Toepassingen mogen sms-berichten verzenden.</string>
+    <string name="permission_outgoing_sms_desc_detail">Toepassingen die sms-berichten mogen verzenden:</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">Sms</string>
+    <string name="permission_process_outgoing_calls_desc">Uitgaande oproepen doorschakelen</string>
+    <string name="permission_read_call_logs_desc">Oproeplogboek lezen</string>
+    <string name="permission_read_contacts_desc">Toepassingen krijgen toegang tot het adresboek.</string>
+    <string name="permission_read_contacts_desc_detail">Toepassingen die toegang tot het adresboek krijgen:</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">Adresboek</string>
+    <string name="permission_read_history_bookmarks_desc">Bladwijzers voor websites en het weblogboek lezen</string>
+    <string name="permission_read_logs_desc">Toepassingen mogen logboekbestanden van het systeem lezen.</string>
+    <string name="permission_read_logs_desc_detail">Toepassingen die toegang krijgen tot logboekbestanden van het systeem. Deze kunnen persoonlijke gegevens bevatten:</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">Logboekbestanden</string>
+    <string name="permission_read_phone_state_desc">Telefoonstatus en identiteit opvragen</string>
+    <string name="permission_read_sms_desc">Sms of mms lezen</string>
+    <string name="permission_read_sync_settings_desc">Synchronisatie-instellingen lezen</string>
+    <string name="permission_receive_boot_completed_desc">Uitvoeren bij de start</string>
+    <string name="permission_receive_sms_desc">Sms ontvangen</string>
+    <string name="permission_reorder_tasks_desc">Actieve apps opnieuw ordenen</string>
+    <string name="permission_send_sms_desc">Sms verzenden</string>
+    <string name="permission_use_credentials_desc">Accounts toevoegen of verwijderen</string>
+    <string name="permission_write_call_logs_desc">Oproeplogboek bewerken</string>
+    <string name="permission_write_contacts_desc">Mijn contactpersonen wijzigen</string>
+    <string name="permission_write_external_storage_desc">Inhoud van SD-kaart wijzigen of verwijderen</string>
+    <string name="permission_write_settings_desc">Systeeminstellingen wijzigen</string>
+    <string name="permission_write_sms_desc">Sms of mms bewerken</string>
+    <string name="permission_write_sync_settings_desc">Synchronisatie inschakelen of uitschakelen</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">\##app_name##&lt;br/> heeft de toegang tot de website onderbroken.&lt;br/>De website is ofwel geïnfecteerd ofwel is het een phishingsite.</string>
+    <string name="phishing_blocked_title">Website geblokkeerd!</string>
+    <string name="phishing_checkbox_label">Webbeveiliging inschakelen</string>
+    <string name="phishing_intro">De webbeveiliging voorkomt phishingaanvallen via de Android- en Chrome-browser. Beveiliging tegen phishingaanvallen is niet mogelijk in de incognitomodus.</string>
+    <string name="phishing_intro_long">Onder phishing verstaat men een poging om persoonlijke gegevens zoals loginnamen, wachtwoorden, creditcardnummers, bankgegevens enz. te bemachtigen via valse websites of ongewenste e-mails. Phishingaanvallen zijn meestal gericht op klanten van banken die internetbankieren aanbieden, betaaldiensten, internetproviders of onlinewinkels. Vaak wordt men via e-mail of instant messenger naar valse websites geleid, die nauwelijks te onderscheiden zijn van de originele websites.</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">Fout</string>
+    <string name="plasma_status_code_cancel">De bewerking is geannuleerd</string>
+    <string name="plasma_status_code_invalidaccount">Ongeldige account</string>
+    <string name="plasma_status_code_invalidcreditcard">Ongeldige creditcardgegevens</string>
+    <string name="plasma_status_code_itemgroupidnotfound">Ongeldige bestelprocedure</string>
+    <string name="plasma_status_code_itemidnotfound">Ongeldige bestelprocedure</string>
+    <string name="plasma_status_code_networkerror">Netwerkfout</string>
+    <string name="plasma_status_code_paymentidnotfound">Ongeldige bestelprocedure</string>
+    <string name="plasma_status_code_processerror">Verwerkingsfout</string>
+    <string name="plasma_status_code_serviceunavailable">Dienst niet beschikbaar</string>
+    <string name="plasma_status_code_success">Procedure voltooid</string>
+    <string name="plasma_try_later">Controleer uw accountinstellingen of probeer het later opnieuw.</string>
+    <string name="postTime" />
+    <string name="preTime" />
+    <string name="pref_category_account">Toegangsgegevens en abonnementen</string>
+    <string name="pref_category_account_summary">Toegangsgegevens beheren</string>
+    <string name="pref_category_default">Algemeen</string>
+    <string name="pref_category_licenses">Softwarelicenties</string>
+    <string name="pref_category_mms">Extern beheer</string>
+    <string name="pref_category_scan">Viruscontrole</string>
+    <string name="pref_category_scan_header">Viruscontrole</string>
+    <string name="pref_category_scan_summary">Instellingen voor de automatische controle.</string>
+    <string name="pref_category_timedUpdate">Updates</string>
+    <string name="pref_category_webportal">WebPortal</string>
+    <string name="pref_category_webshield">Webbeveiliging</string>
+    <string name="pref_licenses">Open-source-licenties</string>
+    <string name="pref_licenses_summary">Licentiegegevens voor open-source-software weergeven</string>
+    <string name="privacy_applying_privacy">Gegevens worden verborgen</string>
+    <string name="privacy_blocked_call">Oproep van %1$s onderdrukt</string>
+    <string name="privacy_blocked_sms">Sms van %1$s ontvangen</string>
+    <string name="privacy_call_history">Oproepgeschiedenis</string>
+    <string name="privacy_call_text">Oproepen</string>
+    <string name="privacy_cancel">Annuleren</string>
+    <string name="privacy_chat_history">Berichtenverloop</string>
+    <string name="privacy_clear_logs">Oproepgeschiedenis verwijderen</string>
+    <string name="privacy_contact">Contactpersoon privé</string>
+    <string name="privacy_contact_add">Contactpersoon of nummer toevoegen</string>
+    <string name="privacy_contact_picture">Foto van contactpersoon</string>
+    <string name="privacy_contact_remove">Selectie verwijderen</string>
+    <string name="privacy_contacts">Verborgen contactpersonen beheren</string>
+    <string name="privacy_data_loss">Bovendien verliest u alle gegevens van de momenteel verborgen contactpersonen.</string>
+    <string name="privacy_deleted_user">Verwijderd item uit telefoonboek</string>
+    <string name="privacy_detail">Details</string>
+    <string name="privacy_disable_privacy">Beveiliging uitschakelen</string>
+    <string name="privacy_do_hide">Verbergen</string>
+    <string name="privacy_do_not_hide">Niet verbergen</string>
+    <string name="privacy_enable_privacy">Beveiliging inschakelen</string>
+    <string name="privacy_hidden_contacts">Verborgen contactpersonen</string>
+    <string name="privacy_hide_contacts">Contactpersonen verbergen</string>
+    <string name="privacy_known_contacts">Contactpersonen</string>
+    <string name="privacy_managecontacts">Verborgen contactpersonen beheren</string>
+    <string name="privacy_move_to_phone_header">Contactpersoon bewerken</string>
+    <string name="privacy_no_chat_history">Er zijn geen berichten</string>
+    <string name="privacy_no_hidden_contacts">Druk op het +-symbool in de titelbalk om contactpersonen te selecteren die u wilt verbergen.</string>
+    <string name="privacy_remove_contacts">Item verwijderen</string>
+    <string name="privacy_remove_conversations">Berichten verbergen</string>
+    <string name="privacy_restoring_privacy">Gegevens worden hersteld</string>
+    <string name="privacy_send_message_text">Bericht verzenden</string>
+    <string name="privacy_sim_contacs_to_phone">Deze contactpersoon wordt via een account gesynchroniseerd. Om synchronisatieproblemen te voorkomen, moet deze contactpersoon naar het telefoonboek worden verplaatst voordat deze wordt verborgen.</string>
+    <string name="privacy_suppres_communication">Inkomende communicatie verbergen</string>
+    <string name="privacy_title">Contactpersonen verbergen</string>
+    <string name="profile_config_title">Profiel selecteren</string>
+    <string name="profile_create_new">Nieuw profiel maken</string>
+    <string name="profile_title">Profielnaam</string>
+    <string name="progress_deleting_infected_files">De geïnfecteerde bestanden worden verwijderd. Even geduld…</string>
+    <string name="protected_features">"Deze functie is pas beschikbaar na de activering.
+
+Wilt u de activering nu uitvoeren?"</string>
+    <string name="protectuninstall_text">Houd er rekening mee dat uw systeem daarna onbeveiligd is.</string>
+    <string name="protectuninstall_title">\##app_name## verwijderen?</string>
+    <string name="purchase_article">Artikel</string>
+    <string name="purchase_article_number">Artikelnummer</string>
+    <string name="purchase_date">Datum</string>
+    <string name="purchase_information">Bestelgegevens</string>
+    <string name="purchase_number">Bestelnummer</string>
+    <string name="purchase_price">Prijs</string>
+    <string name="red">Rood</string>
+    <string name="remote_device_located">Het apparaat is gelokaliseerd.</string>
+    <string name="remote_device_locating">Apparaat start lokalisatie.</string>
+    <string name="remote_lock_fail">Het apparaat kon niet worden geblokkeerd.</string>
+    <string name="remote_lock_no_password">Het apparaat is geblokkeerd zonder wachtwoord.</string>
+    <string name="remote_lock_ok">Het apparaat is geblokkeerd.</string>
+    <string name="remote_lock_password_reset">Het apparaat is geblokkeerd met het wachtwoord voor onderhoud op afstand.</string>
+    <string name="remote_set_password_fail">Het wachtwoord kon niet worden gewijzigd.</string>
+    <string name="remote_set_password_ok">Het wachtwoord is gewijzigd.</string>
+    <string name="report_dialog_title">Help ons!</string>
+    <string name="restriction_locked_for_a_day">Blokkering is uitgeschakeld voor de volgende dag.</string>
+    <string name="restriction_locked_for_till_restart">De blokkering is tot de volgende start van de kinderbeveiliging inactief.</string>
+    <string name="saturday">Za</string>
+    <string name="saveProtocolls_summary">Slaat de door de systeemcontrole aangemaakte logboeken op.</string>
+    <string name="saveProtocolls_title">Logboeken opslaan</string>
+    <string name="scanOnInstall_summary">Nieuw geïnstalleerde toepassingen automatisch controleren.</string>
+    <string name="scanOnInstall_title">Bij app-installatie</string>
+    <string name="scan_power_connected_summary">De achtergrondscan wordt enkel uitgevoerd wanneer het apparaat geladen wordt.</string>
+    <string name="scan_power_connected_title">Alleen tijdens het opladen</string>
+    <string name="scan_service_infection">Malware gevonden bij de automatische controle.</string>
+    <string name="scan_service_ok">Tijdens de automatische controle zijn geen virussen aangetroffen.</string>
+    <string name="scan_skip_power_low_summary">De achtergrondscan wordt niet uitgevoerd, omdat de batterij bijna leeg is</string>
+    <string name="scan_skip_power_low_title">Batterijspaarstand</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">Geïnstalleerde toepassingen</string>
+    <string name="scan_type_system">Systeem (volledige scan)</string>
+    <string name="security_hub_log_title">Berichten</string>
+    <string name="security_hub_scan_manually_canceled">Scan geannuleerd door gebruiker</string>
+    <string name="security_hub_subtitle_empty">Alles in orde</string>
+    <string name="security_hub_subtitle_empty_trial">Licentie / proefperiode verloopt binnen %d dag(en).</string>
+    <string name="security_hub_subtitle_empty_trial_expired">Licentie / proefperiode is verlopen.</string>
+    <string name="security_hub_title">Beveiligingscentrum</string>
+    <string name="sendErrorReports_summary">Verzendt foutrapporten naar G DATA Software AG. Uw internetprovider kan kosten voor de verzonden gegevens berekenen.</string>
+    <string name="sendErrorReports_title">Foutrapporten verzenden</string>
+    <string name="sendSMS">Verzenden</string>
+    <string name="sendUsageData_summary">Verzendt gegevens voor verdere ontwikkeling naar G DATA Software AG. Uw internetprovider kan kosten voor de verzonden gegevens berekenen.</string>
+    <string name="sendUsageData_title">Statistieken verzenden</string>
+    <string name="send_email">E-mail verzenden</string>
+    <string name="send_location">Locatie verzenden</string>
+    <string name="send_sms">Sms verzenden</string>
+    <string name="server_license_expired">De serverlicentie is verlopen. Neem contact op met uw administrator.</string>
+    <string name="showTrayIcon_title">Berichtsymbool</string>
+    <string name="showTrayIcons_summary">Geeft het logo van ##app_name## in de berichtenbalk weer.</string>
+    <string name="sim_change_message">De simkaart in uw toestel is vervangen.</string>
+    <string name="sim_change_message_subscriber">Nieuw telefoonnummer:</string>
+    <string name="sms_answer_device_password_failed">Het wachtwoord kon niet worden ingesteld omdat het niet voldoet aan de richtlijnen.</string>
+    <string name="sms_answer_device_password_succeeded">Het wachtwoord is met succes ingesteld.</string>
+    <string name="sms_answer_latest_known">De laatst bekende positie van uw telefoon was #1#.</string>
+    <string name="sms_answer_location">Uw telefoon is gevonden op de coördinaten #1#.</string>
+    <string name="sms_answer_lock">Het toestel is geblokkeerd.</string>
+    <string name="sms_answer_lock_fail">Het toestel kon niet worden geblokkeerd.</string>
+    <string name="sms_answer_lock_no_password">Het beeldscherm van uw toestel is uitgeschakeld. Het is niet geblokkeerd.</string>
+    <string name="sms_answer_lock_reset_password">Het toestel is geblokkeerd met uw wachtwoord voor sms-opdrachten.</string>
+    <string name="sms_answer_no_location">\#0#Uw telefoon kon de huidige positie niet bepalen.</string>
+    <string name="sms_answer_reset_password_failed">Het wachtwoord kon niet worden ingesteld omdat het uit minder dan vier tekens bestaat.</string>
+    <string name="sms_answer_reset_password_succeeded">Het sms-wachtwoord is met succes ingesteld.</string>
+    <string name="sms_answer_service_disabled">"Gps is uitgeschakeld of is niet beschikbaar. "</string>
+    <string name="sms_answer_wipe">Het wissen van het toestel is gestart.</string>
+    <string name="sms_command_email_summary">E-mail</string>
+    <string name="sms_command_email_title">Bijkomend e-mailadres voor de bepaalde posities.</string>
+    <string name="sms_email_answer_latest_known">"Beste klant,
+
+#0#De laatst bekende positie van uw telefoon is #1#. Volg de link #2# of #3# voor een kaartweergave.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"Beste klant,
+
+Uw telefoon is gevonden op de coördinaten #1#. Volg de link #2# of #3# voor een kaartweergave.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"Beste klant,
+
+Uw telefoon is geblokkeerd.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"Beste klant,
+
+Uw telefoon kon niet worden geblokkeerd.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"Beste klant,
+
+Het beeldscherm van uw telefoon is uitgeschakeld. Het is echter niet geblokkeerd.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"Beste klant,
+
+Uw telefoon is geblokkeerd met uw wachtwoord voor sms-opdrachten.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"Beste klant,
+
+#0#We kunnen uw telefoon niet lokaliseren.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"Beste klant,
+
+Het nieuwe wachtwoord voor sms-opdrachten is ingesteld.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"Beste klant,
+
+Het wachtwoord voor sms-opdrachten kon niet worden ingesteld.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"Beste klant,
+
+Het wachtwoord om het beeldscherm van uw telefoon te blokkeren, is ingesteld.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"Beste klant,
+
+Het wachtwoord om het beeldscherm van uw telefoon te blokkeren, kon niet worden ingesteld.
+
+Met vriendelijke groet,
+G DATA Software AG"</string>
+    <string name="sms_enter_text">Voer eerst het bericht in.</string>
+    <string name="sms_not_sent">Uw sms kon niet worden verzonden, controleer uw verbinding.</string>
+    <string name="sms_self">Ik</string>
+    <string name="sms_sent">Sms is verzonden</string>
+    <string name="spoof_detection_activated_summary">Items in de ARP-tabel controleren</string>
+    <string name="spoof_detection_activated_title">WiFi-beveiliging</string>
+    <string name="spoof_detection_advanced_summary">Bijkomende controles en regels</string>
+    <string name="spoof_detection_advanced_title">Geavanceerde instellingen</string>
+    <string name="spoof_detection_network_unreachable">Netwerk niet bereikbaar</string>
+    <string name="spoof_detection_networks_summary">In deze WLAN-netwerken is de controle van de ARP-tabel uitgeschakeld</string>
+    <string name="spoof_detection_networks_title">Betrouwbare netwerken</string>
+    <string name="spoof_detection_no_network">Er is op dit moment geen netwerk beschikbaar.</string>
+    <string name="startOnBoot_summary">\##app_name## wordt gestart bij de systeemstart.</string>
+    <string name="startOnBoot_title">Automatisch starten</string>
+    <string name="sunday">Zo</string>
+    <string name="task_icon_type_always">Altijd</string>
+    <string name="task_icon_type_if_action">Enkel bij acties</string>
+    <string name="task_icon_type_never">Nooit</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg">&lt;a href=tel:*%2306%23>G DATA USSD-filter nu testen. De test geeft de ID van uw toestel (IMEI) weer.&lt;/a></string>
+    <string name="textViewHeaderAdd">Contactpersoon selecteren</string>
+    <string name="text_trial">Nieuw account aanmaken</string>
+    <string name="text_unlock">Ik heb al een account</string>
+    <string name="thursday">Do</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">Telefoon-URL geblokkeerd</string>
+    <string name="title_activity_tel_ok">Telefoon-URL gecontroleerd</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">Uit</string>
+    <string name="toggle_on">Aan</string>
+    <string name="trial_app_name">Testversie van ##app_name##</string>
+    <string name="trial_err_already_registered">U bent al gratis aangemeld voor handtekeningupdates. U kunt zich niet opnieuw gratis aanmelden.</string>
+    <string name="trial_not_allowed_expired">"Deze functie is niet beschikbaar omdat de testperiode is afgelopen.
+
+Wilt u nu een aanbieding voor de aankoop van de volledige versie bekijken?"</string>
+    <string name="trial_not_allowed_unregistered">"Deze functie is pas beschikbaar na de gratis registratie van deze testversie.
+
+Wilt u de registratie nu uitvoeren?"</string>
+    <string name="trial_registration_dlg_mess">Krijg gratis toegang tot regelmatige updates. Voer uw klantgegevens in. De toegangsgegevens voor uw handtekeningupdates worden vervolgens automatisch in ##app_name## ingevoerd en u ontvangt deze tevens via e-mail.</string>
+    <string name="tuesday">Di</string>
+    <string name="uncheck_all">Alle selecties opheffen</string>
+    <string name="undobar_delete">Logboek verwijderd</string>
+    <string name="undobar_undo">Ongedaan maken</string>
+    <string name="unlock_question_1">Welk dier is mijn lievelingsdier?</string>
+    <string name="unlock_question_2">Wat is de meisjesnaam van mijn moeder?</string>
+    <string name="unlock_question_3">Hoe heet mijn beste vriend(in)?</string>
+    <string name="unlock_question_4">Waar is mijn vader geboren?</string>
+    <string name="unlock_question_custom">Eigen vraag</string>
+    <string name="unlock_time_1">1 uur</string>
+    <string name="unlock_time_15">15 minuten</string>
+    <string name="unlock_time_2">2 uur</string>
+    <string name="unlock_time_30">30 minuten</string>
+    <string name="unlock_time_4">4 uur</string>
+    <string name="unlock_time_inf">Oneindig</string>
+    <string name="unlock_time_subtitle">Gebruiksduur voor %s instellen</string>
+    <string name="unlock_time_title">App vrijschakelen:</string>
+    <string name="unlock_wizard">Internet Security</string>
+    <string name="updateWifiOnly_summary">Updates enkel bij beschikbare WLAN-verbinding uitvoeren.</string>
+    <string name="updateWifiOnly_title">Enkel via WLAN</string>
+    <string name="update_region_africa">Afrika</string>
+    <string name="update_region_asia">Azië</string>
+    <string name="update_region_asia_china">Azië (China)</string>
+    <string name="update_region_asia_india">Azië (India)</string>
+    <string name="update_region_asia_japan">Azië (Japan)</string>
+    <string name="update_region_australia">Australië</string>
+    <string name="update_region_auto">Automatische detectie</string>
+    <string name="update_region_europe">Europa</string>
+    <string name="update_region_north_america">Noord-Amerika</string>
+    <string name="update_region_south_america">Zuid-Amerika</string>
+    <string name="upgrade_offer_err_no_connection">De upgrade-informatie kon niet worden geladen. Controleer de netwerkverbinding.</string>
+    <string name="upgrade_offer_title">Upgrade-informatie</string>
+    <string name="usage_control_lock_dialog_part1" />
+    <string name="usage_control_lock_dialog_part12" />
+    <string name="usage_control_lock_dialog_part13" />
+    <string name="ussd_filter_title">USSD-filter</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">AuthCode generated by the ActionCenter</string>
+    <string name="web_portal_scan_interval">Updatefrequentie WebPortal</string>
+    <string name="web_portal_scan_interval_summary">Tijdsinterval tussen twee synchronisaties</string>
+    <string name="web_portal_server_address">WebPortal-server</string>
+    <string name="web_portal_server_address_summary">Het adres van de gebruikte WebPortal-server</string>
+    <string name="webprotection_dialog_accept">Blokkeren</string>
+    <string name="webprotection_dialog_continue">Doorgaan</string>
+    <string name="webprotection_dialog_text">Deze site is een bekende phishingsite. Ga enkel door als u zeker bent dat u daarmee geen risico loopt.</string>
+    <string name="webprotection_dialog_title">Webbeveiliging</string>
+    <string name="webshield_activated_summary">Beschermt u tegen phishingwebsites. Werkt enkel met de Android-browser.</string>
+    <string name="webshield_activated_title">Webbeveiliging</string>
+    <string name="webshield_only_wlan_summary">Website enkel controleren bij beschikbare WLAN-verbinding.</string>
+    <string name="webshield_only_wlan_title">Enkel via WLAN</string>
+    <string name="webshield_phishing_timeout_summary">Duur in seconden dat een phishingsite in uitzonderlijke gevallen kan worden bekeken.</string>
+    <string name="webshield_phishing_timeout_title">Duur van uitzondering</string>
+    <string name="wednesday">Wo</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="wizard_app_lock">Met de Appbescherming kunt u apps van een wachtwoord voorzien. Op die manier kan niemand zonder toestemming persoonlijke gegevens achterhalen.</string>
+    <string name="wizard_audit">U hebt de volgende functies van ##app_name## geconfigureerd:</string>
+    <string name="wizard_audit_subtitle_fail_text">Niet geconfigureerd</string>
+    <string name="wizard_audit_subtitle_succ_text">Met succes geconfigureerd</string>
+    <string name="wizard_audit_title">Audit</string>
+    <string name="wizard_bt_antitheft_text">Diefstalbeveiliging configureren</string>
+    <string name="wizard_bt_applock_text">App-beveiliging configureren</string>
+    <string name="wizard_bt_audit_skip_text">Voltooien</string>
+    <string name="wizard_bt_callfilter_text">Oproep-/sms-filter configureren</string>
+    <string name="wizard_bt_malware_text">Account activeren</string>
+    <string name="wizard_bt_next_text">overslaan</string>
+    <string name="wizard_bt_welcomen_skip_text">Volgende</string>
+    <string name="wizard_dlg_exit_caption">\##app_name##-wizard</string>
+    <string name="wizard_dlg_exit_text">Weet u zeker dat u wilt afsluiten?</string>
+    <string name="wizard_eula">Ik heb de eindgebruikersovereenkomst gelezen en goedgekeurd.</string>
+    <string name="wizard_eula_not_accpted_warning">U moet de licentieovereenkomst accepteren om verder te gaan.</string>
+    <string name="wizard_exit">Beëindigen</string>
+    <string name="wizard_intro">\##app_name## zorgt voor de veiligheid van uw apparaat en uw gegevens. Niet alleen tijdens het surfen, maar ook door nieuwe apps op mogelijke bedreigingen te onderzoeken.</string>
+    <string name="wizard_lbl_antitheft_headline_text">Diefstalbeveiliging</string>
+    <string name="wizard_lbl_audit_headline_text">\##app_name## Audit</string>
+    <string name="wizard_lbl_callfilter_headline_text">Oproepfilter</string>
+    <string name="wizard_lbl_malware_headline_text">Malwarebeveiliging</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">Na registratie krijgt u automatisch 30 dagen toegang tot de premiumfuncties van Internet Security. Na deze periode heeft u toegang tot de basisfuncties, zoals malwarebeveiliging. De premiumfuncties kunnen op elk tijdstip weer geactiveerd worden door een abonnement.</string>
+    <string name="wizard_malware_already_registered_text">Bent u al klant?</string>
+    <string name="wizard_malware_email_hint">E-mail</string>
+    <string name="wizard_malware_firstname_hint">Voornaam</string>
+    <string name="wizard_malware_lastname_hint">Achternaam</string>
+    <string name="wizard_malware_proceed_text">Software inschakelen…</string>
+    <string name="wizard_password">Dit wachtwoord is vereist voor de diefstal- en app-beveiliging (minstens 4 verschillende, niet-opeenvolgende cijfers)</string>
+    <string name="wizard_password_forgot">Wachtwoord vergeten? U kunt dit opnieuw instellen met een sms-opdracht van dit nummer. Sms-berichten bij vervanging van de simkaart worden naar dit nummer verzonden.</string>
+    <string name="wizard_send_mail">Antwoorden op sms-opdrachten worden ook naar uw e-mailadres gestuurd.</string>
+    <string name="wizard_start_header">Welkom bij uw nieuwe assistent voor meer beveiliging. Wilt u ons product eerst testen of hebt u al een licentie?</string>
+    <string name="wizard_theft">Met de Diefstalbescherming kunt u uw apparaat via SMS lokaliseren of, als het kwijt is, blokkeren en wissen. U krijgt automatisch bericht als de SIM-kaart wordt vervangen of, als de accu bijna leeg is, de meest recente positie.</string>
+    <string name="wizard_uninstall_protection_checkbox">Beveiliging tegen verwijderen inschakelen</string>
+    <string name="wizard_uninstall_protection_text">Schakel de beveiliging tegen verwijderen in om onbevoegd verwijderen te voorkomen (hiervoor moet de apparaatbeheerder worden ingeschakeld)</string>
+    <string name="zoomToSelectPerimeter">Het zichtbare kaartgebied (omgeving) komt overeen met de effectiviteit en kan worden gewijzigd met de zoomfunctie.</string>
+</resources>

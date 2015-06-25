@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/browser_menu_back" android:title="@string/browser_menu_back" android:showAsAction="ifRoom" />
+    <item android:id="@id/browser_menu_forward" android:title="@string/browser_menu_forward" android:showAsAction="ifRoom" />
+    <item android:id="@id/browser_menu_about" android:title="@string/browser_menu_about" android:showAsAction="ifRoom" />
+    <item android:id="@id/browser_menu_settings" android:title="@string/browser_menu_settings" android:showAsAction="ifRoom" />
+    <item android:id="@id/browser_menu_quit" android:title="@string/browser_menu_quit" android:showAsAction="ifRoom" />
+</menu>

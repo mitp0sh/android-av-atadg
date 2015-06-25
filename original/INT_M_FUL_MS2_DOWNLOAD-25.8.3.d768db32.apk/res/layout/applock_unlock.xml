@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/applock_unlock_password_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/applock_enter_password" style="@style/CustomDialogTheme" />
+    <EditText android:id="@id/applock_unlock_password_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:scrollHorizontally="true" android:password="true" android:singleLine="true" android:digits="1234567890" android:capitalize="none" android:autoText="false" android:inputType="phone" />
+    <TextView android:gravity="right" android:id="@id/applock_unlock_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/applock_forgot_password" android:onClick="onHintClick" style="@style/CustomDialogTheme" />
+</LinearLayout>

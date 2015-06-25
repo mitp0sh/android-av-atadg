@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/log_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_hub_title" style="@style/TitleBoldLeft" />
+    <View android:id="@id/log_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:gravity="center|left|top" android:orientation="vertical" android:id="@id/ll_log_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/layoutMargin">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_log_subtitle_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/ll_log_subtitle" android:background="@drawable/round_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ListViewLayout">
+                <ImageView android:layout_gravity="center|left|top" android:id="@id/list_img" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="5.0dip" android:src="@drawable/ok" android:contentDescription="@string/empty_string" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+                    <TextView android:id="@id/log_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+                    <TextView android:id="@id/log_subtitle_additional" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_log_subtitle2" android:background="@drawable/round_shape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/ListViewLayout">
+                <ImageView android:layout_gravity="center|left|top" android:id="@id/list_img2" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="4.0dip" android:src="@drawable/ok" android:contentDescription="@string/empty_string" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+                    <TextView android:id="@id/log_subtitle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_log_subtitle3" android:background="@drawable/round_shape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/ListViewLayout">
+                <ImageView android:layout_gravity="center|left|top" android:id="@id/list_img3" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="4.0dip" android:src="@drawable/ok" android:contentDescription="@string/empty_string" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+                    <TextView android:id="@id/log_subtitle3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_log_subtitle4" android:background="@drawable/round_shape" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/ListViewLayout">
+                <ImageView android:layout_gravity="center|left|top" android:id="@id/list_img4" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="4.0dip" android:src="@drawable/ok" android:contentDescription="@string/empty_string" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+                    <TextView android:id="@id/log_subtitle4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/security_hub_scan_progress_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/appTitleMarginLeft" android:layout_marginRight="@dimen/appTitleMarginRight">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <TextView android:id="@id/log_scan_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SubTitleLeft" />
+                <ProgressBar android:id="@id/security_hub_scan_progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:indeterminate="true" style="?android:attr/progressBarStyleHorizontal" />
+                <TextView android:ellipsize="middle" android:id="@id/security_hub_scan_progress_status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+                <TextView android:id="@id/scan_step_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <ImageButton android:layout_gravity="center" android:id="@id/security_hub_scan_exit_icon" android:background="@android:color/transparent" android:focusable="true" android:clickable="true" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="@dimen/notificationImageMarginRight" android:layout_marginRight="@dimen/notificationImageMarginRight" android:src="@drawable/action_mode_close" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/log2_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/security_hub_log_title" style="@style/TitleBoldLeft" />
+    <View android:id="@id/log2_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progressContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLarge" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/listContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <de.gdata.mobilesecurity.activities.logs.ExpandingListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:divider="@android:color/white" android:dividerHeight="5.0dip"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+        <TextView android:gravity="center" android:id="@id/internalEmpty" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SubTitleLeft" />
+        <LinearLayout android:id="@id/undobar" style="@style/UndoBar">
+            <TextView android:id="@id/undobar_message" style="@style/UndoBarMessage" />
+            <Button android:id="@id/undobar_button" style="@style/UndoBarButton" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/kidsguard_app_grid">
+        <ListPreference android:entries="@array/kidsguard_raster_long" android:title="@string/kidsguard_raster_preference_landscape_rows_title" android:key="KIDSGUARD_LANDSCAPE_COLUMNS" android:summary="@string/kidsguard_raster_preference_landscape_rows_summary" android:defaultValue="6" android:entryValues="@array/kidsguard_raster_long" />
+        <ListPreference android:entries="@array/kidsguard_raster_short" android:title="@string/kidsguard_raster_preference_landscape_columns_title" android:key="KIDSGUARD_LANDSCAPE_ROWS" android:summary="@string/kidsguard_raster_preference_landscape_columns_summary" android:defaultValue="3" android:entryValues="@array/kidsguard_raster_short" />
+        <ListPreference android:entries="@array/kidsguard_raster_short" android:title="@string/kidsguard_raster_preference_portrait_rows_title" android:key="KIDSGUARD_PORTRAIT_COLUMNS" android:summary="@string/kidsguard_raster_preference_portrait_rows_summary" android:defaultValue="4" android:entryValues="@array/kidsguard_raster_short" />
+        <ListPreference android:entries="@array/kidsguard_raster_long" android:title="@string/kidsguard_raster_preference_portrait_columns_title" android:key="KIDSGUARD_PORTRAIT_ROWS" android:summary="@string/kidsguard_raster_preference_portrait_columns_summary" android:defaultValue="5" android:entryValues="@array/kidsguard_raster_long" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kidsguard_app_icon">
+        <de.gdata.mobilesecurity.util.SliderPreference android:title="@string/kidsguard_app_icon_size_preference_title" android:key="KIDSGUARD_APP_ICON_SIZE" android:summary="@string/kidsguard_app_icon_size_preference_summary" android:defaultValue="0.45" android:dialogMessage="@string/kidsguard_app_icon_size_preference_summary" />
+        <ListPreference android:entries="@array/app_icon_backgrounds" android:title="@string/kidsguard_app_background_preference_title" android:key="KIDSGUARD_APP_BACKGROUND" android:summary="@string/kidsguard_app_background_preference_summary" android:defaultValue="1" android:entryValues="@array/app_icon_background_values" />
+        <de.gdata.mobilesecurity.util.SliderPreference android:title="@string/kidsguard_app_background_size_preference_title" android:key="KIDSGUARD_APP_LAYOUT_SIZE" android:summary="@string/kidsguard_app_background_size_preference_summary" android:defaultValue="0.85" android:dialogMessage="@string/kidsguard_app_background_size_preference_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kidsguard_app_label">
+        <de.gdata.mobilesecurity.util.SliderPreference android:title="@string/kidsguard_app_textsize_title" android:key="KIDSGUARD_LABEL_TEXTSIZE" android:summary="@string/kidsguard_app_textsize_summary" android:defaultValue="0.5" android:dialogMessage="@string/kidsguard_app_textsize_summary" />
+        <ListPreference android:entries="@array/app_label_colors" android:title="@string/kidsguard_app_label_color_title" android:key="KIDSGUARD_LABEL_COLOR" android:summary="@string/kidsguard_app_label_color_summary" android:defaultValue="\#FFFFFFFF" android:entryValues="@array/app_label_color_values" />
+    </PreferenceCategory>
+</PreferenceScreen>

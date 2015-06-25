@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/applock_select_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/unlock_time_subtitle" style="@style/CustomDialogTheme" />
+        <RadioGroup android:orientation="vertical" android:id="@id/applock_select_time_rg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CustomDialogTheme">
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_inf" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_inf" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_15" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_15" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_30" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_30" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_1h" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_1" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_2h" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_2" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/applock_select_time_rb_4h" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_4" style="@style/CustomDialogTheme" />
+        </RadioGroup>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/browser_preferences_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/kbrowser_preferences_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/browser_preferences_title_text" style="@style/TitleBoldLeft" />
+            <View android:id="@id/browser_preferences_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+            <TextView android:id="@id/browser_preferences_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/browser_preferences_subtitle_text" style="@style/SubTitleLeft" />
+            <RadioGroup android:orientation="vertical" android:id="@id/browser_preferences_select_startup_rg" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SubTitleLeft">
+                <RadioButton android:gravity="center|left" android:id="@id/browser_preferences_startup_rb_blank" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/browser_preferences_rb_blank_text" style="@style/SubTitleLeft" />
+                <RadioButton android:gravity="center|left" android:id="@id/browser_preferences_startup_rb_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/browser_preferences_rb_default_text" style="@style/SubTitleLeft" />
+                <RadioButton android:gravity="center|left" android:id="@id/browser_preferences_startup_rb_specific" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/browser_preferences_rb_specific_text" style="@style/SubTitleLeft" />
+                <EditText android:id="@id/browser_preferences_startup_specific_url" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:hint="@string/browser_about_link_text" android:singleLine="true" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

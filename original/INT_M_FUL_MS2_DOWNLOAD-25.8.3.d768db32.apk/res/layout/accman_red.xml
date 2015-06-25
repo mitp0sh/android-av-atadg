@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_root" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/accman_register_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/accman_red_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/accman_red_txt_header" android:text="@string/accman_register_txt_header" style="@style/Title" />
+            <TextView android:id="@id/accman_red_txt_order" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="" />
+            <TextView android:id="@id/accman_red_txt_firstname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_firstname" />
+            <EditText android:id="@id/accman_red_field_firstname" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_surname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_surname" />
+            <EditText android:id="@id/accman_red_field_surname" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_street" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_street" />
+            <EditText android:id="@id/accman_red_field_street" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_plz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_plz" />
+            <EditText android:id="@id/accman_red_field_plz" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_city" />
+            <EditText android:id="@id/accman_red_field_city" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_country" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_country" />
+            <Spinner android:id="@id/accman_red_sp_country" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawSelectorOnTop="true" />
+            <TextView android:id="@id/accman_red_txt_mail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_mail" />
+            <EditText android:id="@id/accman_red_field_mail" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_phone" />
+            <EditText android:id="@id/accman_red_field_phone" android:background="@android:drawable/editbox_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:id="@id/accman_red_txt_fooder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/accman_red_txt_fooder" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/accman_red_bt_buy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/buttonHeight" android:text="@string/accman_red_bt_buy" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

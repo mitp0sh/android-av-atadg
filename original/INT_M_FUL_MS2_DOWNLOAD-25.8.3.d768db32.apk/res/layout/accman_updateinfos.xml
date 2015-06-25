@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_root" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/accman_updateinfos_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/accman_updateinfos_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/accman_updateinfos_txt_title" android:text="@string/accman_updateinfos_txt_title" style="@style/Title" />
+            <TextView android:id="@id/accman_updateinfos_txt_subtitle" android:text="@string/accman_updateinfos_txt_subtitle" style="@style/SubTitle" />
+            <TextView android:id="@id/accman_updateinfos_txt_choose" android:text="@string/accman_updateinfos_txt_choose" style="@style/DefaultText" />
+            <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioButton android:id="@id/accman_updateinfos_radio_activate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accman_updateinfos_radio_activate" />
+                <TextView android:id="@id/accman_updateinfos_radio_activate_long" android:layout_marginLeft="@dimen/accmanMarginLeft" android:text="@string/accman_updateinfos_radio_activate_long" style="@style/DefaultText" />
+                <RadioButton android:id="@id/accman_updateinfos_radio_inform" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accman_updateinfos_radio_inform" />
+                <TextView android:id="@id/accman_updateinfos_radio_inform_long" android:layout_marginLeft="@dimen/accmanMarginLeft" android:text="@string/accman_updateinfos_radio_inform_long" style="@style/DefaultText" />
+            </RadioGroup>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/accman_updateinfos_bt_ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/buttonHeight" android:text="@string/accman_updateinfos_bt_ok" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

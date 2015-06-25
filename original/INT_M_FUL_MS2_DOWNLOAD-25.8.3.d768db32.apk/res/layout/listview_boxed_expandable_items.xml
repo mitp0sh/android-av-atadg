@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_shape" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/expandlable_item_linear_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/expandlable_list_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+        <ImageView android:layout_gravity="center" android:id="@id/expandlable_list_img" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:contentDescription="@string/empty_string" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+            <TextView android:id="@id/expandlable_list_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft" style="@style/SubTitleLeft" />
+            <TextView android:id="@id/expandlable_list_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft" style="@style/SubTitleLeft" />
+        </LinearLayout>
+    </LinearLayout>
+    <de.gdata.mobilesecurity.activities.logs.ExpandingLayout android:id="@id/expanding_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+</LinearLayout>

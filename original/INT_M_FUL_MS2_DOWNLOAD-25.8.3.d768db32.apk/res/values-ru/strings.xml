@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">Лечение выполнено успешно.</string>
+    <string name="AppFix_subtitle">Ваша система заражена. Для удаления выберите вредоносную программу и затем в диалоговом окне подтвердите деинсталляцию.</string>
+    <string name="AppFix_subtitle_pup">В вашей системе найдено вероятное нежелательное программное обеспечение. Для удаления выберите нужный элемент и затем в диалоговом окне подтвердите деинсталляцию.</string>
+    <string name="AppFix_subtitle_sideLoaded">Файл, который вы пытаетесь установить, заражен. Чтобы удалить зараженный файл, выделите его и подтвердите его деинсталляцию в диалоговом окне.</string>
+    <string name="AppFix_title">Лечить</string>
+    <string name="AppFix_title_pup">Нежелательное программное обеспечение</string>
+    <string name="AppScan_Malware_found_with_Name">Обнаружено вредоносное ПО:</string>
+    <string name="AppScan_amount_was_scanned">Проверка приложений завершена.</string>
+    <string name="MainGuiGridAdapter_permissions">Права</string>
+    <string name="MainGuiGridAdapter_protocolls">Протоколы</string>
+    <string name="MainGuiGridAdapter_scan">Проверка на вирусы</string>
+    <string name="MainGuiGridAdapter_settings">Параметры</string>
+    <string name="MainGuiGridAdapter_update">Обновление</string>
+    <string name="PacketViewerGui_name_not_found">ОШИБКА</string>
+    <string name="PacketViewerGui_version">Версия</string>
+    <string name="PermissionUsage_subtitle">Отображает права и частоту их использования.</string>
+    <string name="PermissionUsage_title">Права</string>
+    <string name="ProgressDialog_while_loading_Permissions">Проверка прав. Пожалуйста, подождите…</string>
+    <string name="ProtocolViewerXml_empty_list">Протоколы отсутствуют.</string>
+    <string name="ProtocolViewerXml_motd">Протоколы</string>
+    <string name="ScanGui_finished_dialog_abort_button">Отменить</string>
+    <string name="ScanGui_finished_dialog_clean">"Проверка успешно завершена.
+Вирусы не обнаружены."</string>
+    <string name="ScanGui_finished_dialog_fix_button">Лечить</string>
+    <string name="ScanGui_finished_dialog_infected">"Проверка завершена.
+
+ВНИМАНИЕ: ОБНАРУЖЕНО ВРЕДОНОСНОЕ ПО!"</string>
+    <string name="ScanGui_finished_dialog_ok_button">OK</string>
+    <string name="ScanGui_finished_dialog_warning">"Проверка завершена.
+Обнаружены ошибки."</string>
+    <string name="ScanGui_finished_title">Проверка на вирусы</string>
+    <string name="ScanGui_menu_applications">Приложения</string>
+    <string name="ScanGui_progressdialog_abort_button">Отменить</string>
+    <string name="ScanGui_progressdialog_title">Проверка системы</string>
+    <string name="ScanGui_report_fiels_infected">"Проверка завершена.
+
+ВНИМАНИЕ: ОБНАРУЖЕНО ВРЕДОНОСНОЕ ПО!"</string>
+    <string name="ScanGui_report_fiels_ok">"Проверка успешно завершена.
+Вирусы не обнаружены."</string>
+    <string name="Scan_scan_button">Пуск</string>
+    <string name="Scan_spinner_msg">Выберите тип проверки.</string>
+    <string name="Scan_subtitle">Для проверки выберите тип проверки на вирусы и нажмите кнопку Пуск.</string>
+    <string name="Scan_title">Проверка системы</string>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Другие параметры</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выбрать приложение</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Открыть доступ</string>
+    <string name="abc_shareactionprovider_share_with_application">Открыть доступ пользователю %s</string>
+    <string name="ac_device_already_registered">Устройство уже зарегистрировано.</string>
+    <string name="ac_server_error">Возникла ошибка. Обратитесь в техподдержку G DATA.</string>
+    <string name="accesibility_service">G DATA App Checker</string>
+    <string name="accman_bt_connectToServer">Подключиться</string>
+    <string name="accman_bt_forgottenData">Забыли данные доступа?</string>
+    <string name="accman_bt_registerAtServer">Зарегистрироваться на сервере…</string>
+    <string name="accman_check">Поиск обновлений…</string>
+    <string name="accman_check_license">Проверка лицензии…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">Вероятно, вы хотели бы узнать кое-что о нашем новом продукте:</string>
+    <string name="accman_fixed_content_3">G DATA ##app_name##</string>
+    <string name="accman_fixed_content_4">Здесь мы представляем множество функций, которые повысят безопасность вашего мобильного устройства.</string>
+    <string name="accman_fixed_content_5">Посетите нашу страницу в Google Play Store для получения более подробной информации</string>
+    <string name="accman_inapp_text">"Ваше устройство больше не защищено от существующих угроз.
+Продлите лицензию сейчас. Ваше устройство будет сразу защищено опять!"</string>
+    <string name="accman_inapp_title">Лицензия ##app_name## истекла!</string>
+    <string name="accman_inapp_txt_subs_month">Месяц</string>
+    <string name="accman_inapp_txt_subs_year">Год</string>
+    <string name="accman_inapp_txt_subtitle">"
+Загрузка…"</string>
+    <string name="accman_inapp_txt_subtitle_subs">Доступные подписки</string>
+    <string name="accman_ipx_bottom_nav_about_text">Выходные данные</string>
+    <string name="accman_ipx_bottom_nav_agb_text">Общие условия</string>
+    <string name="accman_ipx_bottom_nav_contact_text">Контакты</string>
+    <string name="accman_ipx_bottom_nav_faq_text">Вопросы и ответы</string>
+    <string name="accman_ipx_bottom_nav_sub_text">Управление подпиской</string>
+    <string name="accman_ipx_confirm">ПОДТВЕРДИТЬ</string>
+    <string name="accman_ipx_confirm_dialog_text">\##app_name## сообщит Вам немедленно, когда процедура покупки будет завершена, и счет будет активирован.</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">С приобретением подписки Вы получаете доступ к премиальным функциям Internet Security, а также доступ к регулярным обновлениям. Оплата со счета мобильной связи.</string>
+    <string name="accman_ipx_infoscreen_title_text">Подписка за 1,99 евро/мес</string>
+    <string name="accman_ipx_progress_dialog_text">Ваш заказ обрабатывается…</string>
+    <string name="accman_ipx_purchase">КУПИТЬ</string>
+    <string name="accman_perform_connect">Установление соединения с сервером…</string>
+    <string name="accman_pre_bt_ok">Далее</string>
+    <string name="accman_pre_ipx_radio_gdata">Вебсайт G DATA</string>
+    <string name="accman_pre_ipx_radio_gemalto">Счет за мобильную связь</string>
+    <string name="accman_pre_ipx_radio_register">Зарегистрировать/Активировать</string>
+    <string name="accman_pre_ipx_text_gdata">Купить через сайт G DATA</string>
+    <string name="accman_pre_ipx_text_gemalto">Оплата со счета за мобильную связь</string>
+    <string name="accman_pre_ipx_text_register">Зарегистрировать/Активировать</string>
+    <string name="accman_pre_ipx_title">Купить</string>
+    <string name="accman_pre_radio_activate">Регистрация</string>
+    <string name="accman_pre_radio_activate_long">Я являюсь новым клиентом и хочу зарегистрироваться на сервере обновлений G DATA.</string>
+    <string name="accman_pre_radio_enter">Ввести данные доступа</string>
+    <string name="accman_pre_radio_enter_long">Я хочу зарегистрироваться, используя имя пользователя и пароль.</string>
+    <string name="accman_pre_tab_activate">Активировать</string>
+    <string name="accman_pre_txt_choose">Чтобы активировать доступ к обновлениям, введите свои данные доступа (имя пользователя и пароль) на сервере обновлений G DATA. Если вы до сих пор не получили данные доступа, зарегистрируйтесь на сервере обновлений G DATA, используя регистрационный номер.</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">Активировать обновления</string>
+    <string name="accman_red_bt_buy">Заказать</string>
+    <string name="accman_red_txt_city">Город:*</string>
+    <string name="accman_red_txt_country">Страна:*</string>
+    <string name="accman_red_txt_firstname">Имя:*</string>
+    <string name="accman_red_txt_fooder">В случае предоставления неполных или ошибочных данных G DATA оставляет за собой право без уведомления заблокировать доступ к обновлениям. Звездочкой (*) отмечены поля, обязательные для заполнения.</string>
+    <string name="accman_red_txt_mail">Адрес эл. почты:*</string>
+    <string name="accman_red_txt_phone">Телефон:</string>
+    <string name="accman_red_txt_plz">Почтовый индекс:*</string>
+    <string name="accman_red_txt_street">Улица,№:*</string>
+    <string name="accman_red_txt_surname">Фамилия:</string>
+    <string name="accman_red_txt_title">Обращение:*</string>
+    <string name="accman_register_bt_register">Вход</string>
+    <string name="accman_register_checkbox_agb">Я согласен, что данные, предоставленные мной во время регистрации и пользования продуктом, могут сохраняться и использоваться с целью предоставления мне рекламной информации.</string>
+    <string name="accman_register_checkbox_agb_oempartner">Я соглашаюсь с тем, что данные, предоставленные мной во время регистрации и пользования продуктом, могут передаваться oem_партнерской_компании, сохраняться и использоваться с целью предоставления мне рекламной информации.</string>
+    <string name="accman_register_progress">Перенос регистрационных данных…</string>
+    <string name="accman_register_purchase_link_text">Нет кода активации?</string>
+    <string name="accman_register_purchase_proceed_link_text">Приобретите лицензию…</string>
+    <string name="accman_register_txt_email">Адрес эл. почты</string>
+    <string name="accman_register_txt_forename">Имя</string>
+    <string name="accman_register_txt_header">Заказать</string>
+    <string name="accman_register_txt_merchant">Номер продавца (не обязательно)</string>
+    <string name="accman_register_txt_mobile">Номер мобильного телефона</string>
+    <string name="accman_register_txt_regnum">Регистрационный номер</string>
+    <string name="accman_register_txt_subtitle">Введите регистрационный номер и свои контактные данные. Данные доступа к обновлениям сигнатур затем вводятся в ##app_name## автоматически и дополнительно высылаются на ваш адрес электронной почты.</string>
+    <string name="accman_register_txt_surename">Фамилия</string>
+    <string name="accman_register_txt_title">Регистрация для обновления вирусных сигнатур</string>
+    <string name="accman_txt_password">Пароль</string>
+    <string name="accman_txt_subtitle">Введите пожалуйста Ваши данные доступа имя пользователя и пароль к обновлениям сигнатур</string>
+    <string name="accman_txt_title">Доступ к расширенным функциям</string>
+    <string name="accman_txt_username">Имя пользователя</string>
+    <string name="accman_unlock_auth">Активировать обновление…</string>
+    <string name="accman_updateinfos_bt_ok">Далее</string>
+    <string name="accman_updateinfos_radio_activate">Активировать обновления</string>
+    <string name="accman_updateinfos_radio_activate_long">Я купил(-а) ##app_name##, включая обновления, или другой продукт G DATA и хочу активировать доступ к обновлениям.</string>
+    <string name="accman_updateinfos_radio_inform">Подробнее об обновлениях</string>
+    <string name="accman_updateinfos_radio_inform_long">Я установил(-а) бесплатную версию ##app_name## (без обновлений) и хочу получить подробную информацию о лицензии на загрузку обновлений.</string>
+    <string name="accman_updateinfos_txt_choose">Количество вредоносных программ увеличивается. Регулярные обновления обеспечивают постоянную защиту от вредоносного ПО.</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">Включить обновления</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">не менее 4 символов</string>
+    <string name="action_center_summary">Комфортное управление устройством с помощью ActionCenter http://ac.gdata.de</string>
+    <string name="action_portal_password">Пароль ActionCenter</string>
+    <string name="action_portal_register_device">Зарегистрировать устройство</string>
+    <string name="action_portal_user_name">Имя пользователя ActionCenter</string>
+    <string name="action_settings">Настройки</string>
+    <string name="activate_location_services">Разрешите доступ к местоположению, чтобы обеспечить функционирование блокировки, привязанной к месту.</string>
+    <string name="activate_mms_connection">Активировать удаленное обслуживание</string>
+    <string name="activate_updates">Включить обновления</string>
+    <string name="activate_updates_info">Активируйте обновления для защиты от актуальных мобильных угроз.</string>
+    <string name="active">Активен</string>
+    <string name="add_action">Добавить действие</string>
+    <string name="add_title_to">Добавить (##to##)</string>
+    <string name="added_app_to_protection">Выбранные действия были добавлены</string>
+    <string name="admin_receiver_status_disable_warning">Если вы отключите права, приложение ##app_name## не сможет заблокировать или очистить пропавшее устройство.</string>
+    <string name="admin_receiver_status_disabled">Блокировка или очистка пропавшего устройства невозможна, так как права отключены.</string>
+    <string name="alarm_action_title">Действие:</string>
+    <string name="alarm_email_number">Электронные адреса</string>
+    <string name="alarm_sms_number">Номер</string>
+    <string name="alarm_text_include_location">Отправить местоположение</string>
+    <string name="anonym">Анонимный</string>
+    <string name="antiphish_last_domain">последний проверенный домен:</string>
+    <string name="antiphishing_info">Веб-защита</string>
+    <string name="antitheft_changed_data">Измененные данные</string>
+    <string name="antitheft_correct">Исправить</string>
+    <string name="antitheft_discard">Удалить</string>
+    <string name="antitheft_discard_or_correct">Исправить или удалить изменения?</string>
+    <string name="antitheft_edit_mode">Изменить данные</string>
+    <string name="antitheft_email">Дополнительно пересылать ответы на SMS-команды на адрес электронной почты:</string>
+    <string name="antitheft_email_long">Ответы на SMS-команды (например, координаты) приходят в виде SMS на устройство, с которого была послана команда. Кроме того, вы можете получать ответы по электронной почте. Для этого введите здесь адрес своей электронной почты.</string>
+    <string name="antitheft_email_subject">Информация о ##app_name##</string>
+    <string name="antitheft_email_test">Проверка адреса электронной почты</string>
+    <string name="antitheft_error_email">Неверный формат введенного адреса электронной почты!</string>
+    <string name="antitheft_error_enter_password">Введите сначала пароль!</string>
+    <string name="antitheft_error_password_too_simple">Выберите другой пароль. Введенный пароль не является безопасным!</string>
+    <string name="antitheft_error_repeat_password">Повторите сначала пароль!</string>
+    <string name="antitheft_error_repeat_phone">Сначала повторите номер телефона!</string>
+    <string name="antitheft_error_repeat_phone_wrongly">Введенные номера телефона не совпадают!</string>
+    <string name="antitheft_error_repeat_wrongly">Введенные пароли не совпадают!</string>
+    <string name="antitheft_help">Справка</string>
+    <string name="antitheft_help_intro">В данном обзоре представлены команды, которые вы можете послать в SMS-сообщении своему устройству. Ответы пересылаются в устройство, с которого пришла SMS-команда. Если вы указали адрес электронной почты, ответы дополнительно пересылаются на этот адрес.</string>
+    <string name="antitheft_help_locate">&lt;i>password&lt;/i> &lt;b>locate&lt;/b> &lt;br/> &lt;br/>Будут отправлены координаты устройства.</string>
+    <string name="antitheft_help_lock">&lt;i>password&lt;/i> &lt;b>lock&lt;/b> &lt;br/> &lt;br/>Блокировка экрана (режим ожидания).&lt;br/>Если для блокировки экрана пароль не установлен, он будет автоматически установлен для SMS-команд.</string>
+    <string name="antitheft_help_mute">&lt;i>password&lt;/i> &lt;b>mute&lt;/b> &lt;br/> &lt;br/>Включает беззвучный режим телефона.</string>
+    <string name="antitheft_help_reset_remote_password">&lt;b>remote password reset:&lt;/b> &lt;i>new password&lt;/i> &lt;br/> &lt;br/>Установить новый пароль для SMS-команд. Эту команду нужно отправить с сохраненного заранее номера телефона.</string>
+    <string name="antitheft_help_ring">&lt;i>password&lt;/i> &lt;b>ring&lt;/b> &lt;br/> &lt;br/>Проигрывается сигнал. Сигнал будет отключен после запуска или блокировки приложения.</string>
+    <string name="antitheft_help_set_device_password">&lt;i>password&lt;/i> &lt;b>set device password:&lt;/b> &lt;i>device password&lt;/i> &lt;br/> &lt;br/>Устанавливается пароль для блокировки экрана. Чтобы включить блокировку, отправьте команду &lt;i>lock&lt;/i>.</string>
+    <string name="antitheft_help_title">Справка: потеря/кража</string>
+    <string name="antitheft_help_wipe">&lt;i>password&lt;/i> &lt;b>wipe&lt;/b> &lt;br/> &lt;br/>Восстанавливаются заводские настройки устройства. Все данные будут удалены.</string>
+    <string name="antitheft_hint_change_password">Изменить пароль</string>
+    <string name="antitheft_hint_email">Адрес электронной почты</string>
+    <string name="antitheft_hint_new_password">Ввести пароль</string>
+    <string name="antitheft_hint_phone">Ввести номер</string>
+    <string name="antitheft_hint_repeat_password">Повторить пароль</string>
+    <string name="antitheft_hint_repeat_phone">Введите номер телефона еще раз</string>
+    <string name="antitheft_intro">Ваше устройство утеряно или украдено?</string>
+    <string name="antitheft_intro_long">"Что произойдет, если вы потеряете свой телефон или если его украдут?
+Вы можете послать своему телефону SMS с командой выполнить какое-либо действие. Например, вы можете выяснить координаты устройства или удалить всю личную информацию, чтобы она не попала в чужие руки."</string>
+    <string name="antitheft_intro_title">Потеря/кража</string>
+    <string name="antitheft_mac_unknown">неизвестно</string>
+    <string name="antitheft_notify_sim_changed">SIM-карта в вашем устройстве заменена. Чтобы зарегистрировать новую SIM-карту, нажмите здесь.</string>
+    <string name="antitheft_option_detect_sim_change">Проверять телефон на предмет замены SIM-карты.</string>
+    <string name="antitheft_option_headset_subtitle_text">Защита с помощью разъемов для наушников</string>
+    <string name="antitheft_option_headset_title_text">Выберите этот параметр для проигрывания сигнала тревоги при извлечении наушников:</string>
+    <string name="antitheft_option_locate">Обнаружить устройство</string>
+    <string name="antitheft_option_locate_sim_change">Найти телефон при смене SIM-карты</string>
+    <string name="antitheft_option_lock">Блокировать экран</string>
+    <string name="antitheft_option_lock_sim_change">Блокировать телефон при смене SIM-карты</string>
+    <string name="antitheft_option_mute">Отключить звук на устройстве</string>
+    <string name="antitheft_option_ring">Проигрывать сигнал</string>
+    <string name="antitheft_option_set_device_password">Установить пароль для блокировки экрана</string>
+    <string name="antitheft_option_signal_flare">Определять местоположение устройства при низком заряде батареи и отправлять координаты на указанный номер телефона или электронный адрес.</string>
+    <string name="antitheft_option_signal_flare_text">В случае разрядки аккумулятора и выключения устройства его невозможно будет обнаружить. Поэтому мы рекомендуем настроить автоматическое определение местоположения при низком заряде аккумулятора:</string>
+    <string name="antitheft_option_wipe">Удалить личную информацию</string>
+    <string name="antitheft_password">Пошлите своему устройству SMS с командой со следующим паролем (не менее четырех различных непоследовательных цифр), чтобы определить местонахождение устройства или защитить свои данные:</string>
+    <string name="antitheft_password_long">SMS-команды защищаются паролем, чтобы посторонние не смогли вызвать какое-либо действие на вашем телефоне. Пароль используется также для защиты аппарата: вы можете запретить запуск защищенных программ.</string>
+    <string name="antitheft_phone">Забыли пароль? Восстановите его по SMS со следующего номера. На этот номер отправляются информационные SMS-сообщения при смене SIM-карты.</string>
+    <string name="antitheft_phone_long">Что, если телефон пропал, а вы забыли пароль для SMS-команд? Вы можете указать здесь номер телефона доверенного лица (например, супруга). С этого телефона вы сможете установить новый пароль с помощью SMS-сообщения.</string>
+    <string name="antitheft_progress_sending_email">Отсылается сообщение на электронную почту. Пожалуйста, подождите…</string>
+    <string name="antitheft_reset_command_text">Данная команда выполняется только в том случае, если номер телефона был сохранен заранее.</string>
+    <string name="antitheft_router_mac">MAC-адрес маршрутизатора</string>
+    <string name="antitheft_save">Сохранить</string>
+    <string name="antitheft_save_or_discard">Сохранить или отменить изменения?</string>
+    <string name="antitheft_settings">Параметры</string>
+    <string name="antitheft_settings_intro_text">Если ваше устройство утеряно или украдено, вы можете инициировать какие-либо действия, послав SMS-сообщение. Выберите действия, которые могут вызываться SMS-командой.</string>
+    <string name="antitheft_settings_sim_change_text">Что, если, украв устройство, вор поставит новую SIM-карту? Вы больше не сможете посылать устройству SMS-команды. Укажите здесь, что следует делать при смене SIM-карты.</string>
+    <string name="antitheft_settings_title">Потеря/кража</string>
+    <string name="antitheft_settings_warning">Сначала введите пароль.</string>
+    <string name="antitheft_sim_planedupdate_text">Если вы планируете заменить SIM-карту, нажмите здесь.</string>
+    <string name="antitheft_sim_update_confirm_text">Выключите устройство и вставьте новую SIM-карту. После перезагрузки она будет зарегистрирована с целью защиты от кражи.</string>
+    <string name="antitheft_sim_update_text">SIM-карта в вашем устройстве заменена. Чтобы завершить операцию, нажмите здесь.</string>
+    <string name="antitheft_sim_updated_text">Операция успешно завершена.</string>
+    <string name="antitheft_tab_sim_name">Обнаружение кражи</string>
+    <string name="antitheft_tab_sms_name">Разрешенные SMS-команды</string>
+    <string name="antitheft_test_email_body">"Уважаемый клиент!
+
+Вы успешно подтвердили адрес своей электронной почты.
+Благодарим!
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">Не удалось отправить электронное письмо. Проверьте соединение с Интернетом и адрес электронной почты.</string>
+    <string name="antitheft_test_email_success">Тестовое электронное письмо отправлено успешно!</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">Деинсталлировать</string>
+    <string name="antitheft_warn_receivers_text_plural">Приложения #app# могут отрицательно влиять на функцию защиты телефона при потере/краже и функцию защиты личных данных.</string>
+    <string name="antitheft_warn_receivers_text_singular">Приложение #app# может отрицательно влиять на функцию защиты телефона при потере/краже и функцию защиты личных данных.</string>
+    <string name="antitheft_warn_receivers_title">Несовместимое приложение</string>
+    <string name="antitheft_widget_label">G DATA - виджет разъем для наушников</string>
+    <string name="app_name">Internet Security</string>
+    <string name="app_name_browser">Kids Browser</string>
+    <string name="app_permissions_applock">Добавить к защите приложений</string>
+    <string name="app_permissions_subtitle">Приложение имеет доступ к следующим функциям вашего устройства:</string>
+    <string name="app_permissions_uninstall">Деинсталлировать</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">Служба доступа обеспечивает скорейшее время реакции для защиты приложений. Требуется Android Lollipop.</string>
+    <string name="applock_accessibility_label">Включить Accessibility Service</string>
+    <string name="applock_changed_data">Измененные данные</string>
+    <string name="applock_checkbox_label">Включить защиту приложений</string>
+    <string name="applock_choose_email_bt">E-Mail</string>
+    <string name="applock_choose_question_bt">Вопрос</string>
+    <string name="applock_choose_text">Отправить пароль на указанный ранее адрес электронной почты или ответить на секретный вопрос?</string>
+    <string name="applock_correct">Исправить</string>
+    <string name="applock_deactivated">Защита приложения отключена.</string>
+    <string name="applock_denial_disable_title">Заблокировать приложения</string>
+    <string name="applock_denial_enable_title">Разблокировать приложения</string>
+    <string name="applock_denial_help_intro">Подсказка относительно заблокированных или разблокированных приложений: если ##app_name## настроено для управления посредством сервера управления мобильными устройствами (MMS), доступ к отдельным приложениям может быть заблокирован или (если для всех приложений доступ заблокирован по умолчанию) разблокирован администратором MMS.</string>
+    <string name="applock_denial_help_request">Администратор может запросить открытие доступа для приложения в диалоговом окне, которое блокирует запуск приложения. Администратор принимает решение об открытии доступа.</string>
+    <string name="applock_denial_info">"Подробнее?
+Нажмите сюда!"</string>
+    <string name="applock_denial_no_entries">Сейчас приложения не блокируются. По необходимости защитите приложения паролем.</string>
+    <string name="applock_denial_no_entries_add">Чтобы выбрать приложения, которые вы хотите заблокировать, нажмите значок + в строке заголовка.</string>
+    <string name="applock_denial_no_entries_deny_add_default">Чтобы выбрать приложения, которые вы хотите разблокировать, нажмите значок +- в строке заголовка.</string>
+    <string name="applock_denial_no_entries_deny_default">Сейчас нет разблокированных приложений.</string>
+    <string name="applock_denial_no_entries_mms">Сейчас приложения не блокируются. По необходимости защитите приложения паролем.</string>
+    <string name="applock_denial_no_entries_mms_deny_default">Сейчас нет разблокированных приложений. Если необходимо, при запуске приложения вы можете запросить открытие доступа у администратора.</string>
+    <string name="applock_denial_request">Запрос на доступ</string>
+    <string name="applock_denial_selection_title">Заблокированные приложения</string>
+    <string name="applock_denial_selection_title_invert">Разблокированные приложения</string>
+    <string name="applock_denial_title">Заблокированное приложение</string>
+    <string name="applock_denial_txt">Доступ к этому приложению заблокирован администратором.</string>
+    <string name="applock_discard">Удалить</string>
+    <string name="applock_discard_or_correct">Исправить или удалить изменения?</string>
+    <string name="applock_edit_mode">Изменить данные</string>
+    <string name="applock_email">Забыли пароль? Ваше устройство может послать пароль на следующий адрес электронной почты:</string>
+    <string name="applock_email_body">"Уважаемый клиент!
+
+Ваш пароль для защиты приложения: #code#.
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="applock_email_error">Не удалось отправить электронное письмо. Проверьте соединение с Интернетом и адрес электронной почты в настройках.</string>
+    <string name="applock_email_long">Если вы забыли пароль, ваше устройство может прислать его на указанный адрес электронной почты.</string>
+    <string name="applock_email_subject">Информация о ##app_name##</string>
+    <string name="applock_email_success">Сообщение на адрес электронной почты отправлено!</string>
+    <string name="applock_email_test">Проверка адреса электронной почты</string>
+    <string name="applock_enter_password">Введите пароль</string>
+    <string name="applock_error_email">Неверный формат введенного адреса электронной почты!</string>
+    <string name="applock_error_enter_answer">Сначала введите ответ на секретный вопрос!</string>
+    <string name="applock_error_enter_custom_question">Введите собственный секретный вопрос!</string>
+    <string name="applock_error_enter_email_or_question">Введите адрес электронной почты или секретный вопрос!</string>
+    <string name="applock_error_enter_password">Введите сначала пароль!</string>
+    <string name="applock_error_no_data">Сначала введите и сохраните данные!</string>
+    <string name="applock_error_password_too_simple">Выберите другой пароль. Введенный пароль не является безопасным!</string>
+    <string name="applock_error_repeat_password">Повторите сначала пароль!</string>
+    <string name="applock_error_repeat_phone">Сначала повторите номер телефона!</string>
+    <string name="applock_error_repeat_phone_wrongly">Введенные номера телефона не совпадают!</string>
+    <string name="applock_error_repeat_wrongly">Введенные пароли не совпадают!</string>
+    <string name="applock_error_test_email">Сначала выполните проверку своего адреса эл. почты!</string>
+    <string name="applock_forgot_password"><small>"Забыли пароль?
+Нажмите сюда!"</small></string>
+    <string name="applock_forgot_password_title">Забыли пароль?</string>
+    <string name="applock_help">Справка</string>
+    <string name="applock_help_delay">Если приложение запущено и открыто до 60 секунд после завершения, оно остается доступным без ввода пароля, но только до тех пор, пока экран не будет выключен.</string>
+    <string name="applock_help_intro">"Рекомендации по защите приложений: 
+
+Как правило, приложения для Android устанавливаются из Google Play Store. В некоторые пакеты входит несколько приложений, например, программа для звонков и для управления контактами. Защиту для таких приложений можно установить только одновременно."</string>
+    <string name="applock_help_perm">Если приложению необходимы права, которые могут деактивировать функции ##app_name## или как-либо влиять на них, то рекомендуется установить защиту приложений. К ним относятся, напр., приложения, которые могут закрывать или деинсталлировать другие приложения.</string>
+    <string name="applock_help_title">Помощь по защите приложений</string>
+    <string name="applock_help_uninstall">В некоторых случаях защита приложения может активироваться при деинсталляции. Это происходит на некоторых устройствах, если технически нет никакой другой возможности предотвратить незаметную деинсталляцию ##app_name##. По той же причине рекомендуется активация администратора устройств.</string>
+    <string name="applock_hint_answer">Ввести ответ</string>
+    <string name="applock_hint_change_answer">Изменить ответ</string>
+    <string name="applock_hint_change_password">Изменить пароль</string>
+    <string name="applock_hint_custom_question">Ввести вопрос</string>
+    <string name="applock_hint_email">Ввести адрес электронной почты</string>
+    <string name="applock_hint_new_answer">Ввести ответ</string>
+    <string name="applock_hint_new_password">Ввести пароль</string>
+    <string name="applock_hint_repeat_password">Повторить пароль</string>
+    <string name="applock_image_description">Значок приложения</string>
+    <string name="applock_intro">Защитите приложения от неавторизованного использования.</string>
+    <string name="applock_intro_long">"С помощью функции защиты приложений вы можете блокировать неавторизованный запуск защищенных приложений. Приложения можно будет запустить только после ввода пароля.
+
+Внимание: надежно сохраните пароль. Если вы его забудете, вы больше не сможете воспользоваться приложением."</string>
+    <string name="applock_off_due_to_accessibility_service">Защита приложений отключена, так как G DATA App Checker деактивирован.</string>
+    <string name="applock_password">Запускать защищенные приложения только после ввода пароля (не менее четырех различных непоследовательных цифр):</string>
+    <string name="applock_password_long">Укажите пароль, с которым могут запускаться защищенные приложения. Этот пароль также используется для SMS-команд (см. функцию потери/кражи).</string>
+    <string name="applock_password_title">Пароль</string>
+    <string name="applock_progress_sending_email">Отсылается сообщение на электронную почту. Пожалуйста, подождите…</string>
+    <string name="applock_question">Секретный вопрос…</string>
+    <string name="applock_question_text">Или ответьте на секретный вопрос:</string>
+    <string name="applock_question_text_long">Дополнительно задайте секретный вопрос. Если вы правильно ответите на него, вы сможете отключить защиту приложения и запускать его без введения пароля.</string>
+    <string name="applock_resend_bt">Да</string>
+    <string name="applock_resend_password_title">Получить пароль</string>
+    <string name="applock_resend_text">Отправить пароль на указанный ранее адрес электронной почты?</string>
+    <string name="applock_save">Сохранить</string>
+    <string name="applock_save_or_discard">Сохранить или отменить изменения?</string>
+    <string name="applock_security_question_title">Секретный вопрос</string>
+    <string name="applock_selection_add_action">Добавить приложения</string>
+    <string name="applock_selection_no_entries">"Модуль защиты приложений позволяет предотвратить несанкционированный запуск защищенных приложений на вашем устройстве.
+
+"</string>
+    <string name="applock_selection_no_entries_add">Чтобы выбрать приложения, которые вы хотите защитить, нажмите значок + в строке заголовка.</string>
+    <string name="applock_selection_no_entries_protect_add_default">Чтобы выбрать приложения, которые вы хотите использовать без пароля, нажмите значок + в строке заголовка.</string>
+    <string name="applock_selection_no_entries_protect_default">"Модуль защиты приложений позволяет предотвратить несанкционированный запуск защищенных приложений на вашем устройстве. В силу текущих настроек все приложения защищены по умолчанию.
+
+"</string>
+    <string name="applock_selection_remove_action">Элементы удаляются</string>
+    <string name="applock_selection_remove_title">Удалить элементы</string>
+    <string name="applock_selection_select_all">Отметить все</string>
+    <string name="applock_selection_settings_action">Параметры</string>
+    <string name="applock_selection_show_disabled">Заблокированные приложения</string>
+    <string name="applock_selection_show_enabled">Разблокированные приложения</string>
+    <string name="applock_selection_title">Защищенные приложения</string>
+    <string name="applock_selection_title_invert">Незащищенные приложения</string>
+    <string name="applock_selector_add_action">Добавить элементы</string>
+    <string name="applock_selector_add_title">Выберите элементы для добавления</string>
+    <string name="applock_selector_block_title">Заблокировать приложения</string>
+    <string name="applock_selector_block_title_invert">Разблокировать приложения</string>
+    <string name="applock_selector_discard">Отменить выбор</string>
+    <string name="applock_selector_no_entries">Нет элементов.</string>
+    <string name="applock_selector_select_all">Отметить все</string>
+    <string name="applock_selector_tab_all">Все</string>
+    <string name="applock_selector_tab_downloaded">Загрузить</string>
+    <string name="applock_selector_tab_recommended">Рекомендовать</string>
+    <string name="applock_selector_tab_recommended_invert">Не рекомендуется</string>
+    <string name="applock_selector_title">Защита приложений</string>
+    <string name="applock_selector_title_invert">Снять защиту приложений</string>
+    <string name="applock_settings_title">Настройки защиты приложений</string>
+    <string name="applock_test_email_body">"Уважаемый клиент!
+
+Вы успешно подтвердили адрес своей электронной почты.
+Благодарим!
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">Не удалось отправить электронное письмо. Проверьте соединение с Интернетом и адрес электронной почты.</string>
+    <string name="applock_test_email_success">Тестовое электронное письмо отправлено успешно!</string>
+    <string name="applock_txt_title">Защищенное приложение</string>
+    <string name="applock_txt_title_invert">Незащищенное приложение</string>
+    <string name="applock_wait">Пожалуйста, подождите</string>
+    <string name="applock_wrong_answer">Извините, это неправильный ответ.</string>
+    <string name="applock_wrong_password">Извините, это неправильный пароль.</string>
+    <string name="arp_exception_bssid_text">Добавить постоянное исключение</string>
+    <string name="arp_exception_cleared">Исключения удалены</string>
+    <string name="arp_exception_info">"Подробнее
+Нажмите сюда!"</string>
+    <string name="arp_exception_text">Добавить исключение для этого дня</string>
+    <string name="arp_network_dialog_text">Определять данную сеть как доверенную</string>
+    <string name="arp_network_dialog_title">Новая сеть</string>
+    <string name="arp_options_auto_disconnect">Отключать ненадежную WLAN при отключении экрана</string>
+    <string name="arp_options_bssid_analysis">Подробный анализ (проверка идентификатора BSSID)</string>
+    <string name="arp_options_continuous_mode">Продолжать контроль между сеансами</string>
+    <string name="arp_warning_dialog_accept">Продолжить</string>
+    <string name="arp_warning_dialog_bssid_text">Возможно, данная WLAN скомпрометирована. Это результат подробного анализа.</string>
+    <string name="arp_warning_dialog_continue">Прервать соединение с WLAN</string>
+    <string name="arp_warning_dialog_text">Возможно, данная WLAN скомпрометирована. Если вы находитесь в общественной беспроводной или другой ненадежной сети, мы рекомендуем прервать соединение.</string>
+    <string name="arp_warning_dialog_title">Защита Wi-Fi</string>
+    <string name="billing_cannot_connect_message">Подключение к Google Play невозможно, так как версия Google Play устарела.</string>
+    <string name="billing_cannot_connect_title">Нет подключения к Google Play</string>
+    <string name="billing_not_supported_message">Продление лицензии невозможно, так как службы Google Play нет в наличии.</string>
+    <string name="billing_not_supported_title">Продление лицензии невозможно</string>
+    <string name="billing_purchase_title">Лицензия продлена</string>
+    <string name="billing_purchased_message">Благодарим за продление лицензии. Теперь у вас есть доступ к новым вирусным сигнатурам и новым версиям ПО.</string>
+    <string name="black">Черный</string>
+    <string name="blacklist">Черный список</string>
+    <string name="blacklist_prompt">Выберите тип фильтра</string>
+    <string name="block_explain">При определенных обстоятельствах USSD-команды могут нанести вред вашему мобильному устройству. Перед выполнением USSD-команды узнайте о ее предназначении.</string>
+    <string name="block_incoming_call">Входящие вызовы</string>
+    <string name="block_is_blacklist">Заблокировать выбранные контакты</string>
+    <string name="block_is_whitelist">Разрешить только для выбранных контактов</string>
+    <string name="block_outgoing_call">Исходящие вызовы</string>
+    <string name="block_sms">SMS</string>
+    <string name="blue">Синий</string>
+    <string name="bronze">Бронзовый</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.gdatasoftware.com</string>
+    <string name="browser_about_text">© 2015 G DATA Software AG</string>
+    <string name="browser_about_title">Детский браузер G DATA &lt;br/> Версия %s</string>
+    <string name="browser_bar_hint_text">Ввести URL</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">Доступ к этому веб-сайту был ограничен для вашей безопасности.</string>
+    <string name="browser_menu_about">Подробные сведения</string>
+    <string name="browser_menu_back">Назад</string>
+    <string name="browser_menu_forward">Вперед</string>
+    <string name="browser_menu_quit">Завершить</string>
+    <string name="browser_menu_settings">Настройки</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">Пустая страница</string>
+    <string name="browser_preferences_rb_default_text">Страница по умолчанию (%s)</string>
+    <string name="browser_preferences_rb_specific_text">Заданная страница:</string>
+    <string name="browser_preferences_subtitle_text">Выберите веб-сайты, которые должны открываться при запуске.</string>
+    <string name="browser_preferences_title_text">При запуске</string>
+    <string name="bye_team">Ваша G DATA SecurityLabs.</string>
+    <string name="bye_world">С наилучшими пожеланиями из Бохума,</string>
+    <string name="call">Позвонить</string>
+    <string name="call_block_info">"Подробнее?
+Нажмите сюда!"</string>
+    <string name="call_block_request">Запрос на доступ</string>
+    <string name="call_block_title">Заблокированный вызов</string>
+    <string name="call_block_txt">Этот номер заблокирован.</string>
+    <string name="callfilter_blockings_delete">Удалить записи</string>
+    <string name="callfilter_blockings_delete_title">Выбрать элементы для удаления</string>
+    <string name="callfilter_blockings_no_enries">Протоколы отсутствуют.</string>
+    <string name="callfilter_blockings_select_all">Выбрать все</string>
+    <string name="callfilter_blockings_title_in">Отклоненные входящие вызовы и SMS</string>
+    <string name="callfilter_blockings_title_out">Отклоненные исходящие вызовы и SMS</string>
+    <string name="callfilter_gsc_header">Заблокировать контакт</string>
+    <string name="callfilter_hidden_number">Анонимный номер</string>
+    <string name="callfilter_hidden_numbers">Анонимные номера</string>
+    <string name="callfilter_image_description_checkbox">Флажок</string>
+    <string name="callfilter_image_description_contact">Изображение</string>
+    <string name="callfilter_missed_call">"Входящий звонок "</string>
+    <string name="callfilter_options_allow_unknown">Разрешить вызовы с анонимных номеров в обход фильтра</string>
+    <string name="callfilter_options_blacklist">Запретить все номера из черного списка</string>
+    <string name="callfilter_options_edit">Показывать белый или черный список</string>
+    <string name="callfilter_options_in_intro_text">"Не принимайте нежелательные звонки и фильтруйте нежелательные SMS. Выберите, как будет работать фильтр:
+"</string>
+    <string name="callfilter_options_log">Протокол</string>
+    <string name="callfilter_options_no_entries">Нет элементов.</string>
+    <string name="callfilter_options_out_intro_text">"Отключите нежелательные вызовы. Выберите, как должен работать фильтр:
+"</string>
+    <string name="callfilter_options_phonebook">Разрешить все номера из телефонной книги</string>
+    <string name="callfilter_options_phonebook_black">Разрешить все номера из телефонной книги, не входящие в черный список</string>
+    <string name="callfilter_options_show_book">Телефонная книга: показывать записи</string>
+    <string name="callfilter_options_title">Фильтр входящих звонков и SMS</string>
+    <string name="callfilter_options_whitelist">Разрешить все номера из белого списка</string>
+    <string name="callfilter_selection">Показывать списки</string>
+    <string name="callfilter_selection_add">Добавить</string>
+    <string name="callfilter_selection_blacklist_no_enries">"Коснитесь символа +  в строке заголовка, чтобы выбрать номера, которые вы хотите запретить."</string>
+    <string name="callfilter_selection_no_enries">Контакты из телефонной книги не выбраны.</string>
+    <string name="callfilter_selection_phonebook_no_enries">В списке контактов нет записей.</string>
+    <string name="callfilter_selection_remove">Удалить записи</string>
+    <string name="callfilter_selection_remove_title">Удалить выбранные элементы</string>
+    <string name="callfilter_selection_select_all">Выберите все пункты</string>
+    <string name="callfilter_selection_title_blacklist">Черный список</string>
+    <string name="callfilter_selection_title_in_blacklist">Черный список входящих вызовов и SMS</string>
+    <string name="callfilter_selection_title_in_whitelist">Белый список входящих вызовов и SMS</string>
+    <string name="callfilter_selection_title_out_blacklist">Черный список исходящих вызовов</string>
+    <string name="callfilter_selection_title_out_whitelist">Белый список исходящих вызовов</string>
+    <string name="callfilter_selection_title_phonebook">Список контактов</string>
+    <string name="callfilter_selection_title_phonebook_new">Выбрать все контакты</string>
+    <string name="callfilter_selection_title_whitelist">Белый список</string>
+    <string name="callfilter_selection_whitelist_no_enries">"Коснитесь символа +  в строке заголовка, чтобы выбрать номера, которые вы хотите разрешить."</string>
+    <string name="callfilter_unknown_contact">Неизвестный абонент</string>
+    <string name="calllog_unknown_contact">Неизвестный номер</string>
+    <string name="check_all">Выбрать все</string>
+    <string name="choose_color">Выбрать</string>
+    <string name="choose_scan_freq_summary">Определяет интервалы проверки устройства (дни).</string>
+    <string name="choose_scan_freq_title">Интервал</string>
+    <string name="choose_update_region_summary">Выберите ближайший сервер обновления.</string>
+    <string name="choose_update_region_title">Область сервера</string>
+    <string name="choose_update_summary">Указывает, как часто проверяется наличие новой версии (в днях).</string>
+    <string name="choose_update_title">Интервал</string>
+    <string name="clear_arp_exceptions_summary">Удалить исключения для защиты Wi-Fi и подробного анализа Wi-Fi</string>
+    <string name="clear_arp_exceptions_title">Удалить исключения</string>
+    <string name="colorLabel">Цвет</string>
+    <string name="color_picker_default_title">Выбрать цвет:</string>
+    <string name="color_swatch_description">Цвет %1$d</string>
+    <string name="color_swatch_description_selected">Выбран цвет %1$d</string>
+    <string name="common_android_wear_notification_needs_update_text">Требуется обновить приложение Android Wear.</string>
+    <string name="common_android_wear_update_text">Для работы этого приложения требуется обновить Android Wear.</string>
+    <string name="common_android_wear_update_title">Обновить Android Wear</string>
+    <string name="common_google_play_services_enable_button">Включить</string>
+    <string name="common_google_play_services_enable_text">Для работы этого приложения требуется включить Сервисы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Включите Сервисы Google Play</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Источник запроса: %1$s</string>
+    <string name="common_google_play_services_install_button">Установить</string>
+    <string name="common_google_play_services_install_text_phone">Для работы этого приложения требуется установить Сервисы Google Play.</string>
+    <string name="common_google_play_services_install_text_tablet">Для работы этого приложения требуется установить Сервисы Google Play.</string>
+    <string name="common_google_play_services_install_title">Установите Сервисы Google Play</string>
+    <string name="common_google_play_services_invalid_account_text">Этого аккаунта нет на устройстве. Выберите другой.</string>
+    <string name="common_google_play_services_invalid_account_title">Недействительный аккаунт</string>
+    <string name="common_google_play_services_needs_enabling_title">Для работы приложения требуется включить сервисы Google Play</string>
+    <string name="common_google_play_services_network_error_text">Для работы с Google Play требуется подключение к сети.</string>
+    <string name="common_google_play_services_network_error_title">Ошибка сети</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Для работы приложения требуется установить сервисы Google Play</string>
+    <string name="common_google_play_services_notification_needs_update_title">Для работы приложения требуется обновить сервисы Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Ошибка сервисов Google Play</string>
+    <string name="common_google_play_services_unknown_issue">Неизвестная ошибка с Сервисами Google Play.</string>
+    <string name="common_google_play_services_unsupported_text">Сервисы Google Play, необходимые для работы некоторых приложений, не поддерживаются на вашем устройстве. Обратитесь к производителю.</string>
+    <string name="common_google_play_services_unsupported_title">Сервисы Google Play</string>
+    <string name="common_google_play_services_update_button">Обновить</string>
+    <string name="common_google_play_services_update_text">Для работы этого приложения требуется обновить Сервисы Google Play.</string>
+    <string name="common_google_play_services_update_title">Обновите Сервисы Google Play</string>
+    <string name="common_open_on_phone">Открыть на телефоне</string>
+    <string name="common_signin_button_text">Войти</string>
+    <string name="common_signin_button_text_long">Войти в аккаунт Google</string>
+    <string name="compass_privacy_warning_message">連絡先を非表示/ON の状態で G DATA Internet Security を削除した場合、非表示の連絡先が削除されます。 必ず、 G DATA Internet Security の削除前に、連絡先を非表示/OFF の状態にして下さい。</string>
+    <string name="compass_privacy_warning_title">Примечание</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">Параметры</string>
+    <string name="configure_action_center">Регистрация</string>
+    <string name="contact_missing">Выберите контакт.</string>
+    <string name="contact_selection_empty_text">Чтобы добавить новые контакты, нажмите значок + в строке заголовка.</string>
+    <string name="contactpicker_add">Добавить</string>
+    <string name="contactpicker_calllog">История звонков</string>
+    <string name="contactpicker_contacts">Список контактов</string>
+    <string name="copy">Копировать</string>
+    <string name="corporate_profile">На работе</string>
+    <string name="crash_report">Работа продукта G DATA неожиданно завершена. Сообщить G DATA об этой ошибке?</string>
+    <string name="daily">Ежедневно</string>
+    <string name="debug_options">Опции отладки</string>
+    <string name="default_profile">Дома</string>
+    <string name="detailed_texts">больше…</string>
+    <string name="dev_admin_applock_explanation">Права помогают предотвратить случайное удаление ##app_name## и таким образом сохранить устройство защищенным.</string>
+    <string name="dev_admin_receiver_description">Права, необходимые для работы с функцией потери/кражи.</string>
+    <string name="dev_admin_receiver_explanation">Права необходимы для блокировки и очистки пропавшего устройства, а также для установки пароля.</string>
+    <string name="device_already_registered">Ваше устройство уже зарегистрировано в G DATA ActionCenter.</string>
+    <string name="dialog_accessibility_for_lollipop">При использовании Android Lollipop потребуется G DATA App Checker. Включите службу в настройках.</string>
+    <string name="dialog_accessibility_for_lollipop_mms">Для модуля Mobile Device Management начиная с Android Lollipop требуется G DATA App Checker. Активируйте службу в настройках.</string>
+    <string name="dialog_accessibility_info_activate">Вы перешли в системные настройки, включите здесь G DATA App Checker.</string>
+    <string name="dialog_accessibility_info_deactivate">Вы перешли в системные настройки, отключите здесь G DATA App Checker.</string>
+    <string name="dialog_apkfile_updated">Приложение ##app_name## обновлено!</string>
+    <string name="dialog_auth_succefull">Регистрация на сервере выполнена успешно.</string>
+    <string name="dialog_cancel">Отменить</string>
+    <string name="dialog_cancel_short">Аббр.</string>
+    <string name="dialog_done">Готово</string>
+    <string name="dialog_err_computerid_change_failed">Не удалось передать право на обновление.</string>
+    <string name="dialog_err_computerid_change_succeeded">Права для загрузки обновлений успешно переданы.</string>
+    <string name="dialog_err_computerid_changed">Другое устройство авторизовано для загрузки обновлений. Это устройство не имеет разрешения на загрузку обновлений.</string>
+    <string name="dialog_err_computerid_changed_extern">Другое устройство авторизовано для загрузки обновлений. Запустите обновление вручную, чтобы право на обновление было передано этому компьютеру.</string>
+    <string name="dialog_err_data_corrupt">Обновление не удалось: загруженные данные повреждены.</string>
+    <string name="dialog_err_database_operation">Сервер обновлений временно недоступен. Повторите попытку позднее.</string>
+    <string name="dialog_err_install_signature_update">Обновление не удалось: не удалось установить загруженные сигнатуры.</string>
+    <string name="dialog_err_invalid_customer_data">Данные пользователя не приняты. Введите действительный адрес.</string>
+    <string name="dialog_err_invalid_login">Не удалось выполнить обновление: недопустимые данные доступа.</string>
+    <string name="dialog_err_invalid_reg_number">Регистрационный номер недействителен.</string>
+    <string name="dialog_err_license_fault">Другое устройство авторизовано для загрузки обновлений. Не удается передать право на обновления на это устройство. Обратитесь в службу поддержки.</string>
+    <string name="dialog_err_login_deleted">Права доступа временно ограничены, их срок действия истек.</string>
+    <string name="dialog_err_login_expired">Ваша лицензия ##app_name## более недействительна!</string>
+    <string name="dialog_err_login_expired_extern">Ваша лицензия ##app_name## более недействительна. Запустите обновление вручную для получения дополнительной информации.</string>
+    <string name="dialog_err_mms_initial_connect_failed">Не удалось выполнить последнюю попытку соединения с удаленным Management-Server. Обратитесь к администратору.</string>
+    <string name="dialog_err_mms_missing_login_data">Не удалось выполнить обновление: данные доступа отсутствуют. Обратитесь к администратору.</string>
+    <string name="dialog_err_no_update_available">Обновлений не найдено. Ваша версия является актуальной.</string>
+    <string name="dialog_err_not_allowed_in_this_country">Данная лицензия является ограниченной для определенной территории. Устройство, на котором вы хотите зарегистрировать данную лицензию, расположено за пределами этой территории. Пожалуйста, обратитесь к своему поставщику.</string>
+    <string name="dialog_err_open_database">Сервер обновлений временно недоступен. Повторите попытку позднее.</string>
+    <string name="dialog_err_product_already_registered">Данный продукт уже зарегистрирован.</string>
+    <string name="dialog_err_request_extension">Предложения для вашего продукта отсутствуют.</string>
+    <string name="dialog_err_single_update_already_used">Обновления выполнены. Дальнейшее обновление невозможно.</string>
+    <string name="dialog_err_update_not_allowed">У вас нет прав для загрузки обновлений.</string>
+    <string name="dialog_error">Произошла неизвестная ошибка (%s).</string>
+    <string name="dialog_fix">Исправить</string>
+    <string name="dialog_mobile_network_error">Не удалось установить СМС соединение. Убедитесь в том, что Ваш аппарат поддерживает отправку СМС.</string>
+    <string name="dialog_network_error">Не удается установить соединение с сервером. Проверьте подключение к сети.</string>
+    <string name="dialog_no">Нет</string>
+    <string name="dialog_no_auth_data_entered">Данные доступа не введены.</string>
+    <string name="dialog_no_space_available">Не удалось выполнить обновление. Проверьте, достаточно ли места на диске.</string>
+    <string name="dialog_not_all_data_entered">Некоторые данные введены неверно.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_periodic_scan_type_title">Вид проверки на вирусы</string>
+    <string name="dialog_query_computerid_changed">Другое устройство авторизовано для загрузки обновлений. Передать право на обновление на это устройство?</string>
+    <string name="dialog_scan_freq_title">Интервал проверки в днях</string>
+    <string name="dialog_sigfile_updated">Вирусные сигнатуры обновлены. Состояние приложения ##app_name## изменено!</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">Частота обновления в днях</string>
+    <string name="dialog_update_not_needed">Состояние приложения ##app_name## изменено!</string>
+    <string name="dialog_update_region_title">Область сервера</string>
+    <string name="dialog_yes">Да</string>
+    <string name="disabled">Выключен</string>
+    <string name="disinfect_all">Лечить все</string>
+    <string name="disinfect_all_files_mess">Удалить все зараженные файлы?</string>
+    <string name="disinfect_all_files_title">Удалить файлы</string>
+    <string name="disinfect_system_cleaned_mess">Лечение системы выполнено успешно.</string>
+    <string name="drawer_close">Закрыть панель навигации</string>
+    <string name="drawer_open">Открыть панель навигации</string>
+    <string name="edit_action">Править действие</string>
+    <string name="edit_filter_title">Изменить фильтр</string>
+    <string name="email_hint">Добавить адрес электронной почты…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">Устройство проверяется на вирусы регулярно.</string>
+    <string name="enableTimedScan_title">Периодически</string>
+    <string name="enableUpdate_summary">Вирусные сигнатуры регулярно обновляются в фоновом режиме.</string>
+    <string name="enableUpdate_title">Автоматически</string>
+    <string name="enable_mms_server">Разрешить удаленное управление</string>
+    <string name="enable_mms_server_summary">Предоставляет возможность удаленного управления устройством.</string>
+    <string name="enable_web_portal_summary">Использовать интернет-портал G DATA</string>
+    <string name="enable_web_portal_title">Интернет-портал G DATA</string>
+    <string name="filescan_calculate_files">Расчет контрольной суммы…</string>
+    <string name="filescan_deep_scan">Глубокое сканирование</string>
+    <string name="filescan_delete_ask" formatted="false">Удалить файл %file%?</string>
+    <string name="filescan_delete_ask_title">Удалить файл</string>
+    <string name="filescan_delete_error">Невозможно удалить файл из-за конфигурации устройства. Попробуйте подключить устройство к компьютеру и удалить файл через компьютер.</string>
+    <string name="filescan_delete_error_title">Ошибка</string>
+    <string name="filescan_end_scan">Проверка на вредоносное ПО закончена.</string>
+    <string name="filescan_files_clean">Не пораженные файлы,</string>
+    <string name="filescan_files_scanned">Проверенные файлы:</string>
+    <string name="filescan_files_skipped">Файлы были пропущены.</string>
+    <string name="filescan_initial_message">Инициализируется проверка на вредоносное ПО…</string>
+    <string name="filescan_scan_status">Проверка файла:</string>
+    <string name="filescan_start_deep_scan">Performing deep scan</string>
+    <string name="filescan_start_scan">Запускается проверка на вредоносное ПО…</string>
+    <string name="filescan_timeframe_a">Проверка заняла</string>
+    <string name="filescan_timeframe_b">Минут</string>
+    <string name="filter_activating_colliding_error">Отключить конфликтующие фильтры или оставить этот фильтр неактивным?</string>
+    <string name="filter_activating_colliding_error_disable">Деактивировать</string>
+    <string name="filter_activating_colliding_error_header">Логический конфликт</string>
+    <string name="filter_incompatiblity">СМС-функция больше недоступна для устройств под управлением Android 4.4 и выше.</string>
+    <string name="filter_selection_no_entries">"Благодаря различным фильтрам данное приложение позволяет блокировать ваши группы контактов или открывать для них доступ в определенные дни недели или определенное время. 
+
+"</string>
+    <string name="filter_selection_no_entries_add">Чтобы создать новые фильтры, нажмите значок + в строке заголовка.</string>
+    <string name="filter_selection_title">Контакты</string>
+    <string name="fitler_fragment_title">Фильтр SMS/звонков</string>
+    <string name="form_error_filter_type">Выберите хотя бы один тип фильтра.</string>
+    <string name="form_error_invalid_adress">Недействительный адрес</string>
+    <string name="form_error_invalid_date">Выбранная дата недействительна.</string>
+    <string name="form_error_invalid_merchant_number">Укажите действительный номер продавца.</string>
+    <string name="form_error_invalid_missing_adress">Введите адрес</string>
+    <string name="form_error_invalid_missing_email">Укажите действительный адрес электронной почты.</string>
+    <string name="form_error_invalid_missing_firstname">Укажите ваше имя.</string>
+    <string name="form_error_invalid_missing_lastname">Укажите вашу фамилию.</string>
+    <string name="form_error_invalid_missing_name">Введите описание.</string>
+    <string name="form_error_invalid_missing_radius">Введите желаемый радиус</string>
+    <string name="form_error_invalid_time">Указано неправильное время</string>
+    <string name="form_error_no_service">Сервис недоступен.</string>
+    <string name="form_error_select_a_day">Выберите хотя бы один день недели, когда фильтр должен быть активен.</string>
+    <string name="freemium_not_allowed">"Эта функция недоступна в базовой версии.
+
+Вы хотели бы узнать о возможности приобретения версии Премиум?"</string>
+    <string name="freemium_not_allowed_cancel">Нет, спасибо</string>
+    <string name="freemium_not_allowed_ok">Узнать подробнее</string>
+    <string name="friday">Пт</string>
+    <string name="fullday">Целый день</string>
+    <string name="gdata_install_text">\##app_name## проверяет приложения на предмет установленных вредоносных программ</string>
+    <string name="gdata_install_ticker">Защита G DATA сейчас включена</string>
+    <string name="gold">Золотой</string>
+    <string name="green">Зеленый</string>
+    <string name="grey">Серый</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Попытка выполнить USSD-команду на вашем мобильном устройстве блокирована.</string>
+    <string name="hello_world_clean">URL телефона, который вы хотите получить, не является USSD-командой и не может нанести вред вашему мобильному устройству.</string>
+    <string name="hello_world_empty">Для предотвращения повреждения вашего мобильного устройства USSD-командами выберите это приложение, когда ниже появится диалоговое окно.</string>
+    <string name="hide_contact">В Android 4.4 и выше больше нельзя скрыть информацию об обмене СМС.</string>
+    <string name="hide_dialog">Больше не показывать</string>
+    <string name="hint">Примечание</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">дополнительная информация</string>
+    <string name="incblack">Входящие</string>
+    <string name="incwhite">Входящие</string>
+    <string name="info_txt_copyright">© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">Версия</string>
+    <string name="isblacklist" />
+    <string name="isincomingtext">Входящий</string>
+    <string name="isoutgoingtext">Исходящий</string>
+    <string name="issmstext">входящие SMS</string>
+    <string name="iswhitelist" />
+    <string name="kidsbrowser_enabled_summary">Включает или выключает детский браузер.</string>
+    <string name="kidsbrowser_enabled_title">Детский браузер включен</string>
+    <string name="kidsguard_airplane_mode_summary">Активировать режим полета (не поддерживается новыми устройствами)</string>
+    <string name="kidsguard_airplane_mode_title">Включить режим полета</string>
+    <string name="kidsguard_allow_emergency_calls_summary">Приложение Telefonie (телефонная связь) открыто для номеров экстренной связи. Прочие номера будут блокированы.</string>
+    <string name="kidsguard_allow_emergency_calls_title">Разрешить номера экстренной связи</string>
+    <string name="kidsguard_app_background_preference_summary">Фон значков приложений</string>
+    <string name="kidsguard_app_background_preference_title">Фон</string>
+    <string name="kidsguard_app_background_size_preference_summary">Размер фона значков приложений</string>
+    <string name="kidsguard_app_background_size_preference_title">Размер фона</string>
+    <string name="kidsguard_app_grid">Размещение приложений</string>
+    <string name="kidsguard_app_icon">Значки приложения</string>
+    <string name="kidsguard_app_icon_size_preference_summary">Размер значков приложений</string>
+    <string name="kidsguard_app_icon_size_preference_title">Размер значков</string>
+    <string name="kidsguard_app_label">Подпись приложения</string>
+    <string name="kidsguard_app_label_color_summary">Цвет названия приложения</string>
+    <string name="kidsguard_app_label_color_title">Цвет текста</string>
+    <string name="kidsguard_app_textsize_summary">Размер текста названия приложения</string>
+    <string name="kidsguard_app_textsize_title">Размер текста</string>
+    <string name="kidsguard_applock_configuration">Сначала настройте защиту приложений</string>
+    <string name="kidsguard_applock_denial_message">Доступ к этому приложению был ограничен для вашей безопасности.</string>
+    <string name="kidsguard_applock_denial_message_appname">Доступ к приложению %s был ограничен для вашей безопасности.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">Выбор этого номера ограничен вашей системой безопасности.</string>
+    <string name="kidsguard_applock_denial_title">Приложение заблокировано</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"Приложение %s можно будет запустить повторно только завтра.
+Родители могут продлить время, удерживая нажатым значок."</string>
+    <string name="kidsguard_back_exit">Для завершения конфигурации повторно нажмите кнопку &lt;i>Назад&lt;/i>.</string>
+    <string name="kidsguard_background_balloon">Воздушный шар</string>
+    <string name="kidsguard_background_bubble">Пузырь</string>
+    <string name="kidsguard_background_glass">Стекло</string>
+    <string name="kidsguard_background_heart">Сердце</string>
+    <string name="kidsguard_background_none">Без фона</string>
+    <string name="kidsguard_background_sphere">Шар</string>
+    <string name="kidsguard_block_incoming_calls_summary">Входящие вызовы заблокированы. Исходящие вызовы возможны, пока активно приложение Telefon (телефон)</string>
+    <string name="kidsguard_block_incoming_calls_title">Блокировать входящие вызовы</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">Настроить черный список…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">Настроить белый список…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">Настройте веб-сайты, которые вы хотите разрешить/запретить, и добавьте их в белый/черный список.</string>
+    <string name="kidsguard_browser_configure_urls_title_text">Веб-сайты</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">Название</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">Добавить URL</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">Изменить URL</string>
+    <string name="kidsguard_browser_listview_no_entries_add">Чтобы добавить адреса URL в соответствующие списки, нажмите значок + в строке заголовка.</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">Черный список</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">Белый список</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">Черный список</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">Белый список</string>
+    <string name="kidsguard_email_body">"Уважаемый клиент,
+
+для функции родительского контроля установлен следующий пароль: #code#.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">Введите пароль</string>
+    <string name="kidsguard_extend_time_subtitle">Разовое продление на:</string>
+    <string name="kidsguard_extend_time_title">Продлить время:</string>
+    <string name="kidsguard_fix_volume_keys_summary">Изменения кнопок громкости будут сразу же отменены.</string>
+    <string name="kidsguard_fix_volume_keys_title">Закрепить уровень громкости</string>
+    <string name="kidsguard_forgot_password"><small>"Забыли пароль?
+Нажмите сюда!"</small></string>
+    <string name="kidsguard_home_hint">В меню &lt;b>\"Выбрать Start-App\"&lt;/b> выберите диалоговое окно &lt;b>\"Internet Security\"&lt;/b> и подтвердите свой выбор, нажав кнопку &lt;b>\"Всегда\"&lt;/b> .</string>
+    <string name="kidsguard_home_hint_title">Активировать функцию родительского контроля</string>
+    <string name="kidsguard_label_color_black">Черный</string>
+    <string name="kidsguard_label_color_white">Белый</string>
+    <string name="kidsguard_label_none">Без подписи</string>
+    <string name="kidsguard_leave">Завершить</string>
+    <string name="kidsguard_leave_title">Завершить работу функции родительского контроля</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">Включить ограничение времени использования устройства</string>
+    <string name="kidsguard_over_control_time_checkbox_title">Активировать</string>
+    <string name="kidsguard_parents_options">Параметры настройки детской</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">Количество строк значков в горизонтальном формате</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">Строки в горизонтальном формате</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">Количество столбцов значков в горизонтальном формате</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">Столбцы в горизонтальном формате</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">Количество строк значков в вертикальном формате</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">Строки в вертикальном формате</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">Количество столбцов значков в вертикальном формате</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">Столбцы в вертикальном формате</string>
+    <string name="kidsguard_reset_time_limit_summary">Сбросить ограничение времени использования устройства и отключить спящий режим</string>
+    <string name="kidsguard_reset_time_limit_title">Сбросить ограничение времени</string>
+    <string name="kidsguard_reset_time_limit_toast_text">Сброс ограничения времени выполнен успешно, спящий режим отключен.</string>
+    <string name="kidsguard_reset_usage_time_summary">Сбросить использованное ранее время устройства</string>
+    <string name="kidsguard_reset_usage_time_title">Сбросить использованное ранее время</string>
+    <string name="kidsguard_reset_usage_time_toast_text">Сброс использованного ранее времени устройства успешно выполнен.</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">Собственные заданные списки</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">Выберите списки, чтобы ограничить использование определенных веб-сайтов.</string>
+    <string name="kidsguard_select_browser_mode_title_text">Настройки браузера</string>
+    <string name="kidsguard_set_allowed_usage_time_header">Ограничение времени использования устройства</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">Установить ограничение времени использования устройства</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">Минуты</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">Минута</string>
+    <string name="kidsguard_set_allowed_usage_time_title">Установить ограничение времени</string>
+    <string name="kidsguard_settings">Настроить функцию родительского контроля</string>
+    <string name="kidsguard_show_usage_time_expired_text">Время использования: истекло</string>
+    <string name="kidsguard_show_usage_time_remaining_text">Осталось времени: %1$s минут</string>
+    <string name="kidsguard_show_usage_time_text">Время использования: %1$s минут (истекает: %2$s)</string>
+    <string name="kidsguard_subtitle">"Защитите своих детей от содержимого, которое для них не предназначено. Выберите один из двух режимов.
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"Сначала настройте защиту приложений. Для модуля родительского контроля будет использоваться этот же пароль. Активация защиты приложений не требуется.
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"Подростковая зона сейчас активна.
+"</string>
+    <string name="kidsguard_teenager">Подростковая зона</string>
+    <string name="kidsguard_teenager_configuration">Настройка подростковой зоны</string>
+    <string name="kidsguard_teenager_deactivated">Выполнен выход из подростковой зоны.</string>
+    <string name="kidsguard_teenager_description">Защищенная область с доступом к основным функциям G DATA</string>
+    <string name="kidsguard_title">Родительский контроль</string>
+    <string name="kidsguard_toddler">Детская</string>
+    <string name="kidsguard_toddler_configuration">Настройка детской</string>
+    <string name="kidsguard_toddler_deactivated">Выполнен выход из детской.</string>
+    <string name="kidsguard_toddler_description">Ограниченный раздел с детским экраном</string>
+    <string name="kidsguard_usage_control__checkbox_summary">Устройство можно использовать только в указанном вами месте и радиусе.</string>
+    <string name="kidsguard_usage_control__checkbox_title">Активировать</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">Текущее состояние:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">Минуты</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">Ограничение по времени</string>
+    <string name="kidsguard_usage_control_current">Текущее состояние:</string>
+    <string name="kidsguard_usage_control_invalid_adress">Адрес недействителен.</string>
+    <string name="kidsguard_usage_control_kilometer">км</string>
+    <string name="kidsguard_usage_control_location_category">Ограничение по местонахождению</string>
+    <string name="kidsguard_usage_control_no_adress">Адрес не указан</string>
+    <string name="kidsguard_usage_control_radius_title">Указать радиус в километрах</string>
+    <string name="kidsguard_usage_control_scheduled_category">Еженедельное планирование</string>
+    <string name="kidsguard_usage_control_scheduled_summary">Укажите для каждого дня недели период, в течение которого разрешено использовать устройство</string>
+    <string name="kidsguard_usage_control_scheduled_title">Планировать</string>
+    <string name="kidsguard_usage_control_set_adress">Указать адрес</string>
+    <string name="kidsguard_usage_control_summary">Настройки для ограничения времени использования или местонахождения</string>
+    <string name="kidsguard_usage_control_title">Настройки</string>
+    <string name="kidsguard_usage_control_weekly_category">Недельный обзор</string>
+    <string name="kidsguard_usage_time_device_admin_text">Для блокировки устройства требуются права доступа, чтобы обеспечить корректную работу спящего режима.</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">Разрешенное суточное время использования истекло. Сейчас ваше устройство заблокировано.</string>
+    <string name="kidsguard_usagecontrol_toddler">Время блокировки</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">Настроить время блокировки</string>
+    <string name="kidsguard_usagecontrol_toddler_description">Ограничивает разрешенное использование устройства в пределах самостоятельно заданного времени или местоположения.</string>
+    <string name="kidsguard_wallpaper">Фон</string>
+    <string name="kidsguard_wifi_off_summary">Отключиться от всех сетей и выключить Wi-Fi</string>
+    <string name="kidsguard_wifi_off_title">Отключить Wi-Fi</string>
+    <string name="lightblue">Голубой</string>
+    <string name="lightgrey">Светло-серый</string>
+    <string name="localisation_service">Служба локализации</string>
+    <string name="locationlock_add_title">Добавить новое ограничение</string>
+    <string name="locationlock_add_title_edit">Изменить ограничение</string>
+    <string name="locationlock_selection_title">Ограничения</string>
+    <string name="locationpicker_add">Выбрать местоположение</string>
+    <string name="lockedlocations_selection_no_entries">"Данное приложение позволяет блокировать ваш смартфон в определенных местах в разные дни недели и разное время. 
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">Чтобы создать новые ограничения, нажмите значок + в строке заголовка.</string>
+    <string name="lockscreen_part_disabled_services" />
+    <string name="lockscreen_part_five" />
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">Ваше устройство заблокировано из-за ограничения:</string>
+    <string name="lockscreen_part_six" />
+    <string name="lockscreen_part_two" />
+    <string name="log_blocked_app">Запущено заблокированное приложение:</string>
+    <string name="log_clar_caption">Протоколы</string>
+    <string name="log_clear_logs">Удалить</string>
+    <string name="log_confirm_clear_logs">Удалить все протоколы?</string>
+    <string name="log_detail_title">Протокол</string>
+    <string name="log_dont_clear_logs">Отменить</string>
+    <string name="log_hashcode_block_app">Приложение заблокировано по причине отличающейся сигнатуры:</string>
+    <string name="log_hashcode_mismatch">Отличающая сигнатура:</string>
+    <string name="log_incoming_call_blocked">Входящий вызов отклонен:</string>
+    <string name="log_locked_app">Запущено защищенное приложение:</string>
+    <string name="log_oninstall_app" formatted="false">Приложение: %app%</string>
+    <string name="log_oninstall_malware_found">Найдено вредоносное ПО</string>
+    <string name="log_oninstall_malware_name" formatted="false">Заражение: %name%</string>
+    <string name="log_oninstall_package_name" formatted="false">Пакет установки: %package%</string>
+    <string name="log_oninstall_pup_found">Найдены возможно нежелательные программы</string>
+    <string name="log_outgoing_call_blocked">Исходящий вызов отклонен:</string>
+    <string name="log_phishing_site_found">Найдены фишинговые сайты:</string>
+    <string name="log_scan_app_scan_title">Сканирование приложений:</string>
+    <string name="log_scan_apps_scanned" formatted="false">%cnt% установленных приложений проверено</string>
+    <string name="log_scan_duration" formatted="false">Продолжительность сканирования: %time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt% файлов проверено</string>
+    <string name="log_scan_infection_found" formatted="false">%cnt% вирус найдено</string>
+    <string name="log_scan_infections_found" formatted="false">%cnt% вирусов найдено</string>
+    <string name="log_scan_malware_found_title">Найдено вредоносное ПО</string>
+    <string name="log_scan_nothing_found_title">вредоносное ПО не найдено</string>
+    <string name="log_scan_pup_found" formatted="false">%cnt% возможно нежелательная программа найдена</string>
+    <string name="log_scan_pup_found_title">найдены вероятно нежелательные программы</string>
+    <string name="log_scan_pups_found" formatted="false">%cnt% возможно нежелательных программ найдены</string>
+    <string name="log_scan_sig_date" formatted="false">Сигнатуры: %date%</string>
+    <string name="log_scan_system_scan_title">Сканирование системы:</string>
+    <string name="log_sigfile_updated">Сигнатуры обновлены.</string>
+    <string name="main_activation_state">Статус:</string>
+    <string name="main_antiphish_checked_none">нет</string>
+    <string name="main_apps_denials_all">Все приложения заблокированы</string>
+    <string name="main_apps_denials_hdr">Заблокированные приложения</string>
+    <string name="main_apps_denials_hdr_invert">Разблокированные приложения</string>
+    <string name="main_apps_denials_none">Приложения не заблокированы</string>
+    <string name="main_apps_locked_all">Все приложения защищены</string>
+    <string name="main_apps_locked_hdr">Защищенные приложения</string>
+    <string name="main_apps_locked_hdr_invert">Незащищенные приложения</string>
+    <string name="main_apps_locked_none">нет защищенных приложений</string>
+    <string name="main_calls_blocked_multiple">заблокировано %d вызовов/SMS</string>
+    <string name="main_calls_blocked_singular">1 вызов/SMS заблокирован</string>
+    <string name="main_calls_filtered_hdr">отклоненные вызовы:</string>
+    <string name="main_calls_filtered_none">нет</string>
+    <string name="main_contacts_filtered_none">нет</string>
+    <string name="main_contacts_hidden_count">скрыто %d контактов</string>
+    <string name="main_contacts_hidden_count_singular">1 контакт скрыт</string>
+    <string name="main_contacts_hidden_hdr">защищенные контакты:</string>
+    <string name="main_hub_phishing">Фильтр фишинга</string>
+    <string name="main_hub_privacy">Скрыть контакты</string>
+    <string name="main_info">О компании G DATA</string>
+    <string name="main_last_scan_hdr">последняя проверка на наличие вирусов:</string>
+    <string name="main_last_scan_never">никогда</string>
+    <string name="main_permission">Права</string>
+    <string name="main_premium_antitheft">Защита от кражи</string>
+    <string name="main_premium_callblock">Фильтр вызовов</string>
+    <string name="main_premium_phishing">Фильтр фишинга</string>
+    <string name="main_premium_privacy">Приватная зона</string>
+    <string name="main_scan">Проверка на вирусы</string>
+    <string name="main_settings">Параметры</string>
+    <string name="main_state_active">активировано</string>
+    <string name="main_state_inactive">выключено</string>
+    <string name="mdm_choose_another_profile">Выбрать другой профиль</string>
+    <string name="mdm_choose_profile_title">Выбрать профиль</string>
+    <string name="mdm_device_compromised_rooted_locked">Устройство пользователя было скомпрометировано (рутовано) и по этой причине заблокировано администратором</string>
+    <string name="mdm_set_camera_state">Включение/выключение камеры не поддерживается.</string>
+    <string name="mdm_storage_encryption_accepted_by_user">Кодировка устройства включена пользователем</string>
+    <string name="mdm_storage_encryption_denied_by_user">Кодировка устройства не включена пользователем</string>
+    <string name="menu_accman">Управление учетными записями</string>
+    <string name="menu_antitheft">Потеря/кража</string>
+    <string name="menu_applock">Защита приложений</string>
+    <string name="menu_apps">Приложения</string>
+    <string name="menu_conversations">Вызовы / SMS</string>
+    <string name="menu_exit">Для завершения работы приложения повторно нажмите &lt;i>Назад&lt;/i>.</string>
+    <string name="menu_filter">Фильтр входящих звонков</string>
+    <string name="menu_filter_in">Входящий фильтр</string>
+    <string name="menu_filter_out">Исходящий фильтр</string>
+    <string name="menu_goback">Назад</string>
+    <string name="menu_guard_done">Готово</string>
+    <string name="menu_hide_contacts">Скрыть контакты</string>
+    <string name="menu_info">Выше</string>
+    <string name="menu_kidsguard">Родительский контроль</string>
+    <string name="menu_kidsguard_broser">Настройки браузера</string>
+    <string name="menu_other">Дополнительно</string>
+    <string name="menu_panic_button">Аварийная кнопка</string>
+    <string name="menu_security">Безопасность</string>
+    <string name="menu_security_hub">Центр безопасности</string>
+    <string name="menu_settings">Параметры</string>
+    <string name="missing_libs">Ошибка во время установки. Убедитесь, что на диске достаточно свободного места, и установите приложение заново.</string>
+    <string name="mms_configure">Настроить удаленное обслуживание</string>
+    <string name="mms_connect_deferred">Загрузка обновлений невозможна, так как не удалось установить соединение с сервером управления. Проверьте настройки удаленного управления.</string>
+    <string name="mms_contact">Контактные данные компании</string>
+    <string name="mms_eula_show">Показать лицензионное соглашение…</string>
+    <string name="mms_invalid_data">Недопустимые данные для начала сеанса удаленного администрирования</string>
+    <string name="mms_log">Передача MMS</string>
+    <string name="mms_server_address">Адрес сервера</string>
+    <string name="mms_server_address_summary">Адрес сервера управления (IP/имя сервера)</string>
+    <string name="mms_server_name">Имя устройства</string>
+    <string name="mms_server_name_summary">Имя устройства для идентификации.</string>
+    <string name="mms_server_not_found">Не удалось связаться с ManagementServer.</string>
+    <string name="mms_server_password">Пароль</string>
+    <string name="mms_server_password_summary">Пароль для авторизации.</string>
+    <string name="mms_synch_data">Синхронизация с G DATA Managemet Server</string>
+    <string name="mockapp">\"Обнаружено фиктивное приложение GPS.\"</string>
+    <string name="monday">Пн</string>
+    <string name="new_filter_title">Добавить новый фильтр</string>
+    <string name="new_group_filter_scheduler_header">Ежедневно</string>
+    <string name="new_locked_location_adress_header">Адрес</string>
+    <string name="new_locked_location_adress_hint" />
+    <string name="new_locked_location_from_hint">С</string>
+    <string name="new_locked_location_header">Описание</string>
+    <string name="new_locked_location_location_activate">Включить блокировку по местоположению</string>
+    <string name="new_locked_location_radius_header">Радиус</string>
+    <string name="new_locked_location_radius_hint" />
+    <string name="new_locked_location_scheduler_header">Планирование</string>
+    <string name="new_locked_location_till_hint">До</string>
+    <string name="new_widget_help">Новые аварийные кнопки можно добавить только на начальную страницу в качестве виджета.</string>
+    <string name="news_follow_link">возобновить чтение …</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/ru/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/ru/messages.xml</string>
+    <string name="no_entrys">Нет записей</string>
+    <string name="notification_accessibility_applock_off_text">Защита приложений отключена, так как G DATA App Checker деактивирован. Эта служба требуется, начиная с Android Lollipop.</string>
+    <string name="notification_accessibility_applock_off_ticker">Защита приложений отключена</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name## успешно проверил</string>
+    <string name="notification_app_installed_clean_ticker_part2">приложение.</string>
+    <string name="notification_arp_detection">Возможно, данная WLAN скомпрометирована.</string>
+    <string name="notification_arp_detection_auto">Возможно, данная WLAN скомпрометирована.</string>
+    <string name="notification_arp_detection_auto_ticker">Возможно, данная WLAN скомпрометирована. Соединение с WLAN прервано из соображений безопасности.</string>
+    <string name="notification_arp_detection_ticker">Возможно, данная WLAN скомпрометирована. Если вы находитесь в общественной беспроводной или другой ненадежной сети, мы рекомендуем прервать соединение.</string>
+    <string name="notification_bssid_detection">Возможно, данная WLAN скомпрометирована.</string>
+    <string name="notification_bssid_detection_ticker">Возможно, данная WLAN скомпрометирована. Это результат подробного анализа.</string>
+    <string name="notification_infected">Ваша система заражена!</string>
+    <string name="notification_infected_pup">Ваша система, возможно, заражена!</string>
+    <string name="notification_infected_pup_ticker">В вашей системе установлена, по всей вероятности, нежелательная программа.</string>
+    <string name="notification_infected_ticker">Ваша система заражена!</string>
+    <string name="notification_ipx_cancellation_success">Ваша подписка была отменена.</string>
+    <string name="notification_ipx_error">Во время Вашего заказа возникла ошибка. Попробуйте оформить его повторно, используя другой способ оплаты.</string>
+    <string name="notification_ipx_subscription_success">Ваша подписка была успешно создана.</string>
+    <string name="notification_new_apk_available">Доступна новая версия программы.</string>
+    <string name="notification_new_apk_available_ticker">Доступна новая версия программы.</string>
+    <string name="notification_new_news_ticker">Есть новости</string>
+    <string name="notification_new_unread_multiple">%d непрочитанные сообщения</string>
+    <string name="notification_new_unread_one">1 новость не прочитана</string>
+    <string name="notification_persistent_text">активировано</string>
+    <string name="notification_persistent_ticker">\##app_name## будет перезапущено.</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">Установить</string>
+    <string name="notification_query_message_news">У вас есть непрочитанные сообщения.</string>
+    <string name="notification_query_open_news">Показать сообщения</string>
+    <string name="notification_query_start_disinfect">Лечить</string>
+    <string name="notification_query_start_scan">Начать сканирование</string>
+    <string name="notification_query_start_update">Начать обновление</string>
+    <string name="notification_scan_finished_clean">При сканировании зараженных файлов не найдено</string>
+    <string name="notification_scan_outdated">Необходимо сканирование</string>
+    <string name="notification_scan_outdated_ticker">Последнее сканирование проводилось более 7 дней назад.</string>
+    <string name="notification_sig_file_to_old">Сигнатуры устарели!</string>
+    <string name="notification_sig_file_to_old_ticker">Используемые вирусные сигнатуры устарели!</string>
+    <string name="notification_usage_time_left">Осталось минут…</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">Добавить как новый номер</string>
+    <string name="number_picker_add_entries">Скрыть элементы</string>
+    <string name="number_picker_new_contact">Добавить</string>
+    <string name="number_picker_search">Поиск</string>
+    <string name="orange">Оранжевый</string>
+    <string name="orange_ask_activate">Вирусные сигнатуры устарели и не являются больше достаточно надежной защитой. Хотите купить лицензию и защитить свой телефон?</string>
+    <string name="orange_err_no_orange_sim">Обратите внимание, этот сервис доступен только клиентам Orange Österreich.</string>
+    <string name="orange_err_no_sim">Нельзя загрузить обновления без Sim-карты.</string>
+    <string name="orange_wizard_explaination">Эти данные, а также данные об использовании ресурсов, могут применяться для обеспечения работоспособности продукта в течение 12 месяцев.</string>
+    <string name="orange_wizard_purchase_link">Купить сейчас…</string>
+    <string name="orange_wizard_subtitle">"Тестируйте 30 дней бесплатно! 
+ 
+Все премиум-функции бесплатно в течение 30 дней. Достаточно ввести свое имя и электронную почту."</string>
+    <string name="outblack">Исходящие</string>
+    <string name="outwhite">Исходящие</string>
+    <string name="package_already_uninstalled">Пакет уже удален</string>
+    <string name="panicActionContent">Текст</string>
+    <string name="panicActionType">Действие</string>
+    <string name="panic_button_dialog_title">Действия выполняются в …</string>
+    <string name="panic_button_info_text">"Аварийная кнопка позволяет в экстренной ситуации легко и быстро отправить вашим друзьям сообщение о том, где вы, например, находитесь в настоящее время. 
+
+ Кнопки создаются на начальной странице в качестве новых виджетов.
+
+"</string>
+    <string name="panic_button_prompt">Добавить новое действие</string>
+    <string name="panic_button_ready">Готово</string>
+    <string name="panic_call">Начать звонок</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Звонок</string>
+    <string name="panic_edittext_hint">Ваше сообщение…</string>
+    <string name="panic_edittext_hint_header">Форма обращения…</string>
+    <string name="panic_edittext_sender">Ваше имя…</string>
+    <string name="panic_email">Отправить электронное сообщение</string>
+    <string name="panic_email_content">Сообщение</string>
+    <string name="panic_email_header">Тема</string>
+    <string name="panic_email_type">Адрес эл. почты</string>
+    <string name="panic_form_no_content_error">Введите сообщение.</string>
+    <string name="panic_form_no_number_error">Укажите получателя.</string>
+    <string name="panic_fragment_title">Аварийная кнопка</string>
+    <string name="panic_gps_email_last_location">"Уважаемые дамы и господа! Наш клиент #4# указал Ваши контактные данные для связи в экстренной ситуации, поэтому Вам отправляются текущие координаты его (ее) телефона.
+
+#0#Последнее известное местоположение телефона: #1#. Чтобы просмотреть местоположение на карте, перейдите по ссылке #2# или #3#. Примечание: MAC-адрес, который использовался в последний раз: #5#.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"Уважаемые дамы и господа! Наш клиент (#4#) указал Ваши контактные данные для связи в экстренной ситуации, поэтому Вам отправляются текущие координаты его (ее) телефона.
+
+#0#Текущее местоположение телефона: #1#. Чтобы просмотреть местоположение на карте, перейдите по ссылке #2# или #3#. Примечание: MAC-адрес, который использовался в последний раз: #5#.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"Уважаемые дамы и господа! Наш клиент #4# указал Ваши контактные данные для связи в экстренной ситуации, поэтому Вам отправляются текущие координаты его (ее) телефона. К сожалению, в настоящий момент не удается установить местоположение телефона.
+
+#0# Примечание: MAC-адрес роутера, использовавшегося в последний раз: #5#.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">Последнее известное местоположение телефона #1# было #2#.</string>
+    <string name="panic_gps_sms_location">Телефон #1# обнаружен по координатам #2#.</string>
+    <string name="panic_gps_sms_no_location">>#0##4# Телефону не удалось определить текущее положение.</string>
+    <string name="panic_header">Создать новую аварийную кнопку</string>
+    <string name="panic_header_edit">Править аварийную кнопку</string>
+    <string name="panic_list_header">Аварийная кнопка</string>
+    <string name="panic_location">Отправить местоположение</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">Ввести адрес эл. почты или номер мобильного телефона:</string>
+    <string name="panic_location_type">Location (Местоположение)</string>
+    <string name="panic_min_actions">Необходимо как минимум одно действие.</string>
+    <string name="panic_sms">Отправить SMS</string>
+    <string name="panic_text_message">Отправить сообщение</string>
+    <string name="panic_text_message_content">Сообщение</string>
+    <string name="panic_text_message_type">Message (сообщение)</string>
+    <string name="panic_textview_hint">Ваш контакт…</string>
+    <string name="panic_trigger_email">Отправить электронное сообщение</string>
+    <string name="panic_trigger_emergency_call">Включить экстренный вызов</string>
+    <string name="panic_trigger_location">Отправить местоположение</string>
+    <string name="panic_trigger_sms">Отправить SMS</string>
+    <string name="panic_unknown_sender">Не указано</string>
+    <string name="panic_wizard_description_one">Добавьте одно из нескольких действий, которые будут выполняться при нажатии аварийной кнопки.</string>
+    <string name="panic_wizard_description_sender">Для определенных действий необходимо указать свое имя в графе Отправитель:</string>
+    <string name="panic_wizard_description_three">Выберите одного человека из своего списка контактов, которого следует уведомить в экстренной ситуации.</string>
+    <string name="panic_wizard_two_desc_call">В результате этого действия будет выполнен прямой экстренный вызов контакта, чей номер указан для связи в экстренной ситуации.</string>
+    <string name="panic_wizard_two_desc_email">В результате данного действия контакту, чей номер указан для связи в экстренной ситуации, будет напрямую отправлено созданное вами сообщение.</string>
+    <string name="panic_wizard_two_desc_location">В результате данного действия контакту, чей номер указан для связи в экстренной ситуации, будут отправлены координаты вашего телефона в момент возникновения экстренной ситуации.</string>
+    <string name="panic_wizard_two_desc_message">В результате данного действия контакту, чей номер указан для связи в экстренной ситуации, будет напрямую отправлено созданное вами сообщение.</string>
+    <string name="panicbutton">Аварийная кнопка</string>
+    <string name="panicbutton_big">Аварийная кнопка G DATA L</string>
+    <string name="panicbutton_medium">Аварийная кнопка G DATA М</string>
+    <string name="panicbutton_small">Аварийная кнопка G DATA S</string>
+    <string name="periodic_scan_type_summary">Определяет, будет ли проведена быстрая проверка установленных приложений или полное сканирование системы.</string>
+    <string name="periodic_scan_type_title">Тип</string>
+    <string name="permission_access_network_state_desc">Показать сетевые подключения</string>
+    <string name="permission_access_wifi_state_desc">Показать подключения WLAN</string>
+    <string name="permission_additional_fees_desc">За это может взиматься дополнительная плата</string>
+    <string name="permission_authenticate_accounts_desc">Создание учетных записей и установка паролей</string>
+    <string name="permission_billing_desc">Биллинг Google Play</string>
+    <string name="permission_broadcast_sticky_desc">Отправка постоянной рассылки</string>
+    <string name="permission_call_phone_desc">Прямые звонки по номерам телефонов</string>
+    <string name="permission_change_wifi_state_desc">Установка и разрыв соединений WLAN</string>
+    <string name="permission_check_license_desc">Проверка лицензии Google Play</string>
+    <string name="permission_full_network_access_desc">Полный доступ к сети</string>
+    <string name="permission_get_accounts_desc">Поиск учетных записей на устройстве</string>
+    <string name="permission_get_tasks_desc">Запрашивать активные приложения</string>
+    <string name="permission_internet_desc">Приложениям разрешен доступ к Интернету.</string>
+    <string name="permission_internet_desc_detail">Приложения, которым разрешен доступ к Интернету:</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">Доступ к Интернету</string>
+    <string name="permission_location_coarse_desc">Приложениям разрешено определять приблизительное местонахождение телефона.</string>
+    <string name="permission_location_coarse_desc_detail">Приложения, которым разрешено определять примерные координаты телефона:</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">Навигация через моб. телефон/WiFi</string>
+    <string name="permission_location_desc">точное местоположение (по GPS и по сети)</string>
+    <string name="permission_location_fine_desc">Приложениям разрешено определять точное местонахождение телефона.</string>
+    <string name="permission_location_fine_desc_detail">Приложения, которым разрешено определять точные координаты телефона:</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">GPS-навигация</string>
+    <string name="permission_manage_accounts_desc">Использование учетных записей на устройстве</string>
+    <string name="permission_outgoing_calls_desc">Приложениям разрешено совершать звонки.</string>
+    <string name="permission_outgoing_calls_desc_detail">Приложения, которым разрешено совершать звонки:</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">Звонки</string>
+    <string name="permission_outgoing_sms_desc">Приложениям разрешено отправлять SMS.</string>
+    <string name="permission_outgoing_sms_desc_detail">Приложения, которым разрешено отправлять SMS:</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">SMS</string>
+    <string name="permission_process_outgoing_calls_desc">Переадресация исходящих вызовов</string>
+    <string name="permission_read_call_logs_desc">Читать журнал вызовов</string>
+    <string name="permission_read_contacts_desc">Приложениям разрешен доступ к списку контактов.</string>
+    <string name="permission_read_contacts_desc_detail">Приложения, которым разрешен доступ к списку контактов.</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">Список контактов</string>
+    <string name="permission_read_history_bookmarks_desc">Читать закладки веб-сайтов и веб-протокол</string>
+    <string name="permission_read_logs_desc">Приложениям разрешено читать системные файлы протоколов.</string>
+    <string name="permission_read_logs_desc_detail">Приложения, которым разрешено использовать системные файлы протоколов. В них может содержаться личная информация:</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">Файлы протоколов</string>
+    <string name="permission_read_phone_state_desc">Запрос статуса и идентификатора телефона</string>
+    <string name="permission_read_sms_desc">Читать SMS или MMS</string>
+    <string name="permission_read_sync_settings_desc">Чтение параметров синхронизации</string>
+    <string name="permission_receive_boot_completed_desc">Выполнять во время запуска</string>
+    <string name="permission_receive_sms_desc">Получить SMS</string>
+    <string name="permission_reorder_tasks_desc">Упорядочить активные приложения</string>
+    <string name="permission_send_sms_desc">Отправить короткое сообщение</string>
+    <string name="permission_use_credentials_desc">Добавление или удаление учетных записей</string>
+    <string name="permission_write_call_logs_desc">Редактировать журнал вызовов</string>
+    <string name="permission_write_contacts_desc">Изменить мои контакты</string>
+    <string name="permission_write_external_storage_desc">Изменить или удалить содержимое карты памяти</string>
+    <string name="permission_write_settings_desc">Изменение параметров системы</string>
+    <string name="permission_write_sms_desc">Редактировать SMS или MMS</string>
+    <string name="permission_write_sync_settings_desc">Включение и отключение синхронизации</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">\##app_name## запретил доступ к этому веб-сайту. &lt;br/>Веб-сайт является известным фишинговым сайтом.</string>
+    <string name="phishing_blocked_title">Сайт заблокирован!</string>
+    <string name="phishing_checkbox_label">Включить веб-защиту</string>
+    <string name="phishing_intro">Веб-защита предотвращает атаки с фишинговых сайтов в браузерах Android и Chrome. Внимание: защита от фишинговых атак в скрытом режиме невозможна.</string>
+    <string name="phishing_intro_long">Фишинговая атака - это попытка получить личные данные, такие как имя пользователя, пароль, номера кредитных карточек, данные доступа к интернет-банку и пр., с помощью поддельных сайтов или писем по электронной почте. В большинстве случаев попытки фишинга предпринимаются по отношению к клиентам, которые пользуются интернет-банкингом, электронными платежными системами, услугами интернет-провайдера, а также совершают покупки в интернет-магазинах. Зачастую их с помощью ссылок в письмах или сообщениях перенаправляют на поддельные страницы, копирующие страницы настоящих сайтов.</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">Ошибка</string>
+    <string name="plasma_status_code_cancel">Процесс был прерван</string>
+    <string name="plasma_status_code_invalidaccount">Недопустимый счет</string>
+    <string name="plasma_status_code_invalidcreditcard">Недопустимая информация о кредитной карте</string>
+    <string name="plasma_status_code_itemgroupidnotfound">Недопустимый заказ</string>
+    <string name="plasma_status_code_itemidnotfound">Недопустимый заказ</string>
+    <string name="plasma_status_code_networkerror">Ошибка сети</string>
+    <string name="plasma_status_code_paymentidnotfound">Недопустимый заказ</string>
+    <string name="plasma_status_code_processerror">Ошибка обработки</string>
+    <string name="plasma_status_code_serviceunavailable">Сервис недоступен</string>
+    <string name="plasma_status_code_success">Процесс успешно завершен</string>
+    <string name="plasma_try_later">Пожалуйста, проверьте настройки счета или попробуйте позже.</string>
+    <string name="postTime" />
+    <string name="preTime" />
+    <string name="pref_category_account">Данные доступа &amp; Подписки</string>
+    <string name="pref_category_account_summary">Управление данными доступа</string>
+    <string name="pref_category_default">Общие</string>
+    <string name="pref_category_licenses">Лицензии на программное обеспечение</string>
+    <string name="pref_category_mms">Удаленное администрирование</string>
+    <string name="pref_category_scan">Проверка на вирусы</string>
+    <string name="pref_category_scan_header">Проверка на вирусы</string>
+    <string name="pref_category_scan_summary">Настройки автоматической проверки.</string>
+    <string name="pref_category_timedUpdate">Обновления</string>
+    <string name="pref_category_webportal">Интернет-портал</string>
+    <string name="pref_category_webshield">Веб-защита</string>
+    <string name="pref_licenses">Лицензии на свободное программное обеспечение</string>
+    <string name="pref_licenses_summary">Показывать подробную информацию о лицензировании свободного ПО</string>
+    <string name="privacy_applying_privacy">Данные скрываются</string>
+    <string name="privacy_blocked_call">Вызов от %1$s отклонен</string>
+    <string name="privacy_blocked_sms">Получено SMS от %1$s</string>
+    <string name="privacy_call_history">История звонков</string>
+    <string name="privacy_call_text">Позвонить</string>
+    <string name="privacy_cancel">Отменить</string>
+    <string name="privacy_chat_history">История сообщений</string>
+    <string name="privacy_clear_logs">Удалить историю звонков</string>
+    <string name="privacy_contact">Личные контактные данные</string>
+    <string name="privacy_contact_add">Добавить контакт или номер</string>
+    <string name="privacy_contact_picture">Изображение контакта</string>
+    <string name="privacy_contact_remove">Удалить выбранные элементы</string>
+    <string name="privacy_contacts">Управление скрытыми контактами</string>
+    <string name="privacy_data_loss">Кроме этого, вы потеряете все данные скрытых в настоящее время контактов.</string>
+    <string name="privacy_deleted_user">Удаленный элемент списка контактов</string>
+    <string name="privacy_detail">Подробнее</string>
+    <string name="privacy_disable_privacy">Отключить защиту</string>
+    <string name="privacy_do_hide">Скрыть</string>
+    <string name="privacy_do_not_hide">Не скрывать</string>
+    <string name="privacy_enable_privacy">Включить защиту</string>
+    <string name="privacy_hidden_contacts">Скрытые контакты</string>
+    <string name="privacy_hide_contacts">Скрыть контакты</string>
+    <string name="privacy_known_contacts">Контакты</string>
+    <string name="privacy_managecontacts">Управление скрытыми контактами</string>
+    <string name="privacy_move_to_phone_header">Изменить контакт</string>
+    <string name="privacy_no_chat_history">Сообщений нет</string>
+    <string name="privacy_no_hidden_contacts">Коснитесь символа + в строке заголовка, чтобы выбрать контакты, которые вы хотите скрыть.</string>
+    <string name="privacy_remove_contacts">Удалить запись</string>
+    <string name="privacy_remove_conversations">Скрыть сообщения</string>
+    <string name="privacy_restoring_privacy">Данные восстанавливаются</string>
+    <string name="privacy_send_message_text">Отправить сообщение</string>
+    <string name="privacy_sim_contacs_to_phone">Этот контакт будет синхронизирован с учетной записью. Во избежание проблем при синхронизации переместите контакт в телефонную книгу, перед тем как скрыть его.</string>
+    <string name="privacy_suppres_communication">Скрывать входящие вызовы</string>
+    <string name="privacy_title">Скрыть контакты</string>
+    <string name="profile_config_title">Выбрать профиль</string>
+    <string name="profile_create_new">Создание нового профиля</string>
+    <string name="profile_title">Название профиля</string>
+    <string name="progress_deleting_infected_files">Зараженные файлы удаляются. Пожалуйста, подождите…</string>
+    <string name="protected_features">"Эта функция доступна только после активации.
+
+Выполнить активацию сейчас?"</string>
+    <string name="protectuninstall_text">Обратите внимание, что ваша система не будет защищена.</string>
+    <string name="protectuninstall_title">Деинсталлировать ##app_name##?</string>
+    <string name="purchase_article">Статья</string>
+    <string name="purchase_article_number">Номер статьи</string>
+    <string name="purchase_date">Дата</string>
+    <string name="purchase_information">Информация о заказе</string>
+    <string name="purchase_number">Номер заказа</string>
+    <string name="purchase_price">Цена</string>
+    <string name="red">Красный</string>
+    <string name="remote_device_located">Устройство обнаружено.</string>
+    <string name="remote_device_locating">Устройство начинает поиск.</string>
+    <string name="remote_lock_fail">Не удалось заблокировать устройство.</string>
+    <string name="remote_lock_no_password">Устройство заблокировано без пароля.</string>
+    <string name="remote_lock_ok">Устройство успешно заблокировано.</string>
+    <string name="remote_lock_password_reset">Устройство успешно заблокировано с помощью пароля удаленного доступа.</string>
+    <string name="remote_set_password_fail">Не удалось изменить пароль.</string>
+    <string name="remote_set_password_ok">Пароль успешно изменен.</string>
+    <string name="report_dialog_title">Помогите нам!</string>
+    <string name="restriction_locked_for_a_day">Блокировка будет отключена на следующий день.</string>
+    <string name="restriction_locked_for_till_restart">Блокировка неактивна до следующего запуска функции родительского контроля.</string>
+    <string name="saturday">Сб</string>
+    <string name="saveProtocolls_summary">Сохраняет протоколы, созданные во время проверки системы.</string>
+    <string name="saveProtocolls_title">Сохранять протоколы</string>
+    <string name="scanOnInstall_summary">Автоматическая проверка недавно установленных приложений.</string>
+    <string name="scanOnInstall_title">При установке приложения</string>
+    <string name="scan_power_connected_summary">Фоновое сканирование запускается, только если устройство заряжено.</string>
+    <string name="scan_power_connected_title">Только во время зарядки</string>
+    <string name="scan_service_infection">В ходе автоматической проверки найдены вредоносные программы.</string>
+    <string name="scan_service_ok">Автоматическая проверка завершена, вирусов не найдено.</string>
+    <string name="scan_skip_power_low_summary">Фоновое сканирование не запускается, если аккумуляторная батарея почти разряжена</string>
+    <string name="scan_skip_power_low_title">Экономичный режим аккумулятора</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">Установленные приложения</string>
+    <string name="scan_type_system">Система (полное сканирование)</string>
+    <string name="security_hub_log_title">Сообщения</string>
+    <string name="security_hub_scan_manually_canceled">Сканирование отменено пользователем</string>
+    <string name="security_hub_subtitle_empty">Все в порядке</string>
+    <string name="security_hub_subtitle_empty_trial">Срок действия лицензии / пробный период истекает через (дней): %d.</string>
+    <string name="security_hub_subtitle_empty_trial_expired">Срок действия лицензии / пробного периода истек.</string>
+    <string name="security_hub_title">Центр безопасности</string>
+    <string name="sendErrorReports_summary">Отправляет G DATA Software AG отчеты об ошибках. Отправка данных может тарифицироваться согласно тарифам вашего оператора.</string>
+    <string name="sendErrorReports_title">Отправить отчеты об ошибках</string>
+    <string name="sendSMS">Отправить</string>
+    <string name="sendUsageData_summary">Отправляет G DATA Software AG данные для дальнейшей разработки. Отправка данных может тарифицироваться согласно тарифам вашего оператора.</string>
+    <string name="sendUsageData_title">Отправить статистику</string>
+    <string name="send_email">Отправить электронное сообщение</string>
+    <string name="send_location">Отправить координаты местоположения</string>
+    <string name="send_sms">Отправить SMS</string>
+    <string name="server_license_expired">Срок действия серверной лицензии истек. Обратитесь к администратору.</string>
+    <string name="showTrayIcon_title">Значок уведомлений</string>
+    <string name="showTrayIcons_summary">Показывать логотип ##app_name## в строке уведомлений.</string>
+    <string name="sim_change_message">В вашем телефоне заменена SIM-карта.</string>
+    <string name="sim_change_message_subscriber">Новый номер абонента:</string>
+    <string name="sms_answer_device_password_failed">Пароль не может быть установлен, так как не соответствует инструкциям.</string>
+    <string name="sms_answer_device_password_succeeded">Пароль успешно установлен.</string>
+    <string name="sms_answer_latest_known">Последние известные координаты вашего телефона: #1#.</string>
+    <string name="sms_answer_location">Координаты вашего телефона: #1#</string>
+    <string name="sms_answer_lock">Устройство заблокировано.</string>
+    <string name="sms_answer_lock_fail">Устройство не удалось заблокировать.</string>
+    <string name="sms_answer_lock_no_password">Экран вашего устройства был отключен. Блокировка не установлена.</string>
+    <string name="sms_answer_lock_reset_password">Устройство заблокировано с вашим паролем по SMS-команде.</string>
+    <string name="sms_answer_no_location">\#0#Ваш телефон не нашел текущие координаты.</string>
+    <string name="sms_answer_reset_password_failed">Пароль не был установлен, так как состоит менее чем из четырех символов.</string>
+    <string name="sms_answer_reset_password_succeeded">Пароль SMS успешно установлен.</string>
+    <string name="sms_answer_service_disabled">"GPS отключена или не работает. "</string>
+    <string name="sms_answer_wipe">Запущена очистка устройства.</string>
+    <string name="sms_command_email_summary">E-mail</string>
+    <string name="sms_command_email_title">Дополнительный адрес электронной почты для получения координат.</string>
+    <string name="sms_email_answer_latest_known">"Уважаемый клиент!,
+
+#0#Последние известные координаты вашего телефона: #1#. Перейдите по ссылке #2# или #3#, чтобы увидеть местоположение на карте.
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"Уважаемый клиент!
+
+Координаты вашего телефона: #1#. Перейдите по ссылке #2# или #3#, чтобы увидеть местоположение на карте.
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"Уважаемый клиент!
+
+Ваш телефон успешно заблокирован.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"Уважаемый клиент!
+
+Ваш телефон не удалось заблокировать.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"Уважаемый клиент!
+
+Экран вашего телефона был отключен. Блокировка не установлена.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"Уважаемый клиент!
+
+Ваш телефон заблокирован по вашей SMS-команде с паролем.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"Уважаемый клиент!
+
+#0#Не удалось обнаружить ваш телефон.
+
+С уважением,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"Уважаемый клиент!
+
+Новый пароль для SMS-команд успешно установлен.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"Уважаемый клиент!
+ароль для SMS-команд не удалось установить.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"Уважаемый клиент!
+
+Пароль для блокировки экрана вашего телефона успешно установлен.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"Уважаемый клиент!
+
+Пароль для блокировки экрана вашего телефона не удалось установить.
+
+С наилучшими пожеланиями,
+G DATA Software AG"</string>
+    <string name="sms_enter_text">Сначала введите сообщение.</string>
+    <string name="sms_not_sent">Невозможно отправить SMS-сообщение. Проверьте подключение.</string>
+    <string name="sms_self">Я</string>
+    <string name="sms_sent">SMS-сообщение отправлено</string>
+    <string name="spoof_detection_activated_summary">Следить за записями таблицы ARP</string>
+    <string name="spoof_detection_activated_title">Защита Wi-Fi</string>
+    <string name="spoof_detection_advanced_summary">Дополнительные проверки и правила</string>
+    <string name="spoof_detection_advanced_title">Дополнительные настройки</string>
+    <string name="spoof_detection_network_unreachable">Сеть не доступна</string>
+    <string name="spoof_detection_networks_summary">В данных WLAN отключен контроль таблицы ARP</string>
+    <string name="spoof_detection_networks_title">Доверенные сети</string>
+    <string name="spoof_detection_no_network">Сейчас нет доступной сети.</string>
+    <string name="startOnBoot_summary">Запуск ##app_name## при запуске системы.</string>
+    <string name="startOnBoot_title">Автоматический запуск</string>
+    <string name="sunday">Вс</string>
+    <string name="task_icon_type_always">Всегда</string>
+    <string name="task_icon_type_if_action">Только по действию</string>
+    <string name="task_icon_type_never">Никогда</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg">&lt;a href=tel:*%2306%23>Тестировать фильтр G DATA для USSD. Тест показывает номер вашего устройства (IMEI).&lt;/a></string>
+    <string name="textViewHeaderAdd">Выбрать контакт</string>
+    <string name="text_trial">Настроить новый аккаунт</string>
+    <string name="text_unlock">У меня уже есть аккаунт</string>
+    <string name="thursday">Чт</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">URL телефона заблокирован</string>
+    <string name="title_activity_tel_ok">URL телефона проверен</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">Из</string>
+    <string name="toggle_on">В</string>
+    <string name="trial_app_name">Тестовая версия ##app_name##</string>
+    <string name="trial_err_already_registered">Сразу же будет выполнена бесплатная регистрация обновления сигнатур. Дальнейшая бесплатная регистрация невозможна.</string>
+    <string name="trial_not_allowed_expired">"Эта функция недоступна, так как пробный период истек.
+
+Хотите просмотреть возможности приобретения полнофункциональной версии?"</string>
+    <string name="trial_not_allowed_unregistered">"Эту функцию можно использовать только после бесплатной регистрации пробной версии.
+
+Хотите выполнить регистрацию сейчас?"</string>
+    <string name="trial_registration_dlg_mess">Бесплатный доступ к регулярным обновлениям. Укажите ваши данные пользователя. Данные доступа к обновлениям сигнатур затем вводятся в ##app_name## автоматически и дополнительно высылаются на ваш адрес электронной почты.</string>
+    <string name="tuesday">Вт</string>
+    <string name="uncheck_all">Отменить выбор для всех</string>
+    <string name="undobar_delete">Журнал удален</string>
+    <string name="undobar_undo">Отменить</string>
+    <string name="unlock_question_1">Мое любимое животное.</string>
+    <string name="unlock_question_2">Девичья фамилия матери.</string>
+    <string name="unlock_question_3">Имя лучшего друга.</string>
+    <string name="unlock_question_4">Место рождения отца.</string>
+    <string name="unlock_question_custom">Собственный вопрос</string>
+    <string name="unlock_time_1">1 час</string>
+    <string name="unlock_time_15">15 минут</string>
+    <string name="unlock_time_2">2 часа</string>
+    <string name="unlock_time_30">30 минут</string>
+    <string name="unlock_time_4">4 часа</string>
+    <string name="unlock_time_inf">Непрерывно</string>
+    <string name="unlock_time_subtitle">Задать время использования для %s</string>
+    <string name="unlock_time_title">Активировать приложение:</string>
+    <string name="unlock_wizard">Internet Security</string>
+    <string name="updateWifiOnly_summary">Проводить обновление только при наличии соединения WLAN.</string>
+    <string name="updateWifiOnly_title">Только по WLAN</string>
+    <string name="update_region_africa">Африка</string>
+    <string name="update_region_asia">Азия</string>
+    <string name="update_region_asia_china">Азия (Китай)</string>
+    <string name="update_region_asia_india">Азия (Индия)</string>
+    <string name="update_region_asia_japan">Азия (Япония)</string>
+    <string name="update_region_australia">Австралия</string>
+    <string name="update_region_auto">Автоматическое определение</string>
+    <string name="update_region_europe">Европа</string>
+    <string name="update_region_north_america">Северная Америка</string>
+    <string name="update_region_south_america">Южная Америка</string>
+    <string name="upgrade_offer_err_no_connection">Невозможно загрузить информацию об обновлении. Проверьте подключение к сети.</string>
+    <string name="upgrade_offer_title">Информация об обновлении</string>
+    <string name="usage_control_lock_dialog_part1" />
+    <string name="usage_control_lock_dialog_part12" />
+    <string name="usage_control_lock_dialog_part13" />
+    <string name="ussd_filter_title">USSD-фильтр</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">AuthCode – код, созданный ActionCenter</string>
+    <string name="web_portal_scan_interval">Частота обновления интернет-портала</string>
+    <string name="web_portal_scan_interval_summary">Промежуток между двумя синхронизациями</string>
+    <string name="web_portal_server_address">Сервер интернет-портала</string>
+    <string name="web_portal_server_address_summary">Адрес используемого сервера интернет-портала</string>
+    <string name="webprotection_dialog_accept">Блокировать</string>
+    <string name="webprotection_dialog_continue">Продолжить</string>
+    <string name="webprotection_dialog_text">Эта страница распознана как известный фишинговый сайт. Продолжайте просмотр, только если уверены в своей безопасности.</string>
+    <string name="webprotection_dialog_title">Веб-защита</string>
+    <string name="webshield_activated_summary">Защищает вас от фишинговых сайтов. Функционирует только с браузером Android.</string>
+    <string name="webshield_activated_title">Веб-защита</string>
+    <string name="webshield_only_wlan_summary">Проверять веб-страницы только при наличии WLAN.</string>
+    <string name="webshield_only_wlan_title">Только по WLAN</string>
+    <string name="webshield_phishing_timeout_summary">Время в секундах, в течение которого можно просматривать фишинговую страницу в исключительном случае.</string>
+    <string name="webshield_phishing_timeout_title">Длительность исключения</string>
+    <string name="wednesday">Ср</string>
+    <string name="whitelist">Белый список</string>
+    <string name="wizard_app_lock">Модуль защиты приложения обеспечивает приложения паролем, таким образом, никто не сможет просматривать личные данные без вашего ведома.</string>
+    <string name="wizard_audit">Следующие функции ##app_name## успешно настроены:</string>
+    <string name="wizard_audit_subtitle_fail_text">Не настроено</string>
+    <string name="wizard_audit_subtitle_succ_text">Настроено успешно</string>
+    <string name="wizard_audit_title">Аудит</string>
+    <string name="wizard_bt_antitheft_text">Установить защиту от кражи</string>
+    <string name="wizard_bt_applock_text">Установить защиту приложений</string>
+    <string name="wizard_bt_audit_skip_text">Готово</string>
+    <string name="wizard_bt_callfilter_text">Установить фильтр для вызовов/SMS</string>
+    <string name="wizard_bt_malware_text">Активировать учетную запись</string>
+    <string name="wizard_bt_next_text">пропустить</string>
+    <string name="wizard_bt_welcomen_skip_text">Далее</string>
+    <string name="wizard_dlg_exit_caption">Мастер ##app_name##</string>
+    <string name="wizard_dlg_exit_text">Действительно завершить?</string>
+    <string name="wizard_eula">Я прочитал(а) лицензионное соглашение и принимаю его условия.</string>
+    <string name="wizard_eula_not_accpted_warning">Чтобы продолжить, вам необходимо принять условия лицензионного соглашения.</string>
+    <string name="wizard_exit">Завершить</string>
+    <string name="wizard_intro">\##app_name## не только обеспечивает безопасность вашего устройства и данных во время работы в Интернете, но и проверяет новые приложения на наличие вирусов.</string>
+    <string name="wizard_lbl_antitheft_headline_text">Защита от кражи</string>
+    <string name="wizard_lbl_audit_headline_text">Аудит##app_name##</string>
+    <string name="wizard_lbl_callfilter_headline_text">Фильтр вызовов</string>
+    <string name="wizard_lbl_malware_headline_text">Защита от вредоносного ПО</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">После проведенной регистрации Вам будет предоставлен доступ к использованию расширенных функций Internet Security в течении 30 дней. После истечения срока доступ к основным функциям защиты от вредоносного ПО будет сохранен. Доступ к дальнейшему использоваию расширенных функций Вы можете получить заключив абонемент.</string>
+    <string name="wizard_malware_already_registered_text">Вы уже зарегистрированы?</string>
+    <string name="wizard_malware_email_hint">E-Mail</string>
+    <string name="wizard_malware_firstname_hint">Имя</string>
+    <string name="wizard_malware_lastname_hint">Фамилия</string>
+    <string name="wizard_malware_proceed_text">Активация программного обеспечения…</string>
+    <string name="wizard_password">Пароль необходим для модулей защиты приложения и защиты от кражи (не менее 4 различных непоследовательных цифр)</string>
+    <string name="wizard_password_forgot">Забыли пароль? Его можно восстановить с помощью SMS-команды, отправленной на этот номер. На данный номер отправляется SMS о смене SIM-карты.</string>
+    <string name="wizard_send_mail">Ответы на SMS-команды также пересылаются на ваш адрес эл. почты.</string>
+    <string name="wizard_start_header">Вас приветствует новый помощник для создания большей безопасности. Вы хотите сначала протестировать наш продукт или, возможно, у вас уже есть лицензия?</string>
+    <string name="wizard_theft">С помощью модуля защиты от кражи вы можете найти свое устройство по SMS, а в случае потери заблокировать его или удалить важные данные. Автоматические функции сообщают о смене SIM-карт или последнем местонахождении устройства в случае разрядки аккумулятора.</string>
+    <string name="wizard_uninstall_protection_checkbox">Включить защиту от удаления</string>
+    <string name="wizard_uninstall_protection_text">Для предотвращения несанкционированного удаления активируйте защиту от удаления (требуется активация администратора устройства)</string>
+    <string name="zoomToSelectPerimeter">Видимый фрагмент карты (район) соответствует качеству передаваемых данных и может быть изменен с помощью функции масштабирования.</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:id="@id/permission_overview" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_weight="2.0" class="de.gdata.mobilesecurity.activities.permissions.PermissionFragment" />
+</LinearLayout>

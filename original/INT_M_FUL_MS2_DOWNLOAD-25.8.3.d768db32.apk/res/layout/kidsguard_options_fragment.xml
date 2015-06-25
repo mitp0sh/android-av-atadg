@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/kidsguard_options_fragment" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/kidsguard_options_layout" android:paddingTop="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/kidsguard_options_title" android:text="@string/kidsguard_title" style="@style/TitleBoldLeft" />
+            <View android:id="@id/kidsguard_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+            <TextView android:id="@id/kidsguard_options_intro_text" android:text="@string/kidsguard_subtitle" style="@style/SubTitleLeft" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/kidsguard_toddler" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/kidsguard_options_todddler_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kidsguard_toddler" style="@style/TitleBoldLeft" />
+                        <TextView android:id="@id/kidsguard_options_toddler_text" android:layout_marginRight="16.0dip" android:text="@string/kidsguard_toddler_description" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+                    </LinearLayout>
+                    <ToggleButton android:id="@id/kidsguard_options_toddler" android:background="@android:color/transparent" android:layout_width="@dimen/kidsguardToggleWidth" android:layout_height="@dimen/kidsguardToggleHeight" android:layout_marginRight="16.0dip" android:button="@drawable/kidsguard_toggle" android:textOn="" android:textOff="" />
+                </LinearLayout>
+                <TextView android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@id/kidsguard_options_toddler_configure" android:paddingBottom="8.0dip" android:clickable="true" android:text="@string/kidsguard_toddler_configuration" android:maxLines="2" android:drawableLeft="@drawable/ic_action_einstellungen" android:drawablePadding="4.0dip" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/kidsguard__usagecontrol_toddler" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/kidsguard_usagecontrol_options_toddler_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kidsguard_usagecontrol_toddler" style="@style/TitleBoldLeft" />
+                        <TextView android:id="@id/kidsguard_usagecontrol_options_toddler_text" android:layout_marginRight="16.0dip" android:text="@string/kidsguard_usagecontrol_toddler_description" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+                    </LinearLayout>
+                    <ToggleButton android:id="@id/kidsguard_usagecontrol_options_toddler" android:background="@android:color/transparent" android:layout_width="@dimen/kidsguardToggleWidth" android:layout_height="@dimen/kidsguardToggleHeight" android:layout_marginRight="16.0dip" android:button="@drawable/kidsguard_toggle" android:textOn="" android:textOff="" />
+                </LinearLayout>
+                <TextView android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@id/kidsguard_usagecontrol_options_toddler_configure" android:paddingBottom="8.0dip" android:clickable="true" android:text="@string/kidsguard_usagecontrol_toddler_configuration" android:maxLines="2" android:drawableLeft="@drawable/ic_action_einstellungen" android:drawablePadding="4.0dip" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="8.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/kidsguard_options_teenager_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/kidsguard_teenager" style="@style/TitleBoldLeft" />
+                        <TextView android:id="@id/kidsguard_options_teenager_text" android:layout_marginRight="16.0dip" android:text="@string/kidsguard_teenager_description" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+                    </LinearLayout>
+                    <ToggleButton android:id="@id/kidsguard_options_teenager" android:background="@android:color/transparent" android:layout_width="@dimen/kidsguardToggleWidth" android:layout_height="@dimen/kidsguardToggleHeight" android:layout_marginRight="16.0dip" android:button="@drawable/kidsguard_toggle" android:textOn="" android:textOff="" />
+                </LinearLayout>
+                <TextView android:textColor="@android:color/darker_gray" android:ellipsize="end" android:id="@id/kidsguard_options_teenager_configure" android:paddingBottom="8.0dip" android:clickable="true" android:text="@string/kidsguard_teenager_configuration" android:maxLines="2" android:drawableLeft="@drawable/ic_action_einstellungen" android:drawablePadding="4.0dip" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/claim_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/kidsguard_options_fragment" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <ImageView android:gravity="bottom|center|right" android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/claim" />
+    </LinearLayout>
+</RelativeLayout>

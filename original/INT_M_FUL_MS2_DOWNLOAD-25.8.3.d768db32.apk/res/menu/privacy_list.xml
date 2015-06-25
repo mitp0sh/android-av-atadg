@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_content_discard" android:id="@id/privacy_contact_remove" android:visible="false" android:title="@string/privacy_contact_remove" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_content_new" android:id="@id/privacy_contact_add" android:title="@string/privacy_contact_add" android:showAsAction="always" />
+    <item android:id="@id/privacy_contact_cancel" android:visible="false" android:title="@string/privacy_cancel" android:showAsAction="always" />
+</menu>

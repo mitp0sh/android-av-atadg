@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/widget_config" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/usage_control_new_location_fragment2" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/widget_config_header" android:padding="5.0dip" android:text="@string/panic_header" style="@style/TitleBoldLeft" />
+        <View android:id="@id/antitheft_help_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/widget_config_header" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/name_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/antitheft_help_divider">
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textViewBez" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_locked_location_header" android:layout_weight="3.0" />
+            <EditText android:id="@id/editTextName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="2.0" android:inputType="textCapSentences" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/colors_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/name_layout" android:animateLayoutChanges="true">
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <ImageView android:background="@drawable/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_weight="2.0" />
+        </LinearLayout>
+        <View android:id="@id/devider_3" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/colors_layout" />
+        <Button android:layout_gravity="center" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/add_action" android:layout_below="@id/devider_3" />
+        <View android:id="@id/devider_5" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/button" />
+        <ListView android:id="@id/listView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/devider_5" />
+    </RelativeLayout>
+</RelativeLayout>

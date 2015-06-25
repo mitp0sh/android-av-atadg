@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate android:fromDegrees="45.0" android:toDegrees="45.0" android:pivotX="13.999998%" android:pivotY="-35.000004%">
+            <shape android:shape="rectangle">
+                <stroke android:width="0.0dip" android:color="@color/menuTransparent" />
+                <solid android:color="@color/wizardNavBackgroundColor" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

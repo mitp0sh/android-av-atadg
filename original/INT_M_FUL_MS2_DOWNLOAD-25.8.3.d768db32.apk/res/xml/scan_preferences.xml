@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/app_name" android:key="ScanPrefsKey" android:summary="@string/pref_category_scan_summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/app_name">
+        <CheckBoxPreference android:title="@string/scanOnInstall_title" android:key="SCAN_ON_INSTALL" android:summary="@string/scanOnInstall_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/enableTimedScan_title" android:key="ENABLE_TIMED_SCAN" android:summary="@string/enableTimedScan_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/scan_skip_power_low_title" android:key="BATTERY_SKIP" android:summary="@string/scan_skip_power_low_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/scan_power_connected_title" android:key="SCAN_POWER_CONNECTED" android:summary="@string/scan_power_connected_summary" android:defaultValue="false" />
+        <ListPreference android:entries="@array/update_freq" android:title="@string/choose_scan_freq_title" android:key="PERIODIC_SCAN_FREQ" android:summary="@string/choose_scan_freq_summary" android:defaultValue="7" android:dialogTitle="@string/dialog_scan_freq_title" android:entryValues="@array/update_freq" />
+        <ListPreference android:entries="@array/scantypes" android:title="@string/periodic_scan_type_title" android:key="PERIODIC_SCAN_TYPE" android:summary="@string/periodic_scan_type_summary" android:defaultValue="1" android:dialogTitle="@string/dialog_periodic_scan_type_title" android:entryValues="@array/scantypevalues" />
+    </PreferenceCategory>
+</PreferenceScreen>

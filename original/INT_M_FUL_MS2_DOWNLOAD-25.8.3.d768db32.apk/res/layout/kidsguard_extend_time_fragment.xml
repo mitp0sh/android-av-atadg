@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/kidsguard_extend_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/kidsguard_extend_time_subtitle" style="@style/CustomDialogTheme" />
+        <RadioGroup android:orientation="vertical" android:id="@id/kidsguard_extend_time_rg" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CustomDialogTheme">
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/kidsguard_extend_time_rb_15" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/unlock_time_15" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/kidsguard_extend_time_rb_30" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_30" style="@style/CustomDialogTheme" />
+            <RadioButton android:gravity="bottom|center|left" android:id="@id/kidsguard_extend_time_rb_60" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unlock_time_1" style="@style/CustomDialogTheme" />
+        </RadioGroup>
+        <LinearLayout android:layout_gravity="end" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip">
+            <TextView android:id="@id/kidsguard_extend_password_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/applock_enter_password" style="@style/CustomDialogTheme" />
+            <EditText android:id="@id/kidsguard_extend_password_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:scrollHorizontally="true" android:password="true" android:singleLine="true" android:digits="1234567890" android:capitalize="none" android:autoText="false" android:inputType="phone" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:orientation="vertical" android:padding="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutRowFirst" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.0dip"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textAppearance="?android:textAppearanceLarge" android:textSize="35.0dip" android:textColor="@color/actionBarBackground" android:layout_gravity="center_horizontal" android:id="@id/textViewHeader" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/add_action" android:layout_weight="2.0" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center_horizontal" android:id="@id/textViewInfo" android:paddingLeft="20.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_wizard_description_one" android:layout_weight="2.0" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layoutRowFourth" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/layoutRowThird"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="left" android:id="@id/textViewSenderInfo" android:paddingLeft="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_wizard_description_sender" android:layout_weight="1.0" />
+                <View android:id="@id/devider_4" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/name_layout" />
+                <EditText android:textAppearance="?android:textAppearanceMedium" android:layout_gravity="center" android:id="@id/editTextPanicSender" android:background="@drawable/transparent" android:paddingLeft="0.0dip" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/panic_edittext_sender" android:layout_weight="1.0" />
+                <View android:id="@id/devider_5" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/name_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layoutRowSecond" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@id/buttonCall" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_trigger_emergency_call" android:layout_weight="2.0" />
+                <Button android:layout_gravity="right" android:id="@id/buttonLocate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_trigger_location" android:layout_weight="2.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/layoutRowThird" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/layoutRowSecond"
+              xmlns:android="http://schemas.android.com/apk/res/android">
+                <Button android:id="@id/buttonEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_trigger_email" android:layout_weight="2.0" />
+                <Button android:layout_gravity="right" android:id="@id/buttonMessage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_trigger_sms" android:layout_weight="2.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <ImageButton android:textStyle="bold" android:id="@id/buttonBack" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back_white" android:layout_alignParentLeft="true" style="@style/ButtonGDataTheme" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ussd_root_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/DefaultRootLayout">
+        <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ussd_filter_title" style="@style/TitleBoldLeft" />
+        <View android:id="@id/divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        <TextView android:id="@id/tel_hello" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hello_world" android:drawableLeft="@drawable/tray_ok" android:drawablePadding="10.0dip" style="@style/SubTitleLeft" />
+        <TextView android:id="@id/tel_explain" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/block_explain" style="@style/SubTitleLeft" />
+        <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/tel_layout" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:textStyle="bold" android:id="@id/tel_nr" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_nr" style="@style/SubTitleLeft" />
+            <View android:background="#ffd7d7d7" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_margin="8.0dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bt_copy" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/copy_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bt_copy" />
+                <TextView android:id="@id/copy_text" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy" style="@style/SubTitleLeft" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bt_startCall" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/call_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/initiate_call" />
+                <TextView android:id="@id/call_text" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call" style="@style/SubTitleLeft" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/img_filter" android:padding="@dimen/padding_medium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tray_info" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <TextView android:id="@id/tel_test" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_centerHorizontal="true" style="@style/SubTitleLeft" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/footerTextSize" android:textColor="@color/footerTextColor" android:gravity="right" android:id="@id/menu_footer" android:background="@color/footerTextBackground" android:paddingLeft="@dimen/footerPaddingLeft" android:paddingTop="@dimen/footerPaddingTop" android:paddingRight="@dimen/footerPaddingLeft" android:paddingBottom="@dimen/footerPaddingTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hub_claim" android:layout_weight="0.0" />
+    </LinearLayout>
+</LinearLayout>

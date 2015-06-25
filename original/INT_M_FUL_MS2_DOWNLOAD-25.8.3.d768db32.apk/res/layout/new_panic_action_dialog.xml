@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/chooser_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panicActionType" android:layout_weight="4.0" />
+        <Spinner android:entries="@array/panic_button_profiles" android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:prompt="@string/panic_button_prompt" android:layout_weight="2.0" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_number" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewNumber" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/panicActionContent" android:layout_weight="4.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_numberPicker" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" android:animateLayoutChanges="true">
+            <EditText android:id="@id/editTextNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="2.0" android:inputType="textMultiLine" />
+            <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewNumberLabel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="2.0" />
+            <ImageButton android:id="@id/buttonContactSelector" android:layout_width="fill_parent" android:layout_height="40.0dip" android:src="@drawable/action_search" android:adjustViewBounds="true" android:text="" android:layout_weight="3.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/header_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panic_email_header" android:layout_weight="4.0" />
+        <EditText android:id="@id/editTextHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="2.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_contentLayout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/panicActionContent" android:layout_weight="4.0" />
+        <EditText android:id="@id/editTextContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:layout_weight="2.0" android:inputType="textMultiLine" />
+    </LinearLayout>
+</LinearLayout>

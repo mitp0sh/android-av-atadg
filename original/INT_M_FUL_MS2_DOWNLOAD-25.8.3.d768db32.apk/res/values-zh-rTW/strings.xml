@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">病毒已成功移除。</string>
+    <string name="AppFix_subtitle">您的系統受到感染。如要移除病毒，請在下列視窗中先選取然後確認刪除。</string>
+    <string name="AppFix_subtitle_pup">偵測到潛在不需要的程式。如要移除，請在下列視窗中先選取然後確認刪除.</string>
+    <string name="AppFix_subtitle_sideLoaded">您嘗試安裝的檔案已被感染。如要移除，請在下列視窗中先選擇然後確認刪除。</string>
+    <string name="AppFix_title">刪除</string>
+    <string name="AppFix_title_pup">不需要的程式</string>
+    <string name="AppScan_Malware_found_with_Name">已偵測病毒：</string>
+    <string name="AppScan_amount_was_scanned">應用程式已掃描。</string>
+    <string name="MainGuiGridAdapter_permissions">應用程式權限</string>
+    <string name="MainGuiGridAdapter_protocolls">記錄</string>
+    <string name="MainGuiGridAdapter_scan">病毒掃描</string>
+    <string name="MainGuiGridAdapter_settings">設定</string>
+    <string name="MainGuiGridAdapter_update">更新</string>
+    <string name="PacketViewerGui_name_not_found">錯誤</string>
+    <string name="PacketViewerGui_version">版本</string>
+    <string name="PermissionUsage_subtitle">顯示已授予的權限</string>
+    <string name="PermissionUsage_title">權限</string>
+    <string name="ProgressDialog_while_loading_Permissions">正在檢查權限，請稍後…</string>
+    <string name="ProtocolViewerXml_empty_list">無記錄</string>
+    <string name="ProtocolViewerXml_motd">記錄</string>
+    <string name="ScanGui_finished_dialog_abort_button">取消</string>
+    <string name="ScanGui_finished_dialog_clean">"掃描完成。
+未發現惡意程式。"</string>
+    <string name="ScanGui_finished_dialog_fix_button">刪除</string>
+    <string name="ScanGui_finished_dialog_infected">"掃描完成。
+
+發現惡意程式！"</string>
+    <string name="ScanGui_finished_dialog_ok_button">確定</string>
+    <string name="ScanGui_finished_dialog_warning">"掃描完成。
+發生錯誤。"</string>
+    <string name="ScanGui_finished_title">病毒掃描</string>
+    <string name="ScanGui_menu_applications">應用程式</string>
+    <string name="ScanGui_progressdialog_abort_button">取消</string>
+    <string name="ScanGui_progressdialog_title">掃描系統</string>
+    <string name="ScanGui_report_fiels_infected">"掃描完成。
+
+發現惡意程式！"</string>
+    <string name="ScanGui_report_fiels_ok">"掃描完成。
+未發現惡意程式。"</string>
+    <string name="Scan_scan_button">開始</string>
+    <string name="Scan_spinner_msg">選擇掃描類型</string>
+    <string name="Scan_subtitle">選擇掃描類型並點擊開始按鈕以執行掃描。</string>
+    <string name="Scan_title">掃描系統</string>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">選擇分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="ac_device_already_registered">該設備已注冊</string>
+    <string name="ac_server_error">出現錯誤，請聯系G DATA客服。</string>
+    <string name="accesibility_service">G DATA 應用程式檢查器</string>
+    <string name="accman_bt_connectToServer">連線</string>
+    <string name="accman_bt_forgottenData">遺失了您的帳號資訊？</string>
+    <string name="accman_bt_registerAtServer">註冊</string>
+    <string name="accman_check">檢查更新…</string>
+    <string name="accman_check_license">檢查授權中…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">也許您對我們的新產品感興趣：</string>
+    <string name="accman_fixed_content_3">G DATA移動安全軟件</string>
+    <string name="accman_fixed_content_4">我們已增加許多功能以更好的防護您的裝置。</string>
+    <string name="accman_fixed_content_5">請造訪我們在Google Play的頁面以獲得更多資訊。</string>
+    <string name="accman_inapp_text">您的設備將不會再受到針對最新威脅的保護。 立即擴展您的授權。您的設備將會立即再次受到保護。</string>
+    <string name="accman_inapp_title">您的##app_name##授權已到期!</string>
+    <string name="accman_inapp_txt_subs_month">月</string>
+    <string name="accman_inapp_txt_subs_year">年</string>
+    <string name="accman_inapp_txt_subtitle">"
+正在下載…"</string>
+    <string name="accman_inapp_txt_subtitle_subs">可訂閱</string>
+    <string name="accman_ipx_bottom_nav_about_text">關於</string>
+    <string name="accman_ipx_bottom_nav_agb_text">交易條款</string>
+    <string name="accman_ipx_bottom_nav_contact_text">聯絡方式</string>
+    <string name="accman_ipx_bottom_nav_faq_text">常見問題</string>
+    <string name="accman_ipx_bottom_nav_sub_text">訂閱管理</string>
+    <string name="accman_ipx_confirm">確認</string>
+    <string name="accman_ipx_confirm_dialog_text">購買結束且您的帳號註冊後，##app_name##會在第一時間發出確認</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">購買產品後您會收到網路安全軟體進階功能的登錄訊息和定期更新的登錄訊息。費用則是透過行動裝置帳單結算。</string>
+    <string name="accman_ipx_infoscreen_title_text">月費1.99歐元/月</string>
+    <string name="accman_ipx_progress_dialog_text">您的訂單正在處理</string>
+    <string name="accman_ipx_purchase">購買</string>
+    <string name="accman_perform_connect">正在建立連線…</string>
+    <string name="accman_pre_bt_ok">下一步</string>
+    <string name="accman_pre_ipx_radio_gdata">G DATA首頁</string>
+    <string name="accman_pre_ipx_radio_gemalto">行動裝置帳單</string>
+    <string name="accman_pre_ipx_radio_register">註冊/登錄</string>
+    <string name="accman_pre_ipx_text_gdata">透過G DATA官網購買</string>
+    <string name="accman_pre_ipx_text_gemalto">透過行動裝置帳單結算</string>
+    <string name="accman_pre_ipx_text_register">註冊/登錄</string>
+    <string name="accman_pre_ipx_title">購買</string>
+    <string name="accman_pre_radio_activate">註冊</string>
+    <string name="accman_pre_radio_activate_long">我是新使用者，想透過G DATA更新伺服器註冊。</string>
+    <string name="accman_pre_radio_enter">輸入帳號資訊</string>
+    <string name="accman_pre_radio_enter_long">我要啟動G DATA的使用者名稱及密碼。</string>
+    <string name="accman_pre_tab_activate">啟用</string>
+    <string name="accman_pre_txt_choose">請輸入使用者名稱及密碼以啟動更新。若您沒有帳號資訊，請立即在G DATA更新伺服器註冊您的產品序號。</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">啟動更新</string>
+    <string name="accman_red_bt_buy">購買</string>
+    <string name="accman_red_txt_city">*城市：</string>
+    <string name="accman_red_txt_country">*國家/區域：</string>
+    <string name="accman_red_txt_firstname">*名：</string>
+    <string name="accman_red_txt_fooder">如資訊不完整或不正確，G DATA有權暫停您存取更新服務不另行告知。標有*為必填欄位。</string>
+    <string name="accman_red_txt_mail">*電子郵件：</string>
+    <string name="accman_red_txt_phone">電話：</string>
+    <string name="accman_red_txt_plz">*郵遞區號：</string>
+    <string name="accman_red_txt_street">*街道，門牌號碼：</string>
+    <string name="accman_red_txt_surname">姓：</string>
+    <string name="accman_red_txt_title">*稱謂：</string>
+    <string name="accman_register_bt_register">註冊</string>
+    <string name="accman_register_checkbox_agb">我同意我所提供的資訊能被儲存並用以為我提供促銷活動。</string>
+    <string name="accman_register_checkbox_agb_oempartner">我同意，我所提供的資訊和由於使用所產生的資訊，可能被保存並用於oem_partner_company為我提供的促銷活動。</string>
+    <string name="accman_register_progress">正在傳送註冊資訊…</string>
+    <string name="accman_register_purchase_link_text">沒有序列號？</string>
+    <string name="accman_register_purchase_proceed_link_text">購買一個授權</string>
+    <string name="accman_register_txt_email">電子郵件</string>
+    <string name="accman_register_txt_forename">名</string>
+    <string name="accman_register_txt_header">訂購</string>
+    <string name="accman_register_txt_merchant">經銷商代碼 (可選)</string>
+    <string name="accman_register_txt_mobile">行動電話號碼</string>
+    <string name="accman_register_txt_regnum">產品序號</string>
+    <string name="accman_register_txt_subtitle">請在此輸入產品序號以及您的洽詢資訊。這將會生成一組授權資訊，該授權資訊會自動寫入至您的##app_name## 產品中，並送出至您註冊時提供的信件位址.</string>
+    <string name="accman_register_txt_surename">姓</string>
+    <string name="accman_register_txt_title">註冊</string>
+    <string name="accman_txt_password">密碼</string>
+    <string name="accman_txt_subtitle">請輸入用戶名和 密碼進行定期更新。</string>
+    <string name="accman_txt_title">啓用高級功能</string>
+    <string name="accman_txt_username">使用者名稱</string>
+    <string name="accman_unlock_auth">啟用更新…</string>
+    <string name="accman_updateinfos_bt_ok">下一步</string>
+    <string name="accman_updateinfos_radio_activate">註冊更新</string>
+    <string name="accman_updateinfos_radio_activate_long">我已經購買##app_name##或其他G DATA防毒產品，並想啟動更新。.</string>
+    <string name="accman_updateinfos_radio_inform">立即訂購</string>
+    <string name="accman_updateinfos_radio_inform_long">我已安裝##app_name##試用版，並想購買正式授權。</string>
+    <string name="accman_updateinfos_txt_choose">行動裝置惡意程式的數量正與日俱增。定期更新可提供對惡意威脅的良好保護。</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">註冊更新</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">至少四個字符</string>
+    <string name="action_center_summary">通過ActionCenter http://ac.gdata.de 輕松管理您的設備</string>
+    <string name="action_portal_password">ActionCenter 密碼</string>
+    <string name="action_portal_register_device">設備注冊</string>
+    <string name="action_portal_user_name">ActionCenter用戶名</string>
+    <string name="action_settings">設置</string>
+    <string name="activate_location_services">請啓動定位服務以保證設備功能和地點限制的正常使用。</string>
+    <string name="activate_mms_connection">啟動遠端管理</string>
+    <string name="activate_updates">啟動更新</string>
+    <string name="activate_updates_info">啟動更新以有效防護移動惡意程序威脅。</string>
+    <string name="active">啓用</string>
+    <string name="add_action">添加操作</string>
+    <string name="add_title_to">新增</string>
+    <string name="added_app_to_protection">選項已添加到應用保護中</string>
+    <string name="admin_receiver_status_disable_warning">如果您不授予該權限，##app_name##將無法執行遠端鎖定裝置或清除資料等功能。</string>
+    <string name="admin_receiver_status_disabled">失竊防護功能無法使用，因為必要權限未授予。</string>
+    <string name="alarm_action_title">動作:</string>
+    <string name="alarm_email_number">電子郵件信箱</string>
+    <string name="alarm_sms_number">號碼</string>
+    <string name="alarm_text_include_location">傳送位置</string>
+    <string name="anonym">匿名</string>
+    <string name="antiphish_last_domain">最近一次檢查的網域名稱：</string>
+    <string name="antiphishing_info">網頁防護</string>
+    <string name="antitheft_changed_data">更改設定</string>
+    <string name="antitheft_correct">儲存變更</string>
+    <string name="antitheft_discard">復原</string>
+    <string name="antitheft_discard_or_correct">儲存或復原變更？</string>
+    <string name="antitheft_edit_mode">變更設定</string>
+    <string name="antitheft_email">已傳送簡訊到下列電子郵件位址：</string>
+    <string name="antitheft_email_long">簡訊指令回覆會傳送至傳送指令的手機。另外，您也可以透過電子郵箱接收回覆。請輸入您的電子郵件。</string>
+    <string name="antitheft_email_subject">\##app_name##資訊</string>
+    <string name="antitheft_email_test">電子郵件測試</string>
+    <string name="antitheft_error_email">無效的郵件位址！</string>
+    <string name="antitheft_error_enter_password">請輸入密碼！</string>
+    <string name="antitheft_error_password_too_simple">密碼存在安全風險，請選擇其他密碼！</string>
+    <string name="antitheft_error_repeat_password">請再次輸入密碼！</string>
+    <string name="antitheft_error_repeat_phone">請再次輸入手機號碼！</string>
+    <string name="antitheft_error_repeat_phone_wrongly">手機號碼不一致！</string>
+    <string name="antitheft_error_repeat_wrongly">您兩次輸入的密碼不一致！</string>
+    <string name="antitheft_help">說明</string>
+    <string name="antitheft_help_intro">簡訊指令一覽，答案將會回覆至傳送指令的手機。如果您填寫了有效的電子郵件位址，答案也會傳送至指定信箱。</string>
+    <string name="antitheft_help_locate">&lt;i>password&lt;/i> &lt;b>locate&lt;/b> &lt;br/> &lt;br/>定位裝置位置。</string>
+    <string name="antitheft_help_lock">"&lt;i>password&lt;/i> &lt;b>lock&lt;/b> &lt;br/> &lt;br/>鎖定裝置螢幕。
+如果您未設定螢幕鎖定密碼，您的裝置可能會被盜用。&lt;i>設定裝置密碼&lt;/i> , 以設定螢幕鎖定密碼。"</string>
+    <string name="antitheft_help_mute">&lt;i>password&lt;/i> &lt;b>mute&lt;/b> &lt;br/> &lt;br/>將手機設定為靜音。</string>
+    <string name="antitheft_help_reset_remote_password">&lt;b>remote password reset:&lt;/b> &lt;i>new password&lt;/i> &lt;br/> &lt;br/>簡訊指令新密碼。 指令必須透過預先設定的手機號碼傳送。</string>
+    <string name="antitheft_help_ring">&lt;i>password&lt;/i> &lt;b>ring&lt;/b> &lt;br/> &lt;br/>播放警報音。</string>
+    <string name="antitheft_help_set_device_password">&lt;i>password&lt;/i> &lt;b>set device password:&lt;/b> &lt;i>device password&lt;/i> &lt;br/> &lt;br/>設定螢幕鎖定密碼。 然後傳送指令&lt;i>lock&lt;/i> , 以鎖定裝置。</string>
+    <string name="antitheft_help_title">失竊防護說明資訊</string>
+    <string name="antitheft_help_wipe">&lt;i>password&lt;/i> &lt;b>wipe&lt;/b> &lt;br/> &lt;br/>還原出廠預設值。所有的個人資訊將被清除。</string>
+    <string name="antitheft_hint_change_password">變更密碼</string>
+    <string name="antitheft_hint_email">電子郵件</string>
+    <string name="antitheft_hint_new_password">輸入密碼</string>
+    <string name="antitheft_hint_phone">輸入手機號碼</string>
+    <string name="antitheft_hint_repeat_password">再次輸入密碼</string>
+    <string name="antitheft_hint_repeat_phone">再次輸入手機號碼</string>
+    <string name="antitheft_intro">您的裝置已遺失或失竊？</string>
+    <string name="antitheft_intro_long">"您的裝置遺失或失竊會怎樣？ 
+一旦裝置遺失或失竊，您可以透過簡訊指令觸發各種行為。例如，您可以對裝置進行定位。或者刪除您的個人資訊，這樣可避免您的個人資訊被盜用。"</string>
+    <string name="antitheft_intro_title">失竊防護</string>
+    <string name="antitheft_mac_unknown">未知</string>
+    <string name="antitheft_notify_sim_changed">您裝置中的SIM卡已被更換。請點此註冊新的SIM卡。</string>
+    <string name="antitheft_option_detect_sim_change">偵測SIM卡是否被更換</string>
+    <string name="antitheft_option_headset_subtitle_text">通過耳機插孔保護</string>
+    <string name="antitheft_option_headset_title_text">選擇此選項可以在耳機被拔掉時收到提示警告音:</string>
+    <string name="antitheft_option_locate">裝置定位</string>
+    <string name="antitheft_option_locate_sim_change">SIM卡更換時，對裝置進行定位。</string>
+    <string name="antitheft_option_lock">螢幕鎖定</string>
+    <string name="antitheft_option_lock_sim_change">偵測到SIM卡更換時，鎖定裝置。</string>
+    <string name="antitheft_option_mute">裝置靜音</string>
+    <string name="antitheft_option_ring">播放警報音</string>
+    <string name="antitheft_option_set_device_password">設定螢幕鎖定密碼</string>
+    <string name="antitheft_option_signal_flare">電池電量低的時候定位設備並將位置發送到注冊的電話號碼/郵件地址。</string>
+    <string name="antitheft_option_signal_flare_text">定位在手機沒電關機的狀態無法進行。推薦使用低電量狀態自動定位。</string>
+    <string name="antitheft_option_wipe">清除個人資訊</string>
+    <string name="antitheft_password">透過如下密碼，傳送簡訊至您的裝置，以定位或防護你的個人資料 (至少四位非連續數字)：</string>
+    <string name="antitheft_password_long">簡訊指令是透過密碼保護的，所以陌生人無法對您的裝置觸發行為。密碼保護同樣適用於應用程式，其他人無法任意執行。</string>
+    <string name="antitheft_phone">忘記密碼？傳送簡訊至如下手機號碼重置密碼。SIM卡更換後也會將簡訊回覆至號碼。</string>
+    <string name="antitheft_phone_long">裝置已遺失並且忘記簡訊指令密碼？您可以設定其他的可信任任手機號碼（例如您的家人）。透過該號碼，您可以重置簡訊指令密碼。</string>
+    <string name="antitheft_progress_sending_email">正在傳送郵件，請稍後…</string>
+    <string name="antitheft_reset_command_text">簡訊指令僅對預先設定的手機號碼生效。</string>
+    <string name="antitheft_router_mac">路由器MAC</string>
+    <string name="antitheft_save">儲存</string>
+    <string name="antitheft_save_or_discard">儲存或復原變更？</string>
+    <string name="antitheft_settings">設定</string>
+    <string name="antitheft_settings_intro_text">如果您的裝置已遺失或失竊，您可以透過簡訊指令觸發特定行為。選擇簡訊指令觸發行為。</string>
+    <string name="antitheft_settings_sim_change_text">如果您的裝置被盜用，SIM卡被更換，您將無法傳送簡訊指令至您的裝置。您可以在此配置SIM卡被更換後進行何種操作。</string>
+    <string name="antitheft_settings_title">失竊防護</string>
+    <string name="antitheft_settings_warning">如要啟用該功能，請先設定密碼。</string>
+    <string name="antitheft_sim_planedupdate_text">如果您打算更換SIM卡請點擊這裡。</string>
+    <string name="antitheft_sim_update_confirm_text">現在關閉您的裝置並插入新的SIM卡。在重啟後它將會註冊失竊防護。</string>
+    <string name="antitheft_sim_update_text">您裝置中的SIM卡已被更換。 請點這裡完成該流程。</string>
+    <string name="antitheft_sim_updated_text">程序順利完成。</string>
+    <string name="antitheft_tab_sim_name">失竊防護</string>
+    <string name="antitheft_tab_sms_name">允許簡訊指令</string>
+    <string name="antitheft_test_email_body">"親愛的用戶，
+
+您已成功設定電子郵件位址。
+非常感謝！
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">測試郵件無法傳送，請檢查網路連線和您的郵件位址.</string>
+    <string name="antitheft_test_email_success">測試電子郵件傳送已成功！</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">解除安裝</string>
+    <string name="antitheft_warn_receivers_text_plural">應用程式#app#可能會妨礙您傳送簡訊指令。</string>
+    <string name="antitheft_warn_receivers_text_singular">應用程式#app#可能會妨礙您傳送簡訊指令。</string>
+    <string name="antitheft_warn_receivers_title">不相容的應用程式</string>
+    <string name="antitheft_widget_label">G DATA - 耳機插孔保護桌面插件</string>
+    <string name="app_name">行動安全防護</string>
+    <string name="app_name_browser">兒童瀏覽器</string>
+    <string name="app_permissions_applock">應用對應用防護</string>
+    <string name="app_permissions_subtitle">這個應用可以存取您裝置上的如下功能：</string>
+    <string name="app_permissions_uninstall">解除安裝</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">Accessibility Service服務使應用保護的反應時間更快速更可靠，安卓Lollipop版本起必須開啓此服務。</string>
+    <string name="applock_accessibility_label">啟用協助工具服務</string>
+    <string name="applock_changed_data">變更設定</string>
+    <string name="applock_checkbox_label">啟用應用程式防護</string>
+    <string name="applock_choose_email_bt">電子郵件</string>
+    <string name="applock_choose_question_bt">安全提問</string>
+    <string name="applock_choose_text">傳送密碼至註冊信箱或回答安全提問？?</string>
+    <string name="applock_correct">儲存變更</string>
+    <string name="applock_deactivated">應用程式防護已停用</string>
+    <string name="applock_denial_disable_title">阻止應用</string>
+    <string name="applock_denial_enable_title">允許應用</string>
+    <string name="applock_denial_help_intro">已阻止和/或已允許應用的資訊：如果##app_name##已通過一個行動管理中心（MMS）出於管理項目的進行設置，那麼就可以透過管理員授權阻止一個應用或是阻止所有應用作為預設設定。</string>
+    <string name="applock_denial_help_request">可以在阻止應用啟動的視窗中向管理員提出對該應用的存取請求申請。他/她會決定是否允許。</string>
+    <string name="applock_denial_info">"需要更多訊息？
+點擊這裡！"</string>
+    <string name="applock_denial_no_entries">目前沒有阻止應用程式。如果有必要，可以使用一個密碼來保護應用程式。</string>
+    <string name="applock_denial_no_entries_add">點選+-圖示來選擇要封鎖的應用程式</string>
+    <string name="applock_denial_no_entries_deny_add_default">點選+-圖示來選擇要允許的應用程式</string>
+    <string name="applock_denial_no_entries_deny_default">目前沒有允許的應用程式。如果有需要，您可以在應用程式啟動時請求管理員允許.</string>
+    <string name="applock_denial_no_entries_mms">目前沒有應用程式被阻止，如果有需要密碼保護的應用程式。</string>
+    <string name="applock_denial_no_entries_mms_deny_default">目前沒有允許的應用。如果有必要，您可以在一個應用啟動時請求管理員允許。</string>
+    <string name="applock_denial_request">請求允許</string>
+    <string name="applock_denial_selection_title">已阻止應用</string>
+    <string name="applock_denial_selection_title_invert">已允許應用</string>
+    <string name="applock_denial_title">已阻止應用</string>
+    <string name="applock_denial_txt">這個應用已被管理員阻止存取。</string>
+    <string name="applock_discard">復原</string>
+    <string name="applock_discard_or_correct">儲存或復原變更？</string>
+    <string name="applock_edit_mode">變更設定</string>
+    <string name="applock_email">忘記密碼？您可透過如下電子郵件位址找回密碼：</string>
+    <string name="applock_email_body">"親愛的用戶，
+
+您的安全密碼是#code#。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="applock_email_error">郵件無法傳送，請檢查網路連接和電子郵件位址.</string>
+    <string name="applock_email_long">如果您忘記密碼，您可以透過如下郵件位址找回密碼：</string>
+    <string name="applock_email_subject">\##app_name##資訊</string>
+    <string name="applock_email_success">電子郵件已傳送！</string>
+    <string name="applock_email_test">電子郵件測試</string>
+    <string name="applock_enter_password">請輸入密碼</string>
+    <string name="applock_error_email">無效的郵件位址！</string>
+    <string name="applock_error_enter_answer">請設定安全提問的答案！</string>
+    <string name="applock_error_enter_custom_question">請設定安全提問！</string>
+    <string name="applock_error_enter_email_or_question">請輸入電子郵件位址或設定安全提問！!</string>
+    <string name="applock_error_enter_password">請輸入密碼！</string>
+    <string name="applock_error_no_data">請輸入必要資訊並儲存！</string>
+    <string name="applock_error_password_too_simple">密碼存在安全風險，請選擇其他密碼！</string>
+    <string name="applock_error_repeat_password">請再次輸入密碼！</string>
+    <string name="applock_error_repeat_phone">請再次輸入手機號碼！</string>
+    <string name="applock_error_repeat_phone_wrongly">手機號碼不一致！</string>
+    <string name="applock_error_repeat_wrongly">您兩次輸入的密碼不一致！</string>
+    <string name="applock_error_test_email">請先使用您的電子郵箱位址執行一個測試!</string>
+    <string name="applock_forgot_password"><small>"忘記密碼？
+點擊此處！"</small></string>
+    <string name="applock_forgot_password_title">忘記密碼？</string>
+    <string name="applock_help">說明</string>
+    <string name="applock_help_delay">當啟動應用程式並完成解鎖,60秒內無需再次輸入密碼,可直接開啟執行。</string>
+    <string name="applock_help_intro">"應用程式防護的注意事項: 
+
+Android應用程式一般都使用Google Play線上商店下載安裝。少數的安裝檔，包含多個應用程式，例如電話和聯絡人應用程序。這些只能共同保護。"</string>
+    <string name="applock_help_perm">當某個應用程式擁有影響或禁用##app_name##相關功能的權限時，該程式將被列入應用程式防護的建議清單。該清單可能還包括可移除或載入其他程式的應用程式。</string>
+    <string name="applock_help_title">應用程式防護說明</string>
+    <string name="applock_help_uninstall">應用程式防護可以在移除程式的執行過程中運作。這可預防##app_name##未提示而被移除。建議您透過裝置的裝置管理員功能授予應用程式足夠的系統權限。</string>
+    <string name="applock_hint_answer">請輸入安全答案</string>
+    <string name="applock_hint_change_answer">更改答案</string>
+    <string name="applock_hint_change_password">更改密碼</string>
+    <string name="applock_hint_custom_question">請輸入安全提問</string>
+    <string name="applock_hint_email">請輸入電子郵件</string>
+    <string name="applock_hint_new_answer">請輸入安全答案</string>
+    <string name="applock_hint_new_password">請輸入密碼</string>
+    <string name="applock_hint_repeat_password">再次輸入密碼</string>
+    <string name="applock_image_description">App icon</string>
+    <string name="applock_intro">防護應用程式以封鎖未經授權而執行。</string>
+    <string name="applock_intro_long">"透過應用程式防護可封鎖未經授權而執行。僅當輸入正確密碼後，應用程式才可被執行。 
+
+ 請熟記您的密碼。"</string>
+    <string name="applock_off_due_to_accessibility_service">因爲G DATA App Checker已禁用，所以應用保護已關閉。</string>
+    <string name="applock_password">如要啟用應用程式防護，請先輸入有效密碼（至少四位非連續數字）。</string>
+    <string name="applock_password_long">請輸入密碼以啟用應用程式防護。該密碼同樣適用於簡訊指令。</string>
+    <string name="applock_password_title">密碼</string>
+    <string name="applock_progress_sending_email">正在傳送郵件，請稍候…</string>
+    <string name="applock_question">安全提問</string>
+    <string name="applock_question_text">或回答安全提問：</string>
+    <string name="applock_question_text_long">請另外設定安全提問。當您正確回答安全提問後，您可以停用應用程式防護。</string>
+    <string name="applock_resend_bt">是</string>
+    <string name="applock_resend_password_title">傳送密碼</string>
+    <string name="applock_resend_text">傳送密碼至註冊信箱？?</string>
+    <string name="applock_save">儲存</string>
+    <string name="applock_save_or_discard">儲存或復原變更？</string>
+    <string name="applock_security_question_title">安全問題</string>
+    <string name="applock_selection_add_action">新增應用程式</string>
+    <string name="applock_selection_no_entries">"應用防護能夠防止未獲得授權的人啟動您的裝置上的受保護的應用。
+
+"</string>
+    <string name="applock_selection_no_entries_add">點擊標題欄中的+圖示以選擇您要保護的應用。</string>
+    <string name="applock_selection_no_entries_protect_add_default">點擊標題欄中的+圖示選擇您要無密碼保護的應用。</string>
+    <string name="applock_selection_no_entries_protect_default">"應用防護能夠防止未獲得授權的人啟動您的裝置上的受保護的應用。根據目前的設定，所有應用都是預設受保護的。
+
+"</string>
+    <string name="applock_selection_remove_action">删除選擇項目</string>
+    <string name="applock_selection_remove_title">删除選擇項目</string>
+    <string name="applock_selection_select_all">全選</string>
+    <string name="applock_selection_settings_action">設定</string>
+    <string name="applock_selection_show_disabled">已阻止應用</string>
+    <string name="applock_selection_show_enabled">已允許應用</string>
+    <string name="applock_selection_title">應用程式防護</string>
+    <string name="applock_selection_title_invert">未受保護應用</string>
+    <string name="applock_selector_add_action">新增</string>
+    <string name="applock_selector_add_title">新增選取項目</string>
+    <string name="applock_selector_block_title">阻止應用</string>
+    <string name="applock_selector_block_title_invert">允許應用</string>
+    <string name="applock_selector_discard">恢復所有選取</string>
+    <string name="applock_selector_no_entries">無可用項目。</string>
+    <string name="applock_selector_select_all">全選</string>
+    <string name="applock_selector_tab_all">全部</string>
+    <string name="applock_selector_tab_downloaded">已下載</string>
+    <string name="applock_selector_tab_recommended">建議</string>
+    <string name="applock_selector_tab_recommended_invert">不推薦</string>
+    <string name="applock_selector_title">應用程式防護</string>
+    <string name="applock_selector_title_invert">移除應用防護</string>
+    <string name="applock_settings_title">應用程式防護設定</string>
+    <string name="applock_test_email_body">"親愛的用戶，
+
+您已成功設定電子郵件位址。
+非常感謝！
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">傳送郵件失敗，請檢查網路連線和電子郵件位址.</string>
+    <string name="applock_test_email_success">測試電子郵件傳送已成功！</string>
+    <string name="applock_txt_title">應用程式已被防護</string>
+    <string name="applock_txt_title_invert">未受保護應用</string>
+    <string name="applock_wait">請稍待片刻</string>
+    <string name="applock_wrong_answer">答案錯誤</string>
+    <string name="applock_wrong_password">密碼錯誤</string>
+    <string name="arp_exception_bssid_text">新增永久例外</string>
+    <string name="arp_exception_cleared">例外已刪除</string>
+    <string name="arp_exception_info">"需要更多資訊？
+點擊這裡！"</string>
+    <string name="arp_exception_text">新增本日例外</string>
+    <string name="arp_network_dialog_text">將這個網路分類為可信任網路</string>
+    <string name="arp_network_dialog_title">新的網路</string>
+    <string name="arp_options_auto_disconnect">關閉非安全無線網路（使用逾時提示）</string>
+    <string name="arp_options_bssid_analysis">啟動BSSID分析</string>
+    <string name="arp_options_continuous_mode">繼續監控連線</string>
+    <string name="arp_warning_dialog_accept">繼續</string>
+    <string name="arp_warning_dialog_bssid_text">這個無線網路未加密。這是BDDIS分析的結果.</string>
+    <string name="arp_warning_dialog_continue">中斷無線網路連線</string>
+    <string name="arp_warning_dialog_text">這個無線網路未加密。如果您目前處於一個公共的WiFi或是其它非安全環境中，我們建議您中斷連線.</string>
+    <string name="arp_warning_dialog_title">WiFi防護</string>
+    <string name="billing_cannot_connect_message">無法連線Google Play，請檢查您的Google Play版本是否已過期。</string>
+    <string name="billing_cannot_connect_title">無法連線Google Play</string>
+    <string name="billing_not_supported_message">無法延長授權，Google Play服務目前無法使用！</string>
+    <string name="billing_not_supported_title">無法延長授權</string>
+    <string name="billing_purchase_title">授權已延期</string>
+    <string name="billing_purchased_message">非常感謝您購買G DATA授權，必要的更新可確保您的裝置得到有效防護。</string>
+    <string name="black">黑色</string>
+    <string name="blacklist">黑名單</string>
+    <string name="blacklist_prompt">選擇過濾類型</string>
+    <string name="block_explain">USSD控制代碼可能對您移動設備造成損害。在您執行任何USSD控制代碼之前，請您先明確它的作用。</string>
+    <string name="block_incoming_call">呼入電話</string>
+    <string name="block_is_blacklist">阻止已選中的聯系人</string>
+    <string name="block_is_whitelist">只允許選中的聯系人</string>
+    <string name="block_outgoing_call">呼出電話</string>
+    <string name="block_sms">短信</string>
+    <string name="blue">藍色</string>
+    <string name="bronze">銅色</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.gdatasoftware.com</string>
+    <string name="browser_about_text">© 2015 G DATA Software AG</string>
+    <string name="browser_about_title">G DATA 兒童瀏覽器 &lt;br/> 版本 %s</string>
+    <string name="browser_bar_hint_text">輸入網址</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">此網頁的存取已被阻止，為了您的安全。</string>
+    <string name="browser_menu_about">關於</string>
+    <string name="browser_menu_back">返回</string>
+    <string name="browser_menu_forward">下一頁</string>
+    <string name="browser_menu_quit">結束</string>
+    <string name="browser_menu_settings">設置</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">空白頁</string>
+    <string name="browser_preferences_rb_default_text">錯誤頁面(%s)</string>
+    <string name="browser_preferences_rb_specific_text">已定義的頁面:</string>
+    <string name="browser_preferences_subtitle_text">選擇開機須啓動的網站。</string>
+    <string name="browser_preferences_title_text">開機時</string>
+    <string name="bye_team">您的G DATA安全實驗室。</string>
+    <string name="bye_world">由衷祝福,</string>
+    <string name="call">發起呼叫</string>
+    <string name="call_block_info">"需要更多訊息？
+點擊這裡！"</string>
+    <string name="call_block_request">請求允許</string>
+    <string name="call_block_title">封鎖來電</string>
+    <string name="call_block_txt">這個號碼已被封鎖。</string>
+    <string name="callfilter_blockings_delete">删除選擇項目</string>
+    <string name="callfilter_blockings_delete_title">删除選擇項目</string>
+    <string name="callfilter_blockings_no_enries">無可用的記錄</string>
+    <string name="callfilter_blockings_select_all">全選</string>
+    <string name="callfilter_blockings_title_in">來電和簡訊限制。</string>
+    <string name="callfilter_blockings_title_out">去電限制</string>
+    <string name="callfilter_gsc_header">阻止聯系人</string>
+    <string name="callfilter_hidden_number">匿名的號碼</string>
+    <string name="callfilter_hidden_numbers">匿名的號碼</string>
+    <string name="callfilter_image_description_checkbox">核取方塊</string>
+    <string name="callfilter_image_description_contact">相片</string>
+    <string name="callfilter_missed_call">在 來電</string>
+    <string name="callfilter_options_allow_unknown">開啟過濾功能也充許接聽陌生來電號碼</string>
+    <string name="callfilter_options_blacklist">封鎖黑名單中的所有號碼</string>
+    <string name="callfilter_options_edit">顯示白名單或黑名單</string>
+    <string name="callfilter_options_in_intro_text">"封鎖不需要的來電以及過濾不需要的簡訊。請設定過濾規則：
+"</string>
+    <string name="callfilter_options_log">記錄</string>
+    <string name="callfilter_options_no_entries">無可用項目。</string>
+    <string name="callfilter_options_out_intro_text">"禁止不必要的電話。選擇來電過濾的工作方式：
+"</string>
+    <string name="callfilter_options_phonebook">允許通訊錄中的所有人</string>
+    <string name="callfilter_options_phonebook_black">允許通訊錄中的不在黑名單內的所有人</string>
+    <string name="callfilter_options_show_book">顯示聯絡人</string>
+    <string name="callfilter_options_title">來電/簡訊-過濾</string>
+    <string name="callfilter_options_whitelist">允許白名單內的所有人</string>
+    <string name="callfilter_selection">顯示列表</string>
+    <string name="callfilter_selection_add">新增</string>
+    <string name="callfilter_selection_blacklist_no_enries">在標題欄點擊+號選取您想封鎖的號碼</string>
+    <string name="callfilter_selection_no_enries">目前沒有電話薄中選取聯絡人。</string>
+    <string name="callfilter_selection_phonebook_no_enries">聯絡人是空的</string>
+    <string name="callfilter_selection_remove">刪除選擇項目</string>
+    <string name="callfilter_selection_remove_title">刪除選擇項目</string>
+    <string name="callfilter_selection_select_all">全選</string>
+    <string name="callfilter_selection_title_blacklist">黑名單</string>
+    <string name="callfilter_selection_title_in_blacklist">來電和簡訊黑名單</string>
+    <string name="callfilter_selection_title_in_whitelist">來電和簡訊白名單</string>
+    <string name="callfilter_selection_title_out_blacklist">去電黑名單</string>
+    <string name="callfilter_selection_title_out_whitelist">去電白名單</string>
+    <string name="callfilter_selection_title_phonebook">電話簿</string>
+    <string name="callfilter_selection_title_phonebook_new">選擇所有聯系人</string>
+    <string name="callfilter_selection_title_whitelist">白名單</string>
+    <string name="callfilter_selection_whitelist_no_enries">在標題欄點擊+號選取您想允許的號碼</string>
+    <string name="callfilter_unknown_contact">未知聯絡人</string>
+    <string name="calllog_unknown_contact">未知號碼</string>
+    <string name="check_all">全選</string>
+    <string name="choose_color">選擇</string>
+    <string name="choose_scan_freq_summary">設定掃描頻率(天)</string>
+    <string name="choose_scan_freq_title">時間間隔</string>
+    <string name="choose_update_region_summary">選擇離您最近的更新伺服器</string>
+    <string name="choose_update_region_title">更新伺服器</string>
+    <string name="choose_update_summary">您想多久執行一次更新(天)</string>
+    <string name="choose_update_title">時間間隔</string>
+    <string name="clear_arp_exceptions_summary">刪除ARP和BSSID監控</string>
+    <string name="clear_arp_exceptions_title">刪除例外</string>
+    <string name="colorLabel">顔色</string>
+    <string name="color_picker_default_title">選擇顏色:</string>
+    <string name="color_swatch_description">顏色 %1$d</string>
+    <string name="color_swatch_description_selected">顏色 %1$d 選擇</string>
+    <string name="common_android_wear_notification_needs_update_text">有一個應用程式要求更新 Android Wear 應用程式。</string>
+    <string name="common_android_wear_update_text">您必須更新 Android Wear 應用程式，這個應用程式才能運作。</string>
+    <string name="common_android_wear_update_title">更新 Android Wear</string>
+    <string name="common_google_play_services_enable_button">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_enable_text">您必須啟用 Google Play 服務，這個應用程式才能運作。</string>
+    <string name="common_google_play_services_enable_title">啟用 Google Play 服務</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">「%1$s」提出要求</string>
+    <string name="common_google_play_services_install_button">取得 Google Play 服務</string>
+    <string name="common_google_play_services_install_text_phone">您的手機並未安裝 Google Play 服務，所以無法執行這個應用程式。</string>
+    <string name="common_google_play_services_install_text_tablet">您的平板電腦並未安裝 Google Play 服務，所以無法執行這個應用程式。</string>
+    <string name="common_google_play_services_install_title">取得 Google Play 服務</string>
+    <string name="common_google_play_services_invalid_account_text">這個裝置上沒有您所指定的帳戶，請選擇其他帳戶。</string>
+    <string name="common_google_play_services_invalid_account_title">無效的帳戶</string>
+    <string name="common_google_play_services_needs_enabling_title">應用程式要求啟用 Google Play 服務。</string>
+    <string name="common_google_play_services_network_error_text">需要數據連線才能連上 Google Play 服務。</string>
+    <string name="common_google_play_services_network_error_title">網路錯誤</string>
+    <string name="common_google_play_services_notification_needs_installation_title">應用程式要求安裝 Google Play 服務。</string>
+    <string name="common_google_play_services_notification_needs_update_title">應用程式要求更新 Google Play 服務。</string>
+    <string name="common_google_play_services_notification_ticker">Google Play 服務發生錯誤</string>
+    <string name="common_google_play_services_unknown_issue">Google Play 服務發生不明問題。</string>
+    <string name="common_google_play_services_unsupported_text">您的裝置不支援部分應用程式所需的 Google Play 服務。如需協助，請與您的裝置製造商聯絡。</string>
+    <string name="common_google_play_services_unsupported_title">Google Play 服務</string>
+    <string name="common_google_play_services_update_button">更新</string>
+    <string name="common_google_play_services_update_text">您必須更新 Google Play 服務，才能執行這個應用程式。</string>
+    <string name="common_google_play_services_update_title">更新 Google Play 服務</string>
+    <string name="common_open_on_phone">在手機上開啟</string>
+    <string name="common_signin_button_text">登入</string>
+    <string name="common_signin_button_text_long">使用 Google 帳戶登入</string>
+    <string name="compass_privacy_warning_message">連絡先を非表示/ON の状態で G DATA Internet Security を削除した場合、非表示の連絡先が削除されます。 必ず、 G DATA Internet Security の削除前に、連絡先を非表示/OFF の状態にして下さい。</string>
+    <string name="compass_privacy_warning_title">提示</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">設定</string>
+    <string name="configure_action_center">注冊</string>
+    <string name="contact_missing">請選擇一個聯系人。</string>
+    <string name="contact_selection_empty_text">點擊標題行的+標志添加新的聯系人。</string>
+    <string name="contactpicker_add">新增</string>
+    <string name="contactpicker_calllog">通話記錄</string>
+    <string name="contactpicker_contacts">聯絡人</string>
+    <string name="copy">複制</string>
+    <string name="corporate_profile">公司</string>
+    <string name="crash_report">該G DATA產品已意外關閉。您要將此錯誤報告給G DATA嗎？</string>
+    <string name="daily">每天</string>
+    <string name="debug_options">開發選項</string>
+    <string name="default_profile">個人</string>
+    <string name="detailed_texts">更多</string>
+    <string name="dev_admin_applock_explanation">該權限有助於封鎖未經授權而解除安裝##app_name##，並可增強防護。</string>
+    <string name="dev_admin_receiver_description">失竊防護功能需要足夠的權限</string>
+    <string name="dev_admin_receiver_explanation">鎖定裝置、清除個人資訊以及遠端重置密碼功能需要足夠的權限。</string>
+    <string name="device_already_registered">I您的設備已經在 G DATA ActionCenter注冊。</string>
+    <string name="dialog_accessibility_for_lollipop">安卓Lollipop版本起需要使用G DATA App Checker。請在系統設置中啓動此服務。</string>
+    <string name="dialog_accessibility_for_lollipop_mms">安卓Lollipop起使用移動設備管理功能需啓用G DATA App Checker。請在系統設置中啓動此服務。</string>
+    <string name="dialog_accessibility_info_activate">現在連接到系統設置，請在裏面啓用G DATA檢查應用程序。</string>
+    <string name="dialog_accessibility_info_deactivate">現在連接到系統設置，請在裏面禁用G DATA檢查應用程序。</string>
+    <string name="dialog_apkfile_updated">正在更新##app_name##！</string>
+    <string name="dialog_auth_succefull">註冊成功。</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_cancel_short">取消</string>
+    <string name="dialog_done">完成</string>
+    <string name="dialog_err_computerid_change_failed">授權轉移失敗。</string>
+    <string name="dialog_err_computerid_change_succeeded">下載更新所需的授權已轉移成功。</string>
+    <string name="dialog_err_computerid_changed">授權已被另一個行動裝置啟動。本裝置無授權可下載更新。</string>
+    <string name="dialog_err_computerid_changed_extern">授權已被另一個行動裝置啟動。請手動更新將授權轉移至本裝置。</string>
+    <string name="dialog_err_data_corrupt">更新失敗：載入的數據是錯誤的</string>
+    <string name="dialog_err_database_operation">目前無法更新。請稍候再試。</string>
+    <string name="dialog_err_install_signature_update">更新失敗：無法安裝已載入的病毒資料庫</string>
+    <string name="dialog_err_invalid_customer_data">無效的帳號資訊。請輸入正確的資料。</string>
+    <string name="dialog_err_invalid_login">更新失敗：無效的帳號資訊。</string>
+    <string name="dialog_err_invalid_reg_number">序號無效。</string>
+    <string name="dialog_err_license_fault">授權已被另一個行動裝置啟動。無法自動轉移授權，請聯絡技術支援。</string>
+    <string name="dialog_err_login_deleted">試用授權已過期。</string>
+    <string name="dialog_err_login_expired">您的##app_name##授權已過期！</string>
+    <string name="dialog_err_login_expired_extern">您的##app_name##授權已過期。請執行手動更新取得更多資訊。</string>
+    <string name="dialog_err_mms_initial_connect_failed">最後一次嘗試連線到遠端管理伺服器失敗。請與您的系統管理員洽詢。</string>
+    <string name="dialog_err_mms_missing_login_data">更新失敗：無法存取。請與您的系統管理員洽詢。</string>
+    <string name="dialog_err_no_update_available">沒有可用的更新。您已經是最新版本。</string>
+    <string name="dialog_err_not_allowed_in_this_country">該授權僅限於特定區域。您要註冊授權的設備不在這個區域。請聯繫您的經銷商。</string>
+    <string name="dialog_err_open_database">目前無法更新。請稍候再試。</string>
+    <string name="dialog_err_product_already_registered">產品已被註冊。</string>
+    <string name="dialog_err_request_extension">目前您的產品沒有促銷活動。</string>
+    <string name="dialog_err_single_update_already_used">您已下載所有更新，目前尚無更多可用的更新資訊。</string>
+    <string name="dialog_err_update_not_allowed">您未被授權下載更新。</string>
+    <string name="dialog_error">不明的錯誤(%s)</string>
+    <string name="dialog_fix">修復</string>
+    <string name="dialog_mobile_network_error">簡訊無法發送。請確認您的手機是否能發送簡訊</string>
+    <string name="dialog_network_error">無法與伺服器連線。請檢查您的網際網路連線。</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_no_auth_data_entered">遺失帳號資訊。</string>
+    <string name="dialog_no_space_available">無法執行更新。請檢查您的行動裝置是否有足夠的儲存空間。</string>
+    <string name="dialog_not_all_data_entered">並非所有的資料都已正確輸入。</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_periodic_scan_type_title">掃描類型</string>
+    <string name="dialog_query_computerid_changed">授權已被另一個行動裝置啟動。您要將授權轉移至此裝置嗎？</string>
+    <string name="dialog_scan_freq_title">掃描頻率</string>
+    <string name="dialog_sigfile_updated">病毒資料庫更新成功。##app_name##已是最新版！</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">更新頻率(天)</string>
+    <string name="dialog_update_not_needed">\##app_name##已經是最新版本！</string>
+    <string name="dialog_update_region_title">更新伺服器</string>
+    <string name="dialog_yes">是</string>
+    <string name="disabled">Ausgeschaltet</string>
+    <string name="disinfect_all">全部刪除</string>
+    <string name="disinfect_all_files_mess">刪除所有受感染檔案？</string>
+    <string name="disinfect_all_files_title">刪除檔案</string>
+    <string name="disinfect_system_cleaned_mess">解毒程序已完成</string>
+    <string name="drawer_close">關閉導航欄</string>
+    <string name="drawer_open">開啟導航欄</string>
+    <string name="edit_action">編輯操作</string>
+    <string name="edit_filter_title">編輯篩選</string>
+    <string name="email_hint">添加電子郵件地址…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">定期對裝置進行病毒掃描</string>
+    <string name="enableTimedScan_title">定期掃描</string>
+    <string name="enableUpdate_summary">自動更新病毒資料庫</string>
+    <string name="enableUpdate_title">自動</string>
+    <string name="enable_mms_server">允許被遠端管理</string>
+    <string name="enable_mms_server_summary">啟用用戶端遠端管理</string>
+    <string name="enable_web_portal_summary">使用G DATA網頁平台</string>
+    <string name="enable_web_portal_title">G DATA網頁平台</string>
+    <string name="filescan_calculate_files">正在計算應被掃描檔案數…</string>
+    <string name="filescan_deep_scan">深層掃描</string>
+    <string name="filescan_delete_ask" formatted="false">確認刪除檔案%file%？</string>
+    <string name="filescan_delete_ask_title">刪除檔案</string>
+    <string name="filescan_delete_error">由于設備設置無法刪除文件。請嘗試將設備連接到電腦上並通過電腦刪除文件。</string>
+    <string name="filescan_delete_error_title">錯誤</string>
+    <string name="filescan_end_scan">掃描已完成</string>
+    <string name="filescan_files_clean">正常檔案</string>
+    <string name="filescan_files_scanned">已掃描檔案</string>
+    <string name="filescan_files_skipped">已略過檔案</string>
+    <string name="filescan_initial_message">病毒掃描正在初始化…</string>
+    <string name="filescan_scan_status">正在掃描檔案</string>
+    <string name="filescan_start_deep_scan">Performing deep scan</string>
+    <string name="filescan_start_scan">開始掃描…</string>
+    <string name="filescan_timeframe_a">掃描需要</string>
+    <string name="filescan_timeframe_b">分鐘</string>
+    <string name="filter_activating_colliding_error">要禁用其它有設置衝突的過濾嗎?</string>
+    <string name="filter_activating_colliding_error_disable">禁用</string>
+    <string name="filter_activating_colliding_error_header">設置衝突</string>
+    <string name="filter_incompatiblity">短信功能不支持安裝安卓系統4.4及更高版本的設備</string>
+    <string name="filter_selection_no_entries">"您可以通過這個應用程序對通話及短信添加各種過濾設置。
+
+"</string>
+    <string name="filter_selection_no_entries_add">點擊標題行的+標志設置新的篩選。</string>
+    <string name="filter_selection_title">通訊錄</string>
+    <string name="fitler_fragment_title">短信/通話過濾</string>
+    <string name="form_error_filter_type">請至少選擇一個過濾類型。</string>
+    <string name="form_error_invalid_adress">地址無效</string>
+    <string name="form_error_invalid_date">您選擇的日期請輸入有效的經銷商代碼。</string>
+    <string name="form_error_invalid_merchant_number">請輸入有效的經銷商代碼</string>
+    <string name="form_error_invalid_missing_adress">請輸入地址</string>
+    <string name="form_error_invalid_missing_email">請輸入有效的電子郵件地址。</string>
+    <string name="form_error_invalid_missing_firstname">請輸入您的名。</string>
+    <string name="form_error_invalid_missing_lastname">請輸入您的姓。</string>
+    <string name="form_error_invalid_missing_name">請輸入名稱</string>
+    <string name="form_error_invalid_missing_radius">請設定地點範圍</string>
+    <string name="form_error_invalid_time">時間輸入無效</string>
+    <string name="form_error_no_service">服務無法連接。</string>
+    <string name="form_error_select_a_day">至少選擇星期中的一天啓用此過濾</string>
+    <string name="freemium_not_allowed">"此功能在基本版本中不可用。 
+
+您現在想購買付費版本嗎？"</string>
+    <string name="freemium_not_allowed_cancel">不，謝謝</string>
+    <string name="freemium_not_allowed_ok">顯示訂單</string>
+    <string name="friday">星期五</string>
+    <string name="fullday">全天</string>
+    <string name="gdata_install_text">\##app_name## 將對已安裝的應用程式進行病毒掃描</string>
+    <string name="gdata_install_ticker">防護已啟動</string>
+    <string name="gold">金色</string>
+    <string name="green">綠色</string>
+    <string name="grey">灰色</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">一個使用USSD控制代碼嘗試對您的設備的攻擊已被攔截。</string>
+    <string name="hello_world_clean">你嘗試訪問的手機URL不是一個USSD控制代碼並且可以無風險的撥出。</string>
+    <string name="hello_world_empty">爲了避免由USSD控制代碼對您的移動設備損壞，在下方出現對話框時選擇這個應用。</string>
+    <string name="hide_contact">短信隱藏功能不支持安卓系統4.4及更高版本</string>
+    <string name="hide_dialog">不再顯示</string>
+    <string name="hint">提示</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">更多資訊</string>
+    <string name="incblack">呼入電話</string>
+    <string name="incwhite">呼入電話</string>
+    <string name="info_txt_copyright">© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">版本</string>
+    <string name="isblacklist">entsprechend der ausgewählten Kontakte geblockt.</string>
+    <string name="isincomingtext">呼入電話</string>
+    <string name="isoutgoingtext">呼出電話</string>
+    <string name="issmstext">收到的短息</string>
+    <string name="iswhitelist">nur entsprechend der ausgewählten Kontakte zugelassen.</string>
+    <string name="kidsbrowser_enabled_summary">開啓或關閉兒童浏覽器</string>
+    <string name="kidsbrowser_enabled_title">兒童浏覽器已開啓</string>
+    <string name="kidsguard_airplane_mode_summary">啟用飛航模式(沒有更新的設備)</string>
+    <string name="kidsguard_airplane_mode_title">允許飛航模式</string>
+    <string name="kidsguard_allow_emergency_calls_summary">應用程式防護僅允許撥出緊急電話號碼，其他號碼將被阻止.</string>
+    <string name="kidsguard_allow_emergency_calls_title">允許撥出緊急電話號碼</string>
+    <string name="kidsguard_app_background_preference_summary">app圖示隱藏於背景</string>
+    <string name="kidsguard_app_background_preference_title">背景</string>
+    <string name="kidsguard_app_background_size_preference_summary">背景圖示大小</string>
+    <string name="kidsguard_app_background_size_preference_title">背景大小</string>
+    <string name="kidsguard_app_grid">已安裝的app</string>
+    <string name="kidsguard_app_icon">app圖示</string>
+    <string name="kidsguard_app_icon_size_preference_summary">app圖示大小</string>
+    <string name="kidsguard_app_icon_size_preference_title">圖示大小</string>
+    <string name="kidsguard_app_label">app標籤</string>
+    <string name="kidsguard_app_label_color_summary">app名稱的顏色</string>
+    <string name="kidsguard_app_label_color_title">文字顏色</string>
+    <string name="kidsguard_app_textsize_summary">app名稱文字大小</string>
+    <string name="kidsguard_app_textsize_title">文字大小</string>
+    <string name="kidsguard_applock_configuration">請優先編輯app防護項目</string>
+    <string name="kidsguard_applock_denial_message">存取應用程式已被限制.</string>
+    <string name="kidsguard_applock_denial_message_appname">存取app %s已被限制.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">所選擇的號碼已被限制</string>
+    <string name="kidsguard_applock_denial_title">已阻止的應用程式</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"此應用程序明天才可以再次使用
+ 家長可以通過長按圖標延長使用時間"</string>
+    <string name="kidsguard_back_exit">再按一次返回結束編輯</string>
+    <string name="kidsguard_background_balloon">氣泡</string>
+    <string name="kidsguard_background_bubble">水泡</string>
+    <string name="kidsguard_background_glass">玻璃</string>
+    <string name="kidsguard_background_heart">中心</string>
+    <string name="kidsguard_background_none">沒有背景</string>
+    <string name="kidsguard_background_sphere">球</string>
+    <string name="kidsguard_block_incoming_calls_summary">來電被封鎖。若要撥出電話，需要電話應用程序獲得批准。</string>
+    <string name="kidsguard_block_incoming_calls_title">封鎖來電</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">設置黑名單…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">設置白名單…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">設置允許/禁止使用的網址並將其添加到白名單/黑名單中。</string>
+    <string name="kidsguard_browser_configure_urls_title_text">網站</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">名稱</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">添加網址</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">編輯網址</string>
+    <string name="kidsguard_browser_listview_no_entries_add">點擊標題行的+標志對網址進行分類。</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">黑名單</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">白名單</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">黑名單</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">白名單</string>
+    <string name="kidsguard_email_body">"親愛的用戶，
+
+您的家長控制密碼是 #code#.
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">請輸入密碼</string>
+    <string name="kidsguard_extend_time_subtitle">一次性延長:</string>
+    <string name="kidsguard_extend_time_title">時間段延長:</string>
+    <string name="kidsguard_fix_volume_keys_summary">更改音量鍵將被立即取消。</string>
+    <string name="kidsguard_fix_volume_keys_title">選擇類型</string>
+    <string name="kidsguard_forgot_password"><small>"忘記密碼？
+點擊此處！"</small></string>
+    <string name="kidsguard_home_hint">在“選擇啓動應用程序”對話框中，選擇“Internet Security”，並確認選擇“總是”。.&lt;b>\"選擇啓動應用程序\"&lt;/b>對話框中，選擇&lt;b>\"Internet Security\"&lt;/b>，並確認選擇&lt;b>\"總是\"&lt;/b>。</string>
+    <string name="kidsguard_home_hint_title">啓用家長控制</string>
+    <string name="kidsguard_label_color_black">黑色</string>
+    <string name="kidsguard_label_color_white">白色</string>
+    <string name="kidsguard_label_none">沒有標籤</string>
+    <string name="kidsguard_leave">結束</string>
+    <string name="kidsguard_leave_title">結束家長控制</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">啓用設備使用時間限制</string>
+    <string name="kidsguard_over_control_time_checkbox_title">激活</string>
+    <string name="kidsguard_parents_options">家長控制選項</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">佈景圖示行的數量</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">佈景圖示行</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">佈景圖示列的數量</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">佈景圖示列</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">在肖像中圖示行的數量</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">在肖像中的行</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">在肖像中圖示列的數量</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">在肖像中的列</string>
+    <string name="kidsguard_reset_time_limit_summary">取消時間限制並關閉休眠模式</string>
+    <string name="kidsguard_reset_time_limit_title">取消時間限制</string>
+    <string name="kidsguard_reset_time_limit_toast_text">使用設備的時間限制已成功被取消並且休眠模式已關閉。</string>
+    <string name="kidsguard_reset_usage_time_summary">將已使用設備時間清零</string>
+    <string name="kidsguard_reset_usage_time_title">將已用時間清零</string>
+    <string name="kidsguard_reset_usage_time_toast_text">已使用設備的時間被成功清零</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">自定義的菜單</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">請選擇禁用網站列表。</string>
+    <string name="kidsguard_select_browser_mode_title_text">浏覽器設置</string>
+    <string name="kidsguard_set_allowed_usage_time_header">設備使用時間限制</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">設置使用設備時間限制</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">分鍾</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">分鍾</string>
+    <string name="kidsguard_set_allowed_usage_time_title">設置時間限制</string>
+    <string name="kidsguard_settings">編輯家長控制</string>
+    <string name="kidsguard_show_usage_time_expired_text">使用時間: 已到</string>
+    <string name="kidsguard_show_usage_time_remaining_text">剩余時間: %1$s 分鍾n</string>
+    <string name="kidsguard_show_usage_time_text">使用時間: %1$s 分鍾 (過期: %2$s)</string>
+    <string name="kidsguard_subtitle">"防止您的孩子瀏覽不當的內容.請選擇兩種模式的其中之一
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"請優先編輯app防護項目。長控制使用相同的密碼.這裡不需要啟用app防護選項
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"兒童選項確定被啟用.
+"</string>
+    <string name="kidsguard_teenager">青少年的選項</string>
+    <string name="kidsguard_teenager_configuration">設定青少年選項</string>
+    <string name="kidsguard_teenager_deactivated">已退出兒童選項.</string>
+    <string name="kidsguard_teenager_description">存取防護區域是G DATA基本功能</string>
+    <string name="kidsguard_title">家長監控</string>
+    <string name="kidsguard_toddler">兒童的選項</string>
+    <string name="kidsguard_toddler_configuration">編輯兒童的選項</string>
+    <string name="kidsguard_toddler_deactivated">已退出孩子的選項.</string>
+    <string name="kidsguard_toddler_description">限制兒童可使用的開始介面</string>
+    <string name="kidsguard_usage_control__checkbox_summary">此設備只可以在您選擇的地點和周圍使用。</string>
+    <string name="kidsguard_usage_control__checkbox_title">激活</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">目前:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">分鍾</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">時間限制</string>
+    <string name="kidsguard_usage_control_current">目前:</string>
+    <string name="kidsguard_usage_control_invalid_adress">地址無效。</string>
+    <string name="kidsguard_usage_control_kilometer">公裏</string>
+    <string name="kidsguard_usage_control_location_category">位置限制</string>
+    <string name="kidsguard_usage_control_no_adress">沒有輸入地址</string>
+    <string name="kidsguard_usage_control_radius_title">範圍(單位:公裏)設置</string>
+    <string name="kidsguard_usage_control_scheduled_category">每周計劃</string>
+    <string name="kidsguard_usage_control_scheduled_summary">設置一周中每天允許使用設備的時間</string>
+    <string name="kidsguard_usage_control_scheduled_title">計劃</string>
+    <string name="kidsguard_usage_control_set_adress">輸入地址</string>
+    <string name="kidsguard_usage_control_summary">設置使用時間和位置的限制</string>
+    <string name="kidsguard_usage_control_title">設置</string>
+    <string name="kidsguard_usage_control_weekly_category">周概況</string>
+    <string name="kidsguard_usage_time_device_admin_text">鎖定設備需要權限，以保證休眠模式正常操作</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">每天允許的使用時間已到。您的設備被鎖。</string>
+    <string name="kidsguard_usagecontrol_toddler">鎖定時間</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">設置鎖定時間</string>
+    <string name="kidsguard_usagecontrol_toddler_description">自定義設備使用時間期限和地點</string>
+    <string name="kidsguard_wallpaper">背景</string>
+    <string name="kidsguard_wifi_off_summary">中斷所有連線及WIFI</string>
+    <string name="kidsguard_wifi_off_title">關閉WIFI</string>
+    <string name="lightblue">淺藍色</string>
+    <string name="lightgrey">淺灰色</string>
+    <string name="localisation_service">服務位置</string>
+    <string name="locationlock_add_title">添加新的限制</string>
+    <string name="locationlock_add_title_edit">編輯限制</string>
+    <string name="locationlock_selection_title">限制</string>
+    <string name="locationpicker_add">地點選擇</string>
+    <string name="lockedlocations_selection_no_entries">"這個應用程序可以幫助您在特定地點特定工作日和時間鎖定您的智能手機
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">點擊標題行+標志建立新的限制。</string>
+    <string name="lockscreen_part_disabled_services">由于定位功能被禁用</string>
+    <string name="lockscreen_part_five">bis</string>
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">由于限制設置: 您的設備已被鎖定。</string>
+    <string name="lockscreen_part_six">gesperrt.</string>
+    <string name="lockscreen_part_two">in</string>
+    <string name="log_blocked_app">已啟動的阻止的應用：</string>
+    <string name="log_clar_caption">記錄</string>
+    <string name="log_clear_logs">刪除</string>
+    <string name="log_confirm_clear_logs">刪除所有記錄？</string>
+    <string name="log_detail_title">記錄</string>
+    <string name="log_dont_clear_logs">取消</string>
+    <string name="log_hashcode_block_app">由於病毒資料庫不同，因此應用被阻止：</string>
+    <string name="log_hashcode_mismatch">不同的病毒資料庫:</string>
+    <string name="log_incoming_call_blocked">來電限制：</string>
+    <string name="log_locked_app">已啟動的受保護應用：</string>
+    <string name="log_oninstall_app" formatted="false">應用程式：%app%</string>
+    <string name="log_oninstall_malware_found">發現病毒</string>
+    <string name="log_oninstall_malware_name" formatted="false">感染：%name%</string>
+    <string name="log_oninstall_package_name" formatted="false">安裝包：%package%</string>
+    <string name="log_oninstall_pup_found">發現潛在不需要的程式</string>
+    <string name="log_outgoing_call_blocked">去電限制：</string>
+    <string name="log_phishing_site_found">發現釣魚網站：</string>
+    <string name="log_scan_app_scan_title">掃描應用程式：</string>
+    <string name="log_scan_apps_scanned" formatted="false">%cnt%個安裝的應用程式已掃描</string>
+    <string name="log_scan_duration" formatted="false">掃描時間：%time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt%個檔案已掃描</string>
+    <string name="log_scan_infection_found" formatted="false">偵測到的病毒數量：%cnt%</string>
+    <string name="log_scan_infections_found" formatted="false">偵測到的病毒數量：%cnt%</string>
+    <string name="log_scan_malware_found_title">發現病毒</string>
+    <string name="log_scan_nothing_found_title">未發現病毒</string>
+    <string name="log_scan_pup_found" formatted="false">偵測到潛在不需要的程式數量：%cnt%</string>
+    <string name="log_scan_pup_found_title">發現潛在不需要的程式</string>
+    <string name="log_scan_pups_found" formatted="false">偵測到潛在不需要的程式數量：%cnt%</string>
+    <string name="log_scan_sig_date" formatted="false">病毒資料庫：%date%</string>
+    <string name="log_scan_system_scan_title">掃描系統：</string>
+    <string name="log_sigfile_updated">病毒資料庫已更新。</string>
+    <string name="main_activation_state">狀態：</string>
+    <string name="main_antiphish_checked_none">無</string>
+    <string name="main_apps_denials_all">已阻止全部應用</string>
+    <string name="main_apps_denials_hdr">已阻止應用</string>
+    <string name="main_apps_denials_hdr_invert">已允許應用</string>
+    <string name="main_apps_denials_none">未阻止任何應用</string>
+    <string name="main_apps_locked_all">已保護全部應用</string>
+    <string name="main_apps_locked_hdr">應用程式防護</string>
+    <string name="main_apps_locked_hdr_invert">未受保護應用</string>
+    <string name="main_apps_locked_none">無</string>
+    <string name="main_calls_blocked_multiple">已過濾%d個來電/簡訊</string>
+    <string name="main_calls_blocked_singular">已過濾1個來電/簡訊</string>
+    <string name="main_calls_filtered_hdr">已過濾來電：</string>
+    <string name="main_calls_filtered_none">無</string>
+    <string name="main_contacts_filtered_none">無</string>
+    <string name="main_contacts_hidden_count">已隱藏%d聯絡人</string>
+    <string name="main_contacts_hidden_count_singular">已隱藏1名聯絡人</string>
+    <string name="main_contacts_hidden_hdr">已隱藏聯絡人：</string>
+    <string name="main_hub_phishing">釣魚網站防護</string>
+    <string name="main_hub_privacy">隱藏聯絡人</string>
+    <string name="main_info">關於G DATA</string>
+    <string name="main_last_scan_hdr">最近一次病毒掃描：</string>
+    <string name="main_last_scan_never">從未</string>
+    <string name="main_permission">權限</string>
+    <string name="main_premium_antitheft">失竊防護</string>
+    <string name="main_premium_callblock">來電過濾</string>
+    <string name="main_premium_phishing">釣魚網站防護</string>
+    <string name="main_premium_privacy">個人隱私防護</string>
+    <string name="main_scan">病毒掃描</string>
+    <string name="main_settings">設定</string>
+    <string name="main_state_active">啓用</string>
+    <string name="main_state_inactive">禁用</string>
+    <string name="mdm_choose_another_profile">選擇另一個設定檔</string>
+    <string name="mdm_choose_profile_title">選擇一個設定檔</string>
+    <string name="mdm_device_compromised_rooted_locked">這個使用者的裝置已被未加密（已ROOT），因此已被管理員阻止</string>
+    <string name="mdm_set_camera_state">不支援啟動/關閉攝像頭。</string>
+    <string name="mdm_storage_encryption_accepted_by_user">裝置加密已被用戶啟用</string>
+    <string name="mdm_storage_encryption_denied_by_user">裝置加密未被用戶啟用</string>
+    <string name="menu_accman">帳號管理</string>
+    <string name="menu_antitheft">失竊防護</string>
+    <string name="menu_applock">應用程式防護</string>
+    <string name="menu_apps">應用</string>
+    <string name="menu_conversations">通話/簡訊</string>
+    <string name="menu_exit">再次點擊&lt;i>後退&lt;/i>按鈕以關閉該應用。</string>
+    <string name="menu_filter">通話及短信過濾</string>
+    <string name="menu_filter_in">來電過濾</string>
+    <string name="menu_filter_out">去電過濾</string>
+    <string name="menu_goback">返回</string>
+    <string name="menu_guard_done">完成</string>
+    <string name="menu_hide_contacts">隱藏聯絡人</string>
+    <string name="menu_info">關於</string>
+    <string name="menu_kidsguard">家長監控</string>
+    <string name="menu_kidsguard_broser">浏覽器設置</string>
+    <string name="menu_other">更多</string>
+    <string name="menu_panic_button">緊急按鈕</string>
+    <string name="menu_security">安全</string>
+    <string name="menu_security_hub">安全中心</string>
+    <string name="menu_settings">設定</string>
+    <string name="missing_libs">安裝失敗。請檢查是否有足夠的儲存空間並重新安裝應用程式。</string>
+    <string name="mms_configure">設定遠端管理</string>
+    <string name="mms_connect_deferred">無法與管理伺服器建立連接，無法載入更新。請檢查遠端管理的相關設定。</string>
+    <string name="mms_contact">公司聯絡人</string>
+    <string name="mms_eula_show">顯示使用者協定</string>
+    <string name="mms_invalid_data">無效的遠端管理登入資訊</string>
+    <string name="mms_log">送出多媒體簡訊</string>
+    <string name="mms_server_address">管理伺服器位址</string>
+    <string name="mms_server_address_summary">管理伺服器位址(IP/伺服器名稱)</string>
+    <string name="mms_server_name">用戶端設備名稱</string>
+    <string name="mms_server_name_summary">管理者帳號</string>
+    <string name="mms_server_not_found">無法連接到系統中心</string>
+    <string name="mms_server_password">密碼</string>
+    <string name="mms_server_password_summary">管理者密碼</string>
+    <string name="mms_synch_data">同步G DATA管理伺服器</string>
+    <string name="mockapp">\"發現假GPS定位應用程序\"</string>
+    <string name="monday">星期一</string>
+    <string name="new_filter_title">添加新的過濾</string>
+    <string name="new_group_filter_scheduler_header">每天</string>
+    <string name="new_locked_location_adress_header">地址</string>
+    <string name="new_locked_location_adress_hint">Genaue Adresse angeben</string>
+    <string name="new_locked_location_from_hint">從</string>
+    <string name="new_locked_location_header">名稱</string>
+    <string name="new_locked_location_location_activate">啓用位置鎖定</string>
+    <string name="new_locked_location_radius_header">周圍</string>
+    <string name="new_locked_location_radius_hint">in Kilometer</string>
+    <string name="new_locked_location_scheduler_header">計劃</string>
+    <string name="new_locked_location_till_hint">到</string>
+    <string name="new_widget_help">新的緊急按鈕只能在主屏幕上作爲桌面插件添加。</string>
+    <string name="news_follow_link">繼續閱讀 …</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/zh-tw/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/zh-tw/messages.xml</string>
+    <string name="no_entrys">沒有信息</string>
+    <string name="notification_accessibility_applock_off_text">因爲G DATA App Checker已禁用，所以應用保護已關閉。安卓Lollipop版本起應用保護必須啓用此服務。</string>
+    <string name="notification_accessibility_applock_off_ticker">應用保護已關閉。</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name##掃描應用程式：</string>
+    <string name="notification_app_installed_clean_ticker_part2">已完成！未發現病毒</string>
+    <string name="notification_arp_detection">這個無線網路未加密。</string>
+    <string name="notification_arp_detection_auto">這個無線網路未加密。</string>
+    <string name="notification_arp_detection_auto_ticker">這個無線網路未加密。作為一項預防措施，已將您的無線網路連線中斷.</string>
+    <string name="notification_arp_detection_ticker">這個無線網路未加密。如果您目前處於一個公共的WiFi或是其它非安全環境中，我們建議您中斷連線.</string>
+    <string name="notification_bssid_detection">這個無線網路未加密。</string>
+    <string name="notification_bssid_detection_ticker">這個無線網路未加密。這是BDDIS分析的結果.</string>
+    <string name="notification_infected">您的系統已被感染！</string>
+    <string name="notification_infected_pup">您的系統可能已被感染！</string>
+    <string name="notification_infected_pup_ticker">您的系統已安裝潛在不需要的程式。</string>
+    <string name="notification_infected_ticker">您的系統已被感染！</string>
+    <string name="notification_ipx_cancellation_success">您的訂閱已被取消</string>
+    <string name="notification_ipx_error">您的訂單出現問題，請牚試其它付款方式提交訂單</string>
+    <string name="notification_ipx_subscription_success">您的訂閱已經成功</string>
+    <string name="notification_new_apk_available">新的程式版本可用</string>
+    <string name="notification_new_apk_available_ticker">新的程式版本可用</string>
+    <string name="notification_new_news_ticker">新訊息</string>
+    <string name="notification_new_unread_multiple">%d筆未讀訊息</string>
+    <string name="notification_new_unread_one">1筆未讀訊息</string>
+    <string name="notification_persistent_text">啟動</string>
+    <string name="notification_persistent_ticker">\##app_name##已執行</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">安裝</string>
+    <string name="notification_query_message_news">您有未讀訊息</string>
+    <string name="notification_query_open_news">顯示訊息</string>
+    <string name="notification_query_start_disinfect">刪除</string>
+    <string name="notification_query_start_scan">開始掃描</string>
+    <string name="notification_query_start_update">開始更新</string>
+    <string name="notification_scan_finished_clean">掃描未發現感染</string>
+    <string name="notification_scan_outdated">系統需要病毒掃描</string>
+    <string name="notification_scan_outdated_ticker">上次病毒掃描在7天以前！</string>
+    <string name="notification_sig_file_to_old">病毒資料庫已過期</string>
+    <string name="notification_sig_file_to_old_ticker">您使用的病毒資料庫已過期！</string>
+    <string name="notification_usage_time_left">剩余…分鍾</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">新增號碼</string>
+    <string name="number_picker_add_entries">隱藏項目</string>
+    <string name="number_picker_new_contact">新增</string>
+    <string name="number_picker_search">搜尋</string>
+    <string name="orange">橙色</string>
+    <string name="orange_ask_activate">病毒資料庫已過期，無法獲得完整防護。您是否需要訂購新的授權以保護您的裝置？</string>
+    <string name="orange_err_no_orange_sim">抱歉，該服務僅適用於澳洲Orange用戶。</string>
+    <string name="orange_err_no_sim">未找到SIM卡，更新無法安裝</string>
+    <string name="orange_wizard_explaination">這些數據會作為使用數據，可能會作為與產品相關的數據使用12個月。</string>
+    <string name="orange_wizard_purchase_link">立即購買。。。</string>
+    <string name="orange_wizard_subtitle">"免費試用30天! 
+
+您將免費試用30天，請輸入您的姓名和e-mail聯絡資料。"</string>
+    <string name="outblack">呼出電話</string>
+    <string name="outwhite">呼出電話</string>
+    <string name="package_already_uninstalled">應用已卸載</string>
+    <string name="panicActionContent">消息</string>
+    <string name="panicActionType">操作</string>
+    <string name="panic_button_dialog_title">操作在……秒後執行</string>
+    <string name="panic_button_info_text">"緊急按鈕可以幫助您在緊急情況下通過發送消息，簡單快速地通知您的朋友您所處的位置。
+
+ 在主屏幕上作爲桌面插件創建緊急按鈕。
+
+"</string>
+    <string name="panic_button_prompt">添加新的操作</string>
+    <string name="panic_button_ready">完成</string>
+    <string name="panic_call">開始呼叫</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Call</string>
+    <string name="panic_edittext_hint">內容…</string>
+    <string name="panic_edittext_hint_header">標題…</string>
+    <string name="panic_edittext_sender">您的名字…</string>
+    <string name="panic_email">發送郵件</string>
+    <string name="panic_email_content">內容</string>
+    <string name="panic_email_header">標題</string>
+    <string name="panic_email_type">電子郵件</string>
+    <string name="panic_form_no_content_error">請輸入消息內容。</string>
+    <string name="panic_form_no_number_error">請輸入收件人。</string>
+    <string name="panic_fragment_title">緊急按鈕</string>
+    <string name="panic_gps_email_last_location">"您好, 您被我們的用戶#4# 選定爲緊急聯系人，從現在起您會收到他手機位置坐標信息。
+
+#0# 最近一次的手機已知位置是#1#. 打開鏈接 #2# 或者靜態地圖鏈接 #3#. 提示: 最近一次使用的MAC地址是#5#.
+
+此致敬禮
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"您好, 您被我們的用戶#4# 選定爲緊急聯系人，從現在起您會收到他手機位置坐標信息。
+
+#0#目前的手機位置是 #1#。 打開鏈接 #2# 或者靜態地圖鏈接 #3#. 提示: 最近一次使用的MAC地址是#5#.
+
+此致敬禮
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"您好, 您被我們的用戶#4# 選定爲緊急聯系人，從現在起您會收到他手機位置坐標信息。很抱歉目前我們無法定位手機位置。
+
+#0# 提示: 最近一次使用的路由器的MAC地址是#5#.
+
+此致敬禮
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">\#1#的手機最近一次已知的位置是#2#.</string>
+    <string name="panic_gps_sms_location">在坐標#2#找到#1#的手機。</string>
+    <string name="panic_gps_sms_no_location">>#0##4# 手機無法定位您目前所的處位置。</string>
+    <string name="panic_header">新建緊急按鈕</string>
+    <string name="panic_header_edit">編輯緊急按鈕</string>
+    <string name="panic_list_header">緊急按鈕</string>
+    <string name="panic_location">發送位置</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">輸入電子郵件地址或者手機號:</string>
+    <string name="panic_location_type">位置</string>
+    <string name="panic_min_actions">您必須至少選擇一項操作。</string>
+    <string name="panic_sms">發送短信</string>
+    <string name="panic_text_message">發送消息</string>
+    <string name="panic_text_message_content">內容</string>
+    <string name="panic_text_message_type">消息</string>
+    <string name="panic_textview_hint">您的聯系人……</string>
+    <string name="panic_trigger_email">發送郵件</string>
+    <string name="panic_trigger_emergency_call">緊急呼救</string>
+    <string name="panic_trigger_location">發送位置</string>
+    <string name="panic_trigger_sms">發送短信</string>
+    <string name="panic_unknown_sender">沒有輸入發送人</string>
+    <string name="panic_wizard_description_one">添加一個或多個按動緊急按鈕時需執行的操作。</string>
+    <string name="panic_wizard_description_sender">一些操作需要您的姓名作爲發件人:</string>
+    <string name="panic_wizard_description_three">請從通訊錄中選擇一個緊急情況下接收消息的緊急聯系人。</string>
+    <string name="panic_wizard_two_desc_call">此操作會直接向緊急聯系人發出緊急呼救。</string>
+    <string name="panic_wizard_two_desc_email">此操作會向緊急聯系人發送您設置的電子郵件。</string>
+    <string name="panic_wizard_two_desc_location">此操作會向緊急聯系人發送緊急情況時您所處的位置。</string>
+    <string name="panic_wizard_two_desc_message">此操作會向緊急聯系人發送您設置的短信消息。</string>
+    <string name="panicbutton">緊急按鈕</string>
+    <string name="panicbutton_big">G DATA L 緊急按鈕</string>
+    <string name="panicbutton_medium">G DATA M 緊急按鈕</string>
+    <string name="panicbutton_small">G DATA S 緊急按鈕</string>
+    <string name="periodic_scan_type_summary">選取快速掃描或者對系統完整掃描</string>
+    <string name="periodic_scan_type_title">類型</string>
+    <string name="permission_access_network_state_desc">顯示網路連接</string>
+    <string name="permission_access_wifi_state_desc">顯示無線網路連接</string>
+    <string name="permission_additional_fees_desc">可能需要付費</string>
+    <string name="permission_authenticate_accounts_desc">創建帳號並設置密碼</string>
+    <string name="permission_billing_desc">Google Play發票服務</string>
+    <string name="permission_broadcast_sticky_desc">發送永久廣播</string>
+    <string name="permission_call_phone_desc">直接撥打行動電話號碼</string>
+    <string name="permission_change_wifi_state_desc">創建或斷開無線網路連接</string>
+    <string name="permission_check_license_desc">Google Play授權驗證</string>
+    <string name="permission_full_network_access_desc">網路存取</string>
+    <string name="permission_get_accounts_desc">搜尋裝置上的帳號</string>
+    <string name="permission_get_tasks_desc">存取活動的應用</string>
+    <string name="permission_internet_desc">應用程式可連線網路</string>
+    <string name="permission_internet_desc_detail">應用程式已被允許連線網路</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">網路連線</string>
+    <string name="permission_location_coarse_desc">應用程式可對該裝置概略定位</string>
+    <string name="permission_location_coarse_desc_detail">應用程式已被允許對該裝置概略定位</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">基地台/無線定位</string>
+    <string name="permission_location_desc">精確定位（基於GPS和網路）</string>
+    <string name="permission_location_fine_desc">應用程式可對裝置確切定位</string>
+    <string name="permission_location_fine_desc_detail">應用程式已被允許對該裝置確切定位</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">GPS定位</string>
+    <string name="permission_manage_accounts_desc">使用裝置上的帳號</string>
+    <string name="permission_outgoing_calls_desc">應用程式可撥打電話</string>
+    <string name="permission_outgoing_calls_desc_detail">應用程式已被允許撥打電話</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">通話</string>
+    <string name="permission_outgoing_sms_desc">應用程式可傳送簡訊</string>
+    <string name="permission_outgoing_sms_desc_detail">應用程式已被允許傳送簡訊</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">簡訊</string>
+    <string name="permission_process_outgoing_calls_desc">指定去電</string>
+    <string name="permission_read_call_logs_desc">讀取通話記錄</string>
+    <string name="permission_read_contacts_desc">應用程式可存取聯絡人</string>
+    <string name="permission_read_contacts_desc_detail">應用程式已被允許存取聯絡人</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">聯絡人</string>
+    <string name="permission_read_history_bookmarks_desc">讀取網頁書籤和網頁日誌</string>
+    <string name="permission_read_logs_desc">應用程式可存取系統記錄</string>
+    <string name="permission_read_logs_desc_detail">應用程式已被允許存取系統記錄(可能包含個人資訊)</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">記錄</string>
+    <string name="permission_read_phone_state_desc">存取行動電話狀態和身份</string>
+    <string name="permission_read_sms_desc">讀取簡訊或多媒體簡訊</string>
+    <string name="permission_read_sync_settings_desc">讀取同步設置</string>
+    <string name="permission_receive_boot_completed_desc">啟動時運行</string>
+    <string name="permission_receive_sms_desc">已接受簡訊</string>
+    <string name="permission_reorder_tasks_desc">識別活動的應用</string>
+    <string name="permission_send_sms_desc">發送簡訊</string>
+    <string name="permission_use_credentials_desc">添加或刪除帳號</string>
+    <string name="permission_write_call_logs_desc">編輯通話記錄</string>
+    <string name="permission_write_contacts_desc">修改我的聯絡人</string>
+    <string name="permission_write_external_storage_desc">修改或刪除SD卡內容</string>
+    <string name="permission_write_settings_desc">修改系統設置</string>
+    <string name="permission_write_sms_desc">編輯簡訊或多媒體簡訊</string>
+    <string name="permission_write_sync_settings_desc">啟用或禁用同步</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">G DATA行動安全防護已阻止瀏覽該網站！這是一個已知的釣魚詐騙網站！</string>
+    <string name="phishing_blocked_title">封鎖瀏覽！</string>
+    <string name="phishing_checkbox_label">啟用網頁防護</string>
+    <string name="phishing_intro">網頁防護將攔截釣魚欺騙網站。</string>
+    <string name="phishing_intro_long">釣魚欺騙網站可能會竊取您的個資，例如隱私資料，信用卡帳號、密碼等。 通常這些網站會高度仿冒真實的網站，利用電子郵件、簡訊或者即時通訊軟體等傳播。主要針對網路銀行、線上交易等服務。</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">錯誤</string>
+    <string name="plasma_status_code_cancel">操作已被取消</string>
+    <string name="plasma_status_code_invalidaccount">無效的帳號</string>
+    <string name="plasma_status_code_invalidcreditcard">無效的信用卡資訊</string>
+    <string name="plasma_status_code_itemgroupidnotfound">無效的訂單</string>
+    <string name="plasma_status_code_itemidnotfound">無效的訂單</string>
+    <string name="plasma_status_code_networkerror">網路發生錯誤</string>
+    <string name="plasma_status_code_paymentidnotfound">無效的訂單</string>
+    <string name="plasma_status_code_processerror">操作錯誤</string>
+    <string name="plasma_status_code_serviceunavailable">無可用的服務</string>
+    <string name="plasma_status_code_success">操作已成功完成</string>
+    <string name="plasma_try_later">請檢查您的帳號設定，或稍後重新嘗試操作。</string>
+    <string name="postTime">werden</string>
+    <string name="preTime">In der Zeit von</string>
+    <string name="pref_category_account">存取數據 &amp; 訂閱</string>
+    <string name="pref_category_account_summary">管理用戶信息</string>
+    <string name="pref_category_default">一般</string>
+    <string name="pref_category_licenses">軟體許可</string>
+    <string name="pref_category_mms">遠端管理</string>
+    <string name="pref_category_scan">病毒掃描</string>
+    <string name="pref_category_scan_header">病毒掃描</string>
+    <string name="pref_category_scan_summary">自動掃描設定</string>
+    <string name="pref_category_timedUpdate">更新</string>
+    <string name="pref_category_webportal">網頁平台</string>
+    <string name="pref_category_webshield">網頁防護</string>
+    <string name="pref_licenses">開源軟體許可</string>
+    <string name="pref_licenses_summary">查看開源軟體許可的細節信息</string>
+    <string name="privacy_applying_privacy">隱藏資料</string>
+    <string name="privacy_blocked_call">已限制從%1$s發起的呼叫</string>
+    <string name="privacy_blocked_sms">已接受從%1$s發來的簡訊</string>
+    <string name="privacy_call_history">通話記錄</string>
+    <string name="privacy_call_text">發起呼叫</string>
+    <string name="privacy_cancel">取消</string>
+    <string name="privacy_chat_history">對話記錄</string>
+    <string name="privacy_clear_logs">刪除通話記錄</string>
+    <string name="privacy_contact">個人聯絡人</string>
+    <string name="privacy_contact_add">聯絡人或手機號碼</string>
+    <string name="privacy_contact_picture">聯絡人照片</string>
+    <string name="privacy_contact_remove">删除選擇項目</string>
+    <string name="privacy_contacts">管理隱藏的聯絡人</string>
+    <string name="privacy_data_loss">您將遺失目前所有隱藏的聯絡人資訊。</string>
+    <string name="privacy_deleted_user">輸入的聯絡人已刪除</string>
+    <string name="privacy_detail">詳細資訊</string>
+    <string name="privacy_disable_privacy">停用防護</string>
+    <string name="privacy_do_hide">隱藏</string>
+    <string name="privacy_do_not_hide">不隱藏</string>
+    <string name="privacy_enable_privacy">啟用防護</string>
+    <string name="privacy_hidden_contacts">隱藏聯絡人</string>
+    <string name="privacy_hide_contacts">隱藏聯絡人</string>
+    <string name="privacy_known_contacts">聯絡人</string>
+    <string name="privacy_managecontacts">管理隱藏的聯絡人</string>
+    <string name="privacy_move_to_phone_header">編輯聯絡人</string>
+    <string name="privacy_no_chat_history">無對話記錄</string>
+    <string name="privacy_no_hidden_contacts">在標題欄點擊+號選取您想隱藏的聯絡人。</string>
+    <string name="privacy_remove_contacts">刪除選擇項目</string>
+    <string name="privacy_remove_conversations">隱藏簡訊</string>
+    <string name="privacy_restoring_privacy">還原資料</string>
+    <string name="privacy_send_message_text">發送訊息</string>
+    <string name="privacy_sim_contacs_to_phone">聯絡人將被同步。為避免同步出錯，隱藏聯絡人之前必須將其移至其他通訊錄。</string>
+    <string name="privacy_suppres_communication">隱藏來電</string>
+    <string name="privacy_title">隱藏聯絡人</string>
+    <string name="profile_config_title">請選擇設定檔</string>
+    <string name="profile_create_new">設定新的設定檔</string>
+    <string name="profile_title">設定檔的名稱</string>
+    <string name="progress_deleting_infected_files">正在刪除感染檔案，請稍後…</string>
+    <string name="protected_features">"只有產品啟動後才可使用該功能。
+
+是否立即啟動？"</string>
+    <string name="protectuninstall_text">解除安裝後，您的系統將不再受到防護！</string>
+    <string name="protectuninstall_title">解除安裝##app_name##？</string>
+    <string name="purchase_article">商品</string>
+    <string name="purchase_article_number">商品編號</string>
+    <string name="purchase_date">日期</string>
+    <string name="purchase_information">訂單明細</string>
+    <string name="purchase_number">訂單編號</string>
+    <string name="purchase_price">價格</string>
+    <string name="red">紅色</string>
+    <string name="remote_device_located">裝置已被定位。</string>
+    <string name="remote_device_locating">開始定位裝置。</string>
+    <string name="remote_lock_fail">裝置無法被阻止。</string>
+    <string name="remote_lock_no_password">成功阻止裝置（未用密碼）。</string>
+    <string name="remote_lock_ok">成功阻止裝置。</string>
+    <string name="remote_lock_password_reset">使用遠端維護密碼成功阻止裝置。</string>
+    <string name="remote_set_password_fail">密碼無法修改。</string>
+    <string name="remote_set_password_ok">修改密碼成功。</string>
+    <string name="report_dialog_title">協助我們！</string>
+    <string name="restriction_locked_for_a_day">限制解除直到設置的下一次限制時間。</string>
+    <string name="restriction_locked_for_till_restart">鎖定設置在下一次開啓家長保護模式時才再次生效。</string>
+    <string name="saturday">星期六</string>
+    <string name="saveProtocolls_summary">儲存掃描記錄</string>
+    <string name="saveProtocolls_title">儲存記錄</string>
+    <string name="scanOnInstall_summary">自動掃描新安裝的應用程式</string>
+    <string name="scanOnInstall_title">安裝程式時</string>
+    <string name="scan_power_connected_summary">充電時啟用背景掃描</string>
+    <string name="scan_power_connected_title">僅在充電時</string>
+    <string name="scan_service_infection">自動掃描：發現病毒</string>
+    <string name="scan_service_ok">自動掃描已完成：未發現病毒</string>
+    <string name="scan_skip_power_low_summary">當電量過低時，停用背景掃描</string>
+    <string name="scan_skip_power_low_title">省電模式</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">已安裝的應用程式</string>
+    <string name="scan_type_system">系統(完整掃描)</string>
+    <string name="security_hub_log_title">訊息</string>
+    <string name="security_hub_scan_manually_canceled">掃描已被用戶取消</string>
+    <string name="security_hub_subtitle_empty">一切正常</string>
+    <string name="security_hub_subtitle_empty_trial">帳號授權/試用版授權期限%d天後到期。</string>
+    <string name="security_hub_subtitle_empty_trial_expired">授權帳號/試用版已經到期。</string>
+    <string name="security_hub_title">安全中心</string>
+    <string name="sendErrorReports_summary">傳送錯誤報告至G DATA安全實驗室。您的行動網路供應商可能會對期間產生的資料流量收取相關費用.</string>
+    <string name="sendErrorReports_title">傳送錯誤報告</string>
+    <string name="sendSMS">傳送</string>
+    <string name="sendUsageData_summary">傳送病毒資訊至G DATA安全實驗室。這可用於改進程式。您所使用的行動網路可能會對資料傳輸產生的流量收取相關費用.</string>
+    <string name="sendUsageData_title">傳送統計</string>
+    <string name="send_email">發送郵件</string>
+    <string name="send_location">發送位置</string>
+    <string name="send_sms">發送短信</string>
+    <string name="server_license_expired">伺服器授權已過期。請聯繫您的管理者</string>
+    <string name="showTrayIcon_title">通知欄圖示</string>
+    <string name="showTrayIcons_summary">在系統通知列顯示##app_name##圖示</string>
+    <string name="sim_change_message">您裝置中的SIM卡已被更換。</string>
+    <string name="sim_change_message_subscriber">新的電話號碼：</string>
+    <string name="sms_answer_device_password_failed">密碼無法設定，您設定的密碼違反目前的安全政策。</string>
+    <string name="sms_answer_device_password_succeeded">密碼設定成功。</string>
+    <string name="sms_answer_latest_known">您的裝置上一次位置位於#1#。</string>
+    <string name="sms_answer_location">您的裝置位於#1#。</string>
+    <string name="sms_answer_lock">裝置已鎖定。</string>
+    <string name="sms_answer_lock_fail">裝置無法被鎖定。</string>
+    <string name="sms_answer_lock_no_password">您的裝置已經關機,無法被鎖定。</string>
+    <string name="sms_answer_lock_reset_password">裝置已透過密碼鎖定。</string>
+    <string name="sms_answer_no_location">\#0#目前位置無法定位。</string>
+    <string name="sms_answer_reset_password_failed">設定密碼失敗，您設定的密碼不足四個字數。</string>
+    <string name="sms_answer_reset_password_succeeded">簡訊密碼設定成功。</string>
+    <string name="sms_answer_service_disabled">"GPS已關閉或無法使用。 "</string>
+    <string name="sms_answer_wipe">開始從裝置中刪除個人資訊。</string>
+    <string name="sms_command_email_summary">電子郵件</string>
+    <string name="sms_command_email_title">設定郵件位址以接收定位資訊回覆.</string>
+    <string name="sms_email_answer_latest_known">"親愛的用户，
+
+#0#您的裝置上一次位置位於#1#。點擊連結#2#或#3#以獲得地圖資訊。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"親愛的使用者，
+
+您的裝置位於#1#。點擊連結#2#或#3#以獲得地圖資訊。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"親愛的用戶，
+
+您的裝置已成功被鎖定。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"親愛的用戶，
+
+您的裝置無法被鎖定。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"親愛的用戶，
+
+您的裝置已經關機,無法被鎖定。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"親愛的用戶，
+
+您的裝置已經被SMS簡訊指令密碼鎖定。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"親愛的用戶，
+
+#0#很遺憾，無法對您的裝置進行定位。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"親愛的用戶，
+
+新的SMS簡訊指令密碼,已經成功設定。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"親愛的用戶，
+
+此SMS簡訊指令,無法設定密碼。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"親愛的用戶,
+
+鎖定您裝置螢幕的密碼,已經成功設定.
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"親愛的用戶，
+
+無法設定用來鎖定您裝置螢幕的密碼。
+
+誠摯的祝福
+G DATA Software AG"</string>
+    <string name="sms_enter_text">請輸入訊息內容。</string>
+    <string name="sms_not_sent">無法傳送簡訊，請檢查裝置狀態.</string>
+    <string name="sms_self">我</string>
+    <string name="sms_sent">簡訊已傳送</string>
+    <string name="spoof_detection_activated_summary">監控ARP表</string>
+    <string name="spoof_detection_activated_title">WiFi防護</string>
+    <string name="spoof_detection_advanced_summary">檢查附加選項</string>
+    <string name="spoof_detection_advanced_title">進階設定</string>
+    <string name="spoof_detection_network_unreachable">網路無法使用</string>
+    <string name="spoof_detection_networks_summary">在這個無線網路中ARP監控已被關閉</string>
+    <string name="spoof_detection_networks_title">可信任網路</string>
+    <string name="spoof_detection_no_network">目前網路無法使用。</string>
+    <string name="startOnBoot_summary">系統啟動時執行##app_name##</string>
+    <string name="startOnBoot_title">啟動</string>
+    <string name="sunday">星期日</string>
+    <string name="task_icon_type_always">總是</string>
+    <string name="task_icon_type_if_action">僅適用於活動</string>
+    <string name="task_icon_type_never">從不</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg">&lt;a href=tel:*%2306%23>馬上試用G DATA服務指令 (USSD) 過濾器. 本測試顯示您設備的代碼ID (IMEI)。&lt;/a></string>
+    <string name="textViewHeaderAdd">選擇聯系人</string>
+    <string name="text_trial">創建新賬戶</string>
+    <string name="text_unlock">我已經有賬戶</string>
+    <string name="thursday">星期四</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">電話URL阻止</string>
+    <string name="title_activity_tel_ok">電話URL清理</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">關</string>
+    <string name="toggle_on">開</string>
+    <string name="trial_app_name">\##app_name##</string>
+    <string name="trial_err_already_registered">您已經註冊了免費更新服務，無法再註冊一次。</string>
+    <string name="trial_not_allowed_expired">"試用已過期，無法使用該功能。
+
+是否現在訂購新的授權？"</string>
+    <string name="trial_not_allowed_unregistered">"只有註冊使用者才可使用該功能。
+
+是否現在註冊？"</string>
+    <string name="trial_registration_dlg_mess">您的免費病毒資料庫更新服務。請輸入您的聯絡資訊。您的帳號資訊將被自動儲存在##app_name##，並同步傳送至您的電子郵件信箱.</string>
+    <string name="tuesday">星期二</string>
+    <string name="uncheck_all">反向選擇</string>
+    <string name="undobar_delete">日誌已刪除</string>
+    <string name="undobar_undo">復原</string>
+    <string name="unlock_question_1">我最喜歡的動物？</string>
+    <string name="unlock_question_2">我母親的名字是？</string>
+    <string name="unlock_question_3">我最好的朋友叫什麼名字？</string>
+    <string name="unlock_question_4">我父親的出生地？</string>
+    <string name="unlock_question_custom">自訂提問：</string>
+    <string name="unlock_time_1">1 小時</string>
+    <string name="unlock_time_15">15 分鐘</string>
+    <string name="unlock_time_2">2 小時</string>
+    <string name="unlock_time_30">30 分鐘</string>
+    <string name="unlock_time_4">4 小時</string>
+    <string name="unlock_time_inf">無限</string>
+    <string name="unlock_time_subtitle">設定使用時間爲%s</string>
+    <string name="unlock_time_title">應用程式解鎖:</string>
+    <string name="unlock_wizard">Internet Security</string>
+    <string name="updateWifiOnly_summary">僅當使用WLAN時啟動更新。</string>
+    <string name="updateWifiOnly_title">僅當使用WLAN時</string>
+    <string name="update_region_africa">非洲</string>
+    <string name="update_region_asia">亞州</string>
+    <string name="update_region_asia_china">亞州(中國)</string>
+    <string name="update_region_asia_india">亞州(印度)</string>
+    <string name="update_region_asia_japan">亞州(日本)</string>
+    <string name="update_region_australia">澳洲</string>
+    <string name="update_region_auto">自動偵測</string>
+    <string name="update_region_europe">歐洲</string>
+    <string name="update_region_north_america">北美</string>
+    <string name="update_region_south_america">南美</string>
+    <string name="upgrade_offer_err_no_connection">無法載入更新資訊，請檢查網路連線。</string>
+    <string name="upgrade_offer_title">更新資訊</string>
+    <string name="usage_control_lock_dialog_part1">Das Gerät ist durch die Einschränkung</string>
+    <string name="usage_control_lock_dialog_part12">bis</string>
+    <string name="usage_control_lock_dialog_part13">gesperrt.</string>
+    <string name="ussd_filter_title">服務指令(USSD)過濾器</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">AuthCode通過the ActionCenter生成</string>
+    <string name="web_portal_scan_interval">網頁平台更新間隔</string>
+    <string name="web_portal_scan_interval_summary">兩次同步化時間間隔</string>
+    <string name="web_portal_server_address">網頁平台服務器</string>
+    <string name="web_portal_server_address_summary">使用的網頁平台服務器地址</string>
+    <string name="webprotection_dialog_accept">封鎖</string>
+    <string name="webprotection_dialog_continue">繼續</string>
+    <string name="webprotection_dialog_text">這是一個已知釣魚詐騙網站，如果您堅信無安全風險，可繼續存取。</string>
+    <string name="webprotection_dialog_title">網頁防護</string>
+    <string name="webshield_activated_summary">攔截釣魚詐騙網站</string>
+    <string name="webshield_activated_title">網頁防護</string>
+    <string name="webshield_only_wlan_summary">僅當使用Wi-fi時使用網頁防護</string>
+    <string name="webshield_only_wlan_title">僅當使用WLAN時</string>
+    <string name="webshield_phishing_timeout_summary">當網頁存取逾時，該網頁被認定為釣魚網站</string>
+    <string name="webshield_phishing_timeout_title">存取逾時</string>
+    <string name="wednesday">星期三</string>
+    <string name="whitelist">白名單</string>
+    <string name="wizard_app_lock">您可以使用應用防護給應用程式設定密碼。這樣就沒人可以在您不知情的情況下竊取您的個人資料。</string>
+    <string name="wizard_audit">您已經成功的為##app_name##設定了以下功能：</string>
+    <string name="wizard_audit_subtitle_fail_text">未設定</string>
+    <string name="wizard_audit_subtitle_succ_text">設定成功</string>
+    <string name="wizard_audit_title">審查</string>
+    <string name="wizard_bt_antitheft_text">設定失竊防護</string>
+    <string name="wizard_bt_applock_text">設定應用防護</string>
+    <string name="wizard_bt_audit_skip_text">完成</string>
+    <string name="wizard_bt_callfilter_text">設定通話/簡訊來電過濾</string>
+    <string name="wizard_bt_malware_text">啟動帳號</string>
+    <string name="wizard_bt_next_text">略過</string>
+    <string name="wizard_bt_welcomen_skip_text">下一步</string>
+    <string name="wizard_dlg_exit_caption">\##app_name##精靈</string>
+    <string name="wizard_dlg_exit_text">您確定要取消嗎？</string>
+    <string name="wizard_eula">我已閱讀並接受最終使用者協定。</string>
+    <string name="wizard_eula_not_accpted_warning">你必須接受最終使用者許可協定以繼續。</string>
+    <string name="wizard_exit">結束</string>
+    <string name="wizard_intro">\##app_name##不只有會在您瀏覽網頁時保護您的裝置和資料安全，還會在您下載使用新應用時偵測是否存在潛在威脅。</string>
+    <string name="wizard_lbl_antitheft_headline_text">失竊防護</string>
+    <string name="wizard_lbl_audit_headline_text">行動安全審核</string>
+    <string name="wizard_lbl_callfilter_headline_text">來電過濾</string>
+    <string name="wizard_lbl_malware_headline_text">惡意軟體防護</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">賬戶注冊成功後30天免費使用行動安全防護軟體高級功能將自動激活。過期後，包括病毒防護等的基本功能會繼續保留。您可以隨時訂閱高級功能。</string>
+    <string name="wizard_malware_already_registered_text">您是否已經是G DATA客戶？</string>
+    <string name="wizard_malware_email_hint">郵件</string>
+    <string name="wizard_malware_firstname_hint">名</string>
+    <string name="wizard_malware_lastname_hint">姓</string>
+    <string name="wizard_malware_proceed_text">啟動軟體</string>
+    <string name="wizard_password">這個密碼用於失竊保護和應用防護（至少要由4個不同的不序列數字組成）</string>
+    <string name="wizard_password_forgot">忘記了您的密碼？您可以通過使用這個號碼的簡訊命令重置它。如果SIM卡變更了也會送出簡訊到這個號碼。</string>
+    <string name="wizard_send_mail">回覆簡訊指令傳送到您的E-mail位址.</string>
+    <string name="wizard_start_header">歡迎使用新的安全助手。您是要試用産品還是已有産品授權?</string>
+    <string name="wizard_theft">您可以使用失竊防護在您的裝置丟失時通過簡訊命令定位您的裝置或是鎖定裝置、清除裝置內容。自動功能能夠在您的SIM卡變更時送出簡訊提醒或在您的裝置電量低時送出最後的已知位置。</string>
+    <string name="wizard_uninstall_protection_checkbox">啓用卸載保護功能</string>
+    <string name="wizard_uninstall_protection_text">請啓用卸載保護功能，以避免未被授權的卸載(須有設備管理員授權)</string>
+    <string name="zoomToSelectPerimeter">此地圖顯示的是全部有效攔截區域, 地圖大小可以調整。</string>
+</resources>

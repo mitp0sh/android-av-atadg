@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/applock_settings_title" android:text="@string/menu_applock" style="@style/TitleBoldLeft" />
+        <View android:id="@id/applock_settings_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        <TextView android:id="@id/applock_intro_text" android:layout_marginBottom="4.0dip" android:text="@string/applock_intro" style="@style/SubTitleLeft" />
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/appLockLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/applock_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/option" android:text="" android:onClick="onCheckBoxClicked" />
+                <TextView android:id="@id/applock_checkbox_label" android:clickable="true" android:text="@string/applock_checkbox_label" android:onClick="onCheckBoxLabelClicked" style="@style/SubTitleLeft" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/accServiceLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/accessiblity_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:button="@drawable/option" android:text="" />
+                <TextView android:id="@id/accessiblity_checkbox_label" android:clickable="true" android:text="@string/applock_accessibility_label" style="@style/SubTitleLeft" />
+            </LinearLayout>
+            <TextView android:id="@id/accessiblity_info_label" android:clickable="true" android:text="@string/applock_accessibility_info" android:onClick="onCheckBoxLabelClicked" style="@style/SubTitleLeft" />
+        </LinearLayout>
+        <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/applock_password_text" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/applock_password" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/applock_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:scrollHorizontally="true" android:singleLine="true" android:digits="1234567890" android:inputType="numberPassword" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/applock_repeat_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:hint="@string/applock_hint_repeat_password" android:scrollHorizontally="true" android:singleLine="true" android:digits="1234567890" android:inputType="numberPassword" style="@style/SubTitleLeft" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+            <TextView android:id="@id/applock_email_text" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/applock_email" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/applock_email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:hint="@string/applock_hint_email" android:scrollHorizontally="true" android:singleLine="true" android:inputType="textEmailAddress" style="@style/SubTitleLeft" />
+            <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+            <TextView android:id="@id/applock_question_text" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:text="@string/applock_question_text" style="@style/SubTitleLeft" />
+            <Spinner android:entries="@array/applock_questions" android:id="@id/applock_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:drawSelectorOnTop="true" android:entryValues="@array/applock_question_values" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/applock_custom_question" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:hint="@string/applock_hint_custom_question" android:scrollHorizontally="true" android:singleLine="true" android:inputType="text" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/applock_answer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:hint="@string/applock_hint_answer" android:scrollHorizontally="true" android:singleLine="true" android:inputType="text" style="@style/SubTitleLeft" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

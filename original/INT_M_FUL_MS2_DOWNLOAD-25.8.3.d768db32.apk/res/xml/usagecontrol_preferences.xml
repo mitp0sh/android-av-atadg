@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/kidsguard_usage_control_amoutoftime_category">
+        <CheckBoxPreference android:title="@string/kidsguard_over_control_time_checkbox_title" android:key="KIDSGUARD_CHECKBOX_OVERALL_USAGE_TIME" android:summary="@string/kidsguard_over_control_time_checkbox_summary" />
+        <EditTextPreference android:maxLength="4" android:title="@string/kidsguard_set_allowed_usage_time_title" android:key="KIDSGUARD_OVERALL_ALLOWED_USAGE_TIME" android:summary="@string/kidsguard_set_allowed_usage_time_summary" android:defaultValue="" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kidsguard_usage_control_location_category">
+        <CheckBoxPreference android:title="@string/kidsguard_usage_control__checkbox_title" android:key="KIDSGUARD_CHECKBOX_LOCATION" android:summary="@string/kidsguard_usage_control__checkbox_summary" />
+        <EditTextPreference android:maxLength="50" android:title="@string/kidsguard_usage_control_set_adress" android:key="KIDSGUARD_SET_ADRESS" android:summary="@string/kidsguard_usage_control_no_adress" android:defaultValue="@string/kidsguard_usage_control_no_adress" android:inputType="textPostalAddress" />
+        <EditTextPreference android:maxLength="2" android:title="@string/kidsguard_usage_control_radius_title" android:key="KIDSGUARD_SET_RADIUS" android:summary="0 Km Umkreis" android:defaultValue="0" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kidsguard_usage_control_scheduled_category" android:key="USAGE_CONTROL_TIMESCOPE_CAT">
+        <CheckBoxPreference android:title="@string/kidsguard_usage_control_scheduled_title" android:key="KIDSGUARD_ADD_TIMESCOPE" android:summary="@string/kidsguard_usage_control_scheduled_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

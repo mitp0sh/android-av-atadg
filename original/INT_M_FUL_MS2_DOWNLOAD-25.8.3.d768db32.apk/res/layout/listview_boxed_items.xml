@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/relativeLayoutRoot" android:background="@drawable/round_shape" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_margin="10.0dip" style="@style/ListViewLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/list_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+    <ImageView android:layout_gravity="center" android:id="@id/list_img" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:contentDescription="@string/empty_string" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft">
+        <TextView android:id="@id/list_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+        <TextView android:id="@id/list_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+        <TextView android:id="@id/list_files" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+    </LinearLayout>
+</LinearLayout>

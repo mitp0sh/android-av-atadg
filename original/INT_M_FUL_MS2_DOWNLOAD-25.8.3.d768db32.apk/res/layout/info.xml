@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:padding="0.0dip" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:id="@id/img_info_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/info" android:layout_centerHorizontal="true" android:contentDescription="@string/info_txt_cr" />
+    <TextView android:id="@id/info_txt_copyright" android:paddingLeft="4.0dip" android:text="@string/info_txt_copyright" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/DefaultText" />
+    <TextView android:id="@id/info_txt_versioninfo_name" android:layout_marginLeft="4.0dip" android:text="@string/info_txt_versioninfo_name" android:layout_toRightOf="@id/info_txt_copyright" android:layout_alignBottom="@id/info_txt_copyright" style="@style/DefaultText" />
+    <TextView android:id="@id/info_txt_versioninfo" android:layout_marginLeft="4.0dip" android:text="" android:layout_toRightOf="@id/info_txt_versioninfo_name" android:layout_alignBottom="@id/info_txt_versioninfo_name" style="@style/DefaultText" />
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/claim_lbl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/claim" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

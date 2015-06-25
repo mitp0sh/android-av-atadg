@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/privacy_detail_image" android:layout_width="96.0dip" android:layout_height="96.0dip" android:layout_marginRight="4.0dip" android:contentDescription="@string/privacy_contact_picture" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:layout_weight="1.0">
+            <TextView android:id="@id/name" style="@style/TitleBoldLeft" />
+            <View android:id="@id/privacy_details_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+            <TextView android:id="@id/privacy_details_type" android:layout_marginBottom="@dimen/appTitleMarginBottom" style="@style/SubTitleLeft" />
+            <TextView android:id="@id/privacy_details_phone" style="@style/SubTitleLeft" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/privacy_details_settings_title" android:text="@string/MainGuiGridAdapter_settings" style="@style/TitleBoldLeft" />
+    <View android:id="@id/privacy_details_settings_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/privacy_details" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/privacy_suppres_communication" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+        <CheckBox android:id="@id/privacy_block_calls" android:layout_width="@dimen/toggleWidth" android:layout_height="@dimen/toggleHeight" android:button="@drawable/toggle" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/hide_contact_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/privacy_hide_contacts" android:layout_weight="1.0" style="@style/SubTitleLeft" />
+        <CheckBox android:id="@id/privacy_hide_contact" android:layout_width="@dimen/toggleWidth" android:layout_height="@dimen/toggleHeight" android:button="@drawable/toggle" />
+    </LinearLayout>
+</LinearLayout>

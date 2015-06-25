@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/navigation_refresh" android:id="@id/mainmenu_update" android:title="@string/MainGuiGridAdapter_update" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/action_settings" android:id="@id/mainmenu_settings" android:title="@string/menu_settings" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/action_about" android:id="@id/mainmenu_debug_options" android:title="Debug options" android:showAsAction="ifRoom" />
+</menu>

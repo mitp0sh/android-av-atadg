@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">A megtisztítás sikeres volt.</string>
+    <string name="AppFix_subtitle">A rendszere fertőzött. A kártevő eltávolításához válassza azt ki, majd hagyja jóvá az eltávolítást a következő párbeszéd során.</string>
+    <string name="AppFix_subtitle_pup">Lehetséges, hogy az Ön eszközén kéretlen alkalmazás található. Az eltávolításhoz kérjük, hogy válassza ki a megfelelő bejegyzést, majd hagjya jóvá az eltávolítást.</string>
+    <string name="AppFix_subtitle_sideLoaded">A fájl, amit telepíteni szeretne fertőzött. A eltávolításához válassza ki a kártevőt, majd hagyja jóvá az eltávolítást a következő párbeszéd során.</string>
+    <string name="AppFix_title">Megtisztítás</string>
+    <string name="AppFix_title_pup">Kéretlen szoftver</string>
+    <string name="AppScan_Malware_found_with_Name">Kártevő található:</string>
+    <string name="AppScan_amount_was_scanned">Az alkalmazások átvizsgálásra kerültek.</string>
+    <string name="MainGuiGridAdapter_permissions">Engedélyek</string>
+    <string name="MainGuiGridAdapter_protocolls">Naplók</string>
+    <string name="MainGuiGridAdapter_scan">Víruskeresés</string>
+    <string name="MainGuiGridAdapter_settings">Beállítások</string>
+    <string name="MainGuiGridAdapter_update">Frissítés</string>
+    <string name="PacketViewerGui_name_not_found">HIBA</string>
+    <string name="PacketViewerGui_version">Verzió</string>
+    <string name="PermissionUsage_subtitle">Megmutatja, hogy milyen engedélyek milyen gyakran kerülnek használatra.</string>
+    <string name="PermissionUsage_title">Engedélyek</string>
+    <string name="ProgressDialog_while_loading_Permissions">Engedélyek ellenőrzése. Kérjük, várjon…</string>
+    <string name="ProtocolViewerXml_empty_list">Nincs elérhető naplófájl.</string>
+    <string name="ProtocolViewerXml_motd">Naplók</string>
+    <string name="ScanGui_finished_dialog_abort_button">Mégsem</string>
+    <string name="ScanGui_finished_dialog_clean">"A víruskeresés sikeresen befejeződött.
+Nem találtunk kártevőt."</string>
+    <string name="ScanGui_finished_dialog_fix_button">Megtisztítás</string>
+    <string name="ScanGui_finished_dialog_infected">"A víruskeresés befejeződött.
+
+FIGYELEM! KÁRTEVŐT TALÁLTUNK!"</string>
+    <string name="ScanGui_finished_dialog_ok_button">OK</string>
+    <string name="ScanGui_finished_dialog_warning">"A víruskeresés befejeződött.
+Problémák léptek fel."</string>
+    <string name="ScanGui_finished_title">Víruskeresés</string>
+    <string name="ScanGui_menu_applications">Alkalmazások</string>
+    <string name="ScanGui_progressdialog_abort_button">Mégsem</string>
+    <string name="ScanGui_progressdialog_title">Rendszer átvizsgálása</string>
+    <string name="ScanGui_report_fiels_infected">"A víruskeresés befejeződött.
+
+FIGYELEM! KÁRTEVŐT TALÁLTUNK!"</string>
+    <string name="ScanGui_report_fiels_ok">"A víruskeresés sikeresen befejeződött.
+Nem találtunk kártevőt."</string>
+    <string name="Scan_scan_button">Start</string>
+    <string name="Scan_spinner_msg">Válassza ki a víruskeresés típusát.</string>
+    <string name="Scan_subtitle">A víruskeresés indításához válassza ki a víruskeresés típusát, majd hagyja jóvá az Indítás gombbal.</string>
+    <string name="Scan_title">Rendszer átvizsgálása</string>
+    <string name="abc_action_bar_home_description">Ugrás a főoldalra</string>
+    <string name="abc_action_bar_up_description">Felfelé mozgatás</string>
+    <string name="abc_action_menu_overflow_description">További lehetőségek</string>
+    <string name="abc_action_mode_done">Kész</string>
+    <string name="abc_activity_chooser_view_see_all">Összes megtekintése</string>
+    <string name="abc_activitychooserview_choose_application">Válasszon ki egy alkalmazást</string>
+    <string name="abc_searchview_description_clear">Lekérdezés törlése</string>
+    <string name="abc_searchview_description_query">Keresési lekérdezés</string>
+    <string name="abc_searchview_description_search">Keresés</string>
+    <string name="abc_searchview_description_submit">Lekérdezés küldése</string>
+    <string name="abc_searchview_description_voice">Hangalapú keresés</string>
+    <string name="abc_shareactionprovider_share_with">Megosztás a következővel:</string>
+    <string name="abc_shareactionprovider_share_with_application">Megosztás a következővel: %s</string>
+    <string name="ac_device_already_registered">This device is already registered.</string>
+    <string name="ac_server_error">An error occurred, please contact G DATA support</string>
+    <string name="accesibility_service">G DATA Alkalmazás Ellenőrző</string>
+    <string name="accman_bt_connectToServer">Kapcsolódás</string>
+    <string name="accman_bt_forgottenData">Elveszett adatok?</string>
+    <string name="accman_bt_registerAtServer">Regisztráció a szerveren…</string>
+    <string name="accman_check">Frissítések keresése…</string>
+    <string name="accman_check_license">Licenc ellenőrzése…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">Lehetséges, hogy szeretné megtekinteni új termékünket:</string>
+    <string name="accman_fixed_content_3">G DATA ##app_name##</string>
+    <string name="accman_fixed_content_4">Számos további funkciót telepítettünk, hogy még biztonságosabbá tegyük a készülékét.</string>
+    <string name="accman_fixed_content_5">Látogassa meg az oldalunkat a Google Play áruházban további információért</string>
+    <string name="accman_inapp_text">"A készülék többé nem védett a legújabb fenyegetésekkel szemben.
+Hosszabbítsa meg a licencét most. A készülék azonnal védett lesz"</string>
+    <string name="accman_inapp_title">A ##app_name## licence lejárt!</string>
+    <string name="accman_inapp_txt_subs_month">Hónap</string>
+    <string name="accman_inapp_txt_subs_year">Év</string>
+    <string name="accman_inapp_txt_subtitle">"
+Letöltés …"</string>
+    <string name="accman_inapp_txt_subtitle_subs">Elérhető előfizetések</string>
+    <string name="accman_ipx_bottom_nav_about_text">Névjegy</string>
+    <string name="accman_ipx_bottom_nav_agb_text">AGB</string>
+    <string name="accman_ipx_bottom_nav_contact_text">Kapcsolat</string>
+    <string name="accman_ipx_bottom_nav_faq_text">GYÍK</string>
+    <string name="accman_ipx_bottom_nav_sub_text">Előfizetés kezelése</string>
+    <string name="accman_ipx_confirm">JÓVÁHAGYÁS</string>
+    <string name="accman_ipx_confirm_dialog_text">A ##app_name## értesíteni fogja, ha a vásárlási folyamat lezárult a háttérben, és a fiók aktiválásra került.</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">Előfizetés vásárlásával hozzáférést nyer a prémium funkciókhoz és a rendszeres frissítésekhez.</string>
+    <string name="accman_ipx_infoscreen_title_text">Előfizetés ára 1,99€/Hónap</string>
+    <string name="accman_ipx_progress_dialog_text">A megrendelés feldolgozás alatt…</string>
+    <string name="accman_ipx_purchase">VÁSÁRLÁS</string>
+    <string name="accman_perform_connect">Kapcsolódás a szerverhez…</string>
+    <string name="accman_pre_bt_ok">Tovább</string>
+    <string name="accman_pre_ipx_radio_gdata">G DATA weboldal</string>
+    <string name="accman_pre_ipx_radio_gemalto">Telefonszáma</string>
+    <string name="accman_pre_ipx_radio_register">Regisztráció/aktiválás</string>
+    <string name="accman_pre_ipx_text_gdata">Vásárlás a G DATA weboldalán</string>
+    <string name="accman_pre_ipx_text_gemalto">Számlázás a telefonszámlával</string>
+    <string name="accman_pre_ipx_text_register">Regisztráció/aktiválás</string>
+    <string name="accman_pre_ipx_title">Vásárlás</string>
+    <string name="accman_pre_radio_activate">Regisztráció</string>
+    <string name="accman_pre_radio_activate_long">Új vásárló vagyok, és szeretnék regisztrálni a G Data frissítőszerverén.</string>
+    <string name="accman_pre_radio_enter">Hozzáférési adatok megadása</string>
+    <string name="accman_pre_radio_enter_long">A már meglévő G Data felhasználónevemmel és jelszavammal szeretnék belépni.</string>
+    <string name="accman_pre_tab_activate">Aktiválás</string>
+    <string name="accman_pre_txt_choose">A frissítések aktiválásához adja meg a hozzáférési adatait (felhasználónév és jelszó) a G Data frissítőszerverhez. Ha még nincs felhasználóneve és jelszava, kérjük, hogy használja a vásárláskor kapott licenckulcsot, és regisztráljon a G Data frissítőszerverén.</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">Frissítések aktiválása</string>
+    <string name="accman_red_bt_buy">Vásárlás most</string>
+    <string name="accman_red_txt_city">Település:*</string>
+    <string name="accman_red_txt_country">Ország:*</string>
+    <string name="accman_red_txt_firstname">Vezetéknév:*</string>
+    <string name="accman_red_txt_fooder">Ha az információk nem teljesek, a G DATA fenntartja jogát arra, hogy értesítés nélkül blokkolja a hozzáférést a program frissítéseihez. A * jellel ellátott mezőket kötelező kitölteni.</string>
+    <string name="accman_red_txt_mail">E-Mail:*</string>
+    <string name="accman_red_txt_phone">Telefon:</string>
+    <string name="accman_red_txt_plz">Irányítószám:*</string>
+    <string name="accman_red_txt_street">Utca és házszám:*</string>
+    <string name="accman_red_txt_surname">Keresztnév:*:</string>
+    <string name="accman_red_txt_title">Megszólítás:*</string>
+    <string name="accman_register_bt_register">Belépés</string>
+    <string name="accman_register_checkbox_agb">Egyetértek azzal, hogy az általam megadott adatokat, valamint a szoftver használata közben keletkező adatokat a fejlesztő eltárolhatja és felhasználhatja arra, hogy marketing üzeneteket küldjön nekem.</string>
+    <string name="accman_register_checkbox_agb_oempartner">Egyetértek azzal, hogy az általam megadott adatokat, valamint a szoftver használata közben keletkező adatokat a fejlesztő eltárolhatja és megoszthatja oem_partner_company partnerével, hogy promóciós ajánlatokat küldjön nekem.</string>
+    <string name="accman_register_progress">Regisztrációs adatok átvitele…</string>
+    <string name="accman_register_purchase_link_text">Nincs licenckulcs?</string>
+    <string name="accman_register_purchase_proceed_link_text">Licenc beszerzése…</string>
+    <string name="accman_register_txt_email">E-Mail:</string>
+    <string name="accman_register_txt_forename">Vezetéknév:</string>
+    <string name="accman_register_txt_header">Rendelés</string>
+    <string name="accman_register_txt_merchant">Kereskedő száma (opcionális)</string>
+    <string name="accman_register_txt_mobile">Telefonszám:</string>
+    <string name="accman_register_txt_regnum">Licenckulcs:</string>
+    <string name="accman_register_txt_subtitle">Kérjük, adja meg a licenckulcsát és az adatait. A frissítések letöltéséhez szükséges hozzáférési adatok automatikusan be fognak kerülni ##app_name## alkalmazásba, és elküldésre kerülnek az e-mail címére is.</string>
+    <string name="accman_register_txt_surename">Név:</string>
+    <string name="accman_register_txt_title">Regisztráció a frissítések letöltéséhez</string>
+    <string name="accman_txt_password">Jelszó:</string>
+    <string name="accman_txt_subtitle">Amikor először regisztrálja a ##app_name## alkalmazást, kérjük válassza a \"Regisztráció a szerveren…\" lehetőséget. Ha már felhasználta a licenckulcsát, és megkapta a hozzáférési adatait a frissítések letöltéséhez, adja meg ezeket a \"Felhasználónév\" és \"jelszó\" alatt.</string>
+    <string name="accman_txt_title">Fiók kezelése</string>
+    <string name="accman_txt_username">Felhasználó:</string>
+    <string name="accman_unlock_auth">Frissítések aktiválása…</string>
+    <string name="accman_updateinfos_bt_ok">Tovább</string>
+    <string name="accman_updateinfos_radio_activate">Frissítések aktiválása</string>
+    <string name="accman_updateinfos_radio_activate_long">Már megvásároltam a ##app_name## alkalmazást, és szeretném aktiválni a hozzáférést a frissítésekhez.</string>
+    <string name="accman_updateinfos_radio_inform">Frissítési ajánlatok megtekintése</string>
+    <string name="accman_updateinfos_radio_inform_long">A ##app_name## ingyenes, frissítések nélküli változatát telepítettem, de most szeretném letölteni a frissítéseket is.</string>
+    <string name="accman_updateinfos_txt_choose">A mobilos kártevők száma folyamatosan emelkedik. A rendszeres frissítések segítségével folyamatosan biztonságban maradhat és élvezheti a kártevők elleni védelmet.</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">Frissítések aktiválása</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">legalább 4 karakter</string>
+    <string name="action_center_summary">Kezelje az eszközt a Kezelőközpontban: http://ac.gdata.de</string>
+    <string name="action_portal_password">Kezelőközpont jelszava</string>
+    <string name="action_portal_register_device">Eszköz regisztrálása</string>
+    <string name="action_portal_user_name">Felhasználónév a Kezelőközponthoz</string>
+    <string name="action_settings">Beállítások</string>
+    <string name="activate_location_services">Bitte erlauben Sie den Zugriff auf den Standort, um die Funktionalität der ortsbezogenen Sperrung zu gewährleisten.</string>
+    <string name="activate_mms_connection">Távoli menedzsment engedélyezése</string>
+    <string name="activate_updates">Frissítések aktiválása</string>
+    <string name="activate_updates_info">Frissítések engedélyezése, hogy védve maradjon a jövőbeni fenyegetésekkel szemben.</string>
+    <string name="active">Aktív</string>
+    <string name="add_action">Művelet hozzáadása</string>
+    <string name="add_title_to">Hozzáadás (##to##)</string>
+    <string name="added_app_to_protection">A kiválasztott elem hozzáadva az alkalmazásvédelemhez</string>
+    <string name="admin_receiver_status_disable_warning">Ha kikapcsolja az engedélyeket, a ##app_name## nem tudja zárolni vagy törölni az elveszített készülékeket.</string>
+    <string name="admin_receiver_status_disabled">Az elveszített készüléket nem lehet zárolni vagy törölni, mivel az engedélyek ki lettek kapcsolva.</string>
+    <string name="alarm_action_title">Művelet:</string>
+    <string name="alarm_email_number">E-mail címek</string>
+    <string name="alarm_sms_number">Szám</string>
+    <string name="alarm_text_include_location">Hely elküldése</string>
+    <string name="anonym">Anonym</string>
+    <string name="antiphish_last_domain">Utolsó ellenőrzött domain:</string>
+    <string name="antiphishing_info">Web védelem</string>
+    <string name="antitheft_changed_data">Módosított adat</string>
+    <string name="antitheft_correct">Javítás</string>
+    <string name="antitheft_discard">Elvet</string>
+    <string name="antitheft_discard_or_correct">Szeretné elvetni vagy kijavítani a módosításait?</string>
+    <string name="antitheft_edit_mode">Adatok módosítása</string>
+    <string name="antitheft_email">Az SMS parancsokra érkező válaszokat erre az e-mail címre is küldje el:</string>
+    <string name="antitheft_email_long">Az SMS parancsokra adott válaszok (például a készülék helyzete) válasz SMS üzenetben lesz visszaküldve arra a készülékre, melyről a parancsot küldték. A válaszokat e-mailben is megkaphatja. Ehhez itt adja meg az e-mail címét.</string>
+    <string name="antitheft_email_subject">\##app_name## információ</string>
+    <string name="antitheft_email_test">Teszt e-mail</string>
+    <string name="antitheft_error_email">A megadott e-mail cím nem érvényes formátumban van!</string>
+    <string name="antitheft_error_enter_password">Kérjük, először adjon meg egy jelszót!</string>
+    <string name="antitheft_error_password_too_simple">Kérjük, válasszon egy másik jelszót. A jelszó, amit megadott nem biztonságos!</string>
+    <string name="antitheft_error_repeat_password">Kérjük, először adja meg még egyszer a jelszót!</string>
+    <string name="antitheft_error_repeat_phone">Kérjük, először adja meg újra a számot!</string>
+    <string name="antitheft_error_repeat_phone_wrongly">A megadott számok nem egyeznek!</string>
+    <string name="antitheft_error_repeat_wrongly">A megadott jelszavak nem egyeznek!</string>
+    <string name="antitheft_help">Súgó</string>
+    <string name="antitheft_help_intro">A kijelző megmutatja, milyen parancsokat lehet küldeni a készülékre SMS üzenetben. A válaszok arra a készülékre lesznek elküldve, melyről az SMS parancsot küldték. Ha megadott egy e-mail címet, a válaszok erre is el lesznek küldve.</string>
+    <string name="antitheft_help_locate">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;locate&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Elküldi az eszköz földrajzi helyét.</string>
+    <string name="antitheft_help_lock">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;lock&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Lezárja a képernyőt (készenlét).&amp;lt;br /&amp;gt;Ha nincs meghatározva jelszó a képernyőzárhoz, automatikusan az SMS parancsok jelszava kerül használatra.</string>
+    <string name="antitheft_help_mute">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;mute&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Lenémítja a telefont.</string>
+    <string name="antitheft_help_reset_remote_password">&amp;lt;b&amp;gt;remote password reset:&amp;lt;/b&amp;gt; &amp;lt;i&amp;gt;new password&amp;lt;/i&amp;gt; &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Az SMS parancsok jelszavának visszaállítása. A parancsot a beállított telefonszámról kell elküldeni.</string>
+    <string name="antitheft_help_ring">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;ring&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Csengőhang lejátszása. Kikapcsol, ha az alkalmazást elindítják vagy a zárat feloldják.</string>
+    <string name="antitheft_help_set_device_password">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;set device password:&amp;lt;/b&amp;gt; &amp;lt;i&amp;gt;device password&amp;lt;/i&amp;gt; &amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Képernyőzár jelszavának beállítása. Elküldheti a parancsot: &amp;lt;i&amp;gt;lock&amp;lt;/i&amp;gt; a képernyőzár aktiválásához.</string>
+    <string name="antitheft_help_title">Elveszített/Ellopott: Segítség</string>
+    <string name="antitheft_help_wipe">&amp;lt;i&amp;gt;password&amp;lt;/i&amp;gt; &amp;lt;b&amp;gt;wipe&amp;lt;/b&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;br /&amp;gt;Visszaállítja a telefont a gyári beállításokra. Minden adat törlésre kerül.</string>
+    <string name="antitheft_hint_change_password">Jelszó megváltoztatása</string>
+    <string name="antitheft_hint_email">E-mail cím</string>
+    <string name="antitheft_hint_new_password">Jelszó megadása</string>
+    <string name="antitheft_hint_phone">Telefonszám megadása</string>
+    <string name="antitheft_hint_repeat_password">Jelszó újbóli megadása</string>
+    <string name="antitheft_hint_repeat_phone">Telefonszám újbóli megadása</string>
+    <string name="antitheft_intro">Elvesztette a készüléket, vagy ellopták?</string>
+    <string name="antitheft_intro_long">"Mi történik akkor, ha a készülékét elveszíti vagy ellopják?
+Ebben az esetben egy SMS küldésével végrehajthat egy műveletet az eszközön. Bemérheti a készülék helyzetét, vagy törölhet róla minden személyes adatot, hogy azok ne kerüljenek rossz kezekbe."</string>
+    <string name="antitheft_intro_title">Elvesztett/Ellopott</string>
+    <string name="antitheft_mac_unknown">ismeretlen</string>
+    <string name="antitheft_notify_sim_changed">A készülékében megváltozott a SIM kártya. Érintse meg itt, hogy regisztrálja az új SIM kártyát.</string>
+    <string name="antitheft_option_detect_sim_change">Ellenőrizze a SIM kártya cseréjét.</string>
+    <string name="antitheft_option_headset_subtitle_text">Védelem a headset csatlakozón keresztül</string>
+    <string name="antitheft_option_headset_title_text">Válassza ezt a lehetőséget, hogy egy riasztást halljon, ha a fülhallgatót kihúzzák:</string>
+    <string name="antitheft_option_locate">Eszköz megkeresése</string>
+    <string name="antitheft_option_locate_sim_change">Készülék bemérése SIM kártya cseréjekor</string>
+    <string name="antitheft_option_lock">Képernyő zárolása</string>
+    <string name="antitheft_option_lock_sim_change">Készülék zárolása SIM kártya cseréjekor</string>
+    <string name="antitheft_option_mute">Eszköz némítása</string>
+    <string name="antitheft_option_ring">Csengőhang lejátszása</string>
+    <string name="antitheft_option_set_device_password">Képernyőzár jelszavának beállítása</string>
+    <string name="antitheft_option_signal_flare">Mérje be az eszköz helyét, amikor az akkumulátor lemerül, és küldje el az adatot a beállított telefonszámra / e-mail címre.</string>
+    <string name="antitheft_option_signal_flare_text">Ha az akkumulátor lemerült vagy a készüléket kikapcsolták, már nem lehet a helyét meghatározni. Ezért javasoljuk az automatikus helymeghatározást bekapcsolni az akkumulátor merülése esetén:</string>
+    <string name="antitheft_option_wipe">Személyes adatok törlése</string>
+    <string name="antitheft_password">Küldjön SMS üzenetet a készülékre a következő jelszóval, hogy bemérje azt, vagy védje az adatait (legalább négy különböző, nem egymást követő számjegy):</string>
+    <string name="antitheft_password_long">Az SMS parancsok jelszóval védettek, így idegenek nem hajthatnak végre műveleteket a készüléken. A jelszó védi az alkalmazásokat is, így megakadályozható, hogy valaki engedély nélkül elindítson egy védett alkalmazást a készüléken.</string>
+    <string name="antitheft_phone">Elfelejtette a jelszavát? Nullázza le egy SMS segítségével a következő telefonszámról. SIM kártya cserénél egy figyelmeztető SMS lesz elküldve erre a számra.</string>
+    <string name="antitheft_phone_long">Elveszítette a készüléket, és elfelejtette az SMS parancsok jelszavát? Megadhatja egy megbízható személynek (például a házastársának) a telefonszámát. Erről a számról küldhet olyan SMS üzenetet, mellyel nulláza a jelszót.</string>
+    <string name="antitheft_progress_sending_email">E-mail küldése. Kérjük, várjon …</string>
+    <string name="antitheft_reset_command_text">Ez a parancs csak akkor hajtható végre, ha egy telefonszám be van állítva hozzá.</string>
+    <string name="antitheft_router_mac">Router MAC</string>
+    <string name="antitheft_save">Mentés</string>
+    <string name="antitheft_save_or_discard">Elmenti vagy elveti a módosításait?</string>
+    <string name="antitheft_settings">Beállítások</string>
+    <string name="antitheft_settings_intro_text">Ha elveszíti a készülékét vagy ellopják, egy SMS küldésével parancsot hajthat végre. Válassza ki, hogy milyen parancsok legyenek végrehajthatók egy SMS küldésével.</string>
+    <string name="antitheft_settings_sim_change_text">Ha a készülékét ellopják, és az elkövető egy új SIM kártyát helyez bele, többé nem lehetséges SMS parancsok küldése a készülékre. Határozza meg, hogy mi történjen, ha a SIM kártyát kicserélik.</string>
+    <string name="antitheft_settings_title">Elvesztett/Ellopott</string>
+    <string name="antitheft_settings_warning">Kérjük, először adjon meg egy jelszót.</string>
+    <string name="antitheft_sim_planedupdate_text">Kérjük, érintse meg itt, ha azt tervezi, hogy kicseréli a SIM kártyát.</string>
+    <string name="antitheft_sim_update_confirm_text">Kapcsolja ki most a készüléket, és helyezze be az új SIM kártyát. Az újraindítás után regisztráljuk a lopásvédelmi funkció számára.</string>
+    <string name="antitheft_sim_update_text">A készülékében megváltozott a SIM kártya. Kérjük, érintse meg itt, hogy befejezze a folyamatot.</string>
+    <string name="antitheft_sim_updated_text">A folyamat sikeresen lezárult.</string>
+    <string name="antitheft_tab_sim_name">Lopásvédelem</string>
+    <string name="antitheft_tab_sms_name">Engedélyezett SMS parancsok</string>
+    <string name="antitheft_test_email_body">"Tisztelt Ügyfelünk,
+
+Ön sikeresen konfigurálta e-mail címét.
+Köszönjük!
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">Az e-mailt nem lehet elküldeni. Kérjük, ellenőrizze az internetkapcsolatot és az e-mail címet.</string>
+    <string name="antitheft_test_email_success">A teszt e-mail sikeresen elküldve!</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">Eltávolítás</string>
+    <string name="antitheft_warn_receivers_text_plural">Az Elveszített/Ellopott/Priivát szféra funkciókat veszélyeztetik a következő alkalmazások: #app#.</string>
+    <string name="antitheft_warn_receivers_text_singular">Az Elveszített/Ellopott/Priivát szféra funkciókat veszélyezteti a következő alkalmazás: #app#.</string>
+    <string name="antitheft_warn_receivers_title">Nem kompatibilis alkalmazás</string>
+    <string name="antitheft_widget_label">G DATA - Fülhallgató csatlakozás widget</string>
+    <string name="app_name">Internet Security</string>
+    <string name="app_name_browser">Gyerek&amp;apos; böngésző</string>
+    <string name="app_permissions_applock">Hozzáadás az alkalmazásvédelemhez</string>
+    <string name="app_permissions_subtitle">Ez az alkalmazás az alábbi funkciókat éri el a készülékén:</string>
+    <string name="app_permissions_uninstall">Eltávolítás</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">A hozzáférési szolgáltatás lehetővé teszi a gyorsabb, biztonságos reakciót az alkalmazásvédelem számára.</string>
+    <string name="applock_accessibility_label">Hozzáférési szolgáltatás engedélyezése</string>
+    <string name="applock_changed_data">Módosított adat</string>
+    <string name="applock_checkbox_label">Alkalmazásvédelem engedélyezése</string>
+    <string name="applock_choose_email_bt">E-mail</string>
+    <string name="applock_choose_question_bt">Kérdés</string>
+    <string name="applock_choose_text">Elküldi a jelszót a beállított e-mail címre, vagy válaszol a biztonsági kérdésre?</string>
+    <string name="applock_correct">Javítás</string>
+    <string name="applock_custom_question_value">99</string>
+    <string name="applock_deactivated">Az alkalmazásvédelem kikapcsolva.</string>
+    <string name="applock_denial_disable_title">Alkalmazások blokkolása</string>
+    <string name="applock_denial_enable_title">Alkalmazások engedélyezése</string>
+    <string name="applock_denial_help_intro">Információ a blokkolt és/vagy engedélyezett alkalmazásokról: ha a ##app_name## Mobile Management Server (MMS) segítségével van beállítva, az egyedi alkalmazásokhoz való hozzáférés blokkolva lehet, ha az MMS rendszergazdája alapértelmezetten blokkolta az összes alkalmazást.</string>
+    <string name="applock_denial_help_request">Az alkalmazáshoz való hozzáférést lehet kérni a rendszergazdától a párbeszédablakban, mely megjelent az alkalmazás elindításánál. A rendszergazda fogja eldönteni, hogy engedélyezi-e az alkalmazást.</string>
+    <string name="applock_denial_info">"További információ?
+Nyomja meg itt!"</string>
+    <string name="applock_denial_no_entries">Jelenleg nincs blokkolt alkalmazás. Ha szükséges, védje az alkalmazásokat jelszó használatával.</string>
+    <string name="applock_denial_no_entries_add">Nyomja meg a + ikont a címsorban, hogy kiválassza, mely alkalmazásokat szeretné blokkolni.</string>
+    <string name="applock_denial_no_entries_deny_add_default">Nyomja meg a + ikont a címsorban, hogy kiválassza, mely alkalmazásokat szeretné engedélyezni.</string>
+    <string name="applock_denial_no_entries_deny_default">Nincsenek jóváhagyott alkalmazások.</string>
+    <string name="applock_denial_no_entries_mms">Nincsenek blokkolt alkalmazások. Ha szükséges, védje jelszóval az alkalmazásokat.</string>
+    <string name="applock_denial_no_entries_mms_deny_default">Jelenleg nincs engedélyezett alkalmazás. Ha szükséges, megkérheti a rendszergazdát egy alkalmazás engedélyezésére, amikor elindítja azt.</string>
+    <string name="applock_denial_request">Jóváhagyás kérése</string>
+    <string name="applock_denial_selection_title">Blokkolt alkalmazások</string>
+    <string name="applock_denial_selection_title_invert">Engedélyezett alkalmazások</string>
+    <string name="applock_denial_title">Blokkolt alkalmazás</string>
+    <string name="applock_denial_txt">Az alkalmazáshoz való hozzáférést az adminisztrátor blokkolta.</string>
+    <string name="applock_discard">Elvet</string>
+    <string name="applock_discard_or_correct">Szeretné elvetni vagy kijavítani a módosításait?</string>
+    <string name="applock_edit_mode">Adatok módosítása</string>
+    <string name="applock_email">Elfelejtette a jelszavát? A készülék el tudja küldeni a jelszót a következő e-mail címre:</string>
+    <string name="applock_email_body">"Tisztelt Vásárlónk,
+
+Az Ön jelszava az alkalmazásvédelemhez: #code#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="applock_email_error">Az e-mailt nem lehetett elküldeni. Kérjük, ellenőrizze az internetkapcsolatot és az e-mail címet a beállításokban.</string>
+    <string name="applock_email_long">Ha elfelejtette a jelszavát, egy e-mailt küldhet a jelszóval a készülékéről a következő e-mail címre.</string>
+    <string name="applock_email_subject">\##app_name## információ</string>
+    <string name="applock_email_success">Az e-mail elküldve!</string>
+    <string name="applock_email_test">Teszt e-mail</string>
+    <string name="applock_enter_password">Adja meg a jelszót</string>
+    <string name="applock_error_email">A megadott e-mail cím nem érvényes formátumban van!</string>
+    <string name="applock_error_enter_answer">Kérjük, először adja meg a választ a biztonsági kérdésre!</string>
+    <string name="applock_error_enter_custom_question">Kérjük, először adja meg saját biztonsági kérdését!</string>
+    <string name="applock_error_enter_email_or_question">Kérjük, adjon meg egy e-mail címet vagy biztonsági kérdést.</string>
+    <string name="applock_error_enter_password">Kérjük, először adjon meg egy jelszót!</string>
+    <string name="applock_error_no_data">Kérjük, először adja meg és mentse el az adatokat!</string>
+    <string name="applock_error_password_too_simple">Kérjük, válasszon egy másik jelszót. A jelszó, amit megadott nem biztonságos!</string>
+    <string name="applock_error_repeat_password">Kérjük, először adja meg még egyszer a jelszót!</string>
+    <string name="applock_error_repeat_phone">Kérjük, először adja meg újra a számot!</string>
+    <string name="applock_error_repeat_phone_wrongly">A megadott számok nem egyeznek!</string>
+    <string name="applock_error_repeat_wrongly">A megadott jelszavak nem egyeznek!</string>
+    <string name="applock_error_test_email">Kérjük, először futasson egy tesztet az e-mail címének használatával!</string>
+    <string name="applock_forgot_password"><small>"Elfelejtett jelszó?
+Érintse meg itt!"</small></string>
+    <string name="applock_forgot_password_title">Elfelejtett jelszó?</string>
+    <string name="applock_help">Súgó</string>
+    <string name="applock_help_delay">Indítás és feloldás után egy alkalmazás végrehajtható marad 60 másodpercig a bezárása után is, jelszó megadása nélkül. Ez csak addig igaz, amíg a képernyő bekapcsolva marad.</string>
+    <string name="applock_help_intro">"Alkalmazásvédelem megjegyzései: 
+
+Az androidos alkalmazásokat általában a Google Play áruházból telepítjük. Néhány telepítőcsomag több alkalmazást tartalmaz (például telefon és névjegyzék alkalmazások). Ezeket csak együttesen lehet védeni."</string>
+    <string name="applock_help_perm">Ha egy másik alkalmazásnak olyan engedélyre van szüksége, mely módosíthatná vagy kikapcsolhatná a ##app_name## funkcióit, javasolt az alkalmazásvédelem bekapcsolása. Ide tartoznak az olyan alkalmazások, melyek törölhetnek vagy kikapcsolhatnak más alkalmazásokat.</string>
+    <string name="applock_help_title">Alkalmazásvédelem súgója</string>
+    <string name="applock_help_uninstall">Néhány esetben az alkalmazásvédelem aktív lehet törlés közben is. Ez mindig így történik azokon a készülékeken, melyeken nincs más technikai lehetőség a ##app_name## észrevétlen letörlésének megakadályozására. A készülék adminisztrátorának aktiválása ugyanebből az okból javasolt.</string>
+    <string name="applock_hint_answer">Válasz megadása</string>
+    <string name="applock_hint_change_answer">Válasz megváltoztatása</string>
+    <string name="applock_hint_change_password">Jelszó megváltoztatása</string>
+    <string name="applock_hint_custom_question">Kérdés megadása</string>
+    <string name="applock_hint_email">E-mail megadása</string>
+    <string name="applock_hint_new_answer">Válasz megadása</string>
+    <string name="applock_hint_new_password">Jelszó megadása</string>
+    <string name="applock_hint_repeat_password">Jelszó újbóli megadása</string>
+    <string name="applock_image_description">Alkalmazás ikon</string>
+    <string name="applock_intro">Alkalmazások védelme a jogosulatlan használattal szemben.</string>
+    <string name="applock_intro_long">"Használhatja az alkalmazásvédelmet arra, hogy megakadályozza, hogy jogosulatlan személyek alkalmazásokat indítsanak el a készülékén. Az alkalmazásokat csak azután lehet elindítani, hogy a helyes jelszót megadta.
+
+Figyelmeztetés: jól jegyezze meg a jelszót. Ha elfelejti, többé nem használhatja teljes értékűen a készüléket."</string>
+    <string name="applock_off_due_to_accessibility_service">"The app protection has been disabled because G DATA's App Checker is inactive."</string>
+    <string name="applock_password">Csak akkor indítja el a védett alkalmazásokat, ha egy jelszó megadásra kerül (legalább négy különböző, nem egymást követő szám):</string>
+    <string name="applock_password_long">Adjon meg a védett alkalmazások elindításához szükséges jelszót. Ez a jelszó használt az SMS parancsokhoz is (lásd Elveszített/Ellopott).</string>
+    <string name="applock_password_title">Jelszó</string>
+    <string name="applock_progress_sending_email">E-mail küldése. Kérjük, várjon …</string>
+    <string name="applock_question">Biztonsági kérdés …</string>
+    <string name="applock_question_text">Vagy válaszolja meg a következő biztonsági kérdést:</string>
+    <string name="applock_question_text_long">Állítsa be a biztonsági kérdést is. Ha utólag helyesen válaszolja meg a kérdést, feloldhatja az alkalmazásvédelmet, és így a védett alkalmazásokat el lehet indítani a jelszó nélkül is.</string>
+    <string name="applock_resend_bt">Igen</string>
+    <string name="applock_resend_password_title">Jelszó küldése</string>
+    <string name="applock_resend_text">Elküldi a jelszót a beállított e-mail címre?</string>
+    <string name="applock_save">Mentés</string>
+    <string name="applock_save_or_discard">Elmenti vagy elveti a módosításait?</string>
+    <string name="applock_security_question_title">Biztonsági kérdés</string>
+    <string name="applock_selection_add_action">Alkalmazások hozzáadása</string>
+    <string name="applock_selection_no_entries">"Az alkalmazásvédelem megakadályozza, hogy egy jogosulatlan személy elindítson egy védett alkalmazást a készülékén.
+
+"</string>
+    <string name="applock_selection_no_entries_add">Nyomja meg a + gombot a címsorban, hogy kiválassza a védeni kívánt alkalmazásokat.</string>
+    <string name="applock_selection_no_entries_protect_add_default">Nyomja meg a + gombot a címsorban, hogy kiválassza azokat az alkalmazásokat, melyeket jelszó nélkül szeretne használni.</string>
+    <string name="applock_selection_no_entries_protect_default">"Az alkalmazásvédelem megakadályozza, hogy jogosulatlan személyek védett alkalmazásokat indítsanak el a készülékén. A jelenlegi beállításokkal minden alkalmazás alapértelmezetten védett.
+
+"</string>
+    <string name="applock_selection_remove_action">Bejegyzések eltávolítása</string>
+    <string name="applock_selection_remove_title">Bejegyzések eltávolítása</string>
+    <string name="applock_selection_select_all">Mind kijelölése</string>
+    <string name="applock_selection_settings_action">Beállítások</string>
+    <string name="applock_selection_show_disabled">Blokkolt alkalmazások</string>
+    <string name="applock_selection_show_enabled">Engedélyezett alkalmazások</string>
+    <string name="applock_selection_title">Védett alkalmazások</string>
+    <string name="applock_selection_title_invert">Nem védett alkalmazások</string>
+    <string name="applock_selector_add_action">Bejegyzések hozzáadása</string>
+    <string name="applock_selector_add_title">Válassza ki a hozzáadandó bejegyzéseket</string>
+    <string name="applock_selector_block_title">Alkalmazások blokkolása</string>
+    <string name="applock_selector_block_title_invert">Alkalmazások engedélyezése</string>
+    <string name="applock_selector_discard">Kiválasztottak elvetése</string>
+    <string name="applock_selector_no_entries">Nincs elérhető bejegyzés.</string>
+    <string name="applock_selector_select_all">Mind kijelölése</string>
+    <string name="applock_selector_tab_all">az</string>
+    <string name="applock_selector_tab_downloaded">Letöltések</string>
+    <string name="applock_selector_tab_recommended">Ajánlott</string>
+    <string name="applock_selector_tab_recommended_invert">Nem ajánlott</string>
+    <string name="applock_selector_title">Védett alkalmazások</string>
+    <string name="applock_selector_title_invert">Alkalmazásvédelem eltávolítása</string>
+    <string name="applock_settings_title">Alkalmazásvédelem beállításai</string>
+    <string name="applock_test_email_body">"Tisztelt Ügyfelünk,
+
+Ön sikeresen konfigurálta e-mail címét.
+Köszönjük!
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">Az e-mailt nem lehetett elküldeni. Kérjük, ellenőrizze az internetkapcsolatot és a megadott e-mail címet.</string>
+    <string name="applock_test_email_success">A teszt e-mail sikeresen elküldve!</string>
+    <string name="applock_txt_title">Védett alkalmazás</string>
+    <string name="applock_txt_title_invert">Védtelen alkalmazások</string>
+    <string name="applock_wait">Egy pillanat</string>
+    <string name="applock_wrong_answer">Sajnáljuk, ez nem volt helyes válasz.</string>
+    <string name="applock_wrong_password">Sajnáljuk, ez nem volt helyes jelszó.</string>
+    <string name="arp_exception_bssid_text">Állandó kivétel meghatározása</string>
+    <string name="arp_exception_cleared">A kivételek törölve</string>
+    <string name="arp_exception_info">"Több információ?
+Érintse meg itt!"</string>
+    <string name="arp_exception_text">Kivétel meghatározása a mai napra</string>
+    <string name="arp_network_dialog_text">A hálózat kategorizálása megbízhatóként</string>
+    <string name="arp_network_dialog_title">Új hálózat</string>
+    <string name="arp_options_auto_disconnect">Leválasztás a nem biztonságos WLAN hálózatról, amikor a képernyő kikapcsolva</string>
+    <string name="arp_options_bssid_analysis">Kiterjesztett ellenőrzés (BSSD ID ellenőrzése)</string>
+    <string name="arp_options_continuous_mode">Figyelés fenntartása két session között</string>
+    <string name="arp_warning_dialog_accept">Folytatás</string>
+    <string name="arp_warning_dialog_bssid_text">Ez a WLAN lehet, hogy nem biztonságos. Ez egy kiterjesztett ellenőrzés eredménye.</string>
+    <string name="arp_warning_dialog_continue">WLAN leválasztása</string>
+    <string name="arp_warning_dialog_text">Ez a WLAN hálózat lehet, hogy nem biztonságos. Ha jelenleg egy nyilvános Wi-Fi hálózathoz kapcsolódik, azt javasoljuk, hogy szakítsa meg a kapcsolatot.,</string>
+    <string name="arp_warning_dialog_title">WiFi védelem</string>
+    <string name="billing_cannot_connect_message">Nem lehet kapcsolódni a Google Playhez. A Google Play verziója elavult lehet.</string>
+    <string name="billing_cannot_connect_title">Nincs kapcsolat a Google Play áruházzal</string>
+    <string name="billing_not_supported_message">A licenc kiterjesztése nem lehetséges, mivel a Google Play szolgáltatás nem elérhető.</string>
+    <string name="billing_not_supported_title">A licenc kiterjesztése nem lehetséges</string>
+    <string name="billing_purchase_title">A licenc kiterjesztésre került</string>
+    <string name="billing_purchased_message">Köszönjük, hogy kiterjesztette a licencét. A vírusszignatúrákhoz és a szoftverfrissítésekhez való hozzáférése aktiválásra került.</string>
+    <string name="black">Fekete</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="blacklist_prompt">Wählen Sie einen Filtertyp</string>
+    <string name="block_explain">USSD Steuercodes können Ihr Mobilgerät unter Umständen schädigen. Bevor Sie einen USSD Steuercode ausführen, informieren Sie sich über seine Intention.</string>
+    <string name="block_incoming_call">Eingehende Anrufe</string>
+    <string name="block_is_blacklist">Ausgewählte Kontakte blocken</string>
+    <string name="block_is_whitelist">Nur ausgewählte Kontakte durchlassen</string>
+    <string name="block_outgoing_call">Ausgehende Anrufe</string>
+    <string name="block_sms">SMS</string>
+    <string name="blue">Kék</string>
+    <string name="bronze">Bronz</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.virusirto.hu</string>
+    <string name="browser_about_text">© 2014 G DATA Software AG</string>
+    <string name="browser_about_title">G DATA Gyermek Böngésző &lt;br/> Verzió %s</string>
+    <string name="browser_bar_hint_text">URL eingeben</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">A weboldalhoz történő hozzáférés biztonsági okok miatt blokkolva.</string>
+    <string name="browser_menu_about">Információ</string>
+    <string name="browser_menu_back">Vissza</string>
+    <string name="browser_menu_forward">Továbbítás</string>
+    <string name="browser_menu_quit">Kilépés</string>
+    <string name="browser_menu_settings">Beállítások</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">Leere Seite</string>
+    <string name="browser_preferences_rb_default_text">Default Seite (%s)</string>
+    <string name="browser_preferences_rb_specific_text">Vordefinierte Seite:</string>
+    <string name="browser_preferences_subtitle_text">Wählen Sie die Webseite aus die beim Start geöffnet werden soll.</string>
+    <string name="browser_preferences_title_text">Beim Start</string>
+    <string name="bye_team">Ihre G DATA SecurityLabs.</string>
+    <string name="bye_world">Mit besten Grüßen aus Bochum,</string>
+    <string name="call">Hívás</string>
+    <string name="call_block_info">"További információ?
+Nyomja meg itt!"</string>
+    <string name="call_block_request">Jóváhagyás kérése</string>
+    <string name="call_block_title">Blokkolt hívás</string>
+    <string name="call_block_txt">Ez a szám blokkolásra került.</string>
+    <string name="callfilter_blockings_delete">Bejegyzések törlése</string>
+    <string name="callfilter_blockings_delete_title">Válassza ki a törölni kívánt bejegyzéseket</string>
+    <string name="callfilter_blockings_no_enries">Nincs elérhető naplófájl.</string>
+    <string name="callfilter_blockings_select_all">Mind kijelölése</string>
+    <string name="callfilter_blockings_title_in">Elrejtett bejövő hívások és SMS üzenetek</string>
+    <string name="callfilter_blockings_title_out">Elrejtett kimenő hívások</string>
+    <string name="callfilter_gsc_header">Névjegy blokkolása</string>
+    <string name="callfilter_hidden_number">Ismeretlen szám</string>
+    <string name="callfilter_hidden_numbers">Ismeretlen számok</string>
+    <string name="callfilter_image_description_checkbox">Jelölőnégyzet</string>
+    <string name="callfilter_image_description_contact">Kép</string>
+    <string name="callfilter_missed_call">"Hívás ideje "</string>
+    <string name="callfilter_options_allow_unknown">Engedélyezze a rejtett hívásokat a szűrő ellenére</string>
+    <string name="callfilter_options_blacklist">A feketelistán található összes szám blokkolása</string>
+    <string name="callfilter_options_edit">Mutassa a fehérlistát vagy feketelistát</string>
+    <string name="callfilter_options_in_intro_text">"A kéretlen hívások és SMS üzenetek szűrése. Válassza ki, hogyan működjön a szűrés:
+"</string>
+    <string name="callfilter_options_log">Protokoll</string>
+    <string name="callfilter_options_no_entries">Nincs elérhető bejegyzés.</string>
+    <string name="callfilter_options_out_intro_text">"A kéretlen hívások blokkolása. Válassza ki, hogyan működjön a szűrő:
+"</string>
+    <string name="callfilter_options_phonebook">A telefonkönyvben található összes szám engedélyezése</string>
+    <string name="callfilter_options_phonebook_black">A telefonkönyvben található összes olyan szám engedélyezése, ami nincs a feketelistán</string>
+    <string name="callfilter_options_show_book">Mutassa a telefonkönyv bejegyzéseit</string>
+    <string name="callfilter_options_title">Hívás/SMS szűrő</string>
+    <string name="callfilter_options_whitelist">A fehérlistán található összes szám engedélyezése</string>
+    <string name="callfilter_selection">Lista mutatása</string>
+    <string name="callfilter_selection_add">Hozzáadás</string>
+    <string name="callfilter_selection_blacklist_no_enries">Nyomja meg a + gombot a címsorban, hogy kiválassza a blokkolni kívánt számokat.</string>
+    <string name="callfilter_selection_no_enries">A telefonkönyvből jelenleg nincsenek kiválasztva névjegyek.</string>
+    <string name="callfilter_selection_phonebook_no_enries">A telefonkönyv üres.</string>
+    <string name="callfilter_selection_remove">Bejegyzések törlése</string>
+    <string name="callfilter_selection_remove_title">Kiválasztott bejegyzések törlése</string>
+    <string name="callfilter_selection_select_all">Mind kiválasztása</string>
+    <string name="callfilter_selection_title_blacklist">Feketelista</string>
+    <string name="callfilter_selection_title_in_blacklist">A bejövő hívások és SMS üzenetek feketelistája</string>
+    <string name="callfilter_selection_title_in_whitelist">A bejövő hívások és SMS üzenetek fehérlistája</string>
+    <string name="callfilter_selection_title_out_blacklist">Kimenő hívások feketelistázása</string>
+    <string name="callfilter_selection_title_out_whitelist">Kimenő hívások fehérlistázása</string>
+    <string name="callfilter_selection_title_phonebook">Telefonkönyv</string>
+    <string name="callfilter_selection_title_phonebook_new">Minden névjegy kiválasztása</string>
+    <string name="callfilter_selection_title_whitelist">Fehérlista</string>
+    <string name="callfilter_selection_whitelist_no_enries">Nyomja meg a + gombot a címsorban, hogy kiválassza az engedélyezni kívánt számokat.</string>
+    <string name="callfilter_unknown_contact">Ismeretlen névjegy</string>
+    <string name="calllog_unknown_contact">Ismeretlen szám</string>
+    <string name="check_all">Mind kijelölése</string>
+    <string name="choose_color">Kiválasztás</string>
+    <string name="choose_scan_freq_summary">Megadja, hogy a készüléken milyen sűrűn lesz víruskeresés (napokban).</string>
+    <string name="choose_scan_freq_title">Időköz</string>
+    <string name="choose_update_region_summary">Válassza ki a legközelebbi frissítőszervert.</string>
+    <string name="choose_update_region_title">Szerver régiója</string>
+    <string name="choose_update_summary">Meghatározza, hogy milyen gyakran töltse le a frissítéseket (napokban).</string>
+    <string name="choose_update_title">Időköz</string>
+    <string name="clear_arp_exceptions_summary">A Wi-Fi védelem és a kiterjesztett ellenőrzés kivételeinek törlése</string>
+    <string name="clear_arp_exceptions_title">Kivételek törlése</string>
+    <string name="colorLabel">Color</string>
+    <string name="color_picker_default_title">Szín kiválasztása:</string>
+    <string name="color_swatch_description">Szín %1$d</string>
+    <string name="color_swatch_description_selected">%1$d szín kiválasztva</string>
+    <string name="common_android_wear_notification_needs_update_text">Egy alkalmazás az Android Wear-alkalmazás frissítését igényli.</string>
+    <string name="common_android_wear_update_text">Ez az alkalmazás nem működik, amíg nem frissíti az Android Wear-alkalmazást.</string>
+    <string name="common_android_wear_update_title">Az Android Wear frissítése</string>
+    <string name="common_google_play_services_enable_button">Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_enable_text">Az alkalmazás csak akkor fog működni, ha engedélyezi a Google Play-szolgáltatásokat.</string>
+    <string name="common_google_play_services_enable_title">Google Play-szolgáltatások aktiválása</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">A(z) %1$s kérésére</string>
+    <string name="common_google_play_services_install_button">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_install_text_phone">Az alkalmazás működéséhez a Google Play-szolgáltatások szükségesek, ezek nincsenek telepítve a telefonon.</string>
+    <string name="common_google_play_services_install_text_tablet">Az alkalmazás működéséhez a Google Play-szolgáltatások szükségesek, ezek nincsenek telepítve a táblagépen.</string>
+    <string name="common_google_play_services_install_title">Play-szolgáltatások telepítése</string>
+    <string name="common_google_play_services_invalid_account_text">A megadott fiók nem létezik ezen az eszközön. Kérjük, válasszon másik fiókot.</string>
+    <string name="common_google_play_services_invalid_account_title">Érvénytelen fiók</string>
+    <string name="common_google_play_services_needs_enabling_title">Egy alkalmazás Google Play-szolgáltatások engedélyezését kéri.</string>
+    <string name="common_google_play_services_network_error_text">A Google Play-szolgáltatásokhoz történő kapcsolódáshoz adatkapcsolat szükséges.</string>
+    <string name="common_google_play_services_network_error_title">Hálózati hiba</string>
+    <string name="common_google_play_services_notification_needs_installation_title">Egy alkalmazás Google Play-szolgáltatások telepítését kéri.</string>
+    <string name="common_google_play_services_notification_needs_update_title">Egy alkalmazás Google Play-szolgáltatások frissítését kéri.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play-szolgáltatások – hiba</string>
+    <string name="common_google_play_services_unknown_issue">Ismeretlen hiba a Google Play-szolgáltatásokban.</string>
+    <string name="common_google_play_services_unsupported_text">A Google Play-szolgáltatásokat, amelyre egyes alkalmazások támaszkodnak, nem támogatja az eszköz. Segítségért forduljon az eszköz gyártójához.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play-szolgáltatások</string>
+    <string name="common_google_play_services_update_button">Frissítés</string>
+    <string name="common_google_play_services_update_text">Az alkalmazás csak akkor fog működni, ha frissíti a Google Play-szolgáltatásokat.</string>
+    <string name="common_google_play_services_update_title">Play-szolgáltatások frissítése</string>
+    <string name="common_open_on_phone">Megnyitás a telefonon</string>
+    <string name="common_signin_button_text">Belépés</string>
+    <string name="common_signin_button_text_long">Google-bejelentkezés</string>
+    <string name="compass_privacy_warning_message">連絡先を非表示/ON の状態で G DATA Internet Security を削除した場合、非表示の連絡先が削除されます。 必ず、 G DATA Internet Security の削除前に、連絡先を非表示/OFF の状態にして下さい。</string>
+    <string name="compass_privacy_warning_title">ご注意</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">Beállítások</string>
+    <string name="configure_action_center">Regisztráció</string>
+    <string name="contact_missing">Kérjük, válasszon egy névjegyet.</string>
+    <string name="contact_selection_empty_text">Berühren Sie das +-Symbol in der Titelzeile um neue Kontakte hinzuzufügen.</string>
+    <string name="contactpicker_add">Hozzáadás</string>
+    <string name="contactpicker_calllog">Hívások története</string>
+    <string name="contactpicker_contacts">Telefonkönyv hozzáférés</string>
+    <string name="copy">Kopieren</string>
+    <string name="corporate_profile">Vállalat</string>
+    <string name="crash_report">A G DATA szoftver váratlanul leállt. Szeretné jelezni ezt a problémát a G DATA számára?</string>
+    <string name="daily">Täglich</string>
+    <string name="debug_options">Debug eszközök</string>
+    <string name="default_profile">Privát</string>
+    <string name="detailed_texts">további…</string>
+    <string name="dev_admin_applock_explanation">Az engedélyek segítenek megakadályozni a ##app_name## véletlen letörlését, és így növelik a védelmet.</string>
+    <string name="dev_admin_receiver_description">Engedély szükséges az Elveszített/Ellopott funkció használatához.</string>
+    <string name="dev_admin_receiver_explanation">Engedély szükséges az elveszített készülék zárolásához, törléséhez vagy a jelszó cseréjéhez.</string>
+    <string name="device_already_registered">Ihr Gerät ist bereits bei dem G DATA ActionCenter registriert.</string>
+    <string name="dialog_accessibility_for_lollipop">"As of Android Lollipop G DATA's App Checker needs to be enabled. Please activate the service in the system settings."</string>
+    <string name="dialog_accessibility_info_activate">Most átirányítjuk a beállításokhoz. Kérjük, ott engedélyezze a G DATA Alkalmazás Ellenőrzőt.</string>
+    <string name="dialog_accessibility_info_deactivate">Most átirányítjuk a beállításokhoz. Kérjük, ott deaktiválja a G DATA Alkalmazás Ellenőrzőt.</string>
+    <string name="dialog_apkfile_updated">A ##app_name## most frissítésre kerül!</string>
+    <string name="dialog_auth_succefull">A belépés a szerverre sikerült.</string>
+    <string name="dialog_cancel">Mégsem</string>
+    <string name="dialog_cancel_short">Mégse.</string>
+    <string name="dialog_done">Kész</string>
+    <string name="dialog_err_computerid_change_failed">A feljogosítás átvitele sikertelen volt.</string>
+    <string name="dialog_err_computerid_change_succeeded">A frissítések letöltésére feljogosító licenc áthozása sikerült.</string>
+    <string name="dialog_err_computerid_changed">Egy másik készülék van feljogosítva a frissítések letöltésére. Ennek a készüléknek nincs jogosultsága a frissítések letöltésére.</string>
+    <string name="dialog_err_computerid_changed_extern">Egy másik készülék van feljogosítva a frissítések letöltésére. Kérjük, indítson el kézzel egy frissítést, hogy a licencet áthozza erre a készülékre.</string>
+    <string name="dialog_err_data_corrupt">A frissítés sikertelen: a letöltött fájlok sérültek.</string>
+    <string name="dialog_err_database_operation">A frissítőszerver jelenleg nem elérhető. Kérjük, próbálja meg kicsit később.</string>
+    <string name="dialog_err_install_signature_update">A frissítés sikertelen: a letöltött szignatúrákat nem lehet telepíteni.</string>
+    <string name="dialog_err_invalid_customer_data">Az Ön kapcsolatai adatai nem kerültek elfogadásra. Kérjük, valódi címet adjon meg.</string>
+    <string name="dialog_err_invalid_login">A frissítés sikertelen: a hozzáférési adat nem érvényes.</string>
+    <string name="dialog_err_invalid_reg_number">A licenckulcs érvénytelen.</string>
+    <string name="dialog_err_license_fault">Egy másik készülék van feljogosítva a frissítések letöltésére. Nem lehetséges a licencet erre a készülékre áthozni. Lépjen kapcsolatba a terméktámogatással.</string>
+    <string name="dialog_err_login_deleted">A hozzáférési jogosultság időben korlátozott volt, és már lejárt.</string>
+    <string name="dialog_err_login_expired">Az Ön ##app_name## licence már nem érvényes!</string>
+    <string name="dialog_err_login_expired_extern">Az Ön ##app_name## licence már nem érvényes. Kérjük, indítsa el a frissítést kézzel, hogy több információt kapjon.</string>
+    <string name="dialog_err_mms_initial_connect_failed">A legutolsó kapcsolódási kísérlet a Management Serverhez sikertelen volt. Kérjük, lépjen kapcsolatba a rendszergazdájával.</string>
+    <string name="dialog_err_mms_missing_login_data">A frissítés sikertelen. Nincs elérhető fiók adat. Kérjük, lépjen kapcsolatba a rendszergazdájával.</string>
+    <string name="dialog_err_no_update_available">Nincs még elérhető frissítés. Ön már a legfrissebb verziót használja.</string>
+    <string name="dialog_err_not_allowed_in_this_country">A licenc egy földrajzi területhez kötött. A készülék, melyen a licencet regisztrálni próbálja, nem ezen a területen található. Lépjen kapcsolatba a terméktámogatással.</string>
+    <string name="dialog_err_open_database">A frissítőszerver jelenleg nem elérhető. Kérjük, próbálja meg kicsit később.</string>
+    <string name="dialog_err_product_already_registered">A program már regisztrálva van.</string>
+    <string name="dialog_err_request_extension">Jelenleg nincsenek akciós ajánlatok a termékéhez.</string>
+    <string name="dialog_err_single_update_already_used">Ön már minden frissítését lefuttatott. Nem lehetséges további frissítések futtatása.</string>
+    <string name="dialog_err_update_not_allowed">Nincs joga a frissítések letöltéséhez.</string>
+    <string name="dialog_error">Egy ismeretlen hiba történt (%s).</string>
+    <string name="dialog_fix">Javítás</string>
+    <string name="dialog_mobile_network_error">Nem lehet SMS kapcsolatot létesíteni. Kérjük, ellenőrizze, hogy a készülék tud-e SMS üzeneteket küldeni.</string>
+    <string name="dialog_network_error">A szervert nem lehet elérni. Kérjük, ellenőrizze a hálózati kapcsolatot.</string>
+    <string name="dialog_no">Nem</string>
+    <string name="dialog_no_auth_data_entered">Még nem adott meg hozzáférési adatot.</string>
+    <string name="dialog_no_space_available">A frissítést nem lehet futtatni. Kérjük, ellenőrizze, hogy rendelkezésre áll-e elegendő tárhely.</string>
+    <string name="dialog_not_all_data_entered">Nem minden szükséges adat került helyesen megadásra.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_periodic_scan_type_title">Víruskeresés típusa</string>
+    <string name="dialog_query_computerid_changed">Egy másik készülék van feljogosítva a frissítések letöltésére. Szeretné a licencet erre a készülékre áthozni?</string>
+    <string name="dialog_scan_freq_title">Víruskeresések gyakorisága napokban</string>
+    <string name="dialog_sigfile_updated">A szignatúrák frissítésre kerültek. A ##app_name## teljesen naprakész!</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">A frissítések gyakorisága napokban</string>
+    <string name="dialog_update_not_needed">A ##app_name## teljesen naprakész!</string>
+    <string name="dialog_update_region_title">Szerver régiója</string>
+    <string name="dialog_yes">Igen</string>
+    <string name="disabled">Ausgeschaltet</string>
+    <string name="disinfect_all">Mindegyik megtiszítása</string>
+    <string name="disinfect_all_files_mess">Minden fertőzött fájlt töröljünk?</string>
+    <string name="disinfect_all_files_title">Fájlok törlése</string>
+    <string name="disinfect_system_cleaned_mess">A rendszer megtiszítása sikeresen befejeződött.</string>
+    <string name="drawer_close">Navigáció bezárása</string>
+    <string name="drawer_open">Navigáció mengnyitása</string>
+    <string name="edit_action">Művelet szerkesztése</string>
+    <string name="edit_filter_title">Filter bearbeiten</string>
+    <string name="email_hint">E-mail cím hozzáadása…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">A készüléken rendszeres lesz a víruskeresés.</string>
+    <string name="enableTimedScan_title">Időszakosan</string>
+    <string name="enableUpdate_summary">A vírusszignatúrák frissítése a háttérben rendszeresen megtörténik.</string>
+    <string name="enableUpdate_title">Automatikus</string>
+    <string name="enable_mms_server">Távoli adminisztráció engedélyezése</string>
+    <string name="enable_mms_server_summary">Engedélyezi a készülék távoli adminisztrációját.</string>
+    <string name="enable_web_portal_key" />
+    <string name="enable_web_portal_summary">G DATA WebPortal nutzen</string>
+    <string name="enable_web_portal_title">G DATA Webportal</string>
+    <string name="filescan_calculate_files">Keresési kötet felmérése…</string>
+    <string name="filescan_deep_scan">Mélyreható vizsgálat</string>
+    <string name="filescan_delete_ask" formatted="false">Töröljük a következő fájlt: %file%?</string>
+    <string name="filescan_delete_ask_title">Fájl törlése</string>
+    <string name="filescan_delete_error">Nem lehet törölni a fájlt az eszköz beállítása miatt. Próbálja meg egy számítógéphez csatlakoztatni és úgy törölni a fájltfile.</string>
+    <string name="filescan_delete_error_title">Hiba</string>
+    <string name="filescan_end_scan">A kártevők keresése befejeződött.</string>
+    <string name="filescan_files_clean">Tiszta fájlok,</string>
+    <string name="filescan_files_scanned">Átvizsgált fájlok:</string>
+    <string name="filescan_files_skipped">Átugrott fájlok.</string>
+    <string name="filescan_initial_message">Víruskeresés indítása…</string>
+    <string name="filescan_scan_status">Fájl átvizsgálása:</string>
+    <string name="filescan_start_deep_scan">Mélyreható vizsgálat lefolytatása</string>
+    <string name="filescan_start_scan">Víruskeresés betöltése…</string>
+    <string name="filescan_timeframe_a">A keresés időtartama</string>
+    <string name="filescan_timeframe_b">perc</string>
+    <string name="filter_activating_colliding_error">Ütközés esetén aktívak maradjanak a szűrők, vagy ez maradjon inaktív?</string>
+    <string name="filter_activating_colliding_error_disable">Kikapcsolás</string>
+    <string name="filter_activating_colliding_error_header">Logikai ütközés</string>
+    <string name="filter_incompatiblity">Az SMS-szűrő már nem támogatott az Android 4.4 vagy későbbi Android változatokban.</string>
+    <string name="filter_selection_no_entries">"Ez az alkalmazás lehetővé teszi különböző szűrők használatát, hogy névjegyek csoportjait blokkolja vagy engedélyezze a hét meghatározott napjain és meghatározott időszakokban. 
+
+"</string>
+    <string name="filter_selection_no_entries_add">Touch the + icon in the title bar to create new filters.</string>
+    <string name="filter_selection_title">Névjegyek</string>
+    <string name="fitler_fragment_title">SMS/Hívásszűrő</string>
+    <string name="form_error_filter_type">Kérjük, válasszon legalább egy szűrő típust.</string>
+    <string name="form_error_invalid_adress">Érvénytelen cím</string>
+    <string name="form_error_invalid_date">A kiválasztott dátum érvénytelen.</string>
+    <string name="form_error_invalid_merchant_number">Kérjük, adjon meg érvényes kereskedői számot.</string>
+    <string name="form_error_invalid_missing_adress">Kérjük, adjon meg egy címet.</string>
+    <string name="form_error_invalid_missing_email">Kérjük, adjon meg egy érvényes e-mail címet.</string>
+    <string name="form_error_invalid_missing_firstname">Kérjük, adja meg keresztnevét.</string>
+    <string name="form_error_invalid_missing_lastname">Kérjük, adja meg vezetéknevét.</string>
+    <string name="form_error_invalid_missing_name">Kérjük, válasszon egy névjegyet a találkozóhoz.</string>
+    <string name="form_error_invalid_missing_radius">Kérjük, adja meg a kívánt körzetet.</string>
+    <string name="form_error_invalid_time">Érvénytelen idő</string>
+    <string name="form_error_no_service">A szolgáltatás nem elérhető.</string>
+    <string name="form_error_select_a_day">Bitte wählen Sie mindestens einen Wochentag aus, an dem der Filter aktiv sein soll.</string>
+    <string name="freemium_not_allowed">"Ezek a funkciók nem elérhetőek az ingyenes verzióban.
+
+Szeretne megtekinteni egy ajánlatot a teljes prémium verzió megvásárlására?"</string>
+    <string name="freemium_not_allowed_cancel">Nem, köszönöm</string>
+    <string name="freemium_not_allowed_ok">Ajánlat mutatása</string>
+    <string name="friday">Fr</string>
+    <string name="fullday">Ganztägig</string>
+    <string name="gdata_install_text">A ##app_name## ellenőrzi, hogy a telepítésre kerülő alkalmazások tartalmaznak-e kártevőt</string>
+    <string name="gdata_install_ticker">A G DATA védelem aktív</string>
+    <string name="gold">Arany</string>
+    <string name="green">Zöld</string>
+    <string name="grey">Szürke</string>
+    <string name="hello_blank_fragment">Hello üres töredék</string>
+    <string name="hello_world">A telefon manipulálására irányuló USSD parancs blokkolásra került.</string>
+    <string name="hello_world_clean">A vizsgált URL nem egy USSD parancs, így USSD kockázat nélkül felhívható.</string>
+    <string name="hello_world_empty">Az USSD parancsok manipulációjának megakadályozása érdekében válassza ezt az alkalmazást, amikor a lenti párbeszédablak megjelenik.</string>
+    <string name="hide_contact">Az Android 4.4 és későbbi verziókban az SMS üzenetek nem kerülnek elrejtésre. Más biztonsági beállítások alkalmazásra kerülnek.</string>
+    <string name="hide_dialog">Ne mutassa újra</string>
+    <string name="hint">Megjegyzés</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">további információ</string>
+    <string name="incblack">Bejövő</string>
+    <string name="incwhite">Bejövő</string>
+    <string name="info_txt_copyright">© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">Verzió</string>
+    <string name="isincomingtext">Bejövő</string>
+    <string name="isoutgoingtext">Kimenő</string>
+    <string name="issmstext">Bejövő SMS</string>
+    <string name="kidsbrowser_enabled_summary">A Gyerek Böngésző be- és kikapcsolása</string>
+    <string name="kidsbrowser_enabled_title">A Gyerek Böngésző bekapcsolva</string>
+    <string name="kidsguard_airplane_mode_summary">Repülési üzemmód aktiválása (nem az újabb készülékeken)</string>
+    <string name="kidsguard_airplane_mode_title">Repülési üzemmód engedélyezése</string>
+    <string name="kidsguard_allow_emergency_calls_summary">A telefon alkalmazás segélyhívásokat indíthat. Minden más szám blokkolásra kerül.</string>
+    <string name="kidsguard_allow_emergency_calls_title">Segélyhívások engedélyezése</string>
+    <string name="kidsguard_app_background_preference_summary">Alkalmazásikonok háttere</string>
+    <string name="kidsguard_app_background_preference_title">Háttér</string>
+    <string name="kidsguard_app_background_size_preference_summary">Alkalmazásikonok mérete a háttéren</string>
+    <string name="kidsguard_app_background_size_preference_title">Háttér méere</string>
+    <string name="kidsguard_app_grid">Alkalmazások elrendezése</string>
+    <string name="kidsguard_app_icon">Alkalmazások ikonjai</string>
+    <string name="kidsguard_app_icon_size_preference_summary">Alkalmazásikonok mérete</string>
+    <string name="kidsguard_app_icon_size_preference_title">Ikonméret</string>
+    <string name="kidsguard_app_label">Alkalmazások címkéi</string>
+    <string name="kidsguard_app_label_color_summary">Alkalmazások nevének színe</string>
+    <string name="kidsguard_app_label_color_title">Szöveg színe</string>
+    <string name="kidsguard_app_textsize_summary">Alkalmazások nevének szövegmérete</string>
+    <string name="kidsguard_app_textsize_title">Szövegméret</string>
+    <string name="kidsguard_applock_configuration">Kérjük, először állítsa be az alkalmazásvédelmet</string>
+    <string name="kidsguard_applock_denial_message">Az alkalmazáshoz történő hozzáférést a biztonsága érdekében blokkoltuk.</string>
+    <string name="kidsguard_applock_denial_message_appname">A(z) %s történő hozzáférést a biztonsága érdekében blokkoltuk.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">A szám kiválasztását a biztonsága érdekében blokkoltuk.</string>
+    <string name="kidsguard_applock_denial_title">Az alkalmazás blokkolva</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"A(z) %s alkalmazást lehet, hogy csak holnap lehet újra elindítani. 
+A szülők az ikonok nyomva tartásával engedélyezhetik a használatot."</string>
+    <string name="kidsguard_back_exit">Nyomja meg a &lt;i>Vissza&lt;/i> gombot a beállításból történő kilépéshez.</string>
+    <string name="kidsguard_background_balloon">Léggömb</string>
+    <string name="kidsguard_background_bubble">Buborékok</string>
+    <string name="kidsguard_background_glass">Üveg</string>
+    <string name="kidsguard_background_heart">Szív</string>
+    <string name="kidsguard_background_none">Nincs háttér</string>
+    <string name="kidsguard_background_sphere">Gömb</string>
+    <string name="kidsguard_block_incoming_calls_summary">A bejövő hívások blokkolva. A kimenő hívások engedélyezettek, amíg a telefonalkalmazás engedélyezett.</string>
+    <string name="kidsguard_block_incoming_calls_title">Bejövő hívások blokkolása</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">Feketelista beállítása…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">Fehérlista beállítása…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">Állítsa be a weboldalakat, melyeket szeretne elérni vagy blokkolni, és adja őket a fehér- vagy a feketelistához.</string>
+    <string name="kidsguard_browser_configure_urls_title_text">Webseiten</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">Cím</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">URL hozzáadása</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">URL szerkesztése</string>
+    <string name="kidsguard_browser_listview_no_entries_add">Press the + icon in the title bar to add the URLs to the relevant list.</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">Feketelista</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">Fehérlista</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">Feketelista</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">Fehérlista</string>
+    <string name="kidsguard_email_body">"Tisztelt Vásárlónk,
+
+A szülői felügyelethez szükséges jelszó: #code#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">Adja meg a jelszót</string>
+    <string name="kidsguard_extend_time_subtitle">Egyszeri bővítménye a következőnek:</string>
+    <string name="kidsguard_extend_time_title">Kiterjesztés időszaka:</string>
+    <string name="kidsguard_fix_volume_keys_summary">A hangerő módosítása azonnal visszaállításra kerül.</string>
+    <string name="kidsguard_fix_volume_keys_title">Hangerő állítása</string>
+    <string name="kidsguard_forgot_password"><small>"Elfelejtett jelszó?
+Érintse meg itt!"</small></string>
+    <string name="kidsguard_home_hint">In the</string>
+    <string name="kidsguard_home_hint_title">Szülői felügyelet bekapcsolása</string>
+    <string name="kidsguard_label_color_black">Fekete</string>
+    <string name="kidsguard_label_color_white">Fehér</string>
+    <string name="kidsguard_label_none">Nincs címke</string>
+    <string name="kidsguard_leave">Kilépés</string>
+    <string name="kidsguard_leave_title">Kilépés a szülői felügyeletből</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">A készülék használatára vonatkozó időalapú korlátozás engedélyezése</string>
+    <string name="kidsguard_over_control_time_checkbox_title">Aktiválás</string>
+    <string name="kidsguard_parents_options">Gyermeksarok beállításai</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">Ikonsorok száma tájképnézet esetén</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">Sorok száma tájképnézet esetén</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">Ikonoszlopok száma tájképnézet esetén</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">Oszlopok száma tájképnézet esetén</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">Ikonsorok száma portrénézet esetén</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">Sorok száma portrénézet esetén</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">Ikonoszlopok száma portrénézet esetén</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">Oszlopok száma portrénézet esetén</string>
+    <string name="kidsguard_reset_time_limit_summary">A készülék használatára és az alvó állapotra vonatkozó korlátozások nullázása</string>
+    <string name="kidsguard_reset_time_limit_title">Időalapú korlátozások nullázása</string>
+    <string name="kidsguard_reset_time_limit_toast_text">Az időalapú korlátozás sikeresen nullázva, az alvó üzemmód kikapcsolva</string>
+    <string name="kidsguard_reset_usage_time_summary">A készülék használati idejének nullázása</string>
+    <string name="kidsguard_reset_usage_time_title">Az eddig felhasznált idő nullázása</string>
+    <string name="kidsguard_reset_usage_time_toast_text">A készülék korábbi használati ideje sikeresen lenullázva.</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">Egyéni lista</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">Válasszon ki egy listát a weboldalak korlátozásának beállításához.</string>
+    <string name="kidsguard_select_browser_mode_title_text">Böngésző beállításai</string>
+    <string name="kidsguard_set_allowed_usage_time_header">Időlimit az eszköz használatához</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">Időkorlát beállítása a készülék használatához</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">Perc</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">Perc</string>
+    <string name="kidsguard_set_allowed_usage_time_title">Időkorlát beállítása</string>
+    <string name="kidsguard_settings">Szülői felügyelet beállítása</string>
+    <string name="kidsguard_show_usage_time_expired_text">Használat ideje: lejárt</string>
+    <string name="kidsguard_show_usage_time_remaining_text">Maradék idő: %1$s perc</string>
+    <string name="kidsguard_show_usage_time_text">Használati idő: %1$s perc (lejárat: %2$s)</string>
+    <string name="kidsguard_subtitle">"Védje gyermekét az illetlen tartalomtól. Válasszon a két mód közül.
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"Kérjük, először állítsa be az alkalmazásvédelmet. A szülői felügyelet ugyanazt a jelszót fogja használni. Az alkalmazásvédelem aktiválására nincs szükség.
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"A tinisarok jelenleg aktív.
+"</string>
+    <string name="kidsguard_teenager">Tinisarok</string>
+    <string name="kidsguard_teenager_configuration">Tinisarok beállítása</string>
+    <string name="kidsguard_teenager_deactivated">Kilépett a tinisarokból</string>
+    <string name="kidsguard_teenager_description">Védett terület néhány alapvető G Data funkcióhoz való hozzáféréssel</string>
+    <string name="kidsguard_title">Szülői felügyelet</string>
+    <string name="kidsguard_toddler">Gyermeksarok</string>
+    <string name="kidsguard_toddler_configuration">Gyermeksarok beállítása</string>
+    <string name="kidsguard_toddler_deactivated">Kilépett a gyermeksarokból</string>
+    <string name="kidsguard_toddler_description">Szabályozott terület gyermekbarát főoldali képernyővel</string>
+    <string name="kidsguard_usage_control__checkbox_summary">A készülék csak a megadott helyen, a beállított távolságon belül használható.</string>
+    <string name="kidsguard_usage_control__checkbox_title">Aktiválás</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">Aktuális:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">Perc</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">Időkorlátozás</string>
+    <string name="kidsguard_usage_control_current">Aktuális:</string>
+    <string name="kidsguard_usage_control_invalid_adress">A cím érvénytelen.</string>
+    <string name="kidsguard_usage_control_kilometer">km</string>
+    <string name="kidsguard_usage_control_location_category">Helyhez kötött korlátozás</string>
+    <string name="kidsguard_usage_control_no_adress">Nincs cím megadva</string>
+    <string name="kidsguard_usage_control_radius_title">Állítsa be a sugarat kilométerben</string>
+    <string name="kidsguard_usage_control_scheduled_category">Heti ütemezés</string>
+    <string name="kidsguard_usage_control_scheduled_summary">Állítson be egy időszakot minden hétköznapra, amikor a készülék használata engedélyezett.</string>
+    <string name="kidsguard_usage_control_scheduled_title">Terv</string>
+    <string name="kidsguard_usage_control_set_adress">Cím megadása</string>
+    <string name="kidsguard_usage_control_summary">Az időalapú vagy helyhez kötött használat korlátozásának beállításai</string>
+    <string name="kidsguard_usage_control_title">Beállítások</string>
+    <string name="kidsguard_usage_control_weekly_category">Heti áttekintés</string>
+    <string name="kidsguard_usage_time_device_admin_text">Engedély szükséges a készülék blokkolásához és anak garantálásához, hogy az alvó állapot helyesen működik.</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">Az egy napra engedélyezett használati idő lejárt. A készülék most blokkolva van.</string>
+    <string name="kidsguard_usagecontrol_toddler">Korlátozások</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">Használati idő beállítása</string>
+    <string name="kidsguard_usagecontrol_toddler_description">Csak meghatározott időszakok vagy helyszínek esetén engedi a készülék használatát</string>
+    <string name="kidsguard_wallpaper">Háttér</string>
+    <string name="kidsguard_wifi_off_summary">Leválasztás minden hálózatról és a Wi-Fi kikapcsolása</string>
+    <string name="kidsguard_wifi_off_title">Wi-Fi kikapcsolása</string>
+    <string name="lightblue">Világoskék</string>
+    <string name="lightgrey">Világosszürke</string>
+    <string name="localisation_service">Helyfelderítési szolgáltatás</string>
+    <string name="locationlock_add_title">Új korlátozás hozzáadása</string>
+    <string name="locationlock_add_title_edit">Korlátozás szerkesztése</string>
+    <string name="locationlock_selection_title">Korlátozások</string>
+    <string name="locationpicker_add">Hely beállítása</string>
+    <string name="lockedlocations_selection_no_entries">"Ez az alkalmazás lehetővé teszi a készülék blokkolását a megadott helyekhez kötődően, a megadott hétköznapokon és a megadott időkben. 
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">Érintse meg a + ikont a címsorban új korlátozások megadásához.</string>
+    <string name="lockscreen_part_disabled_services" />
+    <string name="lockscreen_part_five" />
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">A korlátozás miatt az eszköz lezárva:</string>
+    <string name="lockscreen_part_six" />
+    <string name="lockscreen_part_two" />
+    <string name="log_blocked_app">Blokkolt alkalmazás elindítva:</string>
+    <string name="log_clar_caption">Naplók</string>
+    <string name="log_clear_logs">Törlés</string>
+    <string name="log_confirm_clear_logs">Törölni szeretné az összes naplófájlt?</string>
+    <string name="log_detail_title">Protokoll</string>
+    <string name="log_dont_clear_logs">Mégsem</string>
+    <string name="log_hashcode_block_app">Az alkalmazás blokkolva, mert az aláírása eltérő:</string>
+    <string name="log_hashcode_mismatch">Eltérő aláírás:</string>
+    <string name="log_incoming_call_blocked">Bejövő hívás elrejtve:</string>
+    <string name="log_locked_app">Védett alkalmazás elindítva:</string>
+    <string name="log_oninstall_app" formatted="false">Alkalmazás: %app%</string>
+    <string name="log_oninstall_malware_found">Kártevőt talált</string>
+    <string name="log_oninstall_malware_name" formatted="false">Fertőzés: %name%</string>
+    <string name="log_oninstall_package_name" formatted="false">Telepítőcsomag: %package%</string>
+    <string name="log_oninstall_pup_found">Lehetséges kéretlen alkalmazás található</string>
+    <string name="log_outgoing_call_blocked">Kimenő hívás elrejtve:</string>
+    <string name="log_phishing_site_found">Adathalász oldal található:</string>
+    <string name="log_scan_app_scan_title">Alkalmazás vizsgálat:</string>
+    <string name="log_scan_apps_scanned" formatted="false">%cnt% telepített alkalmazás átvizsgálva</string>
+    <string name="log_scan_duration" formatted="false">Keresés időtartama: %time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt% fájl átvizsgálva</string>
+    <string name="log_scan_infection_found" formatted="false">%cnt% fertőzés található</string>
+    <string name="log_scan_infections_found" formatted="false">%cnt% fertőzés található</string>
+    <string name="log_scan_malware_found_title">Kártevőt talált</string>
+    <string name="log_scan_nothing_found_title">nem található kártevő</string>
+    <string name="log_scan_pup_found" formatted="false">%cnt% lehetséges kéretlen alkalmazás található</string>
+    <string name="log_scan_pup_found_title">lehetséges, hogy kéretlen alkalmazás található</string>
+    <string name="log_scan_pups_found" formatted="false">%cnt% lehetséges kéretlen alkalmazás található</string>
+    <string name="log_scan_sig_date" formatted="false">Szignatúrák: %date%</string>
+    <string name="log_scan_system_scan_title">Rendszer vizsgálata:</string>
+    <string name="log_sigfile_updated">A szignatúrák frissítésre kerültek.</string>
+    <string name="main_activation_state">Állapot:</string>
+    <string name="main_antiphish_checked_none">nincs</string>
+    <string name="main_apps_denials_all">Minden alkalmazás blokkolva</string>
+    <string name="main_apps_denials_hdr">Blokkolt alkalmazások</string>
+    <string name="main_apps_denials_hdr_invert">Engedélyezett alkalmazások</string>
+    <string name="main_apps_denials_none">Nincs blokkolt alkalmazás</string>
+    <string name="main_apps_locked_all">Minden alkalmazás védett</string>
+    <string name="main_apps_locked_hdr">Védett alkalmazások</string>
+    <string name="main_apps_locked_hdr_invert">Nem védett alkalmazások</string>
+    <string name="main_apps_locked_none">nincs védett alkalmazás</string>
+    <string name="main_calls_blocked_multiple">%d hívás/SMS elrejtve</string>
+    <string name="main_calls_blocked_singular">1 hívás/SMS elrejtve</string>
+    <string name="main_calls_filtered_hdr">Elrejtett hívások:</string>
+    <string name="main_calls_filtered_none">nincs</string>
+    <string name="main_contacts_filtered_none">nincs</string>
+    <string name="main_contacts_hidden_count">%d névjegy elrejtve</string>
+    <string name="main_contacts_hidden_count_singular">1 névjegy elrejtve</string>
+    <string name="main_contacts_hidden_hdr">védett névjegyek:</string>
+    <string name="main_hub_phishing">Adathalászat szűrő</string>
+    <string name="main_hub_privacy">Kapcsolatok elrejtése</string>
+    <string name="main_info">G DATA névjegy</string>
+    <string name="main_last_scan_hdr">Utolsó víruskeresés:</string>
+    <string name="main_last_scan_never">Soha</string>
+    <string name="main_permission">Engedélyek</string>
+    <string name="main_premium_antitheft">Lopás elleni védelem</string>
+    <string name="main_premium_callblock">Hívásszűrő</string>
+    <string name="main_premium_phishing">Adathalászat szűrő</string>
+    <string name="main_premium_privacy">Privát szféra</string>
+    <string name="main_scan">Víruskeresés</string>
+    <string name="main_settings">Beállítások</string>
+    <string name="main_state_active">Aktív</string>
+    <string name="main_state_inactive">Nem aktív</string>
+    <string name="mdm_choose_another_profile">Válasszon egy másik fiókot</string>
+    <string name="mdm_choose_profile_title">Fiók kiválasztása</string>
+    <string name="mdm_device_compromised_rooted_locked">A felhasználó készüléke kompromittálódott (rootolva van) és ezért a rendszergazda blokkolta</string>
+    <string name="mdm_set_camera_state">A kamera bekapcsolása/kikapcsolása nem támogatott.</string>
+    <string name="mdm_storage_encryption_accepted_by_user">Az eszköz titkosítását a felhasználó bekapcsolta</string>
+    <string name="mdm_storage_encryption_denied_by_user">Az eszköz titkosítását a felhasználó nem kapcsolta be</string>
+    <string name="menu_accman">Fiók kezelése</string>
+    <string name="menu_antitheft">Elvesztett/Ellopott</string>
+    <string name="menu_applock">Alkalmazásvédelem</string>
+    <string name="menu_apps">Alkalmazások</string>
+    <string name="menu_conversations">Hívás / SMS</string>
+    <string name="menu_exit">Nyomja meg még egyszer a &lt;i>Vissza&lt;/i> gombot az alkalmazás bezárásához.</string>
+    <string name="menu_filter">Hívásszűrő</string>
+    <string name="menu_filter_in">Bejövő szűrő</string>
+    <string name="menu_filter_out">Kimenő szűrő</string>
+    <string name="menu_goback">Vissza</string>
+    <string name="menu_guard_done">Kész</string>
+    <string name="menu_hide_contacts">Kapcsolatok elrejtése</string>
+    <string name="menu_info">Névjegy</string>
+    <string name="menu_kidsguard">Szülői felügyelet</string>
+    <string name="menu_kidsguard_broser">Browser Einstellungen</string>
+    <string name="menu_other">Tovább</string>
+    <string name="menu_panic_button">Panic Button</string>
+    <string name="menu_security">Biztonság</string>
+    <string name="menu_security_hub">Biztonsági Központ</string>
+    <string name="menu_settings">Beállítások</string>
+    <string name="missing_libs">A telepítés sikertelen. Kérjük, ellenőrizze, hogy elegendő tárhely áll-e rendelkezésre, majd telepítse újra a programot.</string>
+    <string name="mms_configure">Távoli menedzsment beállításai</string>
+    <string name="mms_connect_deferred">Nem lehetséges betölteni a frissítéseket, mivel a ManagementServerrel még soha nem létesült kapcsolat. Kérjük, kattintson a távoli menedzsment beállításaira.</string>
+    <string name="mms_contact">Vállalati névjegy</string>
+    <string name="mms_eula_show">Felhasználói szerződés mutatása…</string>
+    <string name="mms_invalid_data">Érvénytelen belépési adatok a távoli adminisztrációhoz</string>
+    <string name="mms_log">MMS küldés</string>
+    <string name="mms_server_address">Szerver címe</string>
+    <string name="mms_server_address_summary">ManagementServer címe (IP cím/szerver név)</string>
+    <string name="mms_server_name">Készülék neve</string>
+    <string name="mms_server_name_summary">A készülék neve az azonosításhoz.</string>
+    <string name="mms_server_not_found">A ManagementServer nem elérhető.</string>
+    <string name="mms_server_password">Jelszó</string>
+    <string name="mms_server_password_summary">Jelszó a hitelesítéshez.</string>
+    <string name="mms_synch_data">Szinkronizálás a G DATA ManagementServerrel</string>
+    <string name="mockapp">\"GPS hamis alkalmazás észlelve.\"</string>
+    <string name="monday">Mo</string>
+    <string name="new_filter_title">Új szűrő hozzáadása</string>
+    <string name="new_group_filter_scheduler_header">Napi</string>
+    <string name="new_locked_location_adress_header">Cím</string>
+    <string name="new_locked_location_from_hint">Ettől</string>
+    <string name="new_locked_location_header">Kijelölés</string>
+    <string name="new_locked_location_location_activate">Helyalapú korlátozás megadása</string>
+    <string name="new_locked_location_radius_header">Sugár</string>
+    <string name="new_locked_location_radius_hint">in Kilometer</string>
+    <string name="new_locked_location_scheduler_header">Időzítés</string>
+    <string name="new_locked_location_till_hint">Eddig</string>
+    <string name="new_widget_help">Az új Pánikgombokat widgetként a kezdőképernyőn lehet hozzáadni.</string>
+    <string name="news_follow_link">tovább…</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/hu/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/hu/messages.xml</string>
+    <string name="no_entrys">Nincs bejegyzés</string>
+    <string name="notification_accessibility_applock_off_text">"App protection has been disabled because G DATA's App Checker is inactive. The service is required for the app protection as of Android Lollipop."</string>
+    <string name="notification_accessibility_applock_off_ticker">The app protection has been disabled</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name## sikeresen átvizsgálva</string>
+    <string name="notification_app_installed_clean_ticker_part2">az alkalmazás.</string>
+    <string name="notification_arp_detection">Ez a WLAN nem biztos, hogy biztonságos.</string>
+    <string name="notification_arp_detection_auto">Ez a WLAN nem biztos, hogy biztonságos.</string>
+    <string name="notification_arp_detection_auto_ticker">Ez a WLAN lehet, hogy nem biztonságos. A kapcsolat elővigyázatosságból megszakítva.</string>
+    <string name="notification_arp_detection_ticker">Ez a WLAN hálózat lehet, hogy nem biztonságos. Ha jelenleg egy nyilvános Wi-Fi hálózathoz kapcsolódik, azt javasoljuk, hogy szakítsa meg a kapcsolatot.</string>
+    <string name="notification_bssid_detection">Ez a WLAN nem biztos, hogy biztonságos.</string>
+    <string name="notification_bssid_detection_ticker">Ez a WLAN lehet, hogy nem biztonságos. Ez egy kiterjesztett ellenőrzés eredménye.</string>
+    <string name="notification_infected">A rendszere fertőzött!</string>
+    <string name="notification_infected_pup">A rendszere fertőzött lehet!</string>
+    <string name="notification_infected_pup_ticker">Előfordulhat, hogy kéretlen programok vannak telepítve a rendszerére.</string>
+    <string name="notification_infected_ticker">A rendszere fertőzött!</string>
+    <string name="notification_ipx_cancellation_success">Az előfizetése sikeresen törölve.</string>
+    <string name="notification_ipx_error">Hiba történt a rendelés közben. Kérjük, próbáljon meg egy másik fizetési módot választani.</string>
+    <string name="notification_ipx_subscription_success">Az előfizetése sikeresen beállítva.</string>
+    <string name="notification_new_apk_available">Új programverzió érhető el.</string>
+    <string name="notification_new_apk_available_ticker">Egy új programverzió érhető el.</string>
+    <string name="notification_new_news_ticker">Új üzenet érkezett</string>
+    <string name="notification_new_unread_multiple">%d olvasatlan üzenet</string>
+    <string name="notification_new_unread_one">1 olvasatlan üzenet</string>
+    <string name="notification_persistent_text">aktív</string>
+    <string name="notification_persistent_ticker">\##app_name## elindításra került.</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">Telepítés</string>
+    <string name="notification_query_message_news">Nincs olvasatlan üzenete.</string>
+    <string name="notification_query_open_news">Üzenetek megjelenítése</string>
+    <string name="notification_query_start_disinfect">Megtisztítás</string>
+    <string name="notification_query_start_scan">Víruskeresés indítása</string>
+    <string name="notification_query_start_update">Frissítés indítása</string>
+    <string name="notification_scan_finished_clean">A víruskeresés nem talált fertőzést</string>
+    <string name="notification_scan_outdated">Víruskeresésre van szükség</string>
+    <string name="notification_scan_outdated_ticker">Az utolsó víruskeresésre több mint 7 nappal ezelőtt került sor.</string>
+    <string name="notification_sig_file_to_old">A szignatúrák elavultak!</string>
+    <string name="notification_sig_file_to_old_ticker">A használt vírusszignatúrák elavultak!</string>
+    <string name="notification_usage_time_left">Minuten verbleibend…</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">Hozzáadás új számként</string>
+    <string name="number_picker_add_entries">Bejegyzések elrejtése</string>
+    <string name="number_picker_new_contact">Hozzáadás</string>
+    <string name="number_picker_search">Keresés</string>
+    <string name="orange">Narancs</string>
+    <string name="orange_ask_activate">Az Ön vírusvédelme nem naprakész. Szeretne egy licencet vásárolni, melynek segítségével megvédheti a készülékét a vírusok és fenyegetések ellen?</string>
+    <string name="orange_err_no_orange_sim">Kérjük, vegye figyelembe, hogy ez a szolgáltatás csak az Orange Ausztria vásárlói számára elérhető.</string>
+    <string name="orange_err_no_sim">SIM kártya nélkül nem lehet letölteni a frissítéseket.</string>
+    <string name="orange_wizard_explaination">Ez az adat a használati adatok mellett 12 hónapig lehet felhasználva a termékhez kapcsolódó információk elemzésére.</string>
+    <string name="orange_wizard_purchase_link">Vásárlás…</string>
+    <string name="orange_wizard_subtitle">"30 napos ingyenes próbaverzió! 
+
+Minden prémium funkció elérhető 30 napon keresztül. Ehhez adja meg nevét és e-mail címét."</string>
+    <string name="outblack">Ausgehende</string>
+    <string name="outwhite">Ausgehende</string>
+    <string name="package_already_uninstalled">A csomag már törölve</string>
+    <string name="panicActionContent">Szöveg</string>
+    <string name="panicActionType">Művelet</string>
+    <string name="panic_button_dialog_title">A művelet lefuttatásra került ekkor…</string>
+    <string name="panic_button_info_text">"A Pánikgomb segítségével gyorsan és könnyen lehet értesíteni a barátokat a földrajzi helyzetről vészhelyzet esetén. 
+
+ Ezeket új widgetként a kezdőképernyőn lehet hozzáadni.
+
+"</string>
+    <string name="panic_button_prompt">Új művelet hozzáadása</string>
+    <string name="panic_button_ready">Kész</string>
+    <string name="panic_call">Hívás indítása</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Hívás</string>
+    <string name="panic_edittext_hint">Az Ön üzenete…</string>
+    <string name="panic_edittext_hint_header">A cím…</string>
+    <string name="panic_edittext_sender">Az Ön neve…</string>
+    <string name="panic_email">E-mail küldése</string>
+    <string name="panic_email_content">Üzenet</string>
+    <string name="panic_email_header">Tárgy</string>
+    <string name="panic_email_type">E-mail</string>
+    <string name="panic_form_no_content_error">Kérjük, adjon meg egy üzenetet.</string>
+    <string name="panic_form_no_number_error">Kérjük, adjon meg egy címzettet.</string>
+    <string name="panic_fragment_title">Pánikgomb</string>
+    <string name="panic_gps_email_last_location">"Tisztelt Hölgyem/Uram! Önt vészhelyzeti kapcsolatként beállította egy ügyfelünk #4# ezért most elküldjük Önnek a jelenlegi földrajzi helyét a telefonjának.
+
+#0#A telefon utoljára ismert pozíciója: #1#. Kérjük, kattintson a linkre: #2# vagy #3# a térképnézethez. Megjegyzés: Az utoljára használt router MAC címe: #5#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"Tisztelt Hölgyem/Uram! Önt vészhelyzeti kapcsolatként beállította egy ügyfelünk (#4#) ezért most elküldjük Önnek a jelenlegi földrajzi helyét a telefonjának.
+
+#0#A telefon jelenlegi tartózkodási helye: #1#. Kérjük, kattintson a linkre: #2# vagy #3# a térképnézethez. Megjegyzés: Az utoljára használt router MAC címe: #5#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"Tisztelt Hölgyem/Uram! Önt vészhelyzeti kapcsolatként beállította egy ügyfelünk #4# ezért most megpróbáltuk elküldeni Önnek a jelenlegi földrajzi helyét a telefonjának. Sajnos a helyet most nem lehet meghatározni.
+
+#0# Az utoljára használt router MAC címe: #5#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">\#1#telefonjának az utolsó ismert helye: #2#.</string>
+    <string name="panic_gps_sms_location">\#1#telefonja a következő helyen található: #2#.</string>
+    <string name="panic_gps_sms_no_location">>#0##4# A telefon nem tudja elküldeni jelenlegi helyét.</string>
+    <string name="panic_header">Új Pánikgomb létrehozása</string>
+    <string name="panic_header_edit">Pánikgomb szerkesztése</string>
+    <string name="panic_list_header">Pánikgomb</string>
+    <string name="panic_location">Hely elküldése</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">E-mail cím vagy mobilszám megadása:</string>
+    <string name="panic_location_type">Hely</string>
+    <string name="panic_min_actions">Legalább egy művelet szükséges.</string>
+    <string name="panic_sms">SMS küldése</string>
+    <string name="panic_text_message">Üzenet küldése</string>
+    <string name="panic_text_message_content">Üzenet</string>
+    <string name="panic_text_message_type">Üzenet</string>
+    <string name="panic_textview_hint">A névjegye…</string>
+    <string name="panic_trigger_email">E-mail küldése</string>
+    <string name="panic_trigger_emergency_call">Segélyhívás indítása</string>
+    <string name="panic_trigger_location">Hely elküldése</string>
+    <string name="panic_trigger_sms">SMS küldése</string>
+    <string name="panic_unknown_sender">Nincs megadva</string>
+    <string name="panic_wizard_description_one">Adja meg, hogy milyen művelet kerüljön végrehajtásra a Pánikgomb megnyomásakor.</string>
+    <string name="panic_wizard_description_sender">Néhány művelethez küldőként meg kell adnia a nevét:</string>
+    <string name="panic_wizard_description_three">Válasszon egy névjegyet a kontaktlisájából, akit értesíteni szeretne vészhelyzet esetén.</string>
+    <string name="panic_wizard_two_desc_call">Ez a művelet segélyhívást kezdeményez a vészhelyzeti kapcsolatához.</string>
+    <string name="panic_wizard_two_desc_email">Ez a művelet elküldi az előre meghatározott üzenetet a vészhelyzeti kapcsolatának.</string>
+    <string name="panic_wizard_two_desc_location">Ez a művelet vészhelyzet esetén elküldi a tartozkodási helyét a vészhelyzeti kapcsolatának.</string>
+    <string name="panic_wizard_two_desc_message">This action sends your saved message directly to your emergency contact.</string>
+    <string name="panicbutton">Panic Button</string>
+    <string name="panicbutton_big">G DATA L Panic Button</string>
+    <string name="panicbutton_medium">G DATA M Panic Button</string>
+    <string name="panicbutton_small">G DATA S Panic Button</string>
+    <string name="periodic_scan_type_summary">Meghatározza, hogy csak a telepített alkalmazások, vagy a teljes rendszer átvizsgálásra kerül.</string>
+    <string name="periodic_scan_type_title">Típus</string>
+    <string name="permission_access_network_state_desc">A hálózati kapcsolatok mutatása</string>
+    <string name="permission_access_wifi_state_desc">WLAN kapcsolatok mutatása</string>
+    <string name="permission_additional_fees_desc">Ezért költségek merülhetnek fel</string>
+    <string name="permission_authenticate_accounts_desc">Fiókok létrehozása és jelszavak beállítása</string>
+    <string name="permission_billing_desc">Google Play számlázási szolgáltatás</string>
+    <string name="permission_broadcast_sticky_desc">Állandó sugárzás küldése</string>
+    <string name="permission_call_phone_desc">A telefonszámok hívása közvetlenül</string>
+    <string name="permission_change_wifi_state_desc">WLAN kapcsolatok létrehozása és bontása</string>
+    <string name="permission_check_license_desc">Google Play licencellenőrzés</string>
+    <string name="permission_full_network_access_desc">Teljes hálózati elérés</string>
+    <string name="permission_get_accounts_desc">Fiókok keresése a készüléken</string>
+    <string name="permission_get_tasks_desc">Aktív alkalmazások elérése</string>
+    <string name="permission_internet_desc">Internetkapcsolódási engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_internet_desc_detail">Internetkapcsolódási engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">Internetkapcsolódás</string>
+    <string name="permission_location_coarse_desc">Cella/WiFi helymeghatározási engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_location_coarse_desc_detail">Cella/WiFi helymeghatározási engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">Cella/WiFi helymeghatározás</string>
+    <string name="permission_location_desc">pontos lokalizálás (GPS és hálózati alapú)</string>
+    <string name="permission_location_fine_desc">GPS helymeghatározási engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_location_fine_desc_detail">GPS helymeghatározási engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">GPS helymeghatározás</string>
+    <string name="permission_manage_accounts_desc">Fiókok használata a készüléken</string>
+    <string name="permission_outgoing_calls_desc">Hívásindítási engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_outgoing_calls_desc_detail">Hívásindítási engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">Hívások</string>
+    <string name="permission_outgoing_sms_desc">SMS küldési engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_outgoing_sms_desc_detail">SMS küldési engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">SMS</string>
+    <string name="permission_process_outgoing_calls_desc">Kimenő hívások eltérítése</string>
+    <string name="permission_read_call_logs_desc">Hívásnapló olvasása</string>
+    <string name="permission_read_contacts_desc">Telefonkönyv hozzáférési engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_read_contacts_desc_detail">Telefonkönyv hozzáférési engedéllyel rendelkező alkalmazások:</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">Telefonkönyv hozzáférés</string>
+    <string name="permission_read_history_bookmarks_desc">A weboldalak könyvjelzőinek és a böngészés naplójának olvasása</string>
+    <string name="permission_read_logs_desc">Naplófájl olvasási engedéllyel rendelkező alkalmazások.</string>
+    <string name="permission_read_logs_desc_detail">Naplófájl olvasási engedéllyel rendelkező alkalmazások. Az alábbiak személyes adatokat tartalmazhatnak:</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">Naplófájlok olvasása</string>
+    <string name="permission_read_phone_state_desc">A telefon státuszának és azonosítóinak elérése</string>
+    <string name="permission_read_sms_desc">SMS vagy MMS olvasása</string>
+    <string name="permission_read_sync_settings_desc">Szinkronizálási beállítások olvasása</string>
+    <string name="permission_receive_boot_completed_desc">Futtatás indításkor</string>
+    <string name="permission_receive_sms_desc">SMS megérkezett</string>
+    <string name="permission_reorder_tasks_desc">Aktív alkalmazások újrarendezése</string>
+    <string name="permission_send_sms_desc">SMS küldése</string>
+    <string name="permission_use_credentials_desc">Fiókok hozzáadása vagy eltávolítása</string>
+    <string name="permission_write_call_logs_desc">Hívásnapló szerkesztése</string>
+    <string name="permission_write_contacts_desc">Névjegykártyák módosítása</string>
+    <string name="permission_write_external_storage_desc">Az SD kártya tartalmának módosítása vagy törlése</string>
+    <string name="permission_write_settings_desc">Rendszerbeállítások módosítása</string>
+    <string name="permission_write_sms_desc">SMS vagy MMS szerkesztése</string>
+    <string name="permission_write_sync_settings_desc">Szinkronizálás engedélyezése vagy kikapcsolása</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">A ##app_name## blokkolta a hozzáférést ehhez a weboldalhoz. &lt;br/>A weboldal egy ismert adathalász oldal.</string>
+    <string name="phishing_blocked_title">A weboldal blokkolva!</string>
+    <string name="phishing_checkbox_label">Webes védelem bekapcsolása</string>
+    <string name="phishing_intro">A webes védelem megakadályozza az adathalász támadásokat az Android és Chrome böngészőkben. Vegye figyelembe, hogy az adathalászat elleni védelem nem lehetséges inkognitó módban.</string>
+    <string name="phishing_intro_long">Az e-mailekben vagy hamis weboldalakon történő adathalászat tartalmazza a kísérleteket a személyes adatok megszerzésére, mint a felhasználónevek, a jelszavak, a bankkártyaszámok, bankszámlaszámok.Az adathalászat kísérletek többsége olyan bankok ügyfelei ellen irányul, melyek webes fizetési szolgáltatásokat kínálnak, vagy online boltok és szolgáltatók ellen. Az áldozatokat gyakran irányítják olyan hamis weboldalakra, melyek a melyek szinte tökéletesen megegyeznek az eredetivel.</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">Hiba</string>
+    <string name="plasma_status_code_cancel">A folyamat megszakításra került</string>
+    <string name="plasma_status_code_invalidaccount">Érvénytelen fiók</string>
+    <string name="plasma_status_code_invalidcreditcard">Érvénytelen kártyaadatok</string>
+    <string name="plasma_status_code_itemgroupidnotfound">Érvénytelen rendelési folyamat</string>
+    <string name="plasma_status_code_itemidnotfound">Érvénytelen rendelési folyamat</string>
+    <string name="plasma_status_code_networkerror">Hálózati hiba</string>
+    <string name="plasma_status_code_paymentidnotfound">Érvénytelen rendelési folyamat</string>
+    <string name="plasma_status_code_processerror">Végrehajtási hiba</string>
+    <string name="plasma_status_code_serviceunavailable">A szolgáltatás nem elérhető</string>
+    <string name="plasma_status_code_success">A folyamat sikeresen lezajlott</string>
+    <string name="plasma_try_later">Kérjük, ellenőrizze a fiók beállításait, vagy próbálja később újra.</string>
+    <string name="postTime">werden</string>
+    <string name="preTime">In der Zeit von</string>
+    <string name="pref_category_account">Jelszó és előfizetés</string>
+    <string name="pref_category_account_summary">Hozzáférési adatok kezelése</string>
+    <string name="pref_category_default">Általános</string>
+    <string name="pref_category_licenses">Szoftver licencek</string>
+    <string name="pref_category_mms">Távoli adminisztráció</string>
+    <string name="pref_category_scan">Víruskeresés</string>
+    <string name="pref_category_scan_header">Víruskeresés</string>
+    <string name="pref_category_scan_summary">Az automatikus víruskeresések beállításai.</string>
+    <string name="pref_category_timedUpdate">Frissítések</string>
+    <string name="pref_category_webportal">WebPortal</string>
+    <string name="pref_category_webshield">Web védelem</string>
+    <string name="pref_licenses">Nyílt forráskódú licencek</string>
+    <string name="pref_licenses_summary">A nyílt forráskódú szoftverek licencadatainak mutatása</string>
+    <string name="privacy_applying_privacy">Az adatok elrejtése kerülnek</string>
+    <string name="privacy_blocked_call">A(z) %1$s feladótól érkező hívás elrejtve</string>
+    <string name="privacy_blocked_sms">SMS érkezett %1$s feladótól</string>
+    <string name="privacy_call_history">Hívások története</string>
+    <string name="privacy_call_text">Hívás</string>
+    <string name="privacy_cancel">Mégsem</string>
+    <string name="privacy_chat_history">Üzenetek története</string>
+    <string name="privacy_clear_logs">Híváslista törlése</string>
+    <string name="privacy_contact">Privát névjegy</string>
+    <string name="privacy_contact_add">Névjegy vagy telefonszám hozzáadása</string>
+    <string name="privacy_contact_picture">Névjegy-kép</string>
+    <string name="privacy_contact_remove">Kiválasztott elemek eltávolítása</string>
+    <string name="privacy_contacts">Elrejtett névjegyek kezelése</string>
+    <string name="privacy_data_loss">El fogja veszíteni az elrejtett kapcsolatokhoz tartozó adatokat is.</string>
+    <string name="privacy_deleted_user">Törölt telefonkönyv bejegyzés</string>
+    <string name="privacy_detail">Részletek</string>
+    <string name="privacy_disable_privacy">Védelem kikapcsolása</string>
+    <string name="privacy_do_hide">Elrejtés</string>
+    <string name="privacy_do_not_hide">Ne rejtse el</string>
+    <string name="privacy_enable_privacy">Védelem engedélyezése</string>
+    <string name="privacy_hidden_contacts">Elrejtett névjegyek</string>
+    <string name="privacy_hide_contacts">Névjegyek elrejtése</string>
+    <string name="privacy_known_contacts">Névjegyek</string>
+    <string name="privacy_managecontacts">Elrejtett névjegyek kezelése</string>
+    <string name="privacy_move_to_phone_header">Névjegy szerkesztése</string>
+    <string name="privacy_no_chat_history">Nincs üzenet</string>
+    <string name="privacy_no_hidden_contacts">Nyomja meg a + ikont a címsorban, hogy kiválassza az elrejteni kívánt névjegyeket.</string>
+    <string name="privacy_remove_contacts">Bejegyzés törlése</string>
+    <string name="privacy_remove_conversations">Üzenetek elrejtése</string>
+    <string name="privacy_restoring_privacy">Az adatok vissza lesznek állítva</string>
+    <string name="privacy_send_message_text">Üzenet küldése</string>
+    <string name="privacy_sim_contacs_to_phone">A névjegy egy fiók segítségével van szinkronizálva. Annak érdekében, hogy elkerülja a problémákat a szinkronizálással, a névjegyet először a telefonkönyvbe kell mozgatni, mielőtt elrejtené.</string>
+    <string name="privacy_suppres_communication">Bejövő kommunikáció elrejtése</string>
+    <string name="privacy_title">Kapcsolatok elrejtése</string>
+    <string name="profile_config_title">Profil kiválasztása</string>
+    <string name="profile_create_new">Új profil létrehozása</string>
+    <string name="profile_title">Profilnév</string>
+    <string name="progress_deleting_infected_files">A fertőzött fájlok törlésre kerülnek. Kérjük, várjon…</string>
+    <string name="protected_features">"Ez a funkció csak aktiválás után elérhető.
+
+Szeretné most lefuttatni az aktiválási folyamatot?"</string>
+    <string name="protectuninstall_text">Kérjük, figyeljen rá, hogy a rendszer ezután védtelen lesz.</string>
+    <string name="protectuninstall_title">\##app_name## törlése?</string>
+    <string name="purchase_article">Cikk</string>
+    <string name="purchase_article_number">Cikkszám</string>
+    <string name="purchase_date">Dátum</string>
+    <string name="purchase_information">Rendelési adatok</string>
+    <string name="purchase_number">Rendelési szám</string>
+    <string name="purchase_price">Ár</string>
+    <string name="red">Red</string>
+    <string name="remote_device_located">A készülék lokalizálva.</string>
+    <string name="remote_device_locating">A készülék elindítja a lokalizálást.</string>
+    <string name="remote_lock_fail">A készüléket nem lehetett blokkolni.</string>
+    <string name="remote_lock_no_password">A készülék jelszó nélkül blokkolva.</string>
+    <string name="remote_lock_ok">A készülék sikeresen blokkolva.</string>
+    <string name="remote_lock_password_reset">A készülék sikeresen blokkolva a távoli karbantartási jelszó segítségével.</string>
+    <string name="remote_set_password_fail">A jelszót nem lehetett megváltoztatni.</string>
+    <string name="remote_set_password_ok">A jelszó sikeresen megváltoztatva.</string>
+    <string name="report_dialog_title">Segítsen nekünk!</string>
+    <string name="restriction_locked_for_a_day">Die Sperrung wurde für heute deaktiviert.</string>
+    <string name="restriction_locked_for_till_restart">Die Sperrung ist bis zum nächsten Start der Kindersicherung inaktiv.</string>
+    <string name="saturday">Sa</string>
+    <string name="saveProtocolls_summary">Elmenti a víruskeresés során létejött naplófájlokat.</string>
+    <string name="saveProtocolls_title">Naplófájok mentése</string>
+    <string name="scanOnInstall_summary">Automatikusan vizsgálja át a telepítésre kerülő új alkalmazásokat.</string>
+    <string name="scanOnInstall_title">Alkalmazások telepítésekor</string>
+    <string name="scan_power_connected_summary">A háttérben csak akkor zajlik le víruskeresés, ha a készülék be van kapcsolva.</string>
+    <string name="scan_power_connected_title">Csak töltés közben</string>
+    <string name="scan_service_infection">Az automatikus víruskeresés kártevőt talált.</string>
+    <string name="scan_service_ok">Az automatikus víruskeresés befejeződött. Nem találtunk kártevőt.</string>
+    <string name="scan_skip_power_low_summary">A háttérben nem zajlott le a víruskeresés. Az akkumulátor töltöttsége alacsony lehet</string>
+    <string name="scan_skip_power_low_title">Akkumulátorkímélő üzemmód</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">Telepített alkalmazások</string>
+    <string name="scan_type_system">Rendszer (teljes víruskeresés)</string>
+    <string name="security_hub_log_title">Üzenetek</string>
+    <string name="security_hub_scan_manually_canceled">A keresést a felhasználó megszakította</string>
+    <string name="security_hub_subtitle_empty">Minden rendben</string>
+    <string name="security_hub_subtitle_empty_trial">A licenc / próbaverzió %d nap múlva lejár.</string>
+    <string name="security_hub_subtitle_empty_trial_expired">A licenc / próbaverzió lejárt.</string>
+    <string name="security_hub_title">Biztonsági Központ</string>
+    <string name="sendErrorReports_summary">Hibajelentések küldése a G Data Software AG számára. Az adatok küldéséért a szolgáltató adatforgalmi díjat számolhat fel.</string>
+    <string name="sendErrorReports_title">Hibajelentések küldése</string>
+    <string name="sendSMS">Elküldöm</string>
+    <string name="sendUsageData_summary">Adatok küldése a G DATA Software AG számára a jövőbeni fejlesztésekhez. Az adatok küldéséért a szolgáltató forgalmi díjat számolhat fel.</string>
+    <string name="sendUsageData_title">Statisztikák küldése</string>
+    <string name="send_email">Send email</string>
+    <string name="send_location">Send location</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="server_license_expired">A szerver licence lejárt. Kérjük, lépjen kapcsolatba a rendszergazdájával.</string>
+    <string name="showTrayIcon_title">Tálcaikon</string>
+    <string name="showTrayIcons_summary">A ##app_name## logó megjelenítése a tálcán.</string>
+    <string name="sim_change_message">A készülékében kicserélték a SIM kártyát.</string>
+    <string name="sim_change_message_subscriber">Új hívószám:</string>
+    <string name="sms_answer_device_password_failed">A jelszót nem lehetett beállítani, mivel nem felel meg az irányelveknek.</string>
+    <string name="sms_answer_device_password_succeeded">A jelszó sikeresen beállítva.</string>
+    <string name="sms_answer_latest_known">A készülék utolsó ismert helyzete a következő: #1#.</string>
+    <string name="sms_answer_location">A készülék bemérve a következő koordinátákon: #1#.</string>
+    <string name="sms_answer_lock">A készülék zárolva.</string>
+    <string name="sms_answer_lock_fail">A készüléket nem lehetett zárolni.</string>
+    <string name="sms_answer_lock_no_password">A készülék képernyője kikapcsolásra került. Nem lett beállítva képernyőzár.</string>
+    <string name="sms_answer_lock_reset_password">A készülék az Ön SMS jelszavának segítségével zárolva.</string>
+    <string name="sms_answer_no_location">\#0#A készülék nem tudta meghatározni a jelenlegi helyzetét.</string>
+    <string name="sms_answer_reset_password_failed">A jelszót nem lehetett beállítani, mivel kevesebb, mint négy karaktert tartalmaz.</string>
+    <string name="sms_answer_reset_password_succeeded">Az SMS jelszó sikeresen beállítva.</string>
+    <string name="sms_answer_service_disabled">"A GPS kikapcsolva vagy nem elérhető. "</string>
+    <string name="sms_answer_wipe">A készülék törlése elkezdődött.</string>
+    <string name="sms_command_email_summary">E-mail</string>
+    <string name="sms_command_email_title">Másodlagos e-mail cím beállítva az eszköz megkereséséhez.</string>
+    <string name="sms_email_answer_latest_known">"Tisztelt Ügyfelünk!
+
+#0#A telefonjának utolsó ismert helyzete a következő: #1#. Kattintson erre a linkre #2# vagy erre az alternatív linkre #3# a térképnézethez. Tipp: az utoljára ismert átjáró MAC címe a következő: #4#.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"Tisztelt Ügyfelünk!
+
+Az Ön telefonja a következő koordinátákon található: #1#. Kattintson erre a linkre #2# vagy erre az alternatív linkre #3# a térképnézethez. Tipp: az utoljára használt router MAC címe a következő: #4#.
+
+Üdvözlettel,n
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"Tisztelt Vásárlónk,
+
+Az Ön telefonja sikeresen zárolva.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"Tisztelt Vásárlónk,
+
+Az Ön telefonját nem lehet zárolni.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"Tisztelt Vásárlónk,
+
+Az Ön telefonjának a képernyője kikapcsolva. Ez azt jelenti, hogy nem került képernyőzár beállításra.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"Tisztelt Vásárlónk,
+
+Az Ön telefonja zárolva az SMS parancs segítségével.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"Tisztelt Vásárlónk,
+
+#0#Az Ön telefonját nem lehet lokalizálni.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"Tisztelt Vásárlónk,
+
+Az új SMS parancs jelszó siekresen beállításra került.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"Tisztelt Vásárlónk,
+
+Az SMS parancsok jelszavát nem lehetett beállítani.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"Tisztelt Vásárlónk,
+
+A jelszó a képernyő zárolásához sikeresen beállításra került.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"Tisztelt Vásárlónk,
+
+A jelszót a képernyő zárolásához nem lehetett beállítani a telefonján.
+
+Üdvözlettel,
+G DATA Software AG"</string>
+    <string name="sms_enter_text">Kérjük, először adja meg az üzenetet.</string>
+    <string name="sms_not_sent">Az SMS üzenetet nem lehetett elküldeni. Kérjük, ellenőrizze a kapcsolatot.</string>
+    <string name="sms_self">Én</string>
+    <string name="sms_sent">SMS elküldve</string>
+    <string name="spoof_detection_activated_summary">Az ARP táblában található bejegyzések figyelése</string>
+    <string name="spoof_detection_activated_title">WiFi védelem</string>
+    <string name="spoof_detection_advanced_summary">További ellenőrzések és szabályok</string>
+    <string name="spoof_detection_advanced_title">Haladó beállítások</string>
+    <string name="spoof_detection_network_unreachable">A hálózat nem elérhető</string>
+    <string name="spoof_detection_networks_summary">Az ARP tábla nem engedélyezett ezekben a WLAN hálózatokban</string>
+    <string name="spoof_detection_networks_title">Megbízható hálózatok</string>
+    <string name="spoof_detection_no_network">Jelenleg nem érhető el hálózati kapcsolat.</string>
+    <string name="startOnBoot_summary">A ##app_name## indítása a rendszer indításakor.</string>
+    <string name="startOnBoot_title">Autostart</string>
+    <string name="sunday">So</string>
+    <string name="task_icon_type_always">Mindig</string>
+    <string name="task_icon_type_if_action">Csak most</string>
+    <string name="task_icon_type_never">Soha</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg" />
+    <string name="textViewHeaderAdd">Select contact</string>
+    <string name="text_trial">Try it for 30 days for free</string>
+    <string name="text_unlock">Activate product</string>
+    <string name="thursday">Do</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">Phone URL Blocked</string>
+    <string name="title_activity_tel_ok">Phone URL Clean</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">Ki</string>
+    <string name="toggle_on">Be</string>
+    <string name="trial_app_name">\##app_name## próbaverzió</string>
+    <string name="trial_err_already_registered">Az ingyenes próbaidőszak a frissítések letöltéséhez már felhsználásra került. Nem lehetséges még egyszer ingyenesen regisztrálni.</string>
+    <string name="trial_not_allowed_expired">"Ez a funkció nem elérhető, mivel a próbíidőszak lejárt.
+
+Szeretne megtekinteni egy ajánlatot a teljes verzió megvásárlására?"</string>
+    <string name="trial_not_allowed_unregistered">"Ez a funkció csak azután elérhető, hogy a próbaverziót ingyenesen regisztrálta.
+
+Szeretné regisztrálni most?"</string>
+    <string name="trial_registration_dlg_mess">Az Ön ingyenes hozzáférése a frissítésekhez. Kérjük, adja meg vásárlói adatait. A hozzáférési adatok automatikusan be fognak kerülni a ##app_name## alkalmazásba, és elküldésre kerülnek az Ön e-mail címére is.</string>
+    <string name="tuesday">Di</string>
+    <string name="uncheck_all">Összes kiválasztás törlése</string>
+    <string name="undobar_delete">Törlések naplózása</string>
+    <string name="undobar_undo">Visszavonás</string>
+    <string name="unlock_question_1">Mi a kedvenc állatom?</string>
+    <string name="unlock_question_2">Mi az édesanyám leánykori neve?</string>
+    <string name="unlock_question_3">Mi a legjobb barátom neve?</string>
+    <string name="unlock_question_4">Hol született édesapám?</string>
+    <string name="unlock_question_custom">Saját kérdés</string>
+    <string name="unlock_time_1">1 óra</string>
+    <string name="unlock_time_15">15 perc</string>
+    <string name="unlock_time_2">2 óra</string>
+    <string name="unlock_time_30">30 perc</string>
+    <string name="unlock_time_4">4 óra</string>
+    <string name="unlock_time_inf">Korlátlanul</string>
+    <string name="unlock_time_subtitle">Nutzungsdauer für %s festlegen</string>
+    <string name="unlock_time_title">Alkalmazás jóváhagyása:</string>
+    <string name="unlock_wizard">Enable</string>
+    <string name="updateWifiOnly_summary">Csak akkor töltse le a frissítéseket, ha WLAN kapcsolat érhető el.</string>
+    <string name="updateWifiOnly_title">Csak WLAN kapcsolatnál</string>
+    <string name="update_region_africa">Afrika</string>
+    <string name="update_region_asia">Ázsia</string>
+    <string name="update_region_asia_china">Ázsia (Kína)</string>
+    <string name="update_region_asia_india">Ázsia (India)</string>
+    <string name="update_region_asia_japan">Ázsia (Japán)</string>
+    <string name="update_region_australia">Ausztrália</string>
+    <string name="update_region_auto">Automatikus meghatározás</string>
+    <string name="update_region_europe">Európa</string>
+    <string name="update_region_north_america">Észak-Amerika</string>
+    <string name="update_region_south_america">Dél-Amerika</string>
+    <string name="upgrade_offer_err_no_connection">A frissítési információt nem lehetett betölteni. Kérjük, ellenőrizze a hálózati kapcsolatot.</string>
+    <string name="upgrade_offer_title">Frissítési információ</string>
+    <string name="usage_control_lock_dialog_part1" />
+    <string name="usage_control_lock_dialog_part12" />
+    <string name="usage_control_lock_dialog_part13" />
+    <string name="ussd_filter_title">USSD Filter</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">AuthCode generated by the ActionCenter</string>
+    <string name="web_portal_scan_interval">ActionCenter update interval</string>
+    <string name="web_portal_scan_interval_summary">Time interval between two synchronizations</string>
+    <string name="web_portal_server_address">ActionCenter server</string>
+    <string name="web_portal_server_address_summary">Address of the ActionCenter server used</string>
+    <string name="webprotection_dialog_accept">Blokkolás</string>
+    <string name="webprotection_dialog_continue">Folytatás</string>
+    <string name="webprotection_dialog_text">Az oldal egy ismert adathalász oldal. Csak akkor folytassa, ha biztos benne, hogy nem rejt veszélyt Önre nézve.</string>
+    <string name="webprotection_dialog_title">Web védelem</string>
+    <string name="webshield_activated_summary">Megvédi önt az adathalász oldalaktól. Csak az Android böngészővel működik.</string>
+    <string name="webshield_activated_title">Web védelem</string>
+    <string name="webshield_only_wlan_summary">Weboldalak vizsgálata kizárólag WLAN kapcsolat esetében.</string>
+    <string name="webshield_only_wlan_title">Csak WLAN kapcsolatnál</string>
+    <string name="webshield_phishing_timeout_summary">Időtartam másodpercekben, ameddig egy adathalász oldal kivételes esetben megtekinthető.</string>
+    <string name="webshield_phishing_timeout_title">Kivétel időtartama</string>
+    <string name="wednesday">Mi</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="wizard_app_lock">Használhatja az alkalmazásvédelmet, hogy jelszót rendeljen az alkalmazásokhoz. Így senki sem kutakodhat a személyes adatai között az Ön tudta nélkül.</string>
+    <string name="wizard_audit">Sikeresen beállította a következő funkciókat a ##app_name## számára:</string>
+    <string name="wizard_audit_subtitle_fail_text">Nincs beállítva</string>
+    <string name="wizard_audit_subtitle_succ_text">Sikeresen beállítva</string>
+    <string name="wizard_audit_title">Audit</string>
+    <string name="wizard_bt_antitheft_text">Lopásvédelem beállítása</string>
+    <string name="wizard_bt_applock_text">Alkalmazásvédelem beállítása</string>
+    <string name="wizard_bt_audit_skip_text">Kész</string>
+    <string name="wizard_bt_callfilter_text">Hívás/SMS szűrő beállítása</string>
+    <string name="wizard_bt_malware_text">Fiók aktiválása</string>
+    <string name="wizard_bt_next_text">átugrás</string>
+    <string name="wizard_bt_welcomen_skip_text">Tovább</string>
+    <string name="wizard_dlg_exit_caption">\##app_name## Varázsló</string>
+    <string name="wizard_dlg_exit_text">Biztosan megszakítja?</string>
+    <string name="wizard_eula">Elolvastam és megértettem a felhasználási feltételeket.</string>
+    <string name="wizard_eula_not_accpted_warning">Kérjük, fogadja el a Végfelhasználói Szerződést a folytatáshoz.</string>
+    <string name="wizard_exit">Kilépés</string>
+    <string name="wizard_intro">A ##app_name## védelmet nyújt a készülékének és adatainak nem csupán böngészés közben, de megkeresi a potenciális fenyegetéseket az új alkalmazásokban is.</string>
+    <string name="wizard_lbl_antitheft_headline_text">Lopás elleni védelem</string>
+    <string name="wizard_lbl_audit_headline_text">\##app_name## vizsgálat</string>
+    <string name="wizard_lbl_callfilter_headline_text">Hívásszűrő</string>
+    <string name="wizard_lbl_malware_headline_text">Kártevővédelem</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">A teljes funkcionalitás használata 30 napig ingyenes. Adja meg nevét és e-mail címét. A hozzáférési adatok automatikusan bekerülnek a szoftverbe, és megkapja őket e-mail címére is.</string>
+    <string name="wizard_malware_already_registered_text">Már az ügyfelünk?</string>
+    <string name="wizard_malware_email_hint">E-mail</string>
+    <string name="wizard_malware_firstname_hint">Vezetéknév</string>
+    <string name="wizard_malware_lastname_hint">Keresztnév</string>
+    <string name="wizard_malware_proceed_text">Aktiválja példányát…</string>
+    <string name="wizard_password">A jelszó kötelező a lopásvédelemhez és az alkalmazásvédelemhez (legalább négy különböző, nem egymást követő szám)</string>
+    <string name="wizard_password_forgot">Elfelejtette a jelszavát? Lenullázhatja egy SMS parancs segítségével ezt a számot használva. Erre a számra küldünk SMS üzenetet, ha a SIM kártya kicserélésre kerül.</string>
+    <string name="wizard_send_mail">Az SMS parancsokra érkező válaszok a megadott e-mail címre kerülnek elküldésre.</string>
+    <string name="wizard_start_header">Welcome to your new wizard for better security. Do you just want to try our product, or do you already have a license?</string>
+    <string name="wizard_theft">A lopásvédelem segítségével bemérheti a készülékét egy SMS parancs segítségével és törölheti is. A készülék automatikusan jelzést küld, ha a SIM kártya kicserélésre kerül, és elküldi a készülék utolsó ismert helyzetét ha az akkumulátor lemerül.</string>
+    <string name="wizard_uninstall_protection_checkbox">Deinstallationschutz einschalten</string>
+    <string name="wizard_uninstall_protection_text">Enable uninstall protection, to prevent unauthorized uninstalls (requires the device administrator to be enabled)</string>
+    <string name="zoomToSelectPerimeter">The visible area of the map (location) corresponds to the level of efficiency and can be changed by zooming in/out.</string>
+</resources>

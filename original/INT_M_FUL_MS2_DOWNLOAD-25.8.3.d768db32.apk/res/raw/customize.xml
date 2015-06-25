@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customize>
+    <ui>
+        <uioption name="noUpdateOffer">true</uioption>
+        <uioption name="noNews">false</uioption>
+        <uioption name="business">false</uioption>
+        <uioption name="teenager">true</uioption>
+    </ui>
+    <oem>
+        <oemoption name="partner" oemdisplayname=""></oemoption>
+    </oem>
+    <trial>
+        <trialoption name="generation"></trialoption>
+        <trialoption name="protectFeatures">false</trialoption>
+        <trialoption name="usetrialappname">false</trialoption>
+    </trial>
+    <scan>
+        <scanoption name="bdenabled">true</scanoption>
+        <scanoption name="scanenabled">true</scanoption>
+    </scan>
+    <maps>
+        <mapsoption name="googlemapsapi">true</mapsoption>
+    </maps>
+</customize>

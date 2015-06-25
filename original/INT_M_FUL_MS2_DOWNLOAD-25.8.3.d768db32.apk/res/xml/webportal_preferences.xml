@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_webportal">
+        <CheckBoxPreference android:title="@string/enable_web_portal_title" android:key="@string/enable_web_portal_key" android:summary="@string/enable_web_portal_summary" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/mms_server_name" android:key="@string/web_portal_machinename_key" android:summary="@string/mms_server_name_summary" android:dependency="@string/enable_web_portal_key" />
+        <EditTextPreference android:password="false" android:title="@string/web_portal_scan_interval" android:key="@string/web_portal_interval_key" android:summary="@string/web_portal_scan_interval_summary" android:dependency="@string/enable_web_portal_key" android:defaultValue="5" android:inputType="number" />
+    </PreferenceCategory>
+</PreferenceScreen>

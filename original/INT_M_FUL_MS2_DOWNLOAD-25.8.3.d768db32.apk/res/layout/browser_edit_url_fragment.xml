@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/browser_edit_url_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wizardTextMarginLeft" android:layout_marginRight="@dimen/wizardTextMarginRight" android:layout_marginBottom="@dimen/wizardTextMarginBottom" android:hint="@string/kidsguard_browser_edit_url_hint_name_text" android:scrollHorizontally="true" android:singleLine="true" style="@style/SubTitleLeft" />
+    <EditText android:id="@id/browser_edit_url_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wizardTextMarginLeft" android:layout_marginRight="@dimen/wizardTextMarginRight" android:layout_marginBottom="@dimen/wizardTextMarginBottom" android:hint="@string/kidsguard_browser_edit_url_hint_url_text" android:scrollHorizontally="true" android:singleLine="true" style="@style/SubTitleLeft" />
+</LinearLayout>

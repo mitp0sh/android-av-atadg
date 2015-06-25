@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/preset_accman" android:title="@string/menu_accman" />
+    <item android:id="@id/preset_goback" android:title="@string/menu_goback" />
+</menu>

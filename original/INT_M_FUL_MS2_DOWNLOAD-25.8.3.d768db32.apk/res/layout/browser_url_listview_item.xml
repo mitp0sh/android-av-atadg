@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/round_shape" android:padding="10.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_margin="10.0dip" style="@style/ListViewLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/list_checkbox" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+    <ImageView android:layout_gravity="center" android:id="@id/list_img" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="@dimen/lockedAppIconHeight" android:contentDescription="@string/empty_string" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/permissionsLayoutMarginLeft" android:layout_weight="2.0">
+        <TextView android:id="@id/list_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+        <TextView android:id="@id/list_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" style="@style/SubTitleLeft" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="center" android:id="@id/list_settings_button" android:background="@color/buttonApplockKisiDisabled" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:focusable="false" android:focusableInTouchMode="false" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/lockedAppIconHeight" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_content_edit" android:singleLine="true" />
+</LinearLayout>

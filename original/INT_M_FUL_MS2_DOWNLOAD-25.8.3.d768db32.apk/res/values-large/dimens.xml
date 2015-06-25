@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="LabelTextSize">20.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">440.0dip</dimen>
+    <dimen name="abc_search_view_text_min_width">192.0dip</dimen>
+    <dimen name="accmanMarginLeft">35.0dip</dimen>
+    <dimen name="appTitleTextSize">14.0dip</dimen>
+    <dimen name="blockingsLayoutMarginLeft">8.0dip</dimen>
+    <dimen name="buttonHeight">25.0dip</dimen>
+    <dimen name="checkBoxWidth">48.0dip</dimen>
+    <dimen name="contactIconHeight">60.0px</dimen>
+    <dimen name="contactIconWidth">60.0px</dimen>
+    <dimen name="defaultRootLayoutPadding">10.0dip</dimen>
+    <item type="dimen" name="dialog_fixed_height_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_height_minor">90.0%</item>
+    <item type="dimen" name="dialog_fixed_width_major">60.000004%</item>
+    <item type="dimen" name="dialog_fixed_width_minor">90.0%</item>
+    <dimen name="eulaPadding">8.0px</dimen>
+    <dimen name="filterImageListLayoutMarginLeft">2.0dip</dimen>
+    <dimen name="filterItemAddTextMargin">20.0dip</dimen>
+    <dimen name="filterListLayoutMarginLeft">8.0dip</dimen>
+    <dimen name="filterOptionTextMarginLeft">35.0dip</dimen>
+    <dimen name="infoImageMarginLeft">20.0dip</dimen>
+    <dimen name="infoImageMarginTop">10.0dip</dimen>
+    <dimen name="itemTextSize">20.0dip</dimen>
+    <dimen name="listviewPadding">5.0dip</dimen>
+    <dimen name="mainGridSpacing">10.0dip</dimen>
+    <dimen name="mainGridSpacingHorizontal">5.0dip</dimen>
+    <dimen name="mainGridSpacingVertical">10.0dip</dimen>
+    <dimen name="mainLayoutMargin">5.0dip</dimen>
+    <dimen name="mainTextMargin">3.0dip</dimen>
+    <dimen name="malwareLayoutPadding">8.0dip</dimen>
+    <dimen name="maxButtonWidth">480.0px</dimen>
+    <dimen name="maxDialogLayoutWidth">640.0px</dimen>
+    <dimen name="maxIconHeight">60.0px</dimen>
+    <dimen name="maxIconWidth">60.0px</dimen>
+    <dimen name="minDisplayWidthForButtonWidthRestriction">600.0px</dimen>
+    <dimen name="minDisplayWidthForDialogWidthRestriction">800.0px</dimen>
+    <dimen name="notificationImageMarginRight">10.0dip</dimen>
+    <dimen name="notificationPadding">3.0dip</dimen>
+    <dimen name="notificationTextMarginLeft">3.0dip</dimen>
+    <dimen name="permissionsLayoutMarginLeft">8.0dip</dimen>
+    <dimen name="protocolsLayoutMargin">5.0dip</dimen>
+    <dimen name="protocolsLayoutMarginLeft">8.0dip</dimen>
+    <dimen name="protocolsLayoutPadding">8.0dip</dimen>
+    <dimen name="protocolsTextMargin">3.0dip</dimen>
+    <dimen name="scanButtonMarginTop">-50.0dip</dimen>
+    <dimen name="scanScollViewMarginBottom">50.0dip</dimen>
+    <dimen name="scanTextMargin">3.0dip</dimen>
+    <dimen name="subTitleSize">16.0dip</dimen>
+    <dimen name="titleSize">22.0dip</dimen>
+    <dimen name="protectAppListPaddingLeft">4.0dip</dimen>
+    <dimen name="protectAppListPaddingRight">40.0dip</dimen>
+    <dimen name="protectTextMargin">20.0dip</dimen>
+    <dimen name="protectedAppIconHeight">48.0dip</dimen>
+    <dimen name="protectedAppIconWidth">48.0dip</dimen>
+</resources>

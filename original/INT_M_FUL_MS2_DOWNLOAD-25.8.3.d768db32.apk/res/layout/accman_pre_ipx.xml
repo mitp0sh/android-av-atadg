@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/accman_pre_ipx_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/accman_pre_ipx_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accman_pre_ipx_title" style="@style/TitleBoldLeft" />
+        <View android:id="@id/accman_pre_ipx_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+        <TextView android:id="@id/accman_pre_ipx_txt_subtitle" android:visibility="gone" android:text="@string/accman_pre_ipx_title" style="@style/SubTitleLeft" />
+        <RadioGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/accman_pre_ipx_gemalto" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accman_pre_ipx_radio_gemalto" />
+            <TextView android:id="@id/accman_pre_ipx_gemalto_long" android:visibility="gone" android:layout_marginLeft="@dimen/accmanMarginLeft" android:text="@string/accman_pre_ipx_text_gemalto" style="@style/DefaultText" />
+            <RadioButton android:id="@id/accman_pre_ipx_gdata" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accman_pre_ipx_radio_gdata" />
+            <TextView android:id="@id/accman_pre_ipx_gdata_long" android:layout_marginLeft="@dimen/accmanMarginLeft" android:text="@string/accman_pre_ipx_text_gdata" style="@style/DefaultText" />
+            <RadioButton android:id="@id/accman_pre_ipx_register" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/accman_pre_ipx_radio_register" />
+            <TextView android:id="@id/accman_pre_ipx_register_long" android:visibility="gone" android:layout_marginLeft="@dimen/accmanMarginLeft" android:text="@string/accman_pre_ipx_text_register" style="@style/DefaultText" />
+        </RadioGroup>
+        <Button android:layout_gravity="center" android:id="@id/accman_pre_ipx_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/accman_pre_bt_ok" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/claim_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/claim" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

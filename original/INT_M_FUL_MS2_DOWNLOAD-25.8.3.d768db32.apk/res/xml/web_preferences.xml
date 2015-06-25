@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/pref_category_webshield" android:key="WebPrefsKey" android:summary="@string/configWindow_title"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_category_webshield">
+        <CheckBoxPreference android:title="@string/webshield_only_wlan_title" android:key="WEBSHIELD_ONLY_WLAN" android:summary="@string/webshield_only_wlan_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_category_webshield" android:key="webshield">
+        <CheckBoxPreference android:title="@string/spoof_detection_activated_title" android:key="SPOOF_DETECTION_ACTIVATED" android:summary="@string/spoof_detection_activated_summary" android:defaultValue="false" />
+        <Preference android:title="@string/spoof_detection_networks_title" android:key="DIALOG_TRUSTED_NETWORKS" android:summary="@string/spoof_detection_networks_summary" />
+        <Preference android:title="@string/spoof_detection_advanced_title" android:key="DIALOG_ADVANCED_OPTIONS" android:summary="@string/spoof_detection_advanced_summary" />
+        <Preference android:title="@string/clear_arp_exceptions_title" android:key="CLEAR_ARP_EXCEPTION" android:summary="@string/clear_arp_exceptions_summary" />
+        <EditTextPreference android:title="Sender of ARP logs" android:key="SPOOF_REPORT_SENDER" android:summary="Identifying (nick-)name for the user" />
+        <Preference android:title="Submit logs" android:key="SPOOF_SEND_REPORT" android:summary="Send ARP poisoning detection details" />
+    </PreferenceCategory>
+</PreferenceScreen>

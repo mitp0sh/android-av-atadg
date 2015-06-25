@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/configWindow_title" android:key="ConfigKey" android:summary="@string/configWindow_Summary"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/kidsguard_parents_options">
+        <CheckBoxPreference android:title="@string/kidsguard_airplane_mode_title" android:key="KIDSGUARD_AIRPLANE_MODE" android:summary="@string/kidsguard_airplane_mode_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/kidsguard_wifi_off_title" android:key="KIDSGUARD_WIFI_OFF" android:summary="@string/kidsguard_wifi_off_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/kidsguard_block_incoming_calls_title" android:key="KIDSGUARD_BLOCK_INCOMING_CALLS" android:summary="@string/kidsguard_block_incoming_calls_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/kidsguard_allow_emergency_calls_title" android:key="KIDSGUARD_ALLOW_EMERGENCY_CALLS" android:summary="@string/kidsguard_allow_emergency_calls_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/kidsguard_fix_volume_keys_title" android:key="KIDSGUARD_FIX_VOLUME_KEYS_CALLS" android:summary="@string/kidsguard_fix_volume_keys_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/kidsguard_set_allowed_usage_time_header">
+        <EditTextPreference android:hint="@string/kidsguard_set_allowed_usage_time_summary_minutes_plural" android:maxLength="4" android:title="@string/kidsguard_set_allowed_usage_time_title" android:key="KIDSGUARD_OVERALL_ALLOWED_USAGE_TIME" android:summary="@string/kidsguard_set_allowed_usage_time_summary" android:defaultValue="" android:inputType="number" />
+        <Preference android:title="@string/kidsguard_reset_time_limit_title" android:key="KIDSGUARD_RESET_TIME_LIMIT" android:summary="@string/kidsguard_reset_time_limit_summary" />
+        <Preference android:title="@string/kidsguard_reset_usage_time_title" android:key="KIDSGUARD_RESET_OVERALL_USAGE_TIME" android:summary="@string/kidsguard_reset_usage_time_summary" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/usage_control_new_location_fragment" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/usage_control_new_location_fragment2" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:id="@id/new_locked_location_header" android:text="@string/antitheft_help_title" style="@style/TitleBoldLeft" />
+            <View android:id="@id/antitheft_help_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/new_locked_location_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/name_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/antitheft_help_divider">
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/textView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/new_locked_location_header" />
+                <EditText android:id="@id/editTextName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" android:inputType="textCapSentences" />
+            </LinearLayout>
+            <View android:id="@id/devider_3" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/name_layout" />
+            <LinearLayout android:orientation="vertical" android:id="@id/date_layout" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/devider_3" android:animateLayoutChanges="true">
+                <CheckBox android:id="@id/checkbox_everyday" android:paddingRight="5.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:text="@string/new_group_filter_scheduler_header" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/weekday_layout" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonMonday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/monday" android:textOff="@string/monday" android:text="Mon" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonTuesday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/tuesday" android:textOff="@string/tuesday" android:text="Tue" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonWednesday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/wednesday" android:textOff="@string/wednesday" android:text="New ToggleButton" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonThursday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/thursday" android:textOff="@string/thursday" android:text="New ToggleButton" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonFriday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/friday" android:textOff="@string/friday" android:text="New ToggleButton" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonSaturday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/saturday" android:textOff="@string/saturday" android:text="New ToggleButton" android:singleLine="true" android:layout_weight="1.0" />
+                    <ToggleButton android:textSize="10.0dip" android:id="@id/toggleButtonSunday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textOn="@string/sunday" android:textOff="@string/sunday" android:text="New ToggleButtonSunday" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/time_layout" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+                    <CheckBox android:id="@id/checkbox_fullday" android:paddingRight="0.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@drawable/checkbox" android:text="@string/fullday" android:layout_weight="3.0" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/time_layout_times" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0" android:animateLayoutChanges="true">
+                        <EditText android:gravity="center" android:id="@id/editText_from" android:background="@color/buttonApplockKisiDisabled" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/new_locked_location_from_hint" android:ems="10" android:layout_weight="7.0" android:inputType="time" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/from_to_background" android:scaleType="centerCrop" android:layout_weight="2.0" />
+                        <EditText android:gravity="center" android:id="@id/editText_till" android:background="@color/buttonStrokeDisabled" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:hint="@string/new_locked_location_till_hint" android:ems="10" android:layout_weight="7.0" android:inputType="time" />
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:id="@id/devider_2" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/add_layout" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                    <CheckBox android:layout_gravity="center" android:id="@id/checkbox_location" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox" />
+                    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:id="@id/textViewAdress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/locationpicker_add" android:drawableLeft="@drawable/ic_device_access_location" android:drawablePadding="9.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

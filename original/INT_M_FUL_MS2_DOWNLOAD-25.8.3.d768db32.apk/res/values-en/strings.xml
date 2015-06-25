@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AppFix_empty_list">Disinfection completed successfully.</string>
+    <string name="AppFix_subtitle">Your system is infected. To remove the malware please select it and confirm the uninstall in the following dialog.</string>
+    <string name="AppFix_subtitle_pup">It is possible that unwanted software has been found on your system. To remove it, please select the entry and confirm the uninstall in the following dialog.</string>
+    <string name="AppFix_subtitle_sideLoaded">The file you are attempting to install is infected. To remove it, please select the malware and confirm the uninstall in the following dialog.</string>
+    <string name="AppFix_title">Disinfect</string>
+    <string name="AppFix_title_pup">Unwanted software</string>
+    <string name="AppScan_Malware_found_with_Name">Malware found:</string>
+    <string name="AppScan_amount_was_scanned">Applications have been scanned.</string>
+    <string name="MainGuiGridAdapter_permissions">Permissions</string>
+    <string name="MainGuiGridAdapter_protocolls">Logs</string>
+    <string name="MainGuiGridAdapter_scan">Virus scan</string>
+    <string name="MainGuiGridAdapter_settings">Settings</string>
+    <string name="MainGuiGridAdapter_update">Update</string>
+    <string name="PacketViewerGui_name_not_found">ERROR</string>
+    <string name="PacketViewerGui_version">Version</string>
+    <string name="PermissionUsage_subtitle">Shows which permissions are used how often.</string>
+    <string name="PermissionUsage_title">Permissions</string>
+    <string name="ProgressDialog_while_loading_Permissions">Checking permissions. Please wait…</string>
+    <string name="ProtocolViewerXml_empty_list">No logs available.</string>
+    <string name="ProtocolViewerXml_motd">Logs</string>
+    <string name="ScanGui_finished_dialog_abort_button">Cancel</string>
+    <string name="ScanGui_finished_dialog_clean">"Scan completed successfully.
+No malware was found."</string>
+    <string name="ScanGui_finished_dialog_fix_button">Disinfect</string>
+    <string name="ScanGui_finished_dialog_infected">"Scan complete.
+
+WARNING! MALWARE FOUND!"</string>
+    <string name="ScanGui_finished_dialog_ok_button">OK</string>
+    <string name="ScanGui_finished_dialog_warning">"Scan complete.
+Problems occurred."</string>
+    <string name="ScanGui_finished_title">Virus scan</string>
+    <string name="ScanGui_menu_applications">Applications</string>
+    <string name="ScanGui_progressdialog_abort_button">Cancel</string>
+    <string name="ScanGui_progressdialog_title">Scan system</string>
+    <string name="ScanGui_report_fiels_infected">"Scan complete.
+
+WARNING! MALWARE FOUND!"</string>
+    <string name="ScanGui_report_fiels_ok">"Scan completed successfully.
+No malware was found."</string>
+    <string name="Scan_scan_button">Start</string>
+    <string name="Scan_spinner_msg">Select the type of virus scan.</string>
+    <string name="Scan_subtitle">To run a scan, select the type of virus scan and confirm with Start.</string>
+    <string name="Scan_title">Scan system</string>
+    <string name="ac_device_already_registered">This device is already registered.</string>
+    <string name="ac_server_error">An error occurred, please contact G DATA support</string>
+    <string name="accesibility_service">G DATA App Checker</string>
+    <string name="accman_bt_connectToServer">Connect</string>
+    <string name="accman_bt_forgottenData">I have lost my access data</string>
+    <string name="accman_bt_registerAtServer">Register with server…</string>
+    <string name="accman_check">Look for updates…</string>
+    <string name="accman_check_license">Checking license…</string>
+    <string name="accman_fixed_content_1">ro</string>
+    <string name="accman_fixed_content_2">You might want to take a look at our new product:</string>
+    <string name="accman_fixed_content_3">G DATA ##app_name##</string>
+    <string name="accman_fixed_content_4">We have installed many more functions here to make your mobile device even more secure.</string>
+    <string name="accman_fixed_content_5">Visit our page in the Google Play Store for more information</string>
+    <string name="accman_inapp_text">"Your device is no longer protected against current threats.
+Extend your license now. Your device will be protected again immediately!"</string>
+    <string name="accman_inapp_title">Your ##app_name## license has expired!</string>
+    <string name="accman_inapp_txt_subs_month">month</string>
+    <string name="accman_inapp_txt_subs_year">year</string>
+    <string name="accman_inapp_txt_subtitle">"
+Downloading…"</string>
+    <string name="accman_inapp_txt_subtitle_subs">Available subscriptions</string>
+    <string name="accman_ipx_bottom_nav_about_text">About</string>
+    <string name="accman_ipx_bottom_nav_agb_text">T&amp;Cs</string>
+    <string name="accman_ipx_bottom_nav_contact_text">Contact</string>
+    <string name="accman_ipx_bottom_nav_faq_text">FAQ</string>
+    <string name="accman_ipx_bottom_nav_sub_text">Subscription management</string>
+    <string name="accman_ipx_confirm">CONFIRM</string>
+    <string name="accman_ipx_confirm_dialog_text">\##app_name## will let you know once the purchase process has been completed in the background and your account has been activated.</string>
+    <string name="accman_ipx_infoscreen_subtitle_text">By purchasing a subscription you get access to the premium functions of Internet Security as well as access to regular updates. Billing via mobile phone bill.</string>
+    <string name="accman_ipx_infoscreen_title_text">Subscription for €1,99/month</string>
+    <string name="accman_ipx_progress_dialog_text">Your order is being processed…</string>
+    <string name="accman_ipx_purchase">BUY</string>
+    <string name="accman_perform_connect">Establish server connection…</string>
+    <string name="accman_pre_bt_ok">Next</string>
+    <string name="accman_pre_ipx_radio_gdata">G DATA website</string>
+    <string name="accman_pre_ipx_radio_gemalto">Mobile phone bill</string>
+    <string name="accman_pre_ipx_radio_register">Register/activate</string>
+    <string name="accman_pre_ipx_text_gdata">Buy on the G DATA website</string>
+    <string name="accman_pre_ipx_text_gemalto">Billing via your mobile phone bill</string>
+    <string name="accman_pre_ipx_text_register">Register/activate</string>
+    <string name="accman_pre_ipx_title">Buy</string>
+    <string name="accman_pre_radio_activate">Register</string>
+    <string name="accman_pre_radio_activate_long">I am a new customer and want to register with the G DATA update server.</string>
+    <string name="accman_pre_radio_enter">Enter access data</string>
+    <string name="accman_pre_radio_enter_long">I want to log in with my G DATA user name and password.</string>
+    <string name="accman_pre_tab_activate">Activate</string>
+    <string name="accman_pre_txt_choose">In order to activate your update access, enter your access data (user name and password) for the G DATA update server. If you do not have any access data yet, please use your registration number to register with the G DATA update server.</string>
+    <string name="accman_pre_txt_subtitle" />
+    <string name="accman_pre_txt_title">Activate updates</string>
+    <string name="accman_red_bt_buy">Order</string>
+    <string name="accman_red_txt_city">Town/City:*</string>
+    <string name="accman_red_txt_country">Country:*</string>
+    <string name="accman_red_txt_firstname">First name:*</string>
+    <string name="accman_red_txt_fooder">In the event of information being incomplete or incorrect, G DATA reserves the right to block access to online updates without prior notification. Fields marked * are required.</string>
+    <string name="accman_red_txt_mail">Email:*</string>
+    <string name="accman_red_txt_phone">Telephone:</string>
+    <string name="accman_red_txt_plz">Postcode:*</string>
+    <string name="accman_red_txt_street">House no., Street:*</string>
+    <string name="accman_red_txt_surname">Surname:</string>
+    <string name="accman_red_txt_title">Salutation:*</string>
+    <string name="accman_register_bt_register">Register</string>
+    <string name="accman_register_checkbox_agb">I agree that the data I have entered and data generated by my use may be stored and used for advertising addressed to me.</string>
+    <string name="accman_register_checkbox_agb_oempartner">I agree that the data provided by me as well as any data generated though the use of this application may be stored, used and shared with oem_partner_company for promotional offers targeted at me.</string>
+    <string name="accman_register_progress">Transfer registration data…</string>
+    <string name="accman_register_purchase_link_text">No registration number?</string>
+    <string name="accman_register_purchase_proceed_link_text">Buy a license…</string>
+    <string name="accman_register_txt_email">Email</string>
+    <string name="accman_register_txt_forename">First name</string>
+    <string name="accman_register_txt_header">Order</string>
+    <string name="accman_register_txt_merchant">Dealer no. (optional)</string>
+    <string name="accman_register_txt_mobile">Mobile number</string>
+    <string name="accman_register_txt_regnum">Registration number</string>
+    <string name="accman_register_txt_subtitle">Please enter your registration number and contact data. The access data for your signature updates will then be automatically entered in ##app_name## and also sent to your email address.</string>
+    <string name="accman_register_txt_surename">Surname</string>
+    <string name="accman_register_txt_title">Register for signature updates</string>
+    <string name="accman_txt_password">Password</string>
+    <string name="accman_txt_subtitle">Please enter the access data for regular updates under User name and Password.</string>
+    <string name="accman_txt_title">Unlock premium functions</string>
+    <string name="accman_txt_username">User name</string>
+    <string name="accman_unlock_auth">Activate updates…</string>
+    <string name="accman_updateinfos_bt_ok">Next</string>
+    <string name="accman_updateinfos_radio_activate">Activate updates</string>
+    <string name="accman_updateinfos_radio_activate_long">I have already purchased ##app_name## including updates or another G DATA product and want to activate the update access.</string>
+    <string name="accman_updateinfos_radio_inform">View update offers</string>
+    <string name="accman_updateinfos_radio_inform_long">I have installed a free version of ##app_name## (without updates) and am interested in a license for loading updates.</string>
+    <string name="accman_updateinfos_txt_choose">The number of mobile malware programs is constantly increasing. Regular updates will keep you permanently protected against malware that will appear in the future.</string>
+    <string name="accman_updateinfos_txt_subtitle" />
+    <string name="accman_updateinfos_txt_title">Activate updates</string>
+    <string name="action_center_headline">ActionCenter</string>
+    <string name="action_center_min_length_device">at least 4 characters</string>
+    <string name="action_center_summary">Manage your device easily in the ActionCenter http://ac.gdata.de</string>
+    <string name="action_portal_password">ActionCenter password</string>
+    <string name="action_portal_register_device">Register device</string>
+    <string name="action_portal_user_name">ActionCenter user name</string>
+    <string name="action_settings">Settings</string>
+    <string name="activate_location_services">Please permit access to the location to ensure functioning of location-specific locking.</string>
+    <string name="activate_mms_connection">Enable remote maintenance</string>
+    <string name="activate_updates">Activate updates</string>
+    <string name="activate_updates_info">Enable updates in order to stay protected against current mobile threats.</string>
+    <string name="active">Enabled</string>
+    <string name="add_action">Add action</string>
+    <string name="add_title_to">Add (##to##)</string>
+    <string name="added_app_to_protection">Selection has been added to app protection</string>
+    <string name="admin_receiver_status_disable_warning">If you disable permissions, ##app_name## cannot lock or wipe clean lost devices.</string>
+    <string name="admin_receiver_status_disabled">Lost devices cannot be locked or wiped clean as permissions have been disabled.</string>
+    <string name="alarm_action_title">Action:</string>
+    <string name="alarm_email_number">Email addresses</string>
+    <string name="alarm_sms_number">Number</string>
+    <string name="alarm_text_include_location">Send location</string>
+    <string name="anonym">Anonymous</string>
+    <string name="antiphish_last_domain">last domain checked:</string>
+    <string name="antiphishing_info">Web protection</string>
+    <string name="antitheft_changed_data">Modified data</string>
+    <string name="antitheft_correct">Correct</string>
+    <string name="antitheft_discard">Reject</string>
+    <string name="antitheft_discard_or_correct">Do you want to reject or correct your modifications?</string>
+    <string name="antitheft_edit_mode">Modify data</string>
+    <string name="antitheft_email">Also send responses to SMS commands to the following email address:</string>
+    <string name="antitheft_email_long">Responses to SMS commands (e.g. location data) are sent via SMS back to the device from which the command was sent. You can also receive responses via email. To do so, enter your email address here.</string>
+    <string name="antitheft_email_subject">\##app_name## information</string>
+    <string name="antitheft_email_test">Test email</string>
+    <string name="antitheft_error_email">The email address you entered does not have a valid format.</string>
+    <string name="antitheft_error_enter_password">Please enter a password first.</string>
+    <string name="antitheft_error_password_too_simple">Please choose another password. The password you entered is insecure.</string>
+    <string name="antitheft_error_repeat_password">Please re-enter the password first.</string>
+    <string name="antitheft_error_repeat_phone">Please re-enter the number first.</string>
+    <string name="antitheft_error_repeat_phone_wrongly">The numbers you entered do not match.</string>
+    <string name="antitheft_error_repeat_wrongly">The passwords you entered do not match.</string>
+    <string name="antitheft_help">Help</string>
+    <string name="antitheft_help_intro">This display shows which commands you can send to your device via SMS. Responses are sent to the device from which the SMS command was sent. If you have entered an email address, responses will also be sent via email.</string>
+    <string name="antitheft_help_locate">"&lt;i>password&lt;/i> &lt;b>locate&lt;/b> &lt;br/> &lt;br/>Sends the device's location data."</string>
+    <string name="antitheft_help_lock">&lt;i>password&lt;/i> &lt;b>lock&lt;/b> &lt;br/> &lt;br/>Locks the screen (standby).&lt;br/>If no password has been set up for locking the screen, the password for SMS commands is automatically used.</string>
+    <string name="antitheft_help_mute">&lt;i>password&lt;/i> &lt;b>mute&lt;/b> &lt;br/> &lt;br/>Sets the phone to mute.</string>
+    <string name="antitheft_help_reset_remote_password">&lt;b>remote password reset:&lt;/b> &lt;i>new password&lt;/i> &lt;br/> &lt;br/>Reset password for SMS commands. This command must be sent from the preset telephone number.</string>
+    <string name="antitheft_help_ring">&lt;i>password&lt;/i> &lt;b>ring&lt;/b> &lt;br/> &lt;br/>Plays a ringtone. This is switched off after the application has been launched or unlocked.</string>
+    <string name="antitheft_help_set_device_password">&lt;i>password&lt;/i> &lt;b>set device password:&lt;/b> &lt;i>device password&lt;/i> &lt;br/> &lt;br/>Sets a password for locking the screen. You can then send the command &lt;i>lock&lt;/i> to activate the lock.</string>
+    <string name="antitheft_help_title">Lost/Stolen: Help</string>
+    <string name="antitheft_help_wipe">&lt;i>password&lt;/i> &lt;b>wipe&lt;/b> &lt;br/> &lt;br/>Resets the device to factory settings. All data is deleted.</string>
+    <string name="antitheft_hint_change_password">Change password</string>
+    <string name="antitheft_hint_email">Email address</string>
+    <string name="antitheft_hint_new_password">Enter password</string>
+    <string name="antitheft_hint_phone">Enter telephone number</string>
+    <string name="antitheft_hint_repeat_password">Re-enter password</string>
+    <string name="antitheft_hint_repeat_phone">Re-enter telephone number</string>
+    <string name="antitheft_intro">Has your device been lost or stolen?</string>
+    <string name="antitheft_intro_long">"What happens when your device is lost or stolen?
+In this event you can launch an action on your device by sending an SMS. For example, you can be sent the location of the device or delete all personal data on the device so it does not fall into the wrong hands."</string>
+    <string name="antitheft_intro_title">Lost/Stolen</string>
+    <string name="antitheft_mac_unknown">unknown</string>
+    <string name="antitheft_notify_sim_changed">The SIM card in your device has been changed. Please press here to register the new SIM card.</string>
+    <string name="antitheft_option_detect_sim_change">Check phone for SIM change.</string>
+    <string name="antitheft_option_headset_subtitle_text">Protection via headset socket</string>
+    <string name="antitheft_option_headset_title_text">Select this option to hear an alarm whenever the headset is disconnected:</string>
+    <string name="antitheft_option_locate">Locate device</string>
+    <string name="antitheft_option_locate_sim_change">Locate phone on SIM change</string>
+    <string name="antitheft_option_lock">Lock screen</string>
+    <string name="antitheft_option_lock_sim_change">Lock phone on SIM change</string>
+    <string name="antitheft_option_mute">Mute device</string>
+    <string name="antitheft_option_ring">Play ringtone</string>
+    <string name="antitheft_option_set_device_password">Set lock screen password</string>
+    <string name="antitheft_option_signal_flare">Locate device when battery is low and send position data to the registered number/email address.</string>
+    <string name="antitheft_option_signal_flare_text">When your battery is empty and the device is off it can no longer be located.Therefore we recommend using automatic localization whenever the battery status is low:</string>
+    <string name="antitheft_option_wipe">Delete personal data</string>
+    <string name="antitheft_password">Send your device an SMS command with the following password to locate it or protect your data (at least four different, non-consecutive digits):</string>
+    <string name="antitheft_password_long">SMS commands are password-protected so that strangers cannot launch any actions on your device.The password is also used for app protection, which you can use to prevent unauthorized persons from launching protected applications on your device.</string>
+    <string name="antitheft_phone">Forgot password? Reset it via SMS command using the following telephone number. Alert SMS when SIM card is changed will be sent to this number.</string>
+    <string name="antitheft_phone_long">Lost your device and forgotten the password for SMS commands? You can enter the telephone number of someone you trust (e.g. your partner) here. You can use this number to reset the password via SMS.</string>
+    <string name="antitheft_progress_sending_email">Sending email. Please wait…</string>
+    <string name="antitheft_reset_command_text">This command is only executed if a telephone number has been set for it.</string>
+    <string name="antitheft_router_mac">Router MAC</string>
+    <string name="antitheft_save">Save</string>
+    <string name="antitheft_save_or_discard">Do you want to save or reject your modifications?</string>
+    <string name="antitheft_settings">Settings</string>
+    <string name="antitheft_settings_intro_text">If you have lost your device or it has been stolen, you can launch an action by sending an SMS. Select the actions that can be launched via SMS command.</string>
+    <string name="antitheft_settings_sim_change_text">If your device has been stolen and the thief is using a new SIM card, you can no longer send SMS commands to your device. Select here what should happen if the SIM card is changed.</string>
+    <string name="antitheft_settings_title">Lost/Stolen</string>
+    <string name="antitheft_settings_warning">Please enter a password first.</string>
+    <string name="antitheft_sim_planedupdate_text">Please press here if you are planning to change the SIM card.</string>
+    <string name="antitheft_sim_update_confirm_text">Switch your device off now and insert the new SIM card. After restarting it will be registered for theft protection.</string>
+    <string name="antitheft_sim_update_text">The SIM card in your device has been changed. Please press here to complete the process.</string>
+    <string name="antitheft_sim_updated_text">Process successfully completed.</string>
+    <string name="antitheft_tab_sim_name">Theft detection</string>
+    <string name="antitheft_tab_sms_name">SMS commands</string>
+    <string name="antitheft_test_email_body">"Dear Customer,
+
+You have successfully configured your email address.
+Many thanks.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="antitheft_test_email_error">The email could not be sent. Please check the Internet connection and the email address.</string>
+    <string name="antitheft_test_email_success">The test email was successfully sent!</string>
+    <string name="antitheft_warn_receivers_dialog_deinstall">Uninstall</string>
+    <string name="antitheft_warn_receivers_text_plural">The Lost/Stolen/Private Sphere function may be compromised by the #app# apps.</string>
+    <string name="antitheft_warn_receivers_text_singular">The Lost/Stolen/Private Sphere function may be compromised by the #app# app.</string>
+    <string name="antitheft_warn_receivers_title">Incompatible app</string>
+    <string name="antitheft_widget_label">G DATA - Headset socket widget</string>
+    <string name="app_name">Internet Security</string>
+    <string name="app_name_browser">"Kids' Browser"</string>
+    <string name="app_permissions_applock">Add to app protection</string>
+    <string name="app_permissions_subtitle">This app can access the following functions on your device:</string>
+    <string name="app_permissions_uninstall">Uninstall</string>
+    <string name="app_placeholder">\##app_name##</string>
+    <string name="applock_accessibility_info">The Accessibility Service enables faster, secure reaction times for app protection</string>
+    <string name="applock_accessibility_label">Enable Accessibility Service</string>
+    <string name="applock_changed_data">Modified data</string>
+    <string name="applock_checkbox_label">Enable app protection</string>
+    <string name="applock_choose_email_bt">Email</string>
+    <string name="applock_choose_question_bt">Question</string>
+    <string name="applock_choose_text">Send password to the preset email address or answer the security question?</string>
+    <string name="applock_correct">Correct</string>
+    <string name="applock_deactivated">App protection has been disabled.</string>
+    <string name="applock_denial_disable_title">Block apps</string>
+    <string name="applock_denial_enable_title">Approve apps</string>
+    <string name="applock_denial_help_intro">Information on blocked and/or approved apps: if ##app_name## has been configured for management via a Mobile Management Server (MMS), access to individual apps can be blocked or, if access to all apps is blocked by default, granted by the MMS administrator.</string>
+    <string name="applock_denial_help_request">Access approval for the app can be requested from the administrator in the dialog window blocking the launch of the app. He/she will decide on the approval.</string>
+    <string name="applock_denial_info">"Need more information?
+Touch here."</string>
+    <string name="applock_denial_no_entries">No apps are currently blocked. If necessary protect applications by using a password.</string>
+    <string name="applock_denial_no_entries_add">Press the + icon in the title bar to select the apps you want to block.</string>
+    <string name="applock_denial_no_entries_deny_add_default">Press the + icon in the title bar to select the apps you want to approve.</string>
+    <string name="applock_denial_no_entries_deny_default">No apps are currently approved.</string>
+    <string name="applock_denial_no_entries_mms">No apps are currently blocked. If necessary, protect applications with a password.</string>
+    <string name="applock_denial_no_entries_mms_deny_default">No apps are currently approved. If necessary you can ask the administrator for approval when an app is launched.</string>
+    <string name="applock_denial_request">Request approval</string>
+    <string name="applock_denial_selection_title">Blocked apps</string>
+    <string name="applock_denial_selection_title_invert">Approved apps</string>
+    <string name="applock_denial_title">Blocked application</string>
+    <string name="applock_denial_txt">Access to this application has been blocked by the administrator.</string>
+    <string name="applock_discard">Reject</string>
+    <string name="applock_discard_or_correct">Do you want to reject or correct your modifications?</string>
+    <string name="applock_edit_mode">Modify data</string>
+    <string name="applock_email">Forgot password? Your device can send the password to the following email address:</string>
+    <string name="applock_email_body">"Dear Customer,
+
+Your password for application protection is #code#.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="applock_email_error">The email could not be sent. Please check the Internet connection and the email address in the settings.</string>
+    <string name="applock_email_long">If you have forgotten your password, you can send an email with the password to the following address from your device.</string>
+    <string name="applock_email_subject">\##app_name## information</string>
+    <string name="applock_email_success">Your email has been sent!</string>
+    <string name="applock_email_test">Test email</string>
+    <string name="applock_enter_password">Please enter password</string>
+    <string name="applock_error_email">The email address you entered does not have a valid format.</string>
+    <string name="applock_error_enter_answer">Please enter an answer to the security question first.</string>
+    <string name="applock_error_enter_custom_question">Please enter your own security question first.</string>
+    <string name="applock_error_enter_email_or_question">Please enter an email address or a security question.</string>
+    <string name="applock_error_enter_password">Please enter a password first.</string>
+    <string name="applock_error_no_data">Please enter and save data first.</string>
+    <string name="applock_error_password_too_simple">Please choose another password. The password you entered is insecure.</string>
+    <string name="applock_error_repeat_password">Please re-enter the password first.</string>
+    <string name="applock_error_repeat_phone">Please re-enter the number first.</string>
+    <string name="applock_error_repeat_phone_wrongly">The numbers you entered do not match.</string>
+    <string name="applock_error_repeat_wrongly">The passwords you entered do not match.</string>
+    <string name="applock_error_test_email">Please run a test using your email address first.</string>
+    <string name="applock_forgot_password"><small>"Forgot password?
+Press here!"</small></string>
+    <string name="applock_forgot_password_title">Forgot password?</string>
+    <string name="applock_help">Help</string>
+    <string name="applock_help_delay">Once launched and unlocked, an app remains executable for another 60 seconds after the app is terminated, without the need to enter a password. However, this only applies as long as the screen remains switched on.</string>
+    <string name="applock_help_intro">"Notes on app protection: 
+
+Android apps are generally installed using the packet from the Google Play Store. A few packets contain several apps, e.g. the telephone and contacts application. These can only be protected jointly."</string>
+    <string name="applock_help_perm">If an app needs permissions that could affect or deactivate the functions of the ##app_name##, it will be recommended for app protection. These might include apps that can uninstall or terminate other applications.</string>
+    <string name="applock_help_title">App protection help</string>
+    <string name="applock_help_uninstall">In certain cases app protection can be active during an uninstall. This always happens on certain devices when there is no other technically secure option for preventing the ##app_name## from being uninstalled unnoticed. Activation of the device administrator is recommended for the same reason.</string>
+    <string name="applock_hint_answer">Enter answer</string>
+    <string name="applock_hint_change_answer">Change answer</string>
+    <string name="applock_hint_change_password">Change password</string>
+    <string name="applock_hint_custom_question">Enter question</string>
+    <string name="applock_hint_email">Enter email</string>
+    <string name="applock_hint_new_answer">Enter answer</string>
+    <string name="applock_hint_new_password">Enter password</string>
+    <string name="applock_hint_repeat_password">Re-enter password</string>
+    <string name="applock_image_description">App icon</string>
+    <string name="applock_intro">Protect applications against unauthorized use.</string>
+    <string name="applock_intro_long">"You can use app protection to prevent unauthorized persons from launching protected applications on your device. The applications can only be launched once the correct password has been entered.
+
+Warning: Memorize the password well. If you forget it, you can no longer use your device fully."</string>
+    <string name="applock_off_due_to_accessibility_service">"The app protection has been disabled because G DATA's App Checker is inactive."</string>
+    <string name="applock_password">Only launch protected applications after this password has been entered (at least four different, non-consecutive digits):</string>
+    <string name="applock_password_long">Enter the password used to enable protected applications to be launched. This password is also used for SMS commands (see Lost/Stolen).</string>
+    <string name="applock_password_title">Password</string>
+    <string name="applock_progress_sending_email">Sending email. Please wait…</string>
+    <string name="applock_question">Security question…</string>
+    <string name="applock_question_text">Or answer the following security question:</string>
+    <string name="applock_question_text_long">Set a security question as well. If you subsequently answer the question correctly, you can use it to disable app protection so protected applications can be launched without using the password.</string>
+    <string name="applock_resend_bt">Yes</string>
+    <string name="applock_resend_password_title">Send password</string>
+    <string name="applock_resend_text">Send password to the preset email address?</string>
+    <string name="applock_save">Save</string>
+    <string name="applock_save_or_discard">Do you want to save or reject your modifications?</string>
+    <string name="applock_security_question_title">Security question</string>
+    <string name="applock_selection_add_action">Add apps</string>
+    <string name="applock_selection_no_entries">"App protection prevents unauthorized persons from launching protected applications on your device.
+
+"</string>
+    <string name="applock_selection_no_entries_add">Press the + icon in the title bar to select the apps you want to protect.</string>
+    <string name="applock_selection_no_entries_protect_add_default">Press the + icon in the title bar to select the apps you want to use without password protection.</string>
+    <string name="applock_selection_no_entries_protect_default">"App protection prevents unauthorized persons from launching protected applications on your device. As a result of the current setting, all apps are protected by default.
+
+"</string>
+    <string name="applock_selection_remove_action">Remove entries</string>
+    <string name="applock_selection_remove_title">Remove entries</string>
+    <string name="applock_selection_select_all">Highlight all</string>
+    <string name="applock_selection_settings_action">Settings</string>
+    <string name="applock_selection_show_disabled">Blocked apps</string>
+    <string name="applock_selection_show_enabled">Approved apps</string>
+    <string name="applock_selection_title">Protected apps</string>
+    <string name="applock_selection_title_invert">Unprotected apps</string>
+    <string name="applock_selector_add_action">Add entries</string>
+    <string name="applock_selector_add_title">Select entries to add</string>
+    <string name="applock_selector_block_title">Block apps</string>
+    <string name="applock_selector_block_title_invert">Approve apps</string>
+    <string name="applock_selector_discard">Reject selection</string>
+    <string name="applock_selector_no_entries">No entries available.</string>
+    <string name="applock_selector_select_all">Highlight all</string>
+    <string name="applock_selector_tab_all">All</string>
+    <string name="applock_selector_tab_downloaded">Downloaded</string>
+    <string name="applock_selector_tab_recommended">Recommended</string>
+    <string name="applock_selector_tab_recommended_invert">Not recommended</string>
+    <string name="applock_selector_title">Protect apps</string>
+    <string name="applock_selector_title_invert">Remove app protection</string>
+    <string name="applock_settings_title">App protection settings</string>
+    <string name="applock_test_email_body">"Dear Customer,
+
+You have successfully configured your email address.
+Many thanks.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="applock_test_email_error">The email could not be sent. Please check the Internet connection and the email address.</string>
+    <string name="applock_test_email_success">The test email was successfully sent!</string>
+    <string name="applock_txt_title">Protected application</string>
+    <string name="applock_txt_title_invert">Unprotected app</string>
+    <string name="applock_wait">One moment please</string>
+    <string name="applock_wrong_answer">Sorry, that was not the correct answer.</string>
+    <string name="applock_wrong_password">Sorry, that was not the correct password.</string>
+    <string name="arp_exception_bssid_text">Add permanent exception</string>
+    <string name="arp_exception_cleared">Exceptions deleted</string>
+    <string name="arp_exception_info">"Need more information?
+Touch here."</string>
+    <string name="arp_exception_text">Add exception for today</string>
+    <string name="arp_network_dialog_text">Categorize this network as trustworthy</string>
+    <string name="arp_network_dialog_title">New network</string>
+    <string name="arp_options_auto_disconnect">Disable unsecure WLAN when the display is off</string>
+    <string name="arp_options_bssid_analysis">Enhanced analysis (check BSSD ID)</string>
+    <string name="arp_options_continuous_mode">Continue monitoring between sessions</string>
+    <string name="arp_warning_dialog_accept">Continue</string>
+    <string name="arp_warning_dialog_bssid_text">This WLAN may have been compromised. This is the result of the enhanced analysis.</string>
+    <string name="arp_warning_dialog_continue">Disconnect WLAN</string>
+    <string name="arp_warning_dialog_text">This WLAN may have been compromised. If you are currently connected to a public WLAN or another unsecure network, we recommend disconnecting.</string>
+    <string name="arp_warning_dialog_title">WiFi protection</string>
+    <string name="billing_cannot_connect_message">No connection can be made to Google Play. The Google Play version may be out of date.</string>
+    <string name="billing_cannot_connect_title">No connection to Google Play</string>
+    <string name="billing_not_supported_message">The license cannot be extended as the Google Play service is not available.</string>
+    <string name="billing_not_supported_title">License extension not possible</string>
+    <string name="billing_purchase_title">License extended</string>
+    <string name="billing_purchased_message">Thank you for extending your license. Your access to signature and software updates is now activated.</string>
+    <string name="black">Black</string>
+    <string name="blacklist">Blacklist</string>
+    <string name="blacklist_prompt">Select a filter type</string>
+    <string name="block_explain">USSD control codes may possibly harm your mobile device. Before you execute any USSD control code, inform yourself about its intention.</string>
+    <string name="block_incoming_call">Incoming calls</string>
+    <string name="block_is_blacklist">Block selected contacts</string>
+    <string name="block_is_whitelist">Only permit selected contacts</string>
+    <string name="block_outgoing_call">Outgoing calls</string>
+    <string name="block_sms">SMS</string>
+    <string name="blue">Blue</string>
+    <string name="bronze">Bronze</string>
+    <string name="browser_about_content">\##about_text##</string>
+    <string name="browser_about_hdr">\##about_title##</string>
+    <string name="browser_about_link">\##about_link##</string>
+    <string name="browser_about_link_text">http://www.gdatasoftware.com</string>
+    <string name="browser_about_text">© 2015 G DATA Software AG</string>
+    <string name="browser_about_title">G DATA Kids Browser &lt;br/> version %s</string>
+    <string name="browser_bar_hint_text">Enter URL</string>
+    <string name="browser_blocked_subtitle">\##browser_txt##</string>
+    <string name="browser_blocked_title">\##browser_hdr##</string>
+    <string name="browser_denial_txt">Access to this website has been blocked for your security.</string>
+    <string name="browser_menu_about">About</string>
+    <string name="browser_menu_back">Back</string>
+    <string name="browser_menu_forward">Forwards</string>
+    <string name="browser_menu_quit">End</string>
+    <string name="browser_menu_settings">Settings</string>
+    <string name="browser_preferences_default_url">http://www.fragfinn.de</string>
+    <string name="browser_preferences_rb_blank_text">Empty page</string>
+    <string name="browser_preferences_rb_default_text">Default page (%s)</string>
+    <string name="browser_preferences_rb_specific_text">Predefined page:</string>
+    <string name="browser_preferences_subtitle_text">Select the website that should be opened on start-up.</string>
+    <string name="browser_preferences_title_text">On start-up</string>
+    <string name="bye_team">Your G DATA SecurityLabs.</string>
+    <string name="bye_world">Best regards from Bochum,</string>
+    <string name="call">Initiate Call</string>
+    <string name="call_block_info">"Need more information?
+Touch here."</string>
+    <string name="call_block_request">Request approval</string>
+    <string name="call_block_title">Blocked call</string>
+    <string name="call_block_txt">This number has been blocked.</string>
+    <string name="callfilter_blockings_delete">Delete entries</string>
+    <string name="callfilter_blockings_delete_title">Select entries to be deleted</string>
+    <string name="callfilter_blockings_no_enries">No logs available.</string>
+    <string name="callfilter_blockings_select_all">Select all</string>
+    <string name="callfilter_blockings_title_in">Suppressed incoming calls and SMS</string>
+    <string name="callfilter_blockings_title_out">Suppressed outgoing calls</string>
+    <string name="callfilter_gsc_header">Block contact</string>
+    <string name="callfilter_hidden_number">Unknown number</string>
+    <string name="callfilter_hidden_numbers">Unknown numbers</string>
+    <string name="callfilter_image_description_checkbox">Checkbox</string>
+    <string name="callfilter_image_description_contact">Picture</string>
+    <string name="callfilter_missed_call">"Call at "</string>
+    <string name="callfilter_options_allow_unknown">Allow anonymous calls despite filter</string>
+    <string name="callfilter_options_blacklist">Block all numbers on the blacklist</string>
+    <string name="callfilter_options_edit">Show whitelist or blacklist</string>
+    <string name="callfilter_options_in_intro_text">"Suppress unwanted calls and filter unwanted SMS. Select how the filter should work:
+"</string>
+    <string name="callfilter_options_log">Log</string>
+    <string name="callfilter_options_no_entries">No entries available.</string>
+    <string name="callfilter_options_out_intro_text">"Prohibit unwanted calls. Select how the filter should work:
+"</string>
+    <string name="callfilter_options_phonebook">Allow all numbers in the telephone book</string>
+    <string name="callfilter_options_phonebook_black">Allow all numbers in the telephone book that are not on the blacklist</string>
+    <string name="callfilter_options_show_book">Show telephone book entries</string>
+    <string name="callfilter_options_title">Call/SMS filter</string>
+    <string name="callfilter_options_whitelist">Allow all numbers on the whitelist</string>
+    <string name="callfilter_selection">Show list</string>
+    <string name="callfilter_selection_add">Add</string>
+    <string name="callfilter_selection_blacklist_no_enries">Press the + icon in the title bar to select numbers you want to block.</string>
+    <string name="callfilter_selection_no_enries">No contacts from the telephone book are currently selected.</string>
+    <string name="callfilter_selection_phonebook_no_enries">The telephone book is empty.</string>
+    <string name="callfilter_selection_remove">Delete entries</string>
+    <string name="callfilter_selection_remove_title">Delete selected entries</string>
+    <string name="callfilter_selection_select_all">Select all items</string>
+    <string name="callfilter_selection_title_blacklist">Blacklist</string>
+    <string name="callfilter_selection_title_in_blacklist">Blacklist for incoming calls and SMS</string>
+    <string name="callfilter_selection_title_in_whitelist">Whitelist for incoming calls and SMS</string>
+    <string name="callfilter_selection_title_out_blacklist">Blacklist outgoing calls</string>
+    <string name="callfilter_selection_title_out_whitelist">Whitelist outgoing calls</string>
+    <string name="callfilter_selection_title_phonebook">Telephone book</string>
+    <string name="callfilter_selection_title_phonebook_new">Select all contacts</string>
+    <string name="callfilter_selection_title_whitelist">Whitelist</string>
+    <string name="callfilter_selection_whitelist_no_enries">Press the + icon in the title bar to select numbers you want to allow.</string>
+    <string name="callfilter_unknown_contact">Unknown contact</string>
+    <string name="calllog_unknown_contact">Unknown number</string>
+    <string name="check_all">Select all</string>
+    <string name="choose_color">Select</string>
+    <string name="choose_scan_freq_summary">Defines how frequently the device will be scanned (in days).</string>
+    <string name="choose_scan_freq_title">Interval</string>
+    <string name="choose_update_region_summary">Select the nearest update server.</string>
+    <string name="choose_update_region_title">Server region</string>
+    <string name="choose_update_summary">Specifies how often to look for updates (in days).</string>
+    <string name="choose_update_title">Interval</string>
+    <string name="clear_arp_exceptions_summary">Delete exceptions for WiFi protection and enhanced WiFi analysis</string>
+    <string name="clear_arp_exceptions_title">Delete exceptions</string>
+    <string name="colorLabel">Colour</string>
+    <string name="color_picker_default_title">Select color:</string>
+    <string name="color_swatch_description">Color %1$d</string>
+    <string name="color_swatch_description_selected">Color %1$d selected</string>
+    <string name="compass_privacy_warning_message">é\u0080£çµ¡å\u0085\u0088ã\u0082\u0092é\u009d\u009eè¡¨ç¤º/ON ã\u0081®ç\u008a¶æ\u0085\u008bã\u0081§ G DATA Internet Security ã\u0082\u0092å\u0089\u008aé\u0099¤ã\u0081\u0097ã\u0081\u009få ´å\u0090\u0088ã\u0080\u0081é\u009d\u009eè¡¨ç¤ºã\u0081®é\u0080£çµ¡å\u0085\u0088ã\u0081\u008cå\u0089\u008aé\u0099¤ã\u0081\u0095ã\u0082\u008cã\u0081¾ã\u0081\u0099ã\u0080\u0082 å¿\u0085ã\u0081\u009aã\u0080\u0081 G DATA Internet Security ã\u0081®å\u0089\u008aé\u0099¤å\u0089\u008dã\u0081«ã\u0080\u0081é\u0080£çµ¡å\u0085\u0088ã\u0082\u0092é\u009d\u009eè¡¨ç¤º/OFF ã\u0081®ç\u008a¶æ\u0085\u008bã\u0081«ã\u0081\u0097ã\u0081¦ä¸\u008bã\u0081\u0095ã\u0081\u0084ã\u0080\u0082</string>
+    <string name="compass_privacy_warning_title">Note</string>
+    <string name="configWindow_Summary" />
+    <string name="configWindow_title">Settings</string>
+    <string name="configure_action_center">Register</string>
+    <string name="contact_missing">Please select a contact.</string>
+    <string name="contact_selection_empty_text">Touch the + icon in the title bar to add new contacts.</string>
+    <string name="contactpicker_add">Add contacts</string>
+    <string name="contactpicker_calllog">Call history</string>
+    <string name="contactpicker_contacts">Address book</string>
+    <string name="copy">Copy</string>
+    <string name="corporate_profile">Company</string>
+    <string name="crash_report">This G DATA product was closed unexpectedly. Would you like to report this error to G DATA?</string>
+    <string name="daily">Daily</string>
+    <string name="debug_options">Debug options</string>
+    <string name="default_profile">Private</string>
+    <string name="detailed_texts">more…</string>
+    <string name="dev_admin_applock_explanation">Permissions will help prevent you from unintentionally uninstalling ##app_name## and will thus ensure protection.</string>
+    <string name="dev_admin_receiver_description">Permissions required for Lost/Stolen function.</string>
+    <string name="dev_admin_receiver_explanation">Permissions are required to lock lost devices, wipe them clean or reset the device password.</string>
+    <string name="device_already_registered">Your device is already registered in the G DATA ActionCenter.</string>
+    <string name="dialog_accessibility_for_lollipop">"As of Android Lollipop G DATA's App Checker needs to be enabled. Please activate the service in the system settings."</string>
+    <string name="dialog_accessibility_for_lollipop_mms">The G DATA AppChecker is required for Mobile Device Management on Android Lollipop and newer. Please activate the service in system settings.</string>
+    <string name="dialog_accessibility_info_activate">You will now be forwarded to the system settings. Please activate the G DATA App Checker there.</string>
+    <string name="dialog_accessibility_info_deactivate">You will now be forwarded to the system settings. Please deactivate the G DATA App Checker there.</string>
+    <string name="dialog_apkfile_updated">\##app_name## will now be updated!</string>
+    <string name="dialog_auth_succefull">Successfully logged onto server.</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_cancel_short">Cancel</string>
+    <string name="dialog_done">Ready</string>
+    <string name="dialog_err_computerid_change_failed">The permission transfer failed.</string>
+    <string name="dialog_err_computerid_change_succeeded">Permission to download updates transferred successfully.</string>
+    <string name="dialog_err_computerid_changed">Another device has permission to load updates. This device does not have permission to load updates.</string>
+    <string name="dialog_err_computerid_changed_extern">Another device has permission to load updates. Please manually launch an update to transfer the permission to this computer.</string>
+    <string name="dialog_err_data_corrupt">Update failed: the files you downloaded are corrupt.</string>
+    <string name="dialog_err_database_operation">The update server cannot currently be accessed. Please try again later.</string>
+    <string name="dialog_err_install_signature_update">Update failed: the signatures you downloaded could not be installed.</string>
+    <string name="dialog_err_invalid_customer_data">The customer data has not been accepted. Please enter a valid address.</string>
+    <string name="dialog_err_invalid_login">Update failed: the access data is invalid.</string>
+    <string name="dialog_err_invalid_reg_number">The registration number is invalid.</string>
+    <string name="dialog_err_license_fault">Another device has permission to load updates. It is not possible to transfer the permission to this device. Please contact support.</string>
+    <string name="dialog_err_login_deleted">The access rights are time-limited and have expired.</string>
+    <string name="dialog_err_login_expired">Your ##app_name## license is no longer valid!</string>
+    <string name="dialog_err_login_expired_extern">Your ##app_name## license is no longer valid. Please launch the update manually to receive more information.</string>
+    <string name="dialog_err_mms_initial_connect_failed">The most recent connection attempt to the remote management server failed. Please contact your administrator.</string>
+    <string name="dialog_err_mms_missing_login_data">Update failed. No access data available. Please contact your administrator.</string>
+    <string name="dialog_err_no_update_available">There is no update available. You have the current version.</string>
+    <string name="dialog_err_not_allowed_in_this_country">This license is restricted to a certain territory. The device on which you want to register the license is not located in this territory. Please contact your supplier.</string>
+    <string name="dialog_err_open_database">The update server cannot currently be accessed. Please try again later.</string>
+    <string name="dialog_err_product_already_registered">The product has already been registered.</string>
+    <string name="dialog_err_request_extension">There is currently no offer available for your product.</string>
+    <string name="dialog_err_single_update_already_used">You have already run all updates. No additional updates are possible.</string>
+    <string name="dialog_err_update_not_allowed">You do not have authorization to load updates.</string>
+    <string name="dialog_error">An unknown error occurred (%s).</string>
+    <string name="dialog_fix">Correct</string>
+    <string name="dialog_mobile_network_error">An SMS connection could not be established. Please make sure your device can send SMS messages.</string>
+    <string name="dialog_network_error">The server could not be reached. Please check the network connection.</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_no_auth_data_entered">No access data has yet been entered.</string>
+    <string name="dialog_no_space_available">The update could not be run. Please check that there is enough storage space.</string>
+    <string name="dialog_not_all_data_entered">Not all the required data has been entered correctly.</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_periodic_scan_type_title">Type of virus scan</string>
+    <string name="dialog_query_computerid_changed">Another device has permission to load updates. Should the permission be transferred to this device?</string>
+    <string name="dialog_scan_freq_title">Scan frequency in days</string>
+    <string name="dialog_sigfile_updated">The signatures have been updated. ##app_name## is now fully up-to-date!</string>
+    <string name="dialog_title">\##app_name##</string>
+    <string name="dialog_update_freq_title">Update frequency in days</string>
+    <string name="dialog_update_not_needed">\##app_name## is fully up-to-date!</string>
+    <string name="dialog_update_region_title">Server region</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="disabled">Disabled</string>
+    <string name="disinfect_all">Disinfect all</string>
+    <string name="disinfect_all_files_mess">Should all infected files be deleted?</string>
+    <string name="disinfect_all_files_title">Delete files</string>
+    <string name="disinfect_system_cleaned_mess">The system disinfection successfully completed.</string>
+    <string name="drawer_close">Close navigation bar</string>
+    <string name="drawer_open">Open navigation bar</string>
+    <string name="edit_action">Edit action</string>
+    <string name="edit_filter_title">Edit filter</string>
+    <string name="email_hint">Add email address…</string>
+    <string name="empty_string" />
+    <string name="enableTimedScan_summary">The device will regularly be checked for viruses.</string>
+    <string name="enableTimedScan_title">Periodically</string>
+    <string name="enableUpdate_summary">Signature updates are regularly run in the background.</string>
+    <string name="enableUpdate_title">Automatic</string>
+    <string name="enable_mms_server">Allow remote administration</string>
+    <string name="enable_mms_server_summary">Enables remote administration of the device.</string>
+    <string name="enable_web_portal_summary">Use G DATA ActionCenter</string>
+    <string name="enable_web_portal_title">G DATA ActionCenter</string>
+    <string name="filescan_calculate_files">Calculate scan volume…</string>
+    <string name="filescan_deep_scan">Deep scan</string>
+    <string name="filescan_delete_ask" formatted="false">Should the file %file% be deleted?</string>
+    <string name="filescan_delete_ask_title">Delete file</string>
+    <string name="filescan_delete_error">It is not possible to delete a file because of the device configuration. Try connecting the device to a PC and using it to delete the file.</string>
+    <string name="filescan_delete_error_title">Error</string>
+    <string name="filescan_end_scan">Malware scan completed.</string>
+    <string name="filescan_files_clean">Uninfected files,</string>
+    <string name="filescan_files_scanned">Files scanned:</string>
+    <string name="filescan_files_skipped">Files were skipped.</string>
+    <string name="filescan_initial_message">Initializing malware scan…</string>
+    <string name="filescan_scan_status">Scan file:</string>
+    <string name="filescan_start_deep_scan">Performing deep scan</string>
+    <string name="filescan_start_scan">Launching malware scan…</string>
+    <string name="filescan_timeframe_a">The scan lasted</string>
+    <string name="filescan_timeframe_b">minutes</string>
+    <string name="filter_activating_colliding_error">Should the filters in conflict be disabled, or should this one remain inactive?</string>
+    <string name="filter_activating_colliding_error_disable">Disable</string>
+    <string name="filter_activating_colliding_error_header">Logical conflict</string>
+    <string name="filter_incompatiblity">The SMS-Filter is no longer supported in Android 4.4 or later versions.</string>
+    <string name="filter_selection_no_entries">"This app enables you to use various filters to block or permit groups of contacts at specific times on specific weekdays. 
+
+"</string>
+    <string name="filter_selection_no_entries_add">Touch the + icon in the title bar to create new filters.</string>
+    <string name="filter_selection_title">Contacts</string>
+    <string name="fitler_fragment_title">SMS/Call Filter</string>
+    <string name="form_error_filter_type">Please select at least one filter type.</string>
+    <string name="form_error_invalid_adress">Invalid address</string>
+    <string name="form_error_invalid_date">The selected date is invalid.</string>
+    <string name="form_error_invalid_merchant_number">Please enter a valid dealer no.</string>
+    <string name="form_error_invalid_missing_adress">Please enter an address</string>
+    <string name="form_error_invalid_missing_email">Please enter a valid email address.</string>
+    <string name="form_error_invalid_missing_firstname">Please enter your first name.</string>
+    <string name="form_error_invalid_missing_lastname">Please enter your surname.</string>
+    <string name="form_error_invalid_missing_name">Please enter a name for the appointment</string>
+    <string name="form_error_invalid_missing_radius">Please enter the desired perimeter</string>
+    <string name="form_error_invalid_time">Invalid time entry</string>
+    <string name="form_error_no_service">Service unavailable.</string>
+    <string name="form_error_select_a_day">Please select at least one weekday on which the filter should be active.</string>
+    <string name="freemium_not_allowed">"This function is not available in the basic version.
+
+Would you like to see an offer to purchase the premium version?"</string>
+    <string name="freemium_not_allowed_cancel">No, thanks</string>
+    <string name="freemium_not_allowed_ok">Show offer</string>
+    <string name="friday">Fri</string>
+    <string name="fullday">All day</string>
+    <string name="gdata_install_text">\##app_name## scans apps for malware during installation</string>
+    <string name="gdata_install_ticker">G DATA protection is now active</string>
+    <string name="gold">Gold</string>
+    <string name="green">Green</string>
+    <string name="grey">Grey</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">An attempt to compromise your mobile device with a USSD control code has been blocked.</string>
+    <string name="hello_world_clean">The phone URL you tried to access is not a USSD control code and can be dialed without risk.</string>
+    <string name="hello_world_empty">To prevent damage to your mobile device, caused by USSD control codes, select this app when the dialog appears below.</string>
+    <string name="hide_contact">Starting with Android 4.4 and later, the SMS messaging is no longer concealable. Other parts of the privacy are still working.</string>
+    <string name="hide_dialog">Do not show again</string>
+    <string name="hint">Note</string>
+    <string name="hub_claim">TRUST IN GERMAN SICHERHEIT.</string>
+    <string name="inapp_help_url" formatted="false">http://market.android.com/support/bin/answer.py?answer=1050566&amp;hl=%lang%&amp;dl=%region%</string>
+    <string name="inapp_learn_more">more information</string>
+    <string name="incblack">Incoming</string>
+    <string name="incwhite">Incoming</string>
+    <string name="info_txt_copyright">Â© G DATA Software AG</string>
+    <string name="info_txt_cr">© G DATA Software AG</string>
+    <string name="info_txt_versioninfo_name">Version</string>
+    <string name="isincomingtext">Incoming</string>
+    <string name="isoutgoingtext">Outgoing</string>
+    <string name="issmstext">incoming SMS</string>
+    <string name="kidsbrowser_enabled_summary">Switches the Kids Browser on or off.</string>
+    <string name="kidsbrowser_enabled_title">Kids Browser switched on</string>
+    <string name="kidsguard_airplane_mode_summary">Activate flight mode (not on newer devices)</string>
+    <string name="kidsguard_airplane_mode_title">Enable flight mode</string>
+    <string name="kidsguard_allow_emergency_calls_summary">The telephone app is approved for emergency call numbers. All other numbers will be blocked.</string>
+    <string name="kidsguard_allow_emergency_calls_title">Permit emergency call numbers</string>
+    <string name="kidsguard_app_background_preference_summary">Background for app icons</string>
+    <string name="kidsguard_app_background_preference_title">Background</string>
+    <string name="kidsguard_app_background_size_preference_summary">Size of app icon background</string>
+    <string name="kidsguard_app_background_size_preference_title">Background size</string>
+    <string name="kidsguard_app_grid">Arrangement of apps</string>
+    <string name="kidsguard_app_icon">App icons</string>
+    <string name="kidsguard_app_icon_size_preference_summary">Size of app icons</string>
+    <string name="kidsguard_app_icon_size_preference_title">Icon size</string>
+    <string name="kidsguard_app_label">App label</string>
+    <string name="kidsguard_app_label_color_summary">Color of app names</string>
+    <string name="kidsguard_app_label_color_title">Text color</string>
+    <string name="kidsguard_app_textsize_summary">Text size for app names</string>
+    <string name="kidsguard_app_textsize_title">Text size</string>
+    <string name="kidsguard_applock_configuration">Please configure app protection first</string>
+    <string name="kidsguard_applock_denial_message">Access to this application has been restricted for your security.</string>
+    <string name="kidsguard_applock_denial_message_appname">Access to the app %s has been restricted for your security.</string>
+    <string name="kidsguard_applock_denial_outgoing_call">Selecting this number has been restricted for your security.</string>
+    <string name="kidsguard_applock_denial_title">Application blocked</string>
+    <string name="kidsguard_applock_timeslice_message_appname">"The %s app may only be restarted tomorrow.
+Parents can extend the period by pressing and holding the icons."</string>
+    <string name="kidsguard_back_exit">Press &lt;i>Back&lt;/i> again to exit the configuration.</string>
+    <string name="kidsguard_background_balloon">Balloon</string>
+    <string name="kidsguard_background_bubble">Water bubble</string>
+    <string name="kidsguard_background_glass">Glass</string>
+    <string name="kidsguard_background_heart">Heart</string>
+    <string name="kidsguard_background_none">No background</string>
+    <string name="kidsguard_background_sphere">Sphere</string>
+    <string name="kidsguard_block_incoming_calls_summary">Incoming calls are blocked. Outgoing calls can be made as long as a telephone app is approved.</string>
+    <string name="kidsguard_block_incoming_calls_title">Block incoming calls</string>
+    <string name="kidsguard_browser_configure_urls_link_blacklist_text">Configure blacklist…</string>
+    <string name="kidsguard_browser_configure_urls_link_whitelist_text">Configure whitelist…</string>
+    <string name="kidsguard_browser_configure_urls_subtitle_text">Configure the websites you want to permit/forbid and add them to the whitelist/blacklist.</string>
+    <string name="kidsguard_browser_configure_urls_title_text">Websites</string>
+    <string name="kidsguard_browser_edit_url_hint_name_text">Title</string>
+    <string name="kidsguard_browser_edit_url_hint_url_text">http://</string>
+    <string name="kidsguard_browser_edit_url_title_add_text">Add URL</string>
+    <string name="kidsguard_browser_edit_url_title_edit_text">Edit URL</string>
+    <string name="kidsguard_browser_listview_no_entries_add">Press the + icon in the title bar to add the URLs to the relevant list.</string>
+    <string name="kidsguard_browser_listview_title_blacklist_text">Blacklist</string>
+    <string name="kidsguard_browser_listview_title_whitelist_text">Whitelist</string>
+    <string name="kidsguard_browser_select_mode_rb_blacklist_text">Blacklist</string>
+    <string name="kidsguard_browser_select_mode_rb_whitelist_text">Whitelist</string>
+    <string name="kidsguard_email_body">"Dear Customer,
+
+Your parental controls password is #code#.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="kidsguard_enter_password">Please enter password</string>
+    <string name="kidsguard_extend_time_subtitle">One-time extension by:</string>
+    <string name="kidsguard_extend_time_title">Extend usage time:</string>
+    <string name="kidsguard_fix_volume_keys_summary">Changes to the volume buttons will be canceled immediately.</string>
+    <string name="kidsguard_fix_volume_keys_title">Set volume</string>
+    <string name="kidsguard_forgot_password"><small>"Forgot password?
+Press here!"</small></string>
+    <string name="kidsguard_home_hint">In the &lt;b>\"Select start app\"&lt;/b> dialog, select &lt;b>\"Internet Security\"&lt;/b> and confirm your selection with &lt;b>\"Always\"&lt;/b> .</string>
+    <string name="kidsguard_home_hint_title">Enable parental controls</string>
+    <string name="kidsguard_label_color_black">Black</string>
+    <string name="kidsguard_label_color_white">White</string>
+    <string name="kidsguard_label_none">No label</string>
+    <string name="kidsguard_leave">End</string>
+    <string name="kidsguard_leave_title">Exit parental controls</string>
+    <string name="kidsguard_over_control_time_checkbox_summary">Enable time restriction for device usage</string>
+    <string name="kidsguard_over_control_time_checkbox_title">Activate</string>
+    <string name="kidsguard_parents_options">"Children's corner options"</string>
+    <string name="kidsguard_raster_preference_landscape_columns_summary">Number of icons rows in landscape</string>
+    <string name="kidsguard_raster_preference_landscape_columns_title">Rows in landscape</string>
+    <string name="kidsguard_raster_preference_landscape_rows_summary">Number of icon columns in landscape</string>
+    <string name="kidsguard_raster_preference_landscape_rows_title">Columns in landscape</string>
+    <string name="kidsguard_raster_preference_portrait_columns_summary">Number of icon rows in portrait</string>
+    <string name="kidsguard_raster_preference_portrait_columns_title">Rows in portrait</string>
+    <string name="kidsguard_raster_preference_portrait_rows_summary">Number of icon columns in portrait</string>
+    <string name="kidsguard_raster_preference_portrait_rows_title">Columns in portrait</string>
+    <string name="kidsguard_reset_time_limit_summary">Reset time restriction for device usage and disable sleep mode</string>
+    <string name="kidsguard_reset_time_limit_title">Reset time restriction</string>
+    <string name="kidsguard_reset_time_limit_toast_text">The time restriction was successfully reset and sleep mode has been disabled.</string>
+    <string name="kidsguard_reset_usage_time_summary">Reset device time used to date</string>
+    <string name="kidsguard_reset_usage_time_title">Reset time used to date</string>
+    <string name="kidsguard_reset_usage_time_toast_text">The time previously used for the device was successfully reset.</string>
+    <string name="kidsguard_select_browser_mode_cb_fragfinn_text">FragFinn e.V.</string>
+    <string name="kidsguard_select_browser_mode_cb_own_text">Custom predefined lists</string>
+    <string name="kidsguard_select_browser_mode_subtitle_text">Select lists to restrict usage of specific websites.</string>
+    <string name="kidsguard_select_browser_mode_title_text">Browser settings</string>
+    <string name="kidsguard_set_allowed_usage_time_header">Time limit for device usage</string>
+    <string name="kidsguard_set_allowed_usage_time_summary">Set up time restriction for device usage</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_plural">Minutes</string>
+    <string name="kidsguard_set_allowed_usage_time_summary_minutes_singular">Minute</string>
+    <string name="kidsguard_set_allowed_usage_time_title">Set up time restriction</string>
+    <string name="kidsguard_settings">Configure parental controls</string>
+    <string name="kidsguard_show_usage_time_expired_text">Usage time: expired</string>
+    <string name="kidsguard_show_usage_time_remaining_text">Time remaining: %1$s minutes</string>
+    <string name="kidsguard_show_usage_time_text">Usage time: %1$s minutes (expires: %2$s)</string>
+    <string name="kidsguard_subtitle">"Protect your children from inappropriate content. Select one of the two modes.
+"</string>
+    <string name="kidsguard_subtitle_no_applock">"Please configure app protection first. The parental controls use the same password. There is no need to activate app protection.
+"</string>
+    <string name="kidsguard_subtitle_teenager_on">"The teenager corner is currently active.
+"</string>
+    <string name="kidsguard_teenager">Teenager corner</string>
+    <string name="kidsguard_teenager_configuration">Configure teenager corner</string>
+    <string name="kidsguard_teenager_deactivated">The teenager corner has been exited.</string>
+    <string name="kidsguard_teenager_description">Protected area with access to basic G DATA functions</string>
+    <string name="kidsguard_title">Parental controls</string>
+    <string name="kidsguard_toddler">"Children's corner"</string>
+    <string name="kidsguard_toddler_configuration">"Configure children's corner"</string>
+    <string name="kidsguard_toddler_deactivated">"The children's corner has been exited."</string>
+    <string name="kidsguard_toddler_description">Restricted area with child-oriented home screen</string>
+    <string name="kidsguard_usage_control__checkbox_summary">The device can only be used in the location and within the radius selected by you.</string>
+    <string name="kidsguard_usage_control__checkbox_title">Activate</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current">Currently:</string>
+    <string name="kidsguard_usage_control_allowed_usage_time_current_min">Minutes</string>
+    <string name="kidsguard_usage_control_amoutoftime_category">Time restriction</string>
+    <string name="kidsguard_usage_control_current">Currently:</string>
+    <string name="kidsguard_usage_control_invalid_adress">The address is invalid.</string>
+    <string name="kidsguard_usage_control_kilometer">Kilometers</string>
+    <string name="kidsguard_usage_control_location_category">Geographical restriction</string>
+    <string name="kidsguard_usage_control_no_adress">No address entered</string>
+    <string name="kidsguard_usage_control_radius_title">Set a radius in kilometers</string>
+    <string name="kidsguard_usage_control_scheduled_category">Weekly scheduling</string>
+    <string name="kidsguard_usage_control_scheduled_summary">Set a period for each weekday in which usage of the device is permitted</string>
+    <string name="kidsguard_usage_control_scheduled_title">Plan</string>
+    <string name="kidsguard_usage_control_set_adress">Enter address</string>
+    <string name="kidsguard_usage_control_summary">Settings for restriction on usage time or location</string>
+    <string name="kidsguard_usage_control_title">Settings</string>
+    <string name="kidsguard_usage_control_weekly_category">Weekly overview</string>
+    <string name="kidsguard_usage_time_device_admin_text">Permissions are required to block the device and guarantee that the sleep mode is functioning correctly.</string>
+    <string name="kidsguard_usage_time_exceeded_dialog_text">Permitted daily usage time expired. Your device is now blocked.</string>
+    <string name="kidsguard_usagecontrol_toddler">Restrictions</string>
+    <string name="kidsguard_usagecontrol_toddler_configuration">Configure usage times</string>
+    <string name="kidsguard_usagecontrol_toddler_description">Limits the permitted device usage to custom-defined periods or locations.</string>
+    <string name="kidsguard_wallpaper">Background</string>
+    <string name="kidsguard_wifi_off_summary">Disconnect all networks and disable WiFi</string>
+    <string name="kidsguard_wifi_off_title">Switch off WiFi</string>
+    <string name="lightblue">Light blue</string>
+    <string name="lightgrey">Light grey</string>
+    <string name="localisation_service">Localization Service</string>
+    <string name="locationlock_add_title">Add new restriction</string>
+    <string name="locationlock_add_title_edit">Edit restriction</string>
+    <string name="locationlock_selection_title">Restrictions</string>
+    <string name="locationpicker_add">Set location</string>
+    <string name="lockedlocations_selection_no_entries">"This app enables you to block your smartphone for specific locations at various times on various days of the week. 
+
+"</string>
+    <string name="lockedlocations_selection_no_entries_add">Touch the + icon in the title bar to create new restrictions.</string>
+    <string name="lockscreen_part_disabled_services" />
+    <string name="lockscreen_part_five" />
+    <string name="lockscreen_part_four" />
+    <string name="lockscreen_part_one">Due to the restriction, your device is locked:</string>
+    <string name="lockscreen_part_six" />
+    <string name="lockscreen_part_two" />
+    <string name="log_blocked_app">Blocked app launched:</string>
+    <string name="log_clar_caption">Logs</string>
+    <string name="log_clear_logs">Delete</string>
+    <string name="log_confirm_clear_logs">Do you want to delete all logs?</string>
+    <string name="log_detail_title">Log</string>
+    <string name="log_dont_clear_logs">Cancel</string>
+    <string name="log_hashcode_block_app">App blocked because the signature is different:</string>
+    <string name="log_hashcode_mismatch">Different signature:</string>
+    <string name="log_incoming_call_blocked">Incoming call suppressed:</string>
+    <string name="log_locked_app">Protected app launched:</string>
+    <string name="log_oninstall_app" formatted="false">Application: %app%</string>
+    <string name="log_oninstall_malware_found">Malware found</string>
+    <string name="log_oninstall_malware_name" formatted="false">Infection: %name%</string>
+    <string name="log_oninstall_package_name" formatted="false">Installation package: %package%</string>
+    <string name="log_oninstall_pup_found">Potentially unwanted program found</string>
+    <string name="log_outgoing_call_blocked">Outgoing call suppressed:</string>
+    <string name="log_phishing_site_found">Phishing site found:</string>
+    <string name="log_scan_app_scan_title">Application scan:</string>
+    <string name="log_scan_apps_scanned" formatted="false">%cnt% installed applications scanned</string>
+    <string name="log_scan_duration" formatted="false">Scan length: %time%</string>
+    <string name="log_scan_files_scanned" formatted="false">%cnt% files scanned</string>
+    <string name="log_scan_infection_found" formatted="false">%cnt% infection found</string>
+    <string name="log_scan_infections_found" formatted="false">%cnt% infections found</string>
+    <string name="log_scan_malware_found_title">Malware found</string>
+    <string name="log_scan_nothing_found_title">no malware found</string>
+    <string name="log_scan_pup_found" formatted="false">%cnt% potentially unwanted program found</string>
+    <string name="log_scan_pup_found_title">potentially unwanted programs found</string>
+    <string name="log_scan_pups_found" formatted="false">%cnt% potentially unwanted programs found</string>
+    <string name="log_scan_sig_date" formatted="false">Signatures: %date%</string>
+    <string name="log_scan_system_scan_title">System scan:</string>
+    <string name="log_sigfile_updated">The signatures have been updated.</string>
+    <string name="main_activation_state">Status:</string>
+    <string name="main_antiphish_checked_none">none</string>
+    <string name="main_apps_denials_all">All apps blocked</string>
+    <string name="main_apps_denials_hdr">Blocked apps</string>
+    <string name="main_apps_denials_hdr_invert">Approved apps</string>
+    <string name="main_apps_denials_none">No apps blocked</string>
+    <string name="main_apps_locked_all">All apps protected</string>
+    <string name="main_apps_locked_hdr">Protected apps</string>
+    <string name="main_apps_locked_hdr_invert">Unprotected apps</string>
+    <string name="main_apps_locked_none">no apps protected</string>
+    <string name="main_calls_blocked_multiple">%d calls/SMS suppressed</string>
+    <string name="main_calls_blocked_singular">1 call/SMS suppressed</string>
+    <string name="main_calls_filtered_hdr">suppressed calls:</string>
+    <string name="main_calls_filtered_none">none</string>
+    <string name="main_contacts_filtered_none">none</string>
+    <string name="main_contacts_hidden_count">%d contacts hidden</string>
+    <string name="main_contacts_hidden_count_singular">1 contact hidden</string>
+    <string name="main_contacts_hidden_hdr">protected contacts:</string>
+    <string name="main_hub_phishing">Phishing filter</string>
+    <string name="main_hub_privacy">Hide contacts</string>
+    <string name="main_info">About G DATA</string>
+    <string name="main_last_scan_hdr">last virus scan:</string>
+    <string name="main_last_scan_never">never</string>
+    <string name="main_permission">Permissions</string>
+    <string name="main_premium_antitheft">Anti-theft</string>
+    <string name="main_premium_callblock">Call filter</string>
+    <string name="main_premium_phishing">Phishing filter</string>
+    <string name="main_premium_privacy">Private sphere</string>
+    <string name="main_scan">Virus scan</string>
+    <string name="main_settings">Settings</string>
+    <string name="main_state_active">active</string>
+    <string name="main_state_inactive">inactive</string>
+    <string name="mdm_choose_another_profile">Select another profile</string>
+    <string name="mdm_choose_profile_title">Select profile</string>
+    <string name="mdm_device_compromised_rooted_locked">"The user's device has been compromised (rooted) and blocked by the administrator as a result"</string>
+    <string name="mdm_set_camera_state">Camera activation/deactivation is not supported.</string>
+    <string name="mdm_storage_encryption_accepted_by_user">Device encryption has been enabled by the user</string>
+    <string name="mdm_storage_encryption_denied_by_user">Device encryption has not been enabled by the user</string>
+    <string name="menu_accman">Account management</string>
+    <string name="menu_antitheft">Lost/Stolen</string>
+    <string name="menu_applock">App protection</string>
+    <string name="menu_apps">Apps</string>
+    <string name="menu_conversations">Calls / SMS</string>
+    <string name="menu_exit">Press the &lt;i>Back&lt;/i> button again to close the application.</string>
+    <string name="menu_filter">Call filter</string>
+    <string name="menu_filter_in">Incoming filter</string>
+    <string name="menu_filter_out">Outgoing filter</string>
+    <string name="menu_goback">Back</string>
+    <string name="menu_guard_done">Ready</string>
+    <string name="menu_hide_contacts">Hide contacts</string>
+    <string name="menu_info">About</string>
+    <string name="menu_kidsguard">Parental controls</string>
+    <string name="menu_kidsguard_broser">Browser settings</string>
+    <string name="menu_other">More</string>
+    <string name="menu_panic_button">Panic Button</string>
+    <string name="menu_security">Security</string>
+    <string name="menu_security_hub">Security center</string>
+    <string name="menu_settings">Settings</string>
+    <string name="missing_libs">The installation failed. Please check that there is enough storage space available and install the application again.</string>
+    <string name="mms_configure">Configure remote maintenance</string>
+    <string name="mms_connect_deferred">It is not possible to load updates as no connection to the ManagementServer has ever been established yet. Please check the remote maintenance settings.</string>
+    <string name="mms_contact">Company contact</string>
+    <string name="mms_eula_show">Show usage agreement…</string>
+    <string name="mms_invalid_data">Invalid login data for remote administration</string>
+    <string name="mms_log">MMS transmission</string>
+    <string name="mms_server_address">Server address</string>
+    <string name="mms_server_address_summary">ManagementServer address (IP/server name)</string>
+    <string name="mms_server_name">Device name</string>
+    <string name="mms_server_name_summary">Device name for identification.</string>
+    <string name="mms_server_not_found">ManagementServer could not yet be reached.</string>
+    <string name="mms_server_password">Password</string>
+    <string name="mms_server_password_summary">Password for authorization.</string>
+    <string name="mms_synch_data">Synchronize with G DATA ManagementServer â\u0080¦</string>
+    <string name="mockapp">\"GPS Fake App detected.\"</string>
+    <string name="monday">Mon</string>
+    <string name="new_filter_title">Add new filter</string>
+    <string name="new_group_filter_scheduler_header">Daily</string>
+    <string name="new_locked_location_adress_header">Address</string>
+    <string name="new_locked_location_from_hint">From</string>
+    <string name="new_locked_location_header">Description</string>
+    <string name="new_locked_location_location_activate">Enable geographic locking</string>
+    <string name="new_locked_location_radius_header">Perimeter</string>
+    <string name="new_locked_location_scheduler_header">Scheduling</string>
+    <string name="new_locked_location_till_hint">To</string>
+    <string name="new_widget_help">New Panic Buttons can only be added as widgets on your home screen.</string>
+    <string name="news_follow_link">read onâ\u0080¦</string>
+    <string name="news_links">http://www.gdatasoftware.com/gui_news_url.php/guinews/en/gdisfa/##productId##/</string>
+    <string name="news_system">http://gns.gdatasoftware.com/##productId##/GDISFA/en/messages.xml</string>
+    <string name="no_entrys">No entries</string>
+    <string name="not_allowed_mms_business">You are not allowed to deactivate filters set by the administrator</string>
+    <string name="notification_accessibility_applock_off_text">"App protection has been disabled because G DATA's App Checker is inactive. The service is required for the app protection as of Android Lollipop."</string>
+    <string name="notification_accessibility_applock_off_ticker">The app protection has been disabled</string>
+    <string name="notification_app_installed_clean_ticker_part1">\##app_name## has successfully scanned</string>
+    <string name="notification_app_installed_clean_ticker_part2">the application.</string>
+    <string name="notification_arp_detection">This WLAN may have been compromised.</string>
+    <string name="notification_arp_detection_auto">This WLAN may have been compromised.</string>
+    <string name="notification_arp_detection_auto_ticker">This WLAN may have been compromised. Your WLAN connection has been disconnected as a precaution.</string>
+    <string name="notification_arp_detection_ticker">This WLAN may have been compromised. If you are currently connected to a public WLAN or another unsecure network, we recommend disconnecting.</string>
+    <string name="notification_bssid_detection">This WLAN may have been compromised.</string>
+    <string name="notification_bssid_detection_ticker">This WLAN may have been compromised. This is the result of the enhanced analysis.</string>
+    <string name="notification_infected">Your system is infected!</string>
+    <string name="notification_infected_pup">Your system may be infected!</string>
+    <string name="notification_infected_pup_ticker">There may be unwanted programs installed on your system.</string>
+    <string name="notification_infected_ticker">Your system is infected!</string>
+    <string name="notification_ipx_cancellation_success">Your subscription has been successfully canceled.</string>
+    <string name="notification_ipx_error">An error occurred while ordering. Please try to order using a different payment method.</string>
+    <string name="notification_ipx_subscription_success">Your subscription has been successfully set up.</string>
+    <string name="notification_new_apk_available">New program version available.</string>
+    <string name="notification_new_apk_available_ticker">A new program version is available.</string>
+    <string name="notification_new_news_ticker">New messages available</string>
+    <string name="notification_new_unread_multiple">%d unread messages</string>
+    <string name="notification_new_unread_one">1 unread message</string>
+    <string name="notification_persistent_text">active</string>
+    <string name="notification_persistent_ticker">\##app_name## was launched.</string>
+    <string name="notification_persistent_title">\##app_name##</string>
+    <string name="notification_query_install_apk">Install</string>
+    <string name="notification_query_message_news">You have unread messages.</string>
+    <string name="notification_query_open_news">Display messages</string>
+    <string name="notification_query_start_disinfect">Disinfect</string>
+    <string name="notification_query_start_scan">Launch scan</string>
+    <string name="notification_query_start_update">Start update</string>
+    <string name="notification_scan_finished_clean">The scan found no infections</string>
+    <string name="notification_scan_outdated">Scan required</string>
+    <string name="notification_scan_outdated_ticker">The last scan was more than 7 days ago.</string>
+    <string name="notification_sig_file_to_old">The signatures are out of date!</string>
+    <string name="notification_sig_file_to_old_ticker">The signatures being used are out of date!</string>
+    <string name="notification_usage_time_left">minutes remaining…</string>
+    <string name="notification_usage_time_title" />
+    <string name="number_picker_add_as_new_number">Add as new number</string>
+    <string name="number_picker_add_entries">Hide entries</string>
+    <string name="number_picker_new_contact">Add</string>
+    <string name="number_picker_search">Search</string>
+    <string name="orange">Orange</string>
+    <string name="orange_ask_activate">You do not have up-to-date virus protection. Do you want to buy a license to protect your smartphone against viruses and threats?</string>
+    <string name="orange_err_no_orange_sim">Please note that this service is only available for customers of Orange Austria.</string>
+    <string name="orange_err_no_sim">No updates can be loaded without a SIM card.</string>
+    <string name="orange_wizard_explaination">This data, as well as usage data, may be used for information relevant to the product for 12 months.</string>
+    <string name="orange_wizard_purchase_link">Buy now…</string>
+    <string name="orange_wizard_subtitle">"30 day free trial! 
+
+All premium functions for free for 30 days, just enter your name and email address."</string>
+    <string name="outblack">Outgoing</string>
+    <string name="outwhite">Outgoing</string>
+    <string name="package_already_uninstalled">Packet already deleted</string>
+    <string name="panicActionContent">Text</string>
+    <string name="panicActionType">Action</string>
+    <string name="panic_button_dialog_title">Actions will be run in…</string>
+    <string name="panic_button_info_text">"A Panic Button helps you send a message, for example, to quickly and easily inform friends of your current location in case of emergency. 
+
+ These are set up as new widgets via the home screen.
+
+"</string>
+    <string name="panic_button_prompt">Add new action</string>
+    <string name="panic_button_ready">Ready</string>
+    <string name="panic_call">Initiate call</string>
+    <string name="panic_call_content" />
+    <string name="panic_call_type">Call</string>
+    <string name="panic_edittext_hint">Your message…</string>
+    <string name="panic_edittext_hint_header">Your title…</string>
+    <string name="panic_edittext_sender">Your name…</string>
+    <string name="panic_email">Send email</string>
+    <string name="panic_email_content">Message</string>
+    <string name="panic_email_header">Subject</string>
+    <string name="panic_email_type">Email</string>
+    <string name="panic_form_no_content_error">Please enter a message.</string>
+    <string name="panic_form_no_number_error">Please enter a recipient.</string>
+    <string name="panic_fragment_title">Panic Button</string>
+    <string name="panic_gps_email_last_location">"Dear Sir or Madam, You have been set up as an emergency contact by our customer #4# and are therefore receiving the current coordinates of his/her telephone.
+
+#0#The last known position of the telephone is #1#. Please follow link #2# or #3# for a map view. Note: The MAC address of the last used router is #4#.
+
+With kind regards
+G DATA Software AG"</string>
+    <string name="panic_gps_email_location">"Dear Sir or Madam, You have been set up as an emergency contact by our customer (#4#) and are therefore receiving the current coordinates of his/her telephone.
+
+#0#The current position of the telephone is #1#. Please follow link #2# or #3# for a map view. Note: The MAC address of the last used router is #5#.
+
+With kind regards
+G DATA Software AG"</string>
+    <string name="panic_gps_email_no_location">"Dear Sir or Madam, You have been set up as an emergency contact by our customer #4# and should therefore receive the current position of his/her telephone. Unfortunately it cannot be located at this time.
+
+#0# Note: The MAC address of the last used router is #5#.
+
+With kind regards
+G DATA Software AG"</string>
+    <string name="panic_gps_sms_last_location">"The last known position of #1#'s telephone was #2#."</string>
+    <string name="panic_gps_sms_location">"\#1#'s telephone has been found at coordinates #2#."</string>
+    <string name="panic_gps_sms_no_location">>#0##4# Telephone could not send the current position.</string>
+    <string name="panic_header">Create new Panic Button</string>
+    <string name="panic_header_edit">Edit Panic Button</string>
+    <string name="panic_list_header">Panic Button</string>
+    <string name="panic_location">Send location</string>
+    <string name="panic_location_content" />
+    <string name="panic_location_hint">Enter email address or mobile number:</string>
+    <string name="panic_location_type">Location</string>
+    <string name="panic_min_actions">You need at least one action.</string>
+    <string name="panic_sms">Send SMS</string>
+    <string name="panic_text_message">Send message</string>
+    <string name="panic_text_message_content">Message</string>
+    <string name="panic_text_message_type">Message</string>
+    <string name="panic_textview_hint">Your contact…</string>
+    <string name="panic_trigger_email">Send email</string>
+    <string name="panic_trigger_emergency_call">Trigger emergency call</string>
+    <string name="panic_trigger_location">Send location</string>
+    <string name="panic_trigger_sms">Send SMS</string>
+    <string name="panic_unknown_sender">Not entered</string>
+    <string name="panic_wizard_description_one">Add one of multiple actions to be triggered when the Panic Button is pressed.</string>
+    <string name="panic_wizard_description_sender">Your name is required as the sender for some actions:</string>
+    <string name="panic_wizard_description_three">Select an individual from your contacts who should be informed in the event of an emergency.</string>
+    <string name="panic_wizard_two_desc_call">This action triggers an emergency call to your emergency contact.</string>
+    <string name="panic_wizard_two_desc_email">This action sends your saved message directly to your emergency contact.</string>
+    <string name="panic_wizard_two_desc_location">This action sends your location at the time of the emergency directly to your emergency contact.</string>
+    <string name="panic_wizard_two_desc_message">This action sends your saved message directly to your emergency contact.</string>
+    <string name="panicbutton">Panic Button</string>
+    <string name="panicbutton_big">G DATA L Panic Button</string>
+    <string name="panicbutton_medium">G DATA M Panic Button</string>
+    <string name="panicbutton_small">G DATA S Panic Button</string>
+    <string name="periodic_scan_type_summary">Specifies whether a quick scan of the installed applications or a full system scan will be run.</string>
+    <string name="periodic_scan_type_title">Type</string>
+    <string name="permission_access_network_state_desc">Show networks connections</string>
+    <string name="permission_access_wifi_state_desc">Show WLAN connections</string>
+    <string name="permission_additional_fees_desc">Fees may be incurred for this.</string>
+    <string name="permission_authenticate_accounts_desc">Create accounts and set passwords</string>
+    <string name="permission_billing_desc">Google Play invoicing service</string>
+    <string name="permission_broadcast_sticky_desc">Send permanent broadcast</string>
+    <string name="permission_call_phone_desc">Call telephone numbers directly</string>
+    <string name="permission_change_wifi_state_desc">Create and disconnect WLAN connections</string>
+    <string name="permission_check_license_desc">Google Play license check</string>
+    <string name="permission_full_network_access_desc">Full network access</string>
+    <string name="permission_get_accounts_desc">Search for accounts on device</string>
+    <string name="permission_get_tasks_desc">Access active apps</string>
+    <string name="permission_internet_desc">Applications permitted to access the Internet.</string>
+    <string name="permission_internet_desc_detail">Applications permitted to access the Internet:</string>
+    <string name="permission_internet_name">android.permission.INTERNET</string>
+    <string name="permission_internet_shortName">Internet access</string>
+    <string name="permission_location_coarse_desc">"Applications permitted to request the telephone's rough location."</string>
+    <string name="permission_location_coarse_desc_detail">"Applications permitted to request the telephone's rough location:"</string>
+    <string name="permission_location_coarse_name">android.permission.ACCESS_COARSE_LOCATION</string>
+    <string name="permission_location_coarse_shortName">Cell/WiFi location</string>
+    <string name="permission_location_desc">precise location (GPS- and network-based)</string>
+    <string name="permission_location_fine_desc">"Applications permitted to request the telephone's precise location."</string>
+    <string name="permission_location_fine_desc_detail">"Applications permitted to request the telephone's precise location:"</string>
+    <string name="permission_location_fine_name">android.permission.ACCESS_FINE_LOCATION</string>
+    <string name="permission_location_fine_shortName">GPS location</string>
+    <string name="permission_manage_accounts_desc">Use accounts on device</string>
+    <string name="permission_outgoing_calls_desc">Applications permitted to initiate calls.</string>
+    <string name="permission_outgoing_calls_desc_detail">Applications permitted to initiate calls:</string>
+    <string name="permission_outgoing_calls_name">android.permission.CALL_PHONE</string>
+    <string name="permission_outgoing_calls_shortName">Calls</string>
+    <string name="permission_outgoing_sms_desc">Applications permitted to send SMS.</string>
+    <string name="permission_outgoing_sms_desc_detail">Applications permitted to send SMS:</string>
+    <string name="permission_outgoing_sms_name">android.permission.SEND_SMS</string>
+    <string name="permission_outgoing_sms_shortName">SMS</string>
+    <string name="permission_process_outgoing_calls_desc">Divert outgoing calls</string>
+    <string name="permission_read_call_logs_desc">Read call log</string>
+    <string name="permission_read_contacts_desc">Applications permitted to access the address book.</string>
+    <string name="permission_read_contacts_desc_detail">Applications permitted to access the address book:</string>
+    <string name="permission_read_contacts_name">android.permission.READ_CONTACTS</string>
+    <string name="permission_read_contacts_shortName">Address book</string>
+    <string name="permission_read_history_bookmarks_desc">Read bookmarks for web pages and the web log</string>
+    <string name="permission_read_logs_desc">Applications permitted to read system log files.</string>
+    <string name="permission_read_logs_desc_detail">Applications permitted to read system log files. These may contain personal data:</string>
+    <string name="permission_read_logs_name">android.permission.READ_LOGS</string>
+    <string name="permission_read_logs_shortName">Log files</string>
+    <string name="permission_read_phone_state_desc">Access telephone status and identity</string>
+    <string name="permission_read_sms_desc">Read SMS or MMS</string>
+    <string name="permission_read_sync_settings_desc">Read synchronization settings</string>
+    <string name="permission_receive_boot_completed_desc">Run on launch</string>
+    <string name="permission_receive_sms_desc">SMS received</string>
+    <string name="permission_reorder_tasks_desc">Reorganize active apps</string>
+    <string name="permission_send_sms_desc">Send SMS</string>
+    <string name="permission_use_credentials_desc">Add or remove accounts</string>
+    <string name="permission_write_call_logs_desc">Edit call log</string>
+    <string name="permission_write_contacts_desc">Amend My Contacts</string>
+    <string name="permission_write_external_storage_desc">Amend or delete SD card contents</string>
+    <string name="permission_write_settings_desc">Amend system settings</string>
+    <string name="permission_write_sms_desc">Edit SMS or MMS</string>
+    <string name="permission_write_sync_settings_desc">Enable or disable synchronization</string>
+    <string name="phishing_blocked_content">\##phish_txt##</string>
+    <string name="phishing_blocked_hdr">\##phish_hdr##</string>
+    <string name="phishing_blocked_text">\##app_name## has denied access to this website.&lt;br/>The website is a known phishing site.</string>
+    <string name="phishing_blocked_title">Website blocked!</string>
+    <string name="phishing_checkbox_label">Enable web protection</string>
+    <string name="phishing_intro">Web protection prevents phishing attacks via the Android and Chrome browser. Please note that protection against phishing attacks is not possible in incognito mode.</string>
+    <string name="phishing_intro_long">"'Phishing' involves attempts to acquire personal data such as login names, passwords, credit cards number, bank account details etc using fake websites or unsolicited email. The majority of phishing attempts targets customers of banks offering online banking, payment services, Internet service providers or online shops. The victim is often directed to visit fake websites, which look almost identical to the originals, via email or instant messenger."</string>
+    <string name="phone_nr">\##phone nr##</string>
+    <string name="plasma_error">Error</string>
+    <string name="plasma_status_code_cancel">The process has been canceled</string>
+    <string name="plasma_status_code_invalidaccount">Invalid account</string>
+    <string name="plasma_status_code_invalidcreditcard">Invalid credit card details</string>
+    <string name="plasma_status_code_itemgroupidnotfound">Invalid order process</string>
+    <string name="plasma_status_code_itemidnotfound">Invalid order process</string>
+    <string name="plasma_status_code_networkerror">Network error</string>
+    <string name="plasma_status_code_paymentidnotfound">Invalid order process</string>
+    <string name="plasma_status_code_processerror">Processing error</string>
+    <string name="plasma_status_code_serviceunavailable">Service unavailable</string>
+    <string name="plasma_status_code_success">Process completed successfully</string>
+    <string name="plasma_try_later">Please check your account settings or try again later.</string>
+    <string name="postTime" />
+    <string name="preTime" />
+    <string name="pref_category_account">Access data &amp; subscriptions</string>
+    <string name="pref_category_account_summary">Manage access data</string>
+    <string name="pref_category_default">General</string>
+    <string name="pref_category_licenses">Software licenses</string>
+    <string name="pref_category_mms">Remote administration</string>
+    <string name="pref_category_scan">Virus scan</string>
+    <string name="pref_category_scan_header">Virus scan</string>
+    <string name="pref_category_scan_summary">Settings for automatic scans.</string>
+    <string name="pref_category_timedUpdate">Updates</string>
+    <string name="pref_category_webportal">ActionCenter</string>
+    <string name="pref_category_webshield">Web protection</string>
+    <string name="pref_licenses">Open source licenses</string>
+    <string name="pref_licenses_summary">Show license details for open source software</string>
+    <string name="privacy_applying_privacy">Data will be hidden</string>
+    <string name="privacy_blocked_call">Call from %1$s suppressed</string>
+    <string name="privacy_blocked_sms">SMS from %1$s received</string>
+    <string name="privacy_call_history">Call history</string>
+    <string name="privacy_call_text">Initiate call</string>
+    <string name="privacy_cancel">Cancel</string>
+    <string name="privacy_chat_history">Message history</string>
+    <string name="privacy_clear_logs">Delete call history</string>
+    <string name="privacy_contact">Private contact</string>
+    <string name="privacy_contact_add">Add contact or number</string>
+    <string name="privacy_contact_picture">Contact picture</string>
+    <string name="privacy_contact_remove">Remove selected items</string>
+    <string name="privacy_contacts">Manage hidden contacts</string>
+    <string name="privacy_data_loss">You will also lose all data for the currently hidden contacts.</string>
+    <string name="privacy_deleted_user">Deleted phone book entry</string>
+    <string name="privacy_detail">Details</string>
+    <string name="privacy_disable_privacy">Disable protection</string>
+    <string name="privacy_do_hide">Hide</string>
+    <string name="privacy_do_not_hide">Do not hide</string>
+    <string name="privacy_enable_privacy">Enable protection</string>
+    <string name="privacy_hidden_contacts">Hidden contacts</string>
+    <string name="privacy_hide_contacts">Hide contacts</string>
+    <string name="privacy_known_contacts">Contacts</string>
+    <string name="privacy_managecontacts">Manage hidden contacts</string>
+    <string name="privacy_move_to_phone_header">Edit contact</string>
+    <string name="privacy_no_chat_history">No messages</string>
+    <string name="privacy_no_hidden_contacts">Press the + icon in the title bar to select the contacts you want to hide.</string>
+    <string name="privacy_remove_contacts">Delete entry</string>
+    <string name="privacy_remove_conversations">Hide messages</string>
+    <string name="privacy_restoring_privacy">Data will be restored</string>
+    <string name="privacy_send_message_text">Send message</string>
+    <string name="privacy_sim_contacs_to_phone">This contact is synchronized via an account. To prevent problems with synchronization, this contact must be moved to the telephone book before being hidden.</string>
+    <string name="privacy_suppres_communication">Hide incoming communication</string>
+    <string name="privacy_title">Hide contacts</string>
+    <string name="profile_config_title">Select profile</string>
+    <string name="profile_create_new">Set up new profile</string>
+    <string name="profile_title">Profile name</string>
+    <string name="progress_deleting_infected_files">Infected files being deleted. Please wait…</string>
+    <string name="protected_features">"This function is only available after activation.
+
+Do you want to run the activation process now?"</string>
+    <string name="protectuninstall_text">Please note that your system will then be unprotected.</string>
+    <string name="protectuninstall_title">Uninstall ##app_name##?</string>
+    <string name="purchase_article">Article</string>
+    <string name="purchase_article_number">Article number</string>
+    <string name="purchase_date">Date</string>
+    <string name="purchase_information">Order details</string>
+    <string name="purchase_number">Order number</string>
+    <string name="purchase_price">Price</string>
+    <string name="red">Red</string>
+    <string name="remote_device_located">Device has been localized.</string>
+    <string name="remote_device_locating">Device launching localization.</string>
+    <string name="remote_lock_fail">Device could not be blocked.</string>
+    <string name="remote_lock_no_password">Device blocked without password.</string>
+    <string name="remote_lock_ok">Device successfully blocked.</string>
+    <string name="remote_lock_password_reset">Device successfully blocked using remote maintenance password.</string>
+    <string name="remote_set_password_fail">Password could not be changed.</string>
+    <string name="remote_set_password_ok">Password successfully changed.</string>
+    <string name="report_dialog_title">Help us!</string>
+    <string name="restriction_locked_for_a_day">Blocking is disabled for the next day.</string>
+    <string name="restriction_locked_for_till_restart">Locking is inactive until the next time parental controls are launched.</string>
+    <string name="saturday">Sat</string>
+    <string name="saveProtocolls_summary">Saves logs generated during the system scan.</string>
+    <string name="saveProtocolls_title">Save logs</string>
+    <string name="scanOnInstall_summary">Automatically scan newly installed applications.</string>
+    <string name="scanOnInstall_title">When installing apps</string>
+    <string name="scan_power_connected_summary">The background scan will only run when the device is loaded.</string>
+    <string name="scan_power_connected_title">Only while recharging</string>
+    <string name="scan_service_infection">Malware found during automatic scan.</string>
+    <string name="scan_service_ok">The automatic scan finished. No viruses were found.</string>
+    <string name="scan_skip_power_low_summary">The background scan was not run. The battery power may be too low.</string>
+    <string name="scan_skip_power_low_title">Battery save mode</string>
+    <string name="scan_step">[%d/5]</string>
+    <string name="scan_type_apps">Installed applications</string>
+    <string name="scan_type_system">System (full scan)</string>
+    <string name="security_hub_log_title">Messages</string>
+    <string name="security_hub_scan_manually_canceled">Scan canceled by user</string>
+    <string name="security_hub_subtitle_empty">Everything is fine</string>
+    <string name="security_hub_subtitle_empty_trial">License / trial period expires in %d day(s).</string>
+    <string name="security_hub_subtitle_empty_trial_expired">License / trial period has expired.</string>
+    <string name="security_hub_title">Security center</string>
+    <string name="sendErrorReports_summary">Sends error reports to G DATA Software AG. This may incur data transfer costs from your network provider.</string>
+    <string name="sendErrorReports_title">Send error reports</string>
+    <string name="sendSMS">Send</string>
+    <string name="sendUsageData_summary">Sends data for future development to G DATA Software AG. This may incur data transfer costs from your network provider.</string>
+    <string name="sendUsageData_title">Send statistics</string>
+    <string name="send_email">Send email</string>
+    <string name="send_location">Send location</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="server_license_expired">The server license expired. Please contact your administrator.</string>
+    <string name="showTrayIcon_title">Tray icon</string>
+    <string name="showTrayIcons_summary">Displays the ##app_name## logo in the tray.</string>
+    <string name="sim_change_message">The SIM card in your device has been changed.</string>
+    <string name="sim_change_message_subscriber">New number:</string>
+    <string name="sms_answer_device_password_failed">The password could not be set as it does not conform to the guidelines.</string>
+    <string name="sms_answer_device_password_succeeded">The password was successfully set.</string>
+    <string name="sms_answer_latest_known">The last known location of your phone was #1#.</string>
+    <string name="sms_answer_location">Your phone was found at the coordinates #1#.</string>
+    <string name="sms_answer_lock">The device was locked.</string>
+    <string name="sms_answer_lock_fail">The device could not be locked.</string>
+    <string name="sms_answer_lock_no_password">The screen on your device has been switched off. No lock has been set.</string>
+    <string name="sms_answer_lock_reset_password">The device was locked using your SMS command password.</string>
+    <string name="sms_answer_no_location">\#0#Your phone could not determine the current location.</string>
+    <string name="sms_answer_reset_password_failed">The password could not be set as it contains fewer than four characters.</string>
+    <string name="sms_answer_reset_password_succeeded">The SMS password was successfully set.</string>
+    <string name="sms_answer_service_disabled">"GPS was switched off or is not available. "</string>
+    <string name="sms_answer_wipe">Device deletion was started.</string>
+    <string name="sms_command_email_summary">Email</string>
+    <string name="sms_command_email_title">Additional email address for location data determined.</string>
+    <string name="sms_email_answer_latest_known">"Dear Customer,
+
+#0#The last known position of your phone is #1#. Please follow link #2# or #3# for a map view.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_location">"Dear Customer,
+
+Your phone has been found at coordinates #1#. Please follow link #2# or #3# for a map view.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock">"Dear Customer,
+
+Your phone has been successfully locked.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_fail">"Dear Customer,
+
+Your phone could not be locked.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_no_password">"Dear Customer,
+
+The screen on your phone has been switched off. This means that no lock has been set.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_lock_reset_password">"Dear Customer,
+
+Your phone has been locked using your SMS command password.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_no_location">"Dear Customer,
+
+#0#Your phone cannot be located.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password">"Dear Customer,
+
+The new SMS command password has been successfully set.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_reset_password_fail">"Dear Customer,
+
+The SMS command password could not be set.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password">"Dear Customer,
+
+The password for locking the screen on your phone has been successfully set.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_email_answer_set_password_fail">"Dear Customer,
+
+The password for locking the screen on your phone could not be set.
+
+With kind regards,
+G DATA Software AG"</string>
+    <string name="sms_enter_text">Please enter the message first.</string>
+    <string name="sms_not_sent">Your SMS could not be sent. Check your connection.</string>
+    <string name="sms_self">I</string>
+    <string name="sms_sent">SMS sent</string>
+    <string name="spoof_detection_activated_summary">Monitor entries in the ARP table</string>
+    <string name="spoof_detection_activated_title">WiFi protection</string>
+    <string name="spoof_detection_advanced_summary">Additional checks and rules</string>
+    <string name="spoof_detection_advanced_title">Advanced settings</string>
+    <string name="spoof_detection_network_unreachable">Network unreachable</string>
+    <string name="spoof_detection_networks_summary">The ARP table has been disabled in these WLAN networks</string>
+    <string name="spoof_detection_networks_title">Trustworthy networks</string>
+    <string name="spoof_detection_no_network">Network connection currently not available.</string>
+    <string name="startOnBoot_summary">Launches ##app_name## on system start.</string>
+    <string name="startOnBoot_title">Autostart</string>
+    <string name="sunday">Sun</string>
+    <string name="task_icon_type_always">Always</string>
+    <string name="task_icon_type_if_action">Only for campaigns</string>
+    <string name="task_icon_type_never">Never</string>
+    <string name="teenager_profile">@string/kidsguard_toddler</string>
+    <string name="test_msg">&lt;a href=tel:*%2306%23>G DATA USSD Filter Test. This shows your device ID (IMEI).&lt;/a></string>
+    <string name="textViewHeaderAdd">Select contact</string>
+    <string name="text_trial">Create new account</string>
+    <string name="text_unlock">I already have an account</string>
+    <string name="thursday">Thu</string>
+    <string name="title_activity_action_manager_register">ActionManagerRegisterActivity</string>
+    <string name="title_activity_tel_blocker">Phone URL Blocked</string>
+    <string name="title_activity_tel_ok">Phone URL Clean</string>
+    <string name="title_activity_widget_dialog">WidgetDialogActivity</string>
+    <string name="toddler_profile">@string/kidsguard_teenager</string>
+    <string name="toggle_off">Off</string>
+    <string name="toggle_on">On</string>
+    <string name="trial_app_name">\##app_name## trial version</string>
+    <string name="trial_err_already_registered">Free registration for signature updates has already been done. It is not possible to register for free again.</string>
+    <string name="trial_not_allowed_expired">"This function is not available as the trial period has expired.
+
+Do you want to view a quote for purchasing the full version now?"</string>
+    <string name="trial_not_allowed_unregistered">"This function is only available once this trial version has been registered (free).
+Do you want to register now?"</string>
+    <string name="trial_registration_dlg_mess">Your free access to regular updates. Please enter your customer data. The access data for your signature updates will then be automatically entered in ##app_name## and also sent to your email address.</string>
+    <string name="tuesday">Tue</string>
+    <string name="uncheck_all">Deselect all</string>
+    <string name="undobar_delete">Log deleted</string>
+    <string name="undobar_undo">Undo</string>
+    <string name="unlock_question_1">What is my favorite animal?</string>
+    <string name="unlock_question_2">"What is my mother's maiden name?"</string>
+    <string name="unlock_question_3">"What is my best friend's name?"</string>
+    <string name="unlock_question_4">Where was my father born?</string>
+    <string name="unlock_question_custom">Custom question</string>
+    <string name="unlock_time_1">1 hour</string>
+    <string name="unlock_time_15">15 minutes</string>
+    <string name="unlock_time_2">2 hours</string>
+    <string name="unlock_time_30">30 minutes</string>
+    <string name="unlock_time_4">4 hours</string>
+    <string name="unlock_time_inf">Indefinitely</string>
+    <string name="unlock_time_subtitle">Define the usage time for %s</string>
+    <string name="unlock_time_title">Approve app:</string>
+    <string name="unlock_wizard">Internet Security</string>
+    <string name="updateWifiOnly_summary">Only run updates when WLAN connection is available.</string>
+    <string name="updateWifiOnly_title">Only via WLAN</string>
+    <string name="update_region_africa">Africa</string>
+    <string name="update_region_asia">Asia</string>
+    <string name="update_region_asia_china">Asia (China)</string>
+    <string name="update_region_asia_india">Asia (India)</string>
+    <string name="update_region_asia_japan">Asia (Japan)</string>
+    <string name="update_region_australia">Australia</string>
+    <string name="update_region_auto">Determine automatically</string>
+    <string name="update_region_europe">Europe</string>
+    <string name="update_region_north_america">North America</string>
+    <string name="update_region_south_america">South America</string>
+    <string name="upgrade_offer_err_no_connection">The upgrade information could not be loaded. Please check the network connection.</string>
+    <string name="upgrade_offer_title">Upgrade information</string>
+    <string name="usage_control_lock_dialog_part1" />
+    <string name="usage_control_lock_dialog_part12" />
+    <string name="usage_control_lock_dialog_part13" />
+    <string name="ussd_filter_title">USSD Filter</string>
+    <string name="web_portal_authcode">ActionCenter AuthCode</string>
+    <string name="web_portal_authcode_summary">AuthCode generated by the ActionCenter</string>
+    <string name="web_portal_scan_interval">ActionCenter update interval</string>
+    <string name="web_portal_scan_interval_summary">Time interval between two synchronizations</string>
+    <string name="web_portal_server_address">ActionCenter server</string>
+    <string name="web_portal_server_address_summary">Address of the ActionCenter server used</string>
+    <string name="webprotection_dialog_accept">Block</string>
+    <string name="webprotection_dialog_continue">Continue</string>
+    <string name="webprotection_dialog_text">This site is a known phishing site. Only continue if you are certain it poses no threat to you.</string>
+    <string name="webprotection_dialog_title">Web protection</string>
+    <string name="webshield_activated_summary">Protects you from phishing sites. Only works with the Android browser.</string>
+    <string name="webshield_activated_title">Web protection</string>
+    <string name="webshield_only_wlan_summary">Only scan websites if a WLAN connection is available.</string>
+    <string name="webshield_only_wlan_title">Only via WLAN</string>
+    <string name="webshield_phishing_timeout_summary">Duration in seconds for which a phishing site may be viewed in exceptional circumstances.</string>
+    <string name="webshield_phishing_timeout_title">Exception duration</string>
+    <string name="wednesday">Wed</string>
+    <string name="whitelist">Whitelist</string>
+    <string name="wizard_app_lock">You can use app protection to give apps a password. Then nobody can spy on your personal data without your knowledge.</string>
+    <string name="wizard_audit">You have successfully configured the following functions for ##app_name##:</string>
+    <string name="wizard_audit_subtitle_fail_text">Not configured</string>
+    <string name="wizard_audit_subtitle_succ_text">Successfully configured</string>
+    <string name="wizard_audit_title">Audit</string>
+    <string name="wizard_bt_antitheft_text">Configure theft protection</string>
+    <string name="wizard_bt_applock_text">Configure app protection</string>
+    <string name="wizard_bt_audit_skip_text">Complete</string>
+    <string name="wizard_bt_callfilter_text">Configure call/SMS filter</string>
+    <string name="wizard_bt_malware_text">Activate account</string>
+    <string name="wizard_bt_next_text">skip</string>
+    <string name="wizard_bt_welcomen_skip_text">Next</string>
+    <string name="wizard_dlg_exit_caption">\##app_name## wizard</string>
+    <string name="wizard_dlg_exit_text">Do you really want to cancel?</string>
+    <string name="wizard_eula">I have read and accepted the end user agreement.</string>
+    <string name="wizard_eula_not_accpted_warning">Please accept the EULA to continue.</string>
+    <string name="wizard_exit">End</string>
+    <string name="wizard_intro">\##app_name## secures your device and data not just when browsing the web but also by checking new apps for potential threats.</string>
+    <string name="wizard_lbl_antitheft_headline_text">Theft protection</string>
+    <string name="wizard_lbl_audit_headline_text">\##app_name## Audit</string>
+    <string name="wizard_lbl_callfilter_headline_text">Call filter</string>
+    <string name="wizard_lbl_malware_headline_text">Malware protection</string>
+    <string name="wizard_lbl_welcome_headline_text">\##app_name##</string>
+    <string name="wizard_malware">By registering an account you automatically receive 30 days access to the premium features of Internet Security. After this period, you still have access to the basic features, such as malware protection. The premium features can be unlocked at any time through a subscription.</string>
+    <string name="wizard_malware_already_registered_text">Are you already a customer?</string>
+    <string name="wizard_malware_email_hint">Email</string>
+    <string name="wizard_malware_firstname_hint">First name</string>
+    <string name="wizard_malware_lastname_hint">Surname</string>
+    <string name="wizard_malware_proceed_text">Activate your copy…</string>
+    <string name="wizard_password">This password is required for theft and app protection (at least four different, non-sequential numbers)</string>
+    <string name="wizard_password_forgot">Forgot your password? You can reset it via SMS command using this number. SMS is sent to this number if the SIM card is changed.</string>
+    <string name="wizard_send_mail">Responses to SMS commands are also sent to your email address.</string>
+    <string name="wizard_start_header">Welcome to your new wizard for better security. Do you just want to try our product, or do you already have a license?</string>
+    <string name="wizard_theft">"You can use theft protection to locate your device via SMS or lock and wipe it if it gets lost. Automatic functions send a notification if your SIM card has been changed or report the device's last known position if the battery runs out."</string>
+    <string name="wizard_uninstall_protection_checkbox">Switch on uninstall protection</string>
+    <string name="wizard_uninstall_protection_text">Enable uninstall protection, to prevent unauthorized uninstalls (requires the device administrator to be enabled)</string>
+    <string name="zoomToSelectPerimeter">The visible area of the map (location) corresponds to the level of efficiency and can be changed by zooming in/out.</string>
+</resources>

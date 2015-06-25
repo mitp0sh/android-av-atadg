@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/web_portal_authcode" style="@style/SubTitleLeft" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <EditText android:id="@id/action_portal_add_token" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="textNoSuggestions" />
+            <ImageButton android:id="@id/useCamera" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_device_access_camera" />
+        </LinearLayout>
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mms_server_name" style="@style/SubTitleLeft" />
+        <EditText android:id="@id/action_device_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" />
+        <TextView android:textColor="#ffff0000" android:id="@id/action_device_name_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_center_min_length_device" />
+        <LinearLayout android:orientation="vertical" android:id="@id/access_data" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_portal_user_name" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/action_portal_user_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/action_portal_password" style="@style/SubTitleLeft" />
+            <EditText android:id="@id/action_portal_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textNoSuggestions" />
+        </LinearLayout>
+        <TextView android:textColor="#ffcf0000" android:id="@id/action_portal_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <Button android:layout_gravity="center" android:id="@id/register_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/action_portal_register_device" />
+    </LinearLayout>
+</ScrollView>

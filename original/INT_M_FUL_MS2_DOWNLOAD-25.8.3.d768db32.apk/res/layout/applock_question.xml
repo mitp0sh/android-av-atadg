@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/applock_question_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:text="@string/applock_question" style="@style/CustomDialogTheme" />
+    <EditText android:id="@id/applock_question_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/applockTextMargin" android:layout_marginRight="@dimen/applockTextMargin" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/layout_root" style="@style/DefaultRootLayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/log_detail_title" android:text="@string/log_detail_title" style="@style/TitleBoldLeft" />
+    <View android:id="@id/log_detail_divider" android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/wizardNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/log_detail_img" android:layout_width="@dimen/checkBoxWidth" android:layout_height="@dimen/checkBoxWidth" android:layout_margin="@dimen/filterImageListLayoutMarginLeft" android:scaleType="centerInside" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/log_detail_headline" style="@style/SubTitleLeft" />
+    </LinearLayout>
+    <View android:id="@id/log_detail_content_divider" android:background="@color/logDividerColor" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="4.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/logContentBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/blackTextColor" android:id="@id/txt_log_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="" style="@style/SubTitleLeft" />
+            <Button android:layout_gravity="right" android:id="@id/request_unlock" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/buttonHeight" android:text="@string/call_block_request" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

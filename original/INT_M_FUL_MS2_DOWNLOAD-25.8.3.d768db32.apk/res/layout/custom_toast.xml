@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/customtoast" style="@style/CustomToast"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left|top" android:id="@id/customtoast_img" android:layout_width="@dimen/lockedAppIconWidth" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:contentDescription="@string/empty_string" />
+    <TextView android:id="@id/customtoast_message" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" style="@style/UndoBarMessage" />
+</LinearLayout>

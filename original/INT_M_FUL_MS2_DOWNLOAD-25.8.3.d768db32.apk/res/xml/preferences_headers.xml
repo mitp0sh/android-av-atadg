@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/pref_category_default" android:summary="@string/configWindow_title" android:fragment="de.gdata.mobilesecurity.fragments.PreferencesFragment" />
+    <header android:title="@string/pref_category_scan" android:summary="@string/pref_category_scan_summary" android:fragment="de.gdata.mobilesecurity.fragments.ScanPreferencesFragment" />
+    <header android:title="@string/pref_category_timedUpdate" android:summary="@string/configWindow_title" android:fragment="de.gdata.mobilesecurity.fragments.UpdatePreferencesFragment" />
+    <header android:title="@string/pref_category_webshield" android:summary="@string/configWindow_title" android:fragment="de.gdata.mobilesecurity.fragments.WebPreferencesFragment" />
+</preference-headers>

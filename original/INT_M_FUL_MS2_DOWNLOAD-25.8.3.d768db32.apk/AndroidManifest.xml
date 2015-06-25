@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="de.gdata.security" package="de.gdata.mobilesecurity2" platformBuildVersionCode="21" platformBuildVersionName="5.0.1-1624448">
+    <supports-screens android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+    <permission android:name="de.gdata.mobilesecurity.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <permission android:name="de.gdata.mobilesecurity.ACCESS_GISFA_DATA" android:protectionLevel="signature"/>
+    <uses-permission android:name="de.gdata.mobilesecurity.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <permission android:name="de.gdata.mobilesecurity.permission.MAPS_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name=".permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.BIND_ACCESSIBILITY_SERVICE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="de.gdata.mobilesecurity.ACCESS_GISFA_DATA"/>
+    <uses-feature android:glEsVersion="0x20000" android:required="true"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false"/>
+    <application android:allowBackup="false" android:icon="@drawable/ic_app_icon" android:label="@string/app_name" android:name="de.gdata.mobilesecurity.intents.GDApplication" android:theme="@style/GDataTheme">
+        <meta-data android:name="AdjustAppToken" android:value="mstl9fsje8jl"/>
+        <meta-data android:name="AdjustLogLevel" android:value="info"/>
+        <meta-data android:name="AdjustEnvironment" android:value="production"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <receiver android:exported="true" android:name="com.adjust.sdk.ReferrerReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="de.gdata.webportal.android.ScannerActivity"/>
+        <activity android:label="@string/app_name" android:name="de.gdata.mobilesecurity.intents.Main" android:theme="@style/GDataTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="de.gdata.mobilesecurity.intents.Main" android:path="/start" android:scheme="gdata-litcity"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="de.gdata.mobilesecurityorange.intents.Main" android:path="/start" android:scheme="gdata-drei"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:host="de.gdata.mobilesecuritybus.intents.Main" android:path="/start" android:scheme="gdata-bus"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="content"/>
+                <data android:scheme="file"/>
+                <data android:mimeType="application/vnd.android.package-archive"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="de.gdata.mobilesecurity.activities.info.Info"/>
+        <activity android:name="de.gdata.mobilesecurity.intents.Privacy"/>
+        <activity android:name="de.gdata.mobilesecurity.privacy.DetailsActivity"/>
+        <activity android:name="de.gdata.mobilesecurity.privacy.ChatActivity" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <receiver android:enabled="true" android:icon="@drawable/widget_preview" android:installLocation="internalOnly" android:label="@string/panicbutton_small" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicButtonProviderSmall">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_panic_button_small"/>
+        </receiver>
+        <receiver android:enabled="true" android:icon="@drawable/widget_preview" android:installLocation="internalOnly" android:label="@string/panicbutton_big" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicButtonProviderBig">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_panic_button_big"/>
+        </receiver>
+        <receiver android:enabled="true" android:icon="@drawable/widget_preview" android:installLocation="internalOnly" android:label="@string/panicbutton_medium" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicButtonProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_panic_button_medium"/>
+        </receiver>
+        <activity android:allowTaskReparenting="false" android:launchMode="singleTop" android:name="de.gdata.mobilesecurity.activities.panicbutton.WidgetConfigActivity" android:taskAffinity="" android:theme="@style/GTopControlsActionBarTheme">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="true" android:finishOnTaskLaunch="true" android:launchMode="singleInstance" android:name="org.acra.CrashReportDialog" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.Preferences"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.BusinessPreferences"/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|screenSize" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicActionWizardOne" android:taskAffinity=""/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|screenSize" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicActionWizardTwo" android:taskAffinity=""/>
+        <activity android:allowTaskReparenting="false" android:configChanges="keyboardHidden|screenSize" android:name="de.gdata.mobilesecurity.activities.panicbutton.PanicActionWizardThree" android:taskAffinity=""/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.ScanPreferences">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.callfilter.Blockings"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.logs.LogDetail"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:name="de.gdata.mobilesecurity.intents.MalwareToRemoveList"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementPre" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementRed" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementUpdateInfos" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementInApp" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementIPX" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementIPXPre" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.intents.AccountManagementPlasma" android:theme="@style/HoloLightTheme.InApp" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.applock.ProtectApp" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.applock.EnforceAccessibilityService" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.applock.DenyAppAccess" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.callfilter.BlockCall" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.uninstall.ProtectUninstall" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.antiphishing.ArpWarning" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.antiphishing.ProtectBrowser" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.debug.DebugOptions" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.intents.ProfileSelector" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="de.gdata.mobilesecurity.privacy.CallLogActivity"/>
+        <activity android:name="de.gdata.mobilesecurity.contacts.NumberPicker"/>
+        <activity android:name="de.gdata.mobilesecurity.privacy.PrivacyListActivity">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.privacy.PrivacyListActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="de.gdata.mobilesecurity.activities.filter.FilterListActivity">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.activities.filter.FilterListActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.usagecontrol.NewLockedLocationActivity" android:theme="@style/GTopControlsActionBarTheme" android:windowSoftInputMode="adjustPan|stateHidden"/> /&gt;
+<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.help.Help" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.antitheft.Intro" android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.antitheft.WarnSmsReceiver" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.filter.NewFilterActivity" android:theme="@style/GTopControlsActionBarTheme" android:windowSoftInputMode="adjustPan|stateHidden">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.activities.filter.NewFilterActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity> &gt;
+<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.filter.LocationPickerActivity" android:theme="@style/GTopControlsActionBarTheme" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.filter.ContactSelectionActivity" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.applock.Selection" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.applock.Selector" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.applock.Settings" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.activities.applock.Settings"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.intents.TelemetryEula" android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name="de.gdata.mobilesecurity.intents.UssdFilter"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="de.gdata.mobilesecurity.activities.wizard.WizardActivity"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:enabled="true" android:icon="@drawable/ic_app_icon_browser" android:label="@string/app_name_browser" android:launchMode="singleInstance" android:name="de.gdata.mobilesecurity.activities.browser.BrowserActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.browser.BrowserUrlListActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.kidsguard.BrowserManageModesActivity" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:icon="@drawable/ic_app_icon_browser" android:label="@string/app_name_browser" android:launchMode="singleTask" android:name="de.gdata.mobilesecurity.activities.browser.BrowserPreferences" android:theme="@style/BrowserTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:enabled="false" android:launchMode="singleInstance" android:name="de.gdata.mobilesecurity.activities.kidsguard.KidsGuardHome" android:theme="@style/KidsguardTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="de.gdata.mobilesecurity.activities.kidsguard.KidsPreferences"/>
+        <activity android:name="de.gdata.mobilesecurity.activities.panicbutton.WidgetDialogActivity" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="de.gdata.mobilesecurity.activities.kidsguard.ParentsPreferences"/>
+        <activity android:enabled="false" android:launchMode="singleInstance" android:name="de.gdata.mobilesecurity.activities.usagecontrol.GDataLockscreenActivity" android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:launchMode="singleInstance" android:name="de.gdata.mobilesecurity.activities.kidsguard.MediaPlaybackActivity"/>
+        <receiver android:name="de.gdata.mobilesecurity.gcm.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
+                <category android:name="de.gdata.mobilesecurity"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.NetworkStateReceiver$NetworkActionIntent">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.NetworkStateReceiver.GO"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.AirplaneModeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.AIRPLANE_MODE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.ImsiDeferredFetchReceiver">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.IMSI_DEFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.PackageAddedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.PackageModifiedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+                <action android:name="android.intent.action.UNINSTALL_PACKAGE"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.InstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.ScanAlarmReceiver">
+            <intent-filter>
+                <action android:name=".ACTION_SCAN"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.BatteryReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW"/>
+                <action android:name="android.intent.action.BATTERY_OKAY"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.UpdateAlarmReceiver">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.ACTION_UPDATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.LoginLimitReceiver">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.ACTION_UPDATE_LOGIN"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.SubscriptionStateReceiver">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.ACTION_CHECK_SUBSCRIPTION_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.LocaleChangeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="de.gdata.mobilesecurity.receiver.IncomingCallReceiver">
+            <intent-filter android:priority="900">
+                <action android:name="android.intent.action.PHONE_STATE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="de.gdata.mobilesecurity.receiver.OutgoingCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:description="@string/dev_admin_receiver_description" android:label="@string/app_name" android:name="de.gdata.mobilesecurity.receiver.DevAdminReceiver" android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/dev_admin"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.SMSReceiver" android:permission="android.permission.BROADCAST_SMS">
+            <intent-filter android:priority="2147483640">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="de.gdata.mobilesecurity.gcm.GcmIntentService"/>
+        <service android:name="de.gdata.mobilesecurity.activities.panicbutton.MiniCallWidgetService"/>
+        <service android:name="de.gdata.mobilesecurity.scan.ScanService"/>
+        <service android:name="de.gdata.mobilesecurity.updateserverconnection.UpdateService"/>
+        <service android:name="de.gdata.mobilesecurity.updateserverconnection.TaskUpdateService"/>
+        <service android:name="de.gdata.mobilesecurity.updateserverconnection.LoginLimitService"/>
+        <service android:name="de.gdata.mobilesecurity.services.WatcherService"/>
+        <service android:name="de.gdata.mobilesecurity.services.RemoteCommandService"/>
+        <service android:name="de.gdata.mobilesecurity.services.WidgetService"/>
+        <service android:name="de.gdata.mobilesecurity.inapp.BillingService"/>
+        <service android:name="de.gdata.mobilesecurity.services.SimChangeService"/>
+        <service android:name="de.gdata.mobilesecurity.statistics.ProtocolTransmitter"/>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.BillingReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.billing.IN_APP_NOTIFY"/>
+                <action android:name="com.android.vending.billing.RESPONSE_CODE"/>
+                <action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="de.gdata.mobilesecurity.receiver.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="de.gdata.mobilesecurity.privacy.adapter.AuthenticationService">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:resource="@xml/authenticator"/>
+        </service>
+        <service android:exported="false" android:name="de.gdata.mobilesecurity.privacy.adapter.SyncService">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:resource="@xml/privacy_syncadapter"/>
+            <meta-data android:name="android.provider.CONTACTS_STRUCTURE" android:resource="@xml/contacts"/>
+        </service>
+        <service android:name="de.gdata.mobilesecurity.mms.ManagementServerService"/>
+        <provider android:authorities="de.gdata.mobilesecurity.privacy.provider" android:exported="true" android:name="de.gdata.mobilesecurity.privacy.provider.PrivacyContentProvider" android:permission="de.gdata.mobilesecurity.ACCESS_GISFA_DATA"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyCT19tIob4EL5iQuKZjxqGu4LkylYlIGio"/>
+        <activity android:name="de.gdata.mobilesecurity.intents.SigCloudConnector"/>
+        <service android:enabled="true" android:label="@string/accesibility_service" android:name="de.gdata.mobilesecurity.services.GdAccessibilityService" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/gd_accessibility_service_config"/>
+        </service>
+        <activity android:label="@string/title_activity_action_manager_register" android:name="de.gdata.mobilesecurity.intents.ActionManagerRegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <data android:host="addDevice" android:scheme="gdata"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="de.gdata.webportal.android.WebPortalSyncService"/>
+        <service android:enabled="true" android:exported="true" android:name="de.gdata.mobilesecurity.messaging.RpcService" android:permission="de.gdata.mobilesecurity.ACCESS_GISFA_DATA" android:process=":rpc">
+            <intent-filter>
+                <action android:name="de.gdata.mobilesecurity.ACCESS_SERVER"/>
+            </intent-filter>
+        </service>
+        <receiver android:installLocation="internalOnly" android:label="@string/antitheft_widget_label" android:name="de.gdata.mobilesecurity.activities.antitheft.AntitheftWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/antitheft_widget_info"/>
+        </receiver>
+        <service android:name="de.gdata.mobilesecurity.activities.antitheft.AntitheftWidgetUpdateService"/>
+    </application>
+</manifest>

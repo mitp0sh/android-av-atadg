@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/custom_toast_layout" android:background="#80a0a0a0" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/customtoast" style="@style/KidsguardToast">
+        <ImageView android:layout_gravity="center|left|top" android:id="@id/customtoast_img" android:layout_width="@dimen/kidsguardToastIconWidth" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ic_app_icon" android:contentDescription="@string/empty_string" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/customtoast_message" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:text="test test test test\ntest test test test\ntest test test test\ntest test test test\ntest test test test\n" android:lineSpacingExtra="4.0dip" style="@style/UndoBarMessage" />
+    </LinearLayout>
+</LinearLayout>
